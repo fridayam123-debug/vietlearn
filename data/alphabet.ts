@@ -40,10 +40,10 @@ export const alphabet: AlphabetLetter[] = [
 ]
 
 export const tones: Tone[] = [
-  { name: 'ngang', mark: '(없음)', descriptionKo: '평탄조 — 높고 평탄하게',         example: 'ma', exampleMeaning: '귀신' },
-  { name: 'huyền', mark: '`',      descriptionKo: '하강조 — 낮고 길게 내려가며',    example: 'mà', exampleMeaning: '그런데' },
-  { name: 'sắc',   mark: '´',      descriptionKo: '상승조 — 높게 올라가며',         example: 'má', exampleMeaning: '볼/뺨' },
-  { name: 'hỏi',   mark: '?̉',      descriptionKo: '강하강상조 — 내렸다가 올라가며', example: 'mả', exampleMeaning: '무덤' },
-  { name: 'ngã',   mark: '~',      descriptionKo: '상승파열조 — 올라가다 끊어지며', example: 'mã', exampleMeaning: '말(馬)/코드' },
-  { name: 'nặng',  mark: '.',      descriptionKo: '하강파열조 — 낮고 짧게 끊어지며', example: 'mạ', exampleMeaning: '볏모' },
+  { name: 'ngang', mark: '(없음)', descriptionKo: '평탄조 — 높고 평탄하게',         example: 'bana',  exampleMeaning: '바나나' },
+  { name: 'huyền', mark: '`',      descriptionKo: '하강조 — 낮고 길게 내려가며',    example: 'bà',    exampleMeaning: '할머니' },
+  { name: 'sắc',   mark: '´',      descriptionKo: '상승조 — 높게 올라가며',         example: 'bá',    exampleMeaning: '아저씨' },
+  { name: 'hỏi',   mark: '?̉',      descriptionKo: '강하강상조 — 내렸다가 올라가며', example: 'bả',    exampleMeaning: '독약' },
+  { name: 'ngã',   mark: '~',      descriptionKo: '상승파열조 — 올라가다 끊어지며', example: 'bã',    exampleMeaning: '찌꺼기' },
+  { name: 'nặng',  mark: '.',      descriptionKo: '하강파열조 — 낮고 짧게 끊어지며', example: 'bạn',   exampleMeaning: '친구' },
 ]
