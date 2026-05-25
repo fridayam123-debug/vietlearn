@@ -3,4 +3,5 @@
 body {
   background: #ffffff;
   color: #171717;
+  padding-bottom: env(safe-area-inset-bottom);
 }
