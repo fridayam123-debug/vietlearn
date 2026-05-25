@@ -73,6 +73,7 @@ export default function SessionPage() {
 
         <div className="flashcard-screen">
           <FlashCard
+            key={current.id}
             item={current}
             onViewed={() => viewCard(topicId as TopicId, type as 'word' | 'verb', session, current.id)}
           />
