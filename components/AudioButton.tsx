@@ -8,9 +8,15 @@ export function AudioButton({ text, size = 'md' }: { text: string; size?: 'sm' |
   const { speak } = useSpeech()
   const px = SIZE_PX[size]
   const fs = FONT_PX[size]
+
   return (
     <button
-      onClick={(e) => { e.stopPropagation(); speak(text) }}
+      onClick={(e) => {
+        // speak() must be called first — before stopPropagation —
+        // so it runs synchronously within the user gesture on Android Chrome
+        speak(text)
+        e.stopPropagation()
+      }}
       className="speak-btn"
       style={{ width: px, height: px, fontSize: fs, flexShrink: 0 }}
       aria-label="발음 듣기"
