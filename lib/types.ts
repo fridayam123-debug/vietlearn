@@ -1,7 +1,7 @@
 export type TopicId =
   | 'school' | 'food' | 'animals' | 'family' | 'daily'
   | 'numbers-time' | 'travel' | 'cooking' | 'mart'
-  | 'electronics' | 'hotel' | 'real-estate'
+  | 'electronics' | 'hotel' | 'real-estate' | 'business'
 
 export interface Topic {
   id: TopicId

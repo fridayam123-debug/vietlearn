@@ -76,7 +76,8 @@ export function isSessionUnlocked(
   allChars: string[],
   allTones: string[]
 ): boolean {
-  if (!isAlphabetComplete(allChars) || !isTonesComplete(allTones)) return false
+  // Session 1 is always open — no prerequisite
   if (session === 1) return true
+  // Sessions 2+ require passing the previous session's quiz
   return getSessionProgress(topic, type, session - 1).quizPassed
 }

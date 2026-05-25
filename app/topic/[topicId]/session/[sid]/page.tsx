@@ -19,6 +19,7 @@ const DATA_MAP: Record<string, () => Promise<{ words: VocabItem[]; verbs: VocabI
   electronics:     () => import('@/data/electronics'),
   hotel:           () => import('@/data/hotel'),
   'real-estate':   () => import('@/data/real-estate'),
+  'business':      () => import('@/data/business'),
 }
 
 export default function SessionPage() {

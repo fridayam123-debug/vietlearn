@@ -13,4 +13,5 @@ export const topics: Topic[] = [
   { id: 'electronics',  nameKo: '전자·철물', nameVi: 'Điện tử',       icon: '🔧' },
   { id: 'hotel',        nameKo: '호텔',      nameVi: 'Khách sạn',     icon: '🏨' },
   { id: 'real-estate',  nameKo: '부동산',    nameVi: 'Bất động sản',  icon: '🏠' },
+  { id: 'business',     nameKo: '비즈니스',  nameVi: 'Kinh doanh',    icon: '💼' },
 ]
