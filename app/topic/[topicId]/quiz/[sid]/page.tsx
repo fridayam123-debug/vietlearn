@@ -20,6 +20,7 @@ const DATA_MAP: Record<string, () => Promise<{ words: VocabItem[]; verbs: VocabI
   mart:          () => import('@/data/mart'),
   electronics:   () => import('@/data/electronics'),
   hotel:         () => import('@/data/hotel'),
+  'real-estate': () => import('@/data/real-estate'),
 }
 
 export default function QuizPage() {

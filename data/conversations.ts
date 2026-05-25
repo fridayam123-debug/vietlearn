@@ -736,5 +736,72 @@ export const conversations: Conversation[] = [
       { speaker: 'B', vi: 'Được. Em muốn tôi gọi xe cho em không?', ko: '알겠습니다. 차를 불러드릴까요?' },
       { speaker: 'A', vi: 'Vâng, xin vui lòng. Và cảm ơn vì lưu trú tuyệt vời.', ko: '네, 부탁합니다. 좋은 숙박 감사합니다.' }
     ]
+  },
+
+  // Real Estate (부동산) - 5 conversations
+  {
+    id: 'real-estate-conv-0',
+    topic: 'real-estate',
+    index: 0,
+    title: '부동산 중개소에서',
+    lines: [
+      { speaker: 'A', vi: 'Xin chào, tôi muốn thuê một căn hộ gần đây.', ko: '안녕하세요, 근처에 아파트를 임대하고 싶습니다.' },
+      { speaker: 'B', vi: 'Vâng, anh/chị muốn bao nhiêu phòng ngủ?', ko: '네, 방이 몇 개 필요하세요?' },
+      { speaker: 'A', vi: 'Tôi cần hai phòng ngủ, có ban công thì càng tốt.', ko: '침실 두 개가 필요하고, 발코니가 있으면 더 좋겠어요.' },
+      { speaker: 'B', vi: 'Chúng tôi có một căn hộ phù hợp, tiền thuê 8 triệu một tháng.', ko: '마침 맞는 아파트가 있어요, 월세가 800만 동입니다.' },
+      { speaker: 'A', vi: 'Được, tôi muốn xem căn hộ đó.', ko: '좋아요, 그 아파트를 보고 싶습니다.' }
+    ]
+  },
+  {
+    id: 'real-estate-conv-1',
+    topic: 'real-estate',
+    index: 1,
+    title: '아파트 내부 둘러보기',
+    lines: [
+      { speaker: 'A', vi: 'Phòng khách rộng thế này, tôi rất thích.', ko: '거실이 이렇게 넓네요, 정말 마음에 들어요.' },
+      { speaker: 'B', vi: 'Vâng, căn hộ này có diện tích 70 mét vuông.', ko: '네, 이 아파트는 면적이 70제곱미터예요.' },
+      { speaker: 'A', vi: 'Hướng nhà là hướng nào? Có nhiều ánh sáng không?', ko: '집 방향이 어떻게 되나요? 채광이 좋나요?' },
+      { speaker: 'B', vi: 'Hướng nam, nên ánh sáng rất tốt suốt cả ngày.', ko: '남향이라서 하루 종일 채광이 아주 좋습니다.' },
+      { speaker: 'A', vi: 'Tuyệt vời! Tiền đặt cọc là bao nhiêu?', ko: '훌륭하네요! 보증금이 얼마인가요?' }
+    ]
+  },
+  {
+    id: 'real-estate-conv-2',
+    topic: 'real-estate',
+    index: 2,
+    title: '계약 조건 협상',
+    lines: [
+      { speaker: 'A', vi: 'Hợp đồng thuê là bao nhiêu tháng?', ko: '임대 계약 기간이 몇 개월인가요?' },
+      { speaker: 'B', vi: 'Thông thường là 12 tháng, nhưng có thể thương lượng.', ko: '보통 12개월이지만, 협상할 수 있습니다.' },
+      { speaker: 'A', vi: 'Phí quản lý có bao gồm điện nước không?', ko: '관리비에 전기세와 수도세가 포함되나요?' },
+      { speaker: 'B', vi: 'Không, điện và nước tính riêng theo chỉ số.', ko: '아니요, 전기와 수도는 사용량에 따라 별도로 계산됩니다.' },
+      { speaker: 'A', vi: 'Vậy tôi có thể ký hợp đồng vào ngày mai không?', ko: '그럼 내일 계약서에 서명할 수 있을까요?' }
+    ]
+  },
+  {
+    id: 'real-estate-conv-3',
+    topic: 'real-estate',
+    index: 3,
+    title: '이웃과의 첫 인사',
+    lines: [
+      { speaker: 'A', vi: 'Xin chào, tôi vừa chuyển đến ở căn hộ 502.', ko: '안녕하세요, 저 502호로 막 이사왔어요.' },
+      { speaker: 'B', vi: 'Chào mừng đến khu chung cư! Tôi ở căn 501.', ko: '아파트에 오신 것을 환영해요! 저는 501호에 살아요.' },
+      { speaker: 'A', vi: 'Khu này có yên tĩnh không? Tôi lo về tiếng ồn.', ko: '이 동네 조용한가요? 소음이 걱정돼서요.' },
+      { speaker: 'B', vi: 'Khá yên tĩnh. Hàng xóm ở đây đều rất thân thiện.', ko: '꽤 조용해요. 이웃들이 모두 친절합니다.' },
+      { speaker: 'A', vi: 'Thật tuyệt! Tôi rất vui khi được làm hàng xóm của bạn.', ko: '정말 좋네요! 이웃이 되어서 반가워요.' }
+    ]
+  },
+  {
+    id: 'real-estate-conv-4',
+    topic: 'real-estate',
+    index: 4,
+    title: '이사 준비하기',
+    lines: [
+      { speaker: 'A', vi: 'Tôi cần thuê xe tải để chuyển đồ đạc.', ko: '짐을 옮기려면 트럭을 빌려야 해요.' },
+      { speaker: 'B', vi: 'Bạn có nhiều đồ không? Tôi có thể giúp bạn.', ko: '짐이 많아요? 제가 도와드릴 수 있어요.' },
+      { speaker: 'A', vi: 'Chủ yếu là đồ nội thất và đồ dùng gia đình.', ko: '주로 가구와 생활용품이에요.' },
+      { speaker: 'B', vi: 'Trước khi chuyển, bạn nên vệ sinh căn hộ mới.', ko: '이사하기 전에 새 아파트를 청소하는 게 좋아요.' },
+      { speaker: 'A', vi: 'Đúng rồi! Tôi sẽ dọn dẹp trước khi mang đồ vào.', ko: '맞아요! 짐을 들이기 전에 먼저 청소할게요.' }
+    ]
   }
 ]
