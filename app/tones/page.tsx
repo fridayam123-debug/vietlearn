@@ -5,14 +5,14 @@ import { useProgress } from '@/hooks/useProgress'
 import { AudioButton } from '@/components/AudioButton'
 import Link from 'next/link'
 
-const TONE_SHAPE = ['—', '↘', '↗', '↘↗', '↗꺾', '↘꺾']
-const TONE_COLOR = [
-  'bg-blue-50 border-blue-300 text-blue-800',
-  'bg-purple-50 border-purple-300 text-purple-800',
-  'bg-red-50 border-red-300 text-red-800',
-  'bg-orange-50 border-orange-300 text-orange-800',
-  'bg-pink-50 border-pink-300 text-pink-800',
-  'bg-gray-100 border-gray-400 text-gray-800',
+// pitch shape text and card accent colors per tone
+const TONE_META = [
+  { shape: '———',  accent: '#3b82f6', bg: '#eff6ff', border: '#bfdbfe' }, // ngang: flat
+  { shape: '↘↘',  accent: '#7c3aed', bg: '#f5f3ff', border: '#ddd6fe' }, // huyền: falling
+  { shape: '↗↗',  accent: '#dc2626', bg: '#fef2f2', border: '#fecaca' }, // sắc: rising
+  { shape: '↘↗',  accent: '#d97706', bg: '#fffbeb', border: '#fde68a' }, // hỏi: dip
+  { shape: '↗!',   accent: '#db2777', bg: '#fdf2f8', border: '#fbcfe8' }, // ngã: broken rise
+  { shape: '↘!',   accent: '#475569', bg: '#f8fafc', border: '#cbd5e1' }, // nặng: stopped
 ]
 
 export default function TonesPage() {
@@ -21,6 +21,7 @@ export default function TonesPage() {
   const [revealed, setRevealed] = useState(false)
 
   const tone = tones[current]
+  const meta = TONE_META[current]
   const isLast = current === TONE_NAMES.length - 1
 
   function handleReveal() {
@@ -34,71 +35,105 @@ export default function TonesPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col">
-      <div className="sticky top-0 bg-white border-b px-4 py-3 flex items-center gap-3 z-10">
-        <Link href="/" className="text-2xl">←</Link>
-        <h1 className="font-bold text-lg">베트남어 6성조</h1>
-        <span className="ml-auto text-sm text-gray-500">{current + 1}/6</span>
+    <div className="min-h-screen flex flex-col" style={{ background: 'var(--bg)' }}>
+      {/* Header */}
+      <div className="sticky top-0 bg-white px-4 py-3 flex items-center gap-3 z-10" style={{ borderBottom: '1px solid var(--border)' }}>
+        <Link href="/" className="text-2xl text-[#1a1a1a]">←</Link>
+        <h1 className="font-bold text-lg text-[#1a1a1a]">베트남어 6성조</h1>
+        <span className="ml-auto text-sm" style={{ color: 'var(--muted)' }}>{current + 1}/6</span>
       </div>
 
-      <div className="px-4 pt-3">
-        <div className="flex gap-1.5">
-          {tones.map((t, i) => (
-            <div
-              key={t.name}
-              className={`flex-1 h-2 rounded-full transition-all ${
-                progress.viewedTones.includes(t.name)
-                  ? 'bg-green-500'
-                  : i === current
-                  ? 'bg-red-400'
-                  : 'bg-gray-200'
-              }`}
-            />
-          ))}
-        </div>
+      {/* Dot progress */}
+      <div className="px-4 pt-3 flex gap-2 justify-center">
+        {tones.map((t, i) => (
+          <div
+            key={t.name}
+            className="h-2 flex-1 rounded-full transition-all"
+            style={{
+              background: progress.viewedTones.includes(t.name)
+                ? '#16a34a'
+                : i === current
+                ? meta.accent
+                : 'var(--border)'
+            }}
+          />
+        ))}
       </div>
 
-      <div className="flex-1 flex flex-col items-center justify-center p-6 gap-6">
-        <div className={`w-full max-w-xs rounded-3xl border-2 shadow-lg p-8 flex flex-col items-center gap-4 min-h-80 ${TONE_COLOR[current]}`}>
+      {/* Card */}
+      <div className="flex-1 flex flex-col items-center justify-center px-6 gap-6 pb-8">
+        <div
+          className="w-full rounded-3xl flex flex-col items-center justify-center gap-5 p-8"
+          style={{
+            maxWidth: '340px',
+            minHeight: '360px',
+            background: meta.bg,
+            border: `1.5px solid ${meta.border}`,
+            boxShadow: '0 2px 12px rgba(0,0,0,0.07)',
+          }}
+        >
+          {/* Tone name + mark */}
           <div className="flex items-baseline gap-3">
-            <span className="text-4xl font-bold">{tone.name}</span>
-            <span className="text-3xl font-bold opacity-70">{tone.mark}</span>
+            <span className="text-4xl font-bold" style={{ color: meta.accent }}>{tone.name}</span>
+            <span className="text-3xl font-bold opacity-60" style={{ color: meta.accent }}>{tone.mark}</span>
           </div>
 
-          <div className="text-5xl font-bold opacity-20">{TONE_SHAPE[current]}</div>
+          {/* Pitch shape */}
+          <span className="text-5xl font-bold opacity-20" style={{ color: meta.accent, fontFamily: 'monospace' }}>
+            {meta.shape}
+          </span>
 
           {!revealed ? (
             <button
               onClick={handleReveal}
-              className="mt-4 px-8 py-3 bg-white rounded-2xl font-bold text-gray-800 shadow-sm text-lg"
+              className="px-8 py-3 rounded-2xl font-bold text-white text-lg active:scale-95 transition-all"
+              style={{ background: meta.accent }}
             >
               발음 확인 👆
             </button>
           ) : (
             <div className="flex flex-col items-center gap-4 w-full">
-              <p className="text-lg font-bold text-center">{tone.descriptionKo}</p>
-              <div className="flex items-center gap-3 bg-white bg-opacity-70 rounded-2xl px-5 py-3 w-full justify-center">
-                <span className="text-3xl font-bold">{tone.example}</span>
-                <span className="text-lg opacity-70">= {tone.exampleMeaning}</span>
+              <p className="text-lg font-bold text-center" style={{ color: meta.accent }}>
+                {tone.descriptionKo}
+              </p>
+              <div
+                className="flex items-center gap-3 rounded-2xl px-5 py-3 w-full justify-center"
+                style={{ background: 'rgba(255,255,255,0.7)' }}
+              >
+                <span className="text-3xl font-bold" style={{ color: '#1a1a1a' }}>{tone.example}</span>
+                <span className="text-lg" style={{ color: 'var(--muted)' }}>= {tone.exampleMeaning}</span>
                 <AudioButton text={tone.example} size="md" />
               </div>
             </div>
           )}
         </div>
 
-        <div className="flex gap-3 w-full max-w-xs">
+        {/* Nav */}
+        <div className="flex gap-3 w-full" style={{ maxWidth: '340px' }}>
           {current > 0 && (
-            <button onClick={() => go(-1)} className="flex-1 py-3 bg-gray-200 rounded-2xl font-bold text-gray-700">
+            <button
+              onClick={() => go(-1)}
+              className="flex-1 py-3 rounded-2xl font-bold transition-all active:scale-95"
+              style={{ background: 'var(--border)', color: 'var(--text)' }}
+            >
               ← 이전
             </button>
           )}
           {revealed && (
             isLast ? (
-              <Link href="/" className="flex-1 py-3 bg-green-600 text-white rounded-2xl font-bold text-center">
+              <Link
+                href="/"
+                className="flex-1 py-3 rounded-2xl font-bold text-white text-center"
+                style={{ background: '#16a34a' }}
+              >
                 ✅ 완료!
               </Link>
             ) : (
-              <button onClick={() => go(1)} className="flex-1 py-3 bg-red-600 text-white rounded-2xl font-bold">
+              <button
+                onClick={() => go(1)}
+                className="flex-1 py-3 rounded-2xl font-bold text-white active:scale-95 transition-all"
+                style={{ background: meta.accent }}
+              >
                 다음 →
               </button>
             )

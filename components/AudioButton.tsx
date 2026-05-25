@@ -1,13 +1,18 @@
 'use client'
 import { useSpeech } from '@/hooks/useSpeech'
 
+const SIZES = {
+  sm: 'w-9 h-9 text-base shadow-sm',
+  md: 'w-12 h-12 text-xl shadow',
+  lg: 'w-16 h-16 text-2xl shadow-md',
+}
+
 export function AudioButton({ text, size = 'md' }: { text: string; size?: 'sm' | 'md' | 'lg' }) {
   const { speak } = useSpeech()
-  const sizes = { sm: 'w-8 h-8 text-sm', md: 'w-10 h-10 text-base', lg: 'w-14 h-14 text-xl' }
   return (
     <button
       onClick={(e) => { e.stopPropagation(); speak(text) }}
-      className={`${sizes[size]} rounded-full bg-red-600 text-white flex items-center justify-center hover:bg-red-700 active:scale-95 transition-all shadow`}
+      className={`${SIZES[size]} rounded-full bg-white border-2 border-[#dc2626] text-[#dc2626] flex items-center justify-center hover:bg-red-50 active:scale-95 transition-all flex-shrink-0`}
       aria-label="발음 듣기"
     >
       🔊

@@ -13,6 +13,7 @@ export default function AlphabetPage() {
   const letter = alphabet[current]
   const isLast = current === ALPHABET_CHARS.length - 1
   const allViewed = progress.viewedAlphabet.length >= ALPHABET_CHARS.length
+  const viewed = progress.viewedAlphabet.includes(letter.char)
 
   function handleFlip() {
     const next = !flipped
@@ -26,28 +27,33 @@ export default function AlphabetPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col">
-      <div className="sticky top-0 bg-white border-b px-4 py-3 flex items-center gap-3 z-10">
-        <Link href="/" className="text-2xl">←</Link>
-        <h1 className="font-bold text-lg">베트남어 알파벳</h1>
-        <span className="ml-auto text-sm text-gray-500">{current + 1}/{ALPHABET_CHARS.length}</span>
+    <div className="min-h-screen flex flex-col" style={{ background: 'var(--bg)' }}>
+      {/* Header */}
+      <div className="sticky top-0 bg-white px-4 py-3 flex items-center gap-3 z-10" style={{ borderBottom: '1px solid var(--border)' }}>
+        <Link href="/" className="text-2xl text-[#1a1a1a]">←</Link>
+        <h1 className="font-bold text-lg text-[#1a1a1a]">베트남어 알파벳</h1>
+        <span className="ml-auto text-sm" style={{ color: 'var(--muted)' }}>{current + 1}/{ALPHABET_CHARS.length}</span>
       </div>
 
+      {/* Progress bar */}
       <div className="px-4 pt-3">
-        <div className="bg-gray-200 rounded-full h-1.5">
+        <div className="rounded-full h-1.5" style={{ background: 'var(--border)' }}>
           <div
-            className="bg-red-500 h-1.5 rounded-full transition-all"
-            style={{ width: `${((current + 1) / ALPHABET_CHARS.length) * 100}%` }}
+            className="h-1.5 rounded-full transition-all"
+            style={{ width: `${(progress.viewedAlphabet.length / ALPHABET_CHARS.length) * 100}%`, background: 'var(--accent)' }}
           />
         </div>
-        <p className="text-xs text-gray-400 mt-1 text-right">{progress.viewedAlphabet.length}개 학습 완료</p>
+        <p className="text-xs mt-1 text-right" style={{ color: 'var(--muted)' }}>
+          {progress.viewedAlphabet.length}개 학습 완료
+        </p>
       </div>
 
-      <div className="flex-1 flex flex-col items-center justify-center p-6 gap-6">
+      {/* Card area */}
+      <div className="flex-1 flex flex-col items-center justify-center px-6 gap-6 pb-8">
         <div
           onClick={handleFlip}
-          style={{ perspective: '1000px', width: '100%', maxWidth: '320px', height: '340px' }}
-          className="cursor-pointer"
+          style={{ perspective: '1000px', width: '100%', maxWidth: '340px', height: '360px' }}
+          className="cursor-pointer select-none"
         >
           <div
             className="relative w-full h-full transition-transform duration-500"
@@ -55,27 +61,27 @@ export default function AlphabetPage() {
           >
             {/* Front */}
             <div
-              className="absolute inset-0 bg-white border-2 border-gray-200 rounded-3xl shadow-lg flex flex-col items-center justify-center gap-2"
-              style={{ backfaceVisibility: 'hidden' }}
+              className="absolute inset-0 bg-white rounded-3xl flex flex-col items-center justify-center gap-3"
+              style={{ backfaceVisibility: 'hidden', border: '1.5px solid var(--border)', boxShadow: '0 2px 12px rgba(0,0,0,0.07)' }}
             >
-              {progress.viewedAlphabet.includes(letter.char) && (
-                <div className="absolute top-4 right-4 w-6 h-6 bg-green-500 rounded-full flex items-center justify-center text-white text-xs font-bold">✓</div>
+              {viewed && (
+                <div className="absolute top-4 right-4 w-7 h-7 rounded-full bg-green-500 flex items-center justify-center text-white text-sm font-bold">✓</div>
               )}
-              <span className="text-8xl font-bold text-gray-900">{letter.char}</span>
-              <span className="text-5xl font-light text-gray-300">{letter.char.toUpperCase()}</span>
-              <p className="text-sm text-gray-400 mt-4">탭하여 발음 확인 👆</p>
+              <span className="font-bold" style={{ fontSize: '88px', lineHeight: 1, color: 'var(--text)' }}>{letter.char}</span>
+              <span className="font-light" style={{ fontSize: '44px', color: 'var(--border)' }}>{letter.char.toUpperCase()}</span>
+              <p className="text-sm mt-3" style={{ color: 'var(--muted)' }}>탭하여 발음 확인 👆</p>
             </div>
             {/* Back */}
             <div
-              className="absolute inset-0 bg-yellow-50 border-2 border-yellow-300 rounded-3xl shadow-lg flex flex-col items-center justify-center gap-3 p-6"
-              style={{ backfaceVisibility: 'hidden', transform: 'rotateY(180deg)' }}
+              className="absolute inset-0 bg-white rounded-3xl flex flex-col items-center justify-center gap-4 p-7"
+              style={{ backfaceVisibility: 'hidden', transform: 'rotateY(180deg)', border: '1.5px solid var(--accent)', boxShadow: '0 2px 12px rgba(220,38,38,0.1)' }}
             >
-              <span className="text-5xl font-bold text-gray-900">{letter.char}</span>
-              <p className="text-xl font-bold text-yellow-800 text-center">{letter.pronunciationKo}</p>
-              <p className="text-sm text-gray-600 text-center leading-relaxed">{letter.mouthShape}</p>
-              <div className="flex items-center gap-2 bg-white rounded-xl px-4 py-2.5">
-                <span className="font-bold text-red-600 text-lg">{letter.example}</span>
-                <span className="text-gray-500 text-sm">= {letter.exampleMeaning}</span>
+              <span className="font-bold text-5xl" style={{ color: 'var(--text)' }}>{letter.char}</span>
+              <p className="text-xl font-bold text-center" style={{ color: 'var(--accent)' }}>{letter.pronunciationKo}</p>
+              <p className="text-sm text-center leading-relaxed" style={{ color: 'var(--muted)' }}>{letter.mouthShape}</p>
+              <div className="flex items-center gap-3 rounded-2xl px-4 py-2.5 w-full justify-center" style={{ background: 'var(--bg)' }}>
+                <span className="font-bold text-lg" style={{ color: 'var(--accent)' }}>{letter.example}</span>
+                <span className="text-sm" style={{ color: 'var(--muted)' }}>= {letter.exampleMeaning}</span>
                 <AudioButton text={letter.example} size="sm" />
               </div>
               <AudioButton text={letter.char} size="lg" />
@@ -83,11 +89,13 @@ export default function AlphabetPage() {
           </div>
         </div>
 
-        <div className="flex gap-3 w-full max-w-xs">
+        {/* Nav buttons */}
+        <div className="flex gap-3 w-full" style={{ maxWidth: '340px' }}>
           {current > 0 && (
             <button
               onClick={() => go(-1)}
-              className="flex-1 py-3 bg-gray-200 rounded-2xl font-bold text-gray-700"
+              className="flex-1 py-3 rounded-2xl font-bold transition-all active:scale-95"
+              style={{ background: 'var(--border)', color: 'var(--text)' }}
             >
               ← 이전
             </button>
@@ -95,21 +103,24 @@ export default function AlphabetPage() {
           {!isLast ? (
             <button
               onClick={() => go(1)}
-              className="flex-1 py-3 bg-red-600 text-white rounded-2xl font-bold"
+              className="flex-1 py-3 rounded-2xl font-bold text-white transition-all active:scale-95"
+              style={{ background: 'var(--accent)' }}
             >
               다음 →
             </button>
           ) : allViewed ? (
             <Link
               href="/alphabet/quiz"
-              className="flex-1 py-3 bg-green-600 text-white rounded-2xl font-bold text-center"
+              className="flex-1 py-3 rounded-2xl font-bold text-white text-center transition-all"
+              style={{ background: '#16a34a' }}
             >
               테스트 시작 🎯
             </Link>
           ) : (
             <button
-              onClick={() => go(1 - ALPHABET_CHARS.length)}
-              className="flex-1 py-3 bg-yellow-500 text-white rounded-2xl font-bold"
+              onClick={() => setCurrent(0)}
+              className="flex-1 py-3 rounded-2xl font-bold text-white"
+              style={{ background: '#ca8a04' }}
             >
               처음부터 다시
             </button>

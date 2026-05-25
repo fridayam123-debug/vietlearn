@@ -1,7 +1,20 @@
 @import "tailwindcss";
 
+:root {
+  --accent:      #dc2626;
+  --accent-dark: #b91c1c;
+  --bg:          #f7f9fb;
+  --card:        #ffffff;
+  --border:      #e5e5e5;
+  --text:        #1a1a1a;
+  --muted:       #888888;
+}
+
 body {
-  background: #ffffff;
-  color: #171717;
+  background: var(--bg);
+  color: var(--text);
   padding-bottom: env(safe-area-inset-bottom);
 }
+
+* { -webkit-tap-highlight-color: transparent; }
+button { touch-action: manipulation; }
