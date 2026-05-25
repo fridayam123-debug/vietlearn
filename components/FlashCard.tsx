@@ -31,6 +31,18 @@ export function FlashCard({ item, onViewed }: { item: VocabItem; onViewed?: () =
           <span className="fc-vi">{item.vi}</span>
           <span className="fc-ko">{item.ko}</span>
           <AudioButton text={item.vi} size="lg" />
+          {example.vi && (
+            <div style={{
+              fontSize: '14px',
+              color: 'var(--muted)',
+              textAlign: 'center',
+              lineHeight: 1.6,
+              padding: '0 12px',
+              fontStyle: 'italic',
+            }}>
+              {example.vi}
+            </div>
+          )}
           <span className="fc-hint">탭하여 예문 보기 👆</span>
         </div>
 
