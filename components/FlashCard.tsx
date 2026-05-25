@@ -3,7 +3,6 @@ import { useState } from 'react'
 import { VocabItem } from '@/lib/types'
 import { AudioButton } from './AudioButton'
 
-// Parse "Ví dụ: [Vietnamese sentence]. ([Korean translation].)"
 function parseUsage(usage: string): { vi: string; ko: string } {
   const prefix = 'Ví dụ: '
   const start = usage.startsWith(prefix) ? prefix.length : 0
@@ -39,7 +38,6 @@ export function FlashCard({ item, onViewed }: { item: VocabItem; onViewed?: () =
         <div className="flip-back">
           <span className="fc-ko" style={{ fontSize: '28px' }}>{item.ko}</span>
 
-          {/* Vietnamese example + audio */}
           <div style={{
             width: '100%',
             background: 'var(--soft)',
@@ -48,24 +46,21 @@ export function FlashCard({ item, onViewed }: { item: VocabItem; onViewed?: () =
             padding: '14px 18px',
             display: 'flex',
             flexDirection: 'column',
-            gap: 8,
+            gap: 6,
+            textAlign: 'center',
           }}>
-            <div style={{ display: 'flex', alignItems: 'flex-start', gap: 10 }}>
-              <div style={{ flex: 1 }}>
-                <div style={{ fontSize: '17px', fontWeight: 600, color: 'var(--fg)', lineHeight: 1.5 }}>
-                  {example.vi}
-                </div>
-                {example.ko && (
-                  <div style={{ fontSize: '14px', color: 'var(--muted)', marginTop: 4, lineHeight: 1.4 }}>
-                    {example.ko}
-                  </div>
-                )}
-              </div>
-              <AudioButton text={example.vi} size="sm" />
+            <div style={{ fontSize: '17px', fontWeight: 600, color: 'var(--fg)', lineHeight: 1.5 }}>
+              {example.vi}
             </div>
+            {example.ko && (
+              <div style={{ fontSize: '14px', color: 'var(--muted)', lineHeight: 1.4 }}>
+                {example.ko}
+              </div>
+            )}
           </div>
 
-          <AudioButton text={item.vi} size="lg" />
+          {/* Example audio — centered, no word audio */}
+          <AudioButton text={example.vi} size="lg" />
         </div>
 
       </div>
