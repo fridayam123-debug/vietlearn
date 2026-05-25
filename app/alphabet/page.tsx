@@ -38,15 +38,18 @@ export default function AlphabetPage() {
       </div>
 
       <div className="app" style={{ paddingTop: 20 }}>
-        {/* Progress */}
+        {/* Progress + quiz shortcut */}
         <div style={{ marginBottom: 24 }}>
           <div className="bar-labels">
             <span>학습 진도</span>
             <span>{progress.viewedAlphabet.length}/{ALPHABET_CHARS.length} ({pct}%)</span>
           </div>
-          <div className="progress-bar">
+          <div className="progress-bar" style={{ marginBottom: 12 }}>
             <div className="progress-fill" style={{ width: `${pct}%` }} />
           </div>
+          <Link href="/alphabet/quiz" className="btn btn-primary" style={{ width: '100%', textAlign: 'center', textDecoration: 'none', display: 'block' }}>
+            🎯 알파벳 테스트 시작
+          </Link>
         </div>
 
         {/* Flip card */}

@@ -73,6 +73,21 @@ export default function TopicPage() {
         <div className="set-grid" style={{ gridTemplateColumns: '1fr 1fr', maxWidth: 280 }}>
           {verbSessions.map(s => <SetCard key={s} type="verb" session={s} />)}
         </div>
+
+        {/* Full quiz — 150 questions split into 6 sets of 25 */}
+        <div className="section-title">전체 퀴즈 (단어 + 문장 만들기)</div>
+        <div className="set-grid">
+          {[1, 2, 3, 4, 5, 6].map(s => (
+            <Link
+              key={s}
+              href={`/topic/${topicId}/fullquiz/${s}`}
+              className="set-card"
+            >
+              <div className="sc-label">퀴즈 세트 {s}</div>
+              <div className="sc-sub">25문제 · {(s - 1) * 25 + 1}–{s * 25}번</div>
+            </Link>
+          ))}
+        </div>
       </div>
     </>
   )

@@ -43,6 +43,11 @@ export default function TonesPage() {
       </div>
 
       <div className="app" style={{ paddingTop: 20 }}>
+        {/* Quiz shortcut */}
+        <Link href="/tones/quiz" className="btn btn-primary" style={{ width: '100%', textAlign: 'center', textDecoration: 'none', display: 'block', marginBottom: 16 }}>
+          🎯 성조 테스트 시작
+        </Link>
+
         {/* Dot progress */}
         <div className="tone-dots">
           {tones.map((t, i) => (
