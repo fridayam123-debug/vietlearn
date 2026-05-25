@@ -9,7 +9,7 @@ const cookingWordsSession1: VocabItem[] = [
     type: 'word',
     vi: 'nồi',
     ko: '냄비',
-    usage: 'Tôi nấu cơm trong nồi. (I cook rice in a pot.)'
+    usage: 'Ví dụ: Tôi nấu cơm trong nồi. (나는 냄비에서 쌀을 요리합니다.)'
   },
   {
     id: 'ck-w-02',
@@ -18,7 +18,7 @@ const cookingWordsSession1: VocabItem[] = [
     type: 'word',
     vi: 'chảo',
     ko: '팬',
-    usage: 'Đun nóng chảo trước khi xào. (Heat the pan before stir-frying.)'
+    usage: 'Ví dụ: Đun nóng chảo trước khi xào. (볶기 전에 팬을 데우세요.)'
   },
   {
     id: 'ck-w-03',
@@ -27,7 +27,7 @@ const cookingWordsSession1: VocabItem[] = [
     type: 'word',
     vi: 'dao',
     ko: '칼',
-    usage: 'Dao này rất sắc. (This knife is very sharp.)'
+    usage: 'Ví dụ: Dao này rất sắc để cắt thịt. (이 칼은 고기를 자르기에 매우 예리합니다.)'
   },
   {
     id: 'ck-w-04',
@@ -36,7 +36,7 @@ const cookingWordsSession1: VocabItem[] = [
     type: 'word',
     vi: 'thớt',
     ko: '도마',
-    usage: 'Cắt cà chua trên thớt. (Cut tomatoes on the cutting board.)'
+    usage: 'Ví dụ: Cắt cà chua trên thớt. (도마 위에서 토마토를 자르세요.)'
   },
   {
     id: 'ck-w-05',
@@ -45,7 +45,7 @@ const cookingWordsSession1: VocabItem[] = [
     type: 'word',
     vi: 'bát',
     ko: '그릇',
-    usage: 'Bát này làm từ gốm. (This bowl is made of ceramic.)'
+    usage: 'Ví dụ: Bát này làm từ gốm. (이 그릇은 도자기로 만들어졌습니다.)'
   },
   {
     id: 'ck-w-06',
@@ -54,7 +54,7 @@ const cookingWordsSession1: VocabItem[] = [
     type: 'word',
     vi: 'đũa',
     ko: '젓가락',
-    usage: 'Dùng đũa để ăn cơm. (Use chopsticks to eat rice.)'
+    usage: 'Ví dụ: Dùng đũa để ăn cơm. (쌀밥을 먹기 위해 젓가락을 사용하세요.)'
   },
   {
     id: 'ck-w-07',
@@ -63,7 +63,7 @@ const cookingWordsSession1: VocabItem[] = [
     type: 'word',
     vi: 'thìa',
     ko: '숟가락',
-    usage: 'Thìa này dùng để khuấy. (This spoon is used for stirring.)'
+    usage: 'Ví dụ: Thìa này dùng để khuấy. (이 숟가락은 저으려고 사용합니다.)'
   },
   {
     id: 'ck-w-08',
@@ -72,7 +72,7 @@ const cookingWordsSession1: VocabItem[] = [
     type: 'word',
     vi: 'lò vi sóng',
     ko: '전자레인지',
-    usage: 'Nóng cơm trong lò vi sóng. (Reheat rice in the microwave.)'
+    usage: 'Ví dụ: Nóng cơm trong lò vi sóng. (전자레인지에서 밥을 데우세요.)'
   },
   {
     id: 'ck-w-09',
@@ -81,7 +81,7 @@ const cookingWordsSession1: VocabItem[] = [
     type: 'word',
     vi: 'lò nướng',
     ko: '오븐',
-    usage: 'Nướng bánh trong lò nướng. (Bake bread in the oven.)'
+    usage: 'Ví dụ: Nướng bánh trong lò nướng. (오븐에서 빵을 굽습니다.)'
   },
   {
     id: 'ck-w-10',
@@ -90,7 +90,7 @@ const cookingWordsSession1: VocabItem[] = [
     type: 'word',
     vi: 'bếp điện',
     ko: '전기레인지',
-    usage: 'Bếp điện này rất hiện đại. (This electric stove is very modern.)'
+    usage: 'Ví dụ: Bếp điện này rất hiện đại. (이 전기레인지는 매우 현대적입니다.)'
   },
   {
     id: 'ck-w-11',
@@ -99,7 +99,7 @@ const cookingWordsSession1: VocabItem[] = [
     type: 'word',
     vi: 'tủ lạnh',
     ko: '냉장고',
-    usage: 'Bảo quản thức ăn trong tủ lạnh. (Store food in the refrigerator.)'
+    usage: 'Ví dụ: Bảo quản thức ăn trong tủ lạnh. (냉장고에서 음식을 보관하세요.)'
   },
   {
     id: 'ck-w-12',
@@ -108,7 +108,7 @@ const cookingWordsSession1: VocabItem[] = [
     type: 'word',
     vi: 'bàn bếp',
     ko: '조리대',
-    usage: 'Chuẩn bị thức ăn trên bàn bếp. (Prepare food on the counter.)'
+    usage: 'Ví dụ: Chuẩn bị thức ăn trên bàn bếp. (조리대에서 음식을 준비하세요.)'
   },
   {
     id: 'ck-w-13',
@@ -117,7 +117,7 @@ const cookingWordsSession1: VocabItem[] = [
     type: 'word',
     vi: 'tấm thớt nhựa',
     ko: '플라스틱 도마',
-    usage: 'Tấm thớt nhựa dễ vệ sinh. (Plastic cutting boards are easy to clean.)'
+    usage: 'Ví dụ: Tấm thớt nhựa dễ vệ sinh. (플라스틱 도마는 청소하기 쉽습니다.)'
   },
   {
     id: 'ck-w-14',
@@ -126,7 +126,7 @@ const cookingWordsSession1: VocabItem[] = [
     type: 'word',
     vi: 'sàng lọc',
     ko: '체',
-    usage: 'Dùng sàng lọc bột mì. (Use a sieve for flour.)'
+    usage: 'Ví dụ: Dùng sàng lọc bột mì. (밀가루를 체로 거르세요.)'
   },
   {
     id: 'ck-w-15',
@@ -135,7 +135,7 @@ const cookingWordsSession1: VocabItem[] = [
     type: 'word',
     vi: 'dụng cụ xé',
     ko: '강판',
-    usage: 'Xà phòng phô mai với dụng cụ xé. (Grate cheese with a grater.)'
+    usage: 'Ví dụ: Xà phòng phô mai với dụng cụ xé. (강판으로 치즈를 간다.)'
   },
   {
     id: 'ck-w-16',
@@ -144,7 +144,7 @@ const cookingWordsSession1: VocabItem[] = [
     type: 'word',
     vi: 'xoong',
     ko: '팬',
-    usage: 'Xoong này có tay cầm chắc. (This pan has a strong handle.)'
+    usage: 'Ví dụ: Xoong này có tay cầm chắc. (이 팬은 견고한 손잡이를 가지고 있습니다.)'
   },
   {
     id: 'ck-w-17',
@@ -153,7 +153,7 @@ const cookingWordsSession1: VocabItem[] = [
     type: 'word',
     vi: 'nồi cơm điện',
     ko: '밥솥',
-    usage: 'Nồi cơm điện tiện lợi để nấu cơm. (Rice cooker is convenient for cooking rice.)'
+    usage: 'Ví dụ: Nồi cơm điện tiện lợi để nấu cơm. (밥솥은 밥을 요리하기에 편리합니다.)'
   },
   {
     id: 'ck-w-18',
@@ -162,7 +162,7 @@ const cookingWordsSession1: VocabItem[] = [
     type: 'word',
     vi: 'cái xẻng',
     ko: '헤라',
-    usage: 'Dùng cái xẻng để lắng cơm. (Use a spatula to serve rice.)'
+    usage: 'Ví dụ: Dùng cái xẻng để lắng cơm. (밥을 담기 위해 헤라를 사용하세요.)'
   },
   {
     id: 'ck-w-19',
@@ -171,7 +171,7 @@ const cookingWordsSession1: VocabItem[] = [
     type: 'word',
     vi: 'cái vá',
     ko: '막대',
-    usage: 'Cái vá dùng để nặn cơm. (A spatula is used to press rice.)'
+    usage: 'Ví dụ: Cái vá dùng để nặn cơm. (막대는 밥을 고르기 위해 사용됩니다.)'
   },
   {
     id: 'ck-w-20',
@@ -180,7 +180,7 @@ const cookingWordsSession1: VocabItem[] = [
     type: 'word',
     vi: 'cái dò',
     ko: '국자',
-    usage: 'Múc nước bằng cái dò. (Scoop water with a ladle.)'
+    usage: 'Ví dụ: Múc nước bằng cái dò. (국자로 물을 퍼세요.)'
   },
   {
     id: 'ck-w-21',
@@ -189,7 +189,7 @@ const cookingWordsSession1: VocabItem[] = [
     type: 'word',
     vi: 'cái chỉ',
     ko: '이쑤시개',
-    usage: 'Dùng cái chỉ để kiểm tra nấu chín. (Use a fork to check if it\'s cooked.)'
+    usage: 'Ví dụ: Dùng cái chỉ để kiểm tra nấu chín. (이쑤시개로 익은 정도를 확인하세요.)'
   },
   {
     id: 'ck-w-22',
@@ -198,7 +198,7 @@ const cookingWordsSession1: VocabItem[] = [
     type: 'word',
     vi: 'tấm lót nồi',
     ko: '냄비깔개',
-    usage: 'Đặt tấm lót nồi trên bếp. (Place a trivet on the stove.)'
+    usage: 'Ví dụ: Đặt tấm lót nồi trên bếp. (스토브에 냄비받침을 놓으세요.)'
   },
   {
     id: 'ck-w-23',
@@ -207,7 +207,7 @@ const cookingWordsSession1: VocabItem[] = [
     type: 'word',
     vi: 'kẹp',
     ko: '집게',
-    usage: 'Dùng kẹp để gắp thức ăn. (Use tongs to pick up food.)'
+    usage: 'Ví dụ: Dùng kẹp để gắp thức ăn. (집게로 음식을 집으세요.)'
   },
   {
     id: 'ck-w-24',
@@ -216,7 +216,7 @@ const cookingWordsSession1: VocabItem[] = [
     type: 'word',
     vi: 'bằng cạnh',
     ko: '흙수',
-    usage: 'Dùng bằng cạnh để khuấy. (Use a wooden spoon for stirring.)'
+    usage: 'Ví dụ: Dùng bằng cạnh để khuấy. (목재 스푼으로 저으세요.)'
   },
   {
     id: 'ck-w-25',
@@ -225,7 +225,7 @@ const cookingWordsSession1: VocabItem[] = [
     type: 'word',
     vi: 'cái rổ',
     ko: '바구니',
-    usage: 'Để thức ăn trong cái rổ. (Put food in a basket.)'
+    usage: 'Ví dụ: Để thức ăn trong cái rổ. (음식을 바구니에 넣으세요.)'
   }
 ]
 
@@ -238,7 +238,7 @@ const cookingWordsSession2: VocabItem[] = [
     type: 'word',
     vi: 'muối',
     ko: '소금',
-    usage: 'Thêm muối vào nước dùng. (Add salt to the broth.)'
+    usage: 'Ví dụ: Thêm muối vào nước dùng. (육수에 소금을 넣으세요.)'
   },
   {
     id: 'ck-w-27',
@@ -247,7 +247,7 @@ const cookingWordsSession2: VocabItem[] = [
     type: 'word',
     vi: 'đường',
     ko: '설탕',
-    usage: 'Đường là nguyên liệu quan trọng trong nấu ăn. (Sugar is an important ingredient in cooking.)'
+    usage: 'Ví dụ: Đường là nguyên liệu quan trọng trong nấu ăn. (설탕은 요리의 중요한 재료입니다.)'
   },
   {
     id: 'ck-w-28',
@@ -256,7 +256,7 @@ const cookingWordsSession2: VocabItem[] = [
     type: 'word',
     vi: 'dầu ăn',
     ko: '식용유',
-    usage: 'Dầu ăn để xào rau. (Use oil for stir-frying vegetables.)'
+    usage: 'Ví dụ: Dầu ăn để xào rau. (야채를 볶기 위해 식용유를 사용하세요.)'
   },
   {
     id: 'ck-w-29',
@@ -265,7 +265,7 @@ const cookingWordsSession2: VocabItem[] = [
     type: 'word',
     vi: 'nước mắm',
     ko: '어장',
-    usage: 'Nước mắm là gia vị truyền thống Việt Nam. (Fish sauce is a traditional Vietnamese seasoning.)'
+    usage: 'Ví dụ: Nước mắm là gia vị truyền thống Việt Nam. (생선소스는 전통 베트남 조미료입니다.)'
   },
   {
     id: 'ck-w-30',
@@ -274,7 +274,7 @@ const cookingWordsSession2: VocabItem[] = [
     type: 'word',
     vi: 'tỏi',
     ko: '마늘',
-    usage: 'Tỏi có mùi rất thơm. (Garlic has a very fragrant smell.)'
+    usage: 'Ví dụ: Tỏi có mùi rất thơm. (마늘은 매우 향기로운 냄새가 납니다.)'
   },
   {
     id: 'ck-w-31',
@@ -283,7 +283,7 @@ const cookingWordsSession2: VocabItem[] = [
     type: 'word',
     vi: 'hành',
     ko: '양파',
-    usage: 'Hành tây rất tốt cho sức khỏe. (Onions are very good for health.)'
+    usage: 'Ví dụ: Hành tây rất tốt cho sức khỏe. (양파는 건강에 매우 좋습니다.)'
   },
   {
     id: 'ck-w-32',
@@ -292,7 +292,7 @@ const cookingWordsSession2: VocabItem[] = [
     type: 'word',
     vi: 'ớt',
     ko: '고추',
-    usage: 'Ớt làm cho thức ăn cay. (Chili makes food spicy.)'
+    usage: 'Ví dụ: Ớt làm cho thức ăn cay. (고추는 음식을 맵게 만듭니다.)'
   },
   {
     id: 'ck-w-33',
@@ -301,7 +301,7 @@ const cookingWordsSession2: VocabItem[] = [
     type: 'word',
     vi: 'gừng',
     ko: '생강',
-    usage: 'Gừng giúp tiêu hóa. (Ginger helps with digestion.)'
+    usage: 'Ví dụ: Gừng giúp tiêu hóa. (생강은 소화를 돕습니다.)'
   },
   {
     id: 'ck-w-34',
@@ -310,7 +310,7 @@ const cookingWordsSession2: VocabItem[] = [
     type: 'word',
     vi: 'hành lá',
     ko: '파',
-    usage: 'Hành lá trang trí cho các món ăn. (Green onions decorate dishes.)'
+    usage: 'Ví dụ: Hành lá trang trí cho các món ăn. (파는 요리를 장식합니다.)'
   },
   {
     id: 'ck-w-35',
@@ -319,7 +319,7 @@ const cookingWordsSession2: VocabItem[] = [
     type: 'word',
     vi: 'cilantro',
     ko: '고수',
-    usage: 'Cilantro là gia vị phổ biến trong nấu ăn Á Đông. (Cilantro is a common seasoning in East Asian cooking.)'
+    usage: 'Ví dụ: Cilantro là gia vị phổ biến trong nấu ăn Á Đông. (고수는 동아시아 요리에서 흔한 향신료입니다.)'
   },
   {
     id: 'ck-w-36',
@@ -328,7 +328,7 @@ const cookingWordsSession2: VocabItem[] = [
     type: 'word',
     vi: 'thịt',
     ko: '고기',
-    usage: 'Thịt gà rất bổ dưỡng. (Chicken is very nutritious.)'
+    usage: 'Ví dụ: Thịt gà rất bổ dưỡng. (닭고기는 매우 영양가 있습니다.)'
   },
   {
     id: 'ck-w-37',
@@ -337,7 +337,7 @@ const cookingWordsSession2: VocabItem[] = [
     type: 'word',
     vi: 'cá',
     ko: '생선',
-    usage: 'Cá tươi là lựa chọn tốt nhất. (Fresh fish is the best choice.)'
+    usage: 'Ví dụ: Cá tươi là lựa chọn tốt nhất. (신선한 생선이 최고의 선택입니다.)'
   },
   {
     id: 'ck-w-38',
@@ -346,7 +346,7 @@ const cookingWordsSession2: VocabItem[] = [
     type: 'word',
     vi: 'tôm',
     ko: '새우',
-    usage: 'Tôm tươi rất ngon. (Fresh shrimp is very delicious.)'
+    usage: 'Ví dụ: Tôm tươi rất ngon. (신선한 새우는 매우 맛있습니다.)'
   },
   {
     id: 'ck-w-39',
@@ -355,7 +355,7 @@ const cookingWordsSession2: VocabItem[] = [
     type: 'word',
     vi: 'trứng',
     ko: '계란',
-    usage: 'Trứng gà là thực phẩm quen thuộc. (Chicken eggs are familiar food.)'
+    usage: 'Ví dụ: Trứng gà là thực phẩm quen thuộc. (계란은 친숙한 음식입니다.)'
   },
   {
     id: 'ck-w-40',
@@ -364,7 +364,7 @@ const cookingWordsSession2: VocabItem[] = [
     type: 'word',
     vi: 'tương',
     ko: '된장',
-    usage: 'Tương mặn dùng để nêm nếm. (Soy sauce is used for seasoning.)'
+    usage: 'Ví dụ: Tương mặn dùng để nêm nếp. (간장은 양념을 하기 위해 사용됩니다.)'
   },
   {
     id: 'ck-w-41',
@@ -373,7 +373,7 @@ const cookingWordsSession2: VocabItem[] = [
     type: 'word',
     vi: 'dấm',
     ko: '식초',
-    usage: 'Dấm thêm chua vào thức ăn. (Vinegar adds sourness to food.)'
+    usage: 'Ví dụ: Dấm thêm chua vào thức ăn. (식초는 음식에 신맛을 더합니다.)'
   },
   {
     id: 'ck-w-42',
@@ -382,7 +382,7 @@ const cookingWordsSession2: VocabItem[] = [
     type: 'word',
     vi: 'mủ dừa',
     ko: '코코넛 우유',
-    usage: 'Mủ dừa dùng để nấu canh. (Coconut milk is used for making curry.)'
+    usage: 'Ví dụ: Mủ dừa dùng để nấu canh. (코코넛 밀크는 카레를 요리하는 데 사용됩니다.)'
   },
   {
     id: 'ck-w-43',
@@ -391,7 +391,7 @@ const cookingWordsSession2: VocabItem[] = [
     type: 'word',
     vi: 'sữa',
     ko: '우유',
-    usage: 'Sữa tươi rất tốt cho trẻ em. (Fresh milk is very good for children.)'
+    usage: 'Ví dụ: Sữa tươi rất tốt cho trẻ em. (신선한 우유는 어린이에게 매우 좋습니다.)'
   },
   {
     id: 'ck-w-44',
@@ -400,7 +400,7 @@ const cookingWordsSession2: VocabItem[] = [
     type: 'word',
     vi: 'bơ',
     ko: '버터',
-    usage: 'Bơ dùng để nướng bánh. (Butter is used for baking bread.)'
+    usage: 'Ví dụ: Bơ dùng để nướng bánh. (버터는 빵을 굽는 데 사용됩니다.)'
   },
   {
     id: 'ck-w-45',
@@ -409,7 +409,7 @@ const cookingWordsSession2: VocabItem[] = [
     type: 'word',
     vi: 'phô mai',
     ko: '치즈',
-    usage: 'Phô mai tây mỡ nhưng rất ngon. (Cheese is fatty but delicious.)'
+    usage: 'Ví dụ: Phô mai tây mỡ nhưng rất ngon. (치즈는 지방이 많지만 맛있습니다.)'
   },
   {
     id: 'ck-w-46',
@@ -418,7 +418,7 @@ const cookingWordsSession2: VocabItem[] = [
     type: 'word',
     vi: 'bột mì',
     ko: '밀가루',
-    usage: 'Bột mì dùng để làm bánh. (Flour is used for making bread.)'
+    usage: 'Ví dụ: Bột mì dùng để làm bánh. (밀가루는 빵을 만드는 데 사용됩니다.)'
   },
   {
     id: 'ck-w-47',
@@ -427,7 +427,7 @@ const cookingWordsSession2: VocabItem[] = [
     type: 'word',
     vi: 'nước ngoài',
     ko: '육수',
-    usage: 'Nước ngoài từ xương gà rất ngon. (Broth from chicken bones is delicious.)'
+    usage: 'Ví dụ: Nước ngoài từ xương gà rất ngon. (닭뼈 육수는 매우 맛있습니다.)'
   },
   {
     id: 'ck-w-48',
@@ -436,7 +436,7 @@ const cookingWordsSession2: VocabItem[] = [
     type: 'word',
     vi: 'lêm',
     ko: '조미료',
-    usage: 'Lêm Maggi là loại lêm phổ biến. (Maggi is a popular seasoning powder.)'
+    usage: 'Ví dụ: Lêm Maggi là loại lêm phổ biến. (마기는 일반적인 조미료입니다.)'
   },
   {
     id: 'ck-w-49',
@@ -445,7 +445,7 @@ const cookingWordsSession2: VocabItem[] = [
     type: 'word',
     vi: 'nước sốt',
     ko: '소스',
-    usage: 'Nước sốt cà chua rất thơm. (Tomato sauce smells very nice.)'
+    usage: 'Ví dụ: Nước sốt cà chua rất thơm. (토마토 소스는 매우 향기롭습니다.)'
   },
   {
     id: 'ck-w-50',
@@ -454,7 +454,7 @@ const cookingWordsSession2: VocabItem[] = [
     type: 'word',
     vi: 'mưng nước',
     ko: '물',
-    usage: 'Mưng nước sạch để nấu ăn. (Use clean water for cooking.)'
+    usage: 'Ví dụ: Mưng nước sạch để nấu ăn. (요리를 위해 깨끗한 물을 사용하세요.)'
   }
 ]
 
@@ -467,7 +467,7 @@ const cookingWordsSession3: VocabItem[] = [
     type: 'word',
     vi: 'nấu',
     ko: '요리하다',
-    usage: 'Nấu ăn là một kỹ năng quan trọng. (Cooking is an important skill.)'
+    usage: 'Ví dụ: Nấu ăn là một kỹ năng quan trọng. (요리는 중요한 기술입니다.)'
   },
   {
     id: 'ck-w-52',
@@ -476,7 +476,7 @@ const cookingWordsSession3: VocabItem[] = [
     type: 'word',
     vi: 'chiên',
     ko: '튀기다',
-    usage: 'Chiên nước ngập để thức ăn được giòn. (Deep fry in oil so the food becomes crispy.)'
+    usage: 'Ví dụ: Chiên nước ngập để thức ăn được giòn. (바삭하게 되려면 기름에 튀기세요.)'
   },
   {
     id: 'ck-w-53',
@@ -485,7 +485,7 @@ const cookingWordsSession3: VocabItem[] = [
     type: 'word',
     vi: 'xào',
     ko: '볶다',
-    usage: 'Xào rau với ít dầu. (Stir-fry vegetables with little oil.)'
+    usage: 'Ví dụ: Xào rau với ít dầu. (적은 기름으로 야채를 볶으세요.)'
   },
   {
     id: 'ck-w-54',
@@ -494,7 +494,7 @@ const cookingWordsSession3: VocabItem[] = [
     type: 'word',
     vi: 'luộc',
     ko: '삶다',
-    usage: 'Luộc khoai tây trong nước sôi. (Boil potatoes in boiling water.)'
+    usage: 'Ví dụ: Luộc khoai tây trong nước sôi. (끓는 물에 감자를 삶으세요.)'
   },
   {
     id: 'ck-w-55',
@@ -503,7 +503,7 @@ const cookingWordsSession3: VocabItem[] = [
     type: 'word',
     vi: 'hấp',
     ko: '찐다',
-    usage: 'Hấp cá để giữ được dinh dưỡng. (Steam fish to retain nutrients.)'
+    usage: 'Ví dụ: Hấp cá để giữ được dinh dưỡng. (영양을 유지하려면 생선을 찌세요.)'
   },
   {
     id: 'ck-w-56',
@@ -512,7 +512,7 @@ const cookingWordsSession3: VocabItem[] = [
     type: 'word',
     vi: 'nướng',
     ko: '굽다',
-    usage: 'Nướng gà trên lò nướng. (Roast chicken in the oven.)'
+    usage: 'Ví dụ: Nướng gà trên lò nướng. (오븐에서 닭을 구우세요.)'
   },
   {
     id: 'ck-w-57',
@@ -521,7 +521,7 @@ const cookingWordsSession3: VocabItem[] = [
     type: 'word',
     vi: 'kho',
     ko: '조리다',
-    usage: 'Kho thịt lợn là một món ăn truyền thống. (Braised pork is a traditional dish.)'
+    usage: 'Ví dụ: Kho thịt lợn là một món ăn truyền thống. (돼지고기 조림은 전통 요리입니다.)'
   },
   {
     id: 'ck-w-58',
@@ -530,7 +530,7 @@ const cookingWordsSession3: VocabItem[] = [
     type: 'word',
     vi: 'nêm nếm',
     ko: '맛을 보다',
-    usage: 'Nêm nếm để điều chỉnh độ mặn. (Taste to adjust the saltiness.)'
+    usage: 'Ví dụ: Nêm nếm để điều chỉnh độ mặn. (짠맛을 조절하기 위해 맛을 보세요.)'
   },
   {
     id: 'ck-w-59',
@@ -539,7 +539,7 @@ const cookingWordsSession3: VocabItem[] = [
     type: 'word',
     vi: 'nóng',
     ko: '뜨겁다',
-    usage: 'Dầu nóng sẽ làm thức ăn nhanh chín. (Hot oil will make food cook quickly.)'
+    usage: 'Ví dụ: Dầu nóng sẽ làm thức ăn nhanh chín. (뜨거운 기름은 음식을 빨리 익힙니다.)'
   },
   {
     id: 'ck-w-60',
@@ -548,7 +548,7 @@ const cookingWordsSession3: VocabItem[] = [
     type: 'word',
     vi: 'lạnh',
     ko: '차갑다',
-    usage: 'Để đồ ăn lạnh trước khi dùng. (Let food cool before using.)'
+    usage: 'Ví dụ: Để đồ ăn lạnh trước khi dùng. (사용하기 전에 음식을 식히세요.)'
   },
   {
     id: 'ck-w-61',
@@ -557,7 +557,7 @@ const cookingWordsSession3: VocabItem[] = [
     type: 'word',
     vi: 'chín',
     ko: '익다',
-    usage: 'Thức ăn chín khi có thể dùng được. (Food is cooked when it\'s ready to eat.)'
+    usage: 'Ví dụ: Thức ăn chín khi có thể dùng được. (음식은 먹을 수 있을 때 익습니다.)'
   },
   {
     id: 'ck-w-62',
@@ -566,7 +566,7 @@ const cookingWordsSession3: VocabItem[] = [
     type: 'word',
     vi: 'nửa chín',
     ko: '반숙',
-    usage: 'Trứng nửa chín rất ngon trong canh. (Half-cooked eggs are delicious in soup.)'
+    usage: 'Ví dụ: Trứng nửa chín rất ngon trong canh. (계란 반숙은 수프에서 매우 맛있습니다.)'
   },
   {
     id: 'ck-w-63',
@@ -575,7 +575,7 @@ const cookingWordsSession3: VocabItem[] = [
     type: 'word',
     vi: 'tái',
     ko: '생(익히지 않은)',
-    usage: 'Thịt tái không nên ăn. (Rare meat is not recommended.)'
+    usage: 'Ví dụ: Thịt tái không nên ăn. (날 고기는 먹으면 안 됩니다.)'
   },
   {
     id: 'ck-w-64',
@@ -584,7 +584,7 @@ const cookingWordsSession3: VocabItem[] = [
     type: 'word',
     vi: 'cháy',
     ko: '타다',
-    usage: 'Đừng để thức ăn cháy. (Don\'t let food burn.)'
+    usage: 'Ví dụ: Đừng để thức ăn cháy. (음식을 타게 하지 마세요.)'
   },
   {
     id: 'ck-w-65',
@@ -593,7 +593,7 @@ const cookingWordsSession3: VocabItem[] = [
     type: 'word',
     vi: 'sôi',
     ko: '끓이다',
-    usage: 'Sôi nước để nấu cơm. (Boil water for cooking rice.)'
+    usage: 'Ví dụ: Sôi nước để nấu cơm. (밥을 요리하기 위해 물을 끓이세요.)'
   },
   {
     id: 'ck-w-66',
@@ -602,7 +602,7 @@ const cookingWordsSession3: VocabItem[] = [
     type: 'word',
     vi: 'lửa lớn',
     ko: '큰 불',
-    usage: 'Xào rau cần dùng lửa lớn. (Stir-frying vegetables requires high heat.)'
+    usage: 'Ví dụ: Xào rau cần dùng lửa lớn. (야채를 볶으려면 센 불을 사용하세요.)'
   },
   {
     id: 'ck-w-67',
@@ -611,7 +611,7 @@ const cookingWordsSession3: VocabItem[] = [
     type: 'word',
     vi: 'lửa nhỏ',
     ko: '약한 불',
-    usage: 'Nấu canh dùng lửa nhỏ. (Make soup with low heat.)'
+    usage: 'Ví dụ: Nấu canh dùng lửa nhỏ. (약한 불로 국을 끓이세요.)'
   },
   {
     id: 'ck-w-68',
@@ -620,7 +620,7 @@ const cookingWordsSession3: VocabItem[] = [
     type: 'word',
     vi: 'nước dùng',
     ko: '육수',
-    usage: 'Nước dùng là cơ sở của canh. (Broth is the base of soup.)'
+    usage: 'Ví dụ: Nước dùng là cơ sở của canh. (육수는 국의 기초입니다.)'
   },
   {
     id: 'ck-w-69',
@@ -629,7 +629,7 @@ const cookingWordsSession3: VocabItem[] = [
     type: 'word',
     vi: 'nước ăn cơm',
     ko: '밥 위의 물',
-    usage: 'Đổ nước ăn cơm vừa phải. (Pour gravy appropriately over rice.)'
+    usage: 'Ví dụ: Đổ nước ăn cơm vừa phải. (적당량의 국을 밥 위에 붓으세요.)'
   },
   {
     id: 'ck-w-70',
@@ -638,7 +638,7 @@ const cookingWordsSession3: VocabItem[] = [
     type: 'word',
     vi: 'vị',
     ko: '맛',
-    usage: 'Vị của thức ăn phụ thuộc vào gia vị. (The taste of food depends on spices.)'
+    usage: 'Ví dụ: Vị của thức ăn phụ thuộc vào gia vị. (음식의 맛은 향신료에 따라 달라집니다.)'
   },
   {
     id: 'ck-w-71',
@@ -647,7 +647,7 @@ const cookingWordsSession3: VocabItem[] = [
     type: 'word',
     vi: 'mùi',
     ko: '냄새',
-    usage: 'Mùi thức ăn rất hấp dẫn. (The aroma of food is very appealing.)'
+    usage: 'Ví dụ: Mùi thức ăn rất hấp dẫn. (음식의 냄새가 매우 끌립니다.)'
   },
   {
     id: 'ck-w-72',
@@ -656,7 +656,7 @@ const cookingWordsSession3: VocabItem[] = [
     type: 'word',
     vi: 'màu',
     ko: '색깔',
-    usage: 'Màu thức ăn tươi sáng rất đẹp. (The bright color of fresh food is beautiful.)'
+    usage: 'Ví dụ: Màu thức ăn tươi sáng rất đẹp. (신선한 음식의 밝은 색깔이 아름답습니다.)'
   },
   {
     id: 'ck-w-73',
@@ -665,7 +665,7 @@ const cookingWordsSession3: VocabItem[] = [
     type: 'word',
     vi: 'hương',
     ko: '향기',
-    usage: 'Hương thơm của cơm nóng rất tuyệt. (The fragrance of hot rice is wonderful.)'
+    usage: 'Ví dụ: Hương thơm của cơm nóng rất tuyệt. (뜨거운 밥의 향기가 훌륭합니다.)'
   },
   {
     id: 'ck-w-74',
@@ -674,7 +674,7 @@ const cookingWordsSession3: VocabItem[] = [
     type: 'word',
     vi: 'mềm',
     ko: '부드럽다',
-    usage: 'Thịt nên mềm khi nấu xong. (Meat should be tender when cooked.)'
+    usage: 'Ví dụ: Thịt nên mềm khi nấu xong. (고기는 조리 후 부드러워야 합니다.)'
   },
   {
     id: 'ck-w-75',
@@ -683,7 +683,7 @@ const cookingWordsSession3: VocabItem[] = [
     type: 'word',
     vi: 'giòn',
     ko: '바삭하다',
-    usage: 'Chiên sẽ làm thức ăn giòn. (Deep frying makes food crispy.)'
+    usage: 'Ví dụ: Chiên sẽ làm thức ăn giòn. (튀기면 음식이 바삭해집니다.)'
   }
 ]
 
@@ -696,7 +696,7 @@ const cookingWordsSession4: VocabItem[] = [
     type: 'word',
     vi: 'phở',
     ko: '포',
-    usage: 'Phở là mon an noi tieng cua Viet Nam. (Pho is a famous Vietnamese dish.)'
+    usage: 'Ví dụ: Phở là mon an noi tieng cua Viet Nam. (포는 베트남의 유명한 요리입니다.)'
   },
   {
     id: 'ck-w-77',
@@ -705,7 +705,7 @@ const cookingWordsSession4: VocabItem[] = [
     type: 'word',
     vi: 'bún bò Huế',
     ko: '분 보 후에',
-    usage: 'Bún bò Huế cay và đặc sắc. (Hue beef noodle soup is spicy and special.)'
+    usage: 'Ví dụ: Bún bò Huế cay và đặc sắc. (후에 쇠고기 국수는 매운맛이고 특별합니다.)'
   },
   {
     id: 'ck-w-78',
@@ -714,7 +714,7 @@ const cookingWordsSession4: VocabItem[] = [
     type: 'word',
     vi: 'canh',
     ko: '국',
-    usage: 'Canh chua rất ngon vào mùa hè. (Sour soup is delicious in summer.)'
+    usage: 'Ví dụ: Canh chua rất ngon vào mùa hè. (신맛 국은 여름에 매우 맛있습니다.)'
   },
   {
     id: 'ck-w-79',
@@ -723,7 +723,7 @@ const cookingWordsSession4: VocabItem[] = [
     type: 'word',
     vi: 'lẩu',
     ko: '전골',
-    usage: 'Lẩu là mon an nhân day. (Hot pot is a people-pleasing dish.)'
+    usage: 'Ví dụ: Lẩu là mon an nhân day. (전골은 모든 사람이 좋아하는 요리입니다.)'
   },
   {
     id: 'ck-w-80',
@@ -732,7 +732,7 @@ const cookingWordsSession4: VocabItem[] = [
     type: 'word',
     vi: 'nem',
     ko: '월남쌈',
-    usage: 'Nem chiên giòn rất ngon. (Fried spring rolls are very crispy.)'
+    usage: 'Ví dụ: Nem chiên giòn rất ngon. (튀긴 스프링롤은 매우 맛있습니다.)'
   },
   {
     id: 'ck-w-81',
@@ -741,7 +741,7 @@ const cookingWordsSession4: VocabItem[] = [
     type: 'word',
     vi: 'gỏi cuốn',
     ko: '월남쌈',
-    usage: 'Gỏi cuốn tươi mát và bổ dưỡng. (Summer rolls are fresh and nutritious.)'
+    usage: 'Ví dụ: Gỏi cuốn tươi mát và bổ dưỡng. (여름 롤은 신선하고 영양가 있습니다.)'
   },
   {
     id: 'ck-w-82',
@@ -750,7 +750,7 @@ const cookingWordsSession4: VocabItem[] = [
     type: 'word',
     vi: 'bánh chưng',
     ko: '찹쌀떡',
-    usage: 'Bánh chưng là mon an Tet truyen thong. (Sticky rice cake is a traditional Tet dish.)'
+    usage: 'Ví dụ: Bánh chưng là mon an Tet truyen thong. (찹쌀떡은 전통 설날 음식입니다.)'
   },
   {
     id: 'ck-w-83',
@@ -759,7 +759,7 @@ const cookingWordsSession4: VocabItem[] = [
     type: 'word',
     vi: 'bánh tét',
     ko: '롤 떡',
-    usage: 'Bánh tét có vị thơm của lá dong. (Cylindrical sticky rice cake has the aroma of bamboo leaves.)'
+    usage: 'Ví dụ: Bánh tét có vị thơm của lá dong. (롤 떡은 대나무 잎의 향기가 납니다.)'
   },
   {
     id: 'ck-w-84',
@@ -768,7 +768,7 @@ const cookingWordsSession4: VocabItem[] = [
     type: 'word',
     vi: 'cơm tấm',
     ko: '요리된 밥',
-    usage: 'Com tam voi thit nuong rat ngon. (Broken rice with grilled pork is delicious.)'
+    usage: 'Ví dụ: Com tam voi thit nuong rat ngon. (쇠고기와 함께한 부서진 쌀은 맛있습니다.)'
   },
   {
     id: 'ck-w-85',
@@ -777,7 +777,7 @@ const cookingWordsSession4: VocabItem[] = [
     type: 'word',
     vi: 'cơm chiên',
     ko: '볶음밥',
-    usage: 'Cơm chiên là cách dùng lại cơm cũ. (Fried rice is a way to use leftover rice.)'
+    usage: 'Ví dụ: Cơm chiên là cách dùng lại cơm cũ. (볶음밥은 남은 쌀을 활용하는 방법입니다.)'
   },
   {
     id: 'ck-w-86',
@@ -786,7 +786,7 @@ const cookingWordsSession4: VocabItem[] = [
     type: 'word',
     vi: 'mì Ý',
     ko: '파스타',
-    usage: 'Mì Ý rất phổ biến ở các nước phương Tây. (Pasta is very popular in Western countries.)'
+    usage: 'Ví dụ: Mì Ý rất phổ biến ở các nước phương Tây. (파스타는 서방 국가에서 매우 유명합니다.)'
   },
   {
     id: 'ck-w-87',
@@ -795,7 +795,7 @@ const cookingWordsSession4: VocabItem[] = [
     type: 'word',
     vi: 'thịt nướng',
     ko: '구운 고기',
-    usage: 'Thịt nuong tren than rất thom. (Meat grilled over charcoal is very fragrant.)'
+    usage: 'Ví dụ: Thịt nuong tren than rất thom. (숯불에 구운 고기는 매우 향기롭습니다.)'
   },
   {
     id: 'ck-w-88',
@@ -804,7 +804,7 @@ const cookingWordsSession4: VocabItem[] = [
     type: 'word',
     vi: 'gà nướng',
     ko: '구운 닭',
-    usage: 'Gà nướng tỉnh là mon an noi tieng. (Roasted chicken is a famous dish.)'
+    usage: 'Ví dụ: Gà nướng tỉnh là mon an noi tieng. (구운 닭은 유명한 요리입니다.)'
   },
   {
     id: 'ck-w-89',
@@ -813,7 +813,7 @@ const cookingWordsSession4: VocabItem[] = [
     type: 'word',
     vi: 'cá kho',
     ko: '생선 조림',
-    usage: 'Cá kho tộ là mon ăn cơm tuyệt vời. (Caramelized fish is a great rice dish.)'
+    usage: 'Ví dụ: Cá kho tộ là mon ăn cơm tuyệt vời. (생선 조림은 훌륭한 밥반찬입니다.)'
   },
   {
     id: 'ck-w-90',
@@ -822,7 +822,7 @@ const cookingWordsSession4: VocabItem[] = [
     type: 'word',
     vi: 'cáy chiên',
     ko: '튀긴 생선',
-    usage: 'Cá chien gion rất ngon voi salad. (Fried fish is delicious with salad.)'
+    usage: 'Ví dụ: Cá chien gion rất ngon voi salad. (바삭하게 튀긴 생선은 샐러드와 맛있습니다.)'
   },
   {
     id: 'ck-w-91',
@@ -831,7 +831,7 @@ const cookingWordsSession4: VocabItem[] = [
     type: 'word',
     vi: 'tôm nương',
     ko: '구운 새우',
-    usage: 'Tôm nướng ngoài trời rất thú vị. (Grilled shrimp outdoors is fun.)'
+    usage: 'Ví dụ: Tôm nướng ngoài trời rất thú vị. (야외에서 구운 새우는 재미있습니다.)'
   },
   {
     id: 'ck-w-92',
@@ -840,7 +840,7 @@ const cookingWordsSession4: VocabItem[] = [
     type: 'word',
     vi: 'tôm kho',
     ko: '새우 조림',
-    usage: 'Tôm kho tỏi là mon ạn ngon. (Shrimp braised with garlic is delicious.)'
+    usage: 'Ví dụ: Tôm kho tỏi là mon ạn ngon. (마늘 새우 조림은 맛있는 요리입니다.)'
   },
   {
     id: 'ck-w-93',
@@ -849,7 +849,7 @@ const cookingWordsSession4: VocabItem[] = [
     type: 'word',
     vi: 'mực chiên',
     ko: '튀긴 오징어',
-    usage: 'Mực chiên giòn rất yêu thích. (Crispy fried squid is well-liked.)'
+    usage: 'Ví dụ: Mực chiên giòn rất yêu thích. (바삭하게 튀긴 오징어는 많이 좋아합니다.)'
   },
   {
     id: 'ck-w-94',
@@ -858,7 +858,7 @@ const cookingWordsSession4: VocabItem[] = [
     type: 'word',
     vi: 'rau cuốn',
     ko: '채소말이',
-    usage: 'Rau cuốn xào tươi mát. (Stir-fried vegetable wraps are fresh.)'
+    usage: 'Ví dụ: Rau cuốn xào tươi mát. (볶은 채소 롤은 신선합니다.)'
   },
   {
     id: 'ck-w-95',
@@ -867,7 +867,7 @@ const cookingWordsSession4: VocabItem[] = [
     type: 'word',
     vi: 'rau luộc',
     ko: '데친 야채',
-    usage: 'Rau luộc với nước sốt tương ớt. (Boiled vegetables with chili sauce.)'
+    usage: 'Ví dụ: Rau luộc với nước sốt tương ớt. (고추 소스를 곁들인 삶은 야채.)'
   },
   {
     id: 'ck-w-96',
@@ -876,7 +876,7 @@ const cookingWordsSession4: VocabItem[] = [
     type: 'word',
     vi: 'canh chua',
     ko: '신맛 국',
-    usage: 'Canh chua cá là mon an dac biet. (Sour fish soup is a special dish.)'
+    usage: 'Ví dụ: Canh chua cá là mon an dac biet. (신맛 생선 국은 특별한 요리입니다.)'
   },
   {
     id: 'ck-w-97',
@@ -885,7 +885,7 @@ const cookingWordsSession4: VocabItem[] = [
     type: 'word',
     vi: 'canh cà chua',
     ko: '토마토 국',
-    usage: 'Canh ca chua gan rất ngon. (Tomato soup with beef is delicious.)'
+    usage: 'Ví dụ: Canh ca chua gan rất ngon. (소고기 토마토 국은 매우 맛있습니다.)'
   },
   {
     id: 'ck-w-98',
@@ -894,7 +894,7 @@ const cookingWordsSession4: VocabItem[] = [
     type: 'word',
     vi: 'cơm cuốn',
     ko: '밥 말이',
-    usage: 'Cơm cuốn kiếp rất thích ăn. (Fried rice rolls are popular.)'
+    usage: 'Ví dụ: Cơm cuốn kiếp rất thích ăn. (튀긴 밥 롤은 매우 인기입니다.)'
   },
   {
     id: 'ck-w-99',
@@ -903,7 +903,7 @@ const cookingWordsSession4: VocabItem[] = [
     type: 'word',
     vi: 'bánh mỳ',
     ko: '바게트',
-    usage: 'Bánh mì Việt Nam rất đặc biệt. (Vietnamese baguette is very special.)'
+    usage: 'Ví dụ: Bánh mì Việt Nam rất đặc biệt. (베트남 바게트는 매우 특별합니다.)'
   },
   {
     id: 'ck-w-100',
@@ -912,7 +912,7 @@ const cookingWordsSession4: VocabItem[] = [
     type: 'word',
     vi: 'chè',
     ko: '음료',
-    usage: 'Chè ba màu là đặc sản của Hà Nội. (Three-color sweet drink is a Hanoi specialty.)'
+    usage: 'Ví dụ: Chè ba màu là đặc sản của Hà Nội. (삼색 음료는 하노이의 특산품입니다.)'
   }
 ]
 
@@ -925,7 +925,7 @@ const cookingVerbsSession1: VocabItem[] = [
     type: 'verb',
     vi: 'nấu',
     ko: '요리하다',
-    usage: 'Tôi nấu cơm mỗi ngày. (I cook rice every day.)'
+    usage: 'Ví dụ: Tôi nấu cơm mỗi ngày. (나는 매일 밥을 요리합니다.)'
   },
   {
     id: 'ck-v-02',
@@ -934,7 +934,7 @@ const cookingVerbsSession1: VocabItem[] = [
     type: 'verb',
     vi: 'thái',
     ko: '자르다',
-    usage: 'Thái hành thành những lát mỏng. (Slice onions into thin pieces.)'
+    usage: 'Ví dụ: Thái hành thành những lát mỏng. (양파를 얇은 조각으로 자르세요.)'
   },
   {
     id: 'ck-v-03',
@@ -943,7 +943,7 @@ const cookingVerbsSession1: VocabItem[] = [
     type: 'verb',
     vi: 'băm',
     ko: '잘게 자르다',
-    usage: 'Băm tỏi trước khi xào. (Mince garlic before stir-frying.)'
+    usage: 'Ví dụ: Băm tỏi trước khi xào. (볶기 전에 마늘을 다지세요.)'
   },
   {
     id: 'ck-v-04',
@@ -952,7 +952,7 @@ const cookingVerbsSession1: VocabItem[] = [
     type: 'verb',
     vi: 'xào',
     ko: '볶다',
-    usage: 'Xào rau với dầu nóng. (Stir-fry vegetables with hot oil.)'
+    usage: 'Ví dụ: Xào rau với dầu nóng. (뜨거운 기름으로 야채를 볶으세요.)'
   },
   {
     id: 'ck-v-05',
@@ -961,7 +961,7 @@ const cookingVerbsSession1: VocabItem[] = [
     type: 'verb',
     vi: 'chiên',
     ko: '튀기다',
-    usage: 'Chiên gà giòn rất ngon. (Deep fry chicken until crispy.)'
+    usage: 'Ví dụ: Chiên gà giòn rất ngon. (바삭하게 튀긴 닭은 매우 맛있습니다.)'
   },
   {
     id: 'ck-v-06',
@@ -970,7 +970,7 @@ const cookingVerbsSession1: VocabItem[] = [
     type: 'verb',
     vi: 'luộc',
     ko: '삶다',
-    usage: 'Luộc trứng trong nước sôi. (Boil eggs in boiling water.)'
+    usage: 'Ví dụ: Luộc trứng trong nước sôi. (끓는 물에 계란을 삶으세요.)'
   },
   {
     id: 'ck-v-07',
@@ -979,7 +979,7 @@ const cookingVerbsSession1: VocabItem[] = [
     type: 'verb',
     vi: 'hấp',
     ko: '찐다',
-    usage: 'Hấp cá để giữ được dinh dưỡng. (Steam fish to retain nutrients.)'
+    usage: 'Ví dụ: Hấp cá để giữ được dinh dưỡng. (영양을 유지하려면 생선을 찌세요.)'
   },
   {
     id: 'ck-v-08',
@@ -988,7 +988,7 @@ const cookingVerbsSession1: VocabItem[] = [
     type: 'verb',
     vi: 'nướng',
     ko: '굽다',
-    usage: 'Nướng gà trong lò nướng. (Roast chicken in the oven.)'
+    usage: 'Ví dụ: Nướng gà trong lò nướng. (오븐에서 닭을 구우세요.)'
   },
   {
     id: 'ck-v-09',
@@ -997,7 +997,7 @@ const cookingVerbsSession1: VocabItem[] = [
     type: 'verb',
     vi: 'nêm',
     ko: '양념하다',
-    usage: 'Nêm nếm canh trước khi dùng. (Season soup before eating.)'
+    usage: 'Ví dụ: Nêm nếm canh trước khi dùng. (먹기 전에 국에 양념을 하세요.)'
   },
   {
     id: 'ck-v-10',
@@ -1006,7 +1006,7 @@ const cookingVerbsSession1: VocabItem[] = [
     type: 'verb',
     vi: 'nếm',
     ko: '맛보다',
-    usage: 'Nếm lại để chắc chắn vị đúng. (Taste again to make sure the flavor is right.)'
+    usage: 'Ví dụ: Nếm lại để chắc chắn vị đúng. (맛이 맞는지 확인하기 위해 다시 맛보세요.)'
   },
   {
     id: 'ck-v-11',
@@ -1015,7 +1015,7 @@ const cookingVerbsSession1: VocabItem[] = [
     type: 'verb',
     vi: 'rửa',
     ko: '씻다',
-    usage: 'Rửa rau trước khi nấu. (Wash vegetables before cooking.)'
+    usage: 'Ví dụ: Rửa rau trước khi nấu. (요리하기 전에 야채를 씻으세요.)'
   },
   {
     id: 'ck-v-12',
@@ -1024,7 +1024,7 @@ const cookingVerbsSession1: VocabItem[] = [
     type: 'verb',
     vi: 'sơ chế',
     ko: '준비하다',
-    usage: 'Sơ chế thực phẩm cẩn thận. (Prepare food carefully.)'
+    usage: 'Ví dụ: Sơ chế thực phẩm cẩn thận. (음식을 조심스럽게 준비하세요.)'
   },
   {
     id: 'ck-v-13',
@@ -1033,7 +1033,7 @@ const cookingVerbsSession1: VocabItem[] = [
     type: 'verb',
     vi: 'khuấy',
     ko: '섞다',
-    usage: 'Khuấy canh để không bị cơm bị cháy. (Stir soup to prevent burning.)'
+    usage: 'Ví dụ: Khuấy canh để không bị cơm bị cháy. (타는 것을 방지하기 위해 국을 저으세요.)'
   },
   {
     id: 'ck-v-14',
@@ -1042,7 +1042,7 @@ const cookingVerbsSession1: VocabItem[] = [
     type: 'verb',
     vi: 'trộn',
     ko: '섞다',
-    usage: 'Trộn rau trái với dầu và giấm. (Mix salad with oil and vinegar.)'
+    usage: 'Ví dụ: Trộn rau trái với dầu và giấm. (샐러드를 기름과 식초와 섞으세요.)'
   },
   {
     id: 'ck-v-15',
@@ -1051,7 +1051,7 @@ const cookingVerbsSession1: VocabItem[] = [
     type: 'verb',
     vi: 'đổ',
     ko: '붓다',
-    usage: 'Đổ nước ngoài vào nồi. (Pour broth into the pot.)'
+    usage: 'Ví dụ: Đổ nước ngoài vào nồi. (냄비에 육수를 붓으세요.)'
   },
   {
     id: 'ck-v-16',
@@ -1060,7 +1060,7 @@ const cookingVerbsSession1: VocabItem[] = [
     type: 'verb',
     vi: 'thêm',
     ko: '더하다',
-    usage: 'Thêm muối vào nước dùng. (Add salt to the broth.)'
+    usage: 'Ví dụ: Thêm muối vào nước dùng. (육수에 소금을 더하세요.)'
   },
   {
     id: 'ck-v-17',
@@ -1069,7 +1069,7 @@ const cookingVerbsSession1: VocabItem[] = [
     type: 'verb',
     vi: 'lắng',
     ko: '떠내다',
-    usage: 'Lắng nước dùng để sạch. (Skim the broth to make it clear.)'
+    usage: 'Ví dụ: Lắng nước dùng để sạch. (맑게 하기 위해 육수를 걸러내세요.)'
   },
   {
     id: 'ck-v-18',
@@ -1078,7 +1078,7 @@ const cookingVerbsSession1: VocabItem[] = [
     type: 'verb',
     vi: 'sục',
     ko: '삶다',
-    usage: 'Sục cá trong nước muối. (Boil fish in salt water.)'
+    usage: 'Ví dụ: Sục cá trong nước muối. (소금물에 생선을 삶으세요.)'
   },
   {
     id: 'ck-v-19',
@@ -1087,7 +1087,7 @@ const cookingVerbsSession1: VocabItem[] = [
     type: 'verb',
     vi: 'rang',
     ko: '볶다',
-    usage: 'Rang tỏi để có mùi thơm. (Roast garlic for fragrance.)'
+    usage: 'Ví dụ: Rang tỏi để có mùi thơm. (향기를 내기 위해 마늘을 볶으세요.)'
   },
   {
     id: 'ck-v-20',
@@ -1096,7 +1096,7 @@ const cookingVerbsSession1: VocabItem[] = [
     type: 'verb',
     vi: 'kho',
     ko: '조리다',
-    usage: 'Kho thịt lợn với nước mắm. (Braise pork with fish sauce.)'
+    usage: 'Ví dụ: Kho thịt lợn với nước mắm. (생선소스로 돼지고기를 조리세요.)'
   },
   {
     id: 'ck-v-21',
@@ -1105,7 +1105,7 @@ const cookingVerbsSession1: VocabItem[] = [
     type: 'verb',
     vi: 'nước',
     ko: '양념하다',
-    usage: 'Nước lại thứ ăn thêm muối. (Season the food with salt again.)'
+    usage: 'Ví dụ: Nước lại thứ ăn thêm muối. (음식에 소금으로 다시 양념을 하세요.)'
   },
   {
     id: 'ck-v-22',
@@ -1114,7 +1114,7 @@ const cookingVerbsSession1: VocabItem[] = [
     type: 'verb',
     vi: 'nắt',
     ko: '짜다',
-    usage: 'Nắt sạch nước cà chua. (Squeeze out all the tomato juice.)'
+    usage: 'Ví dụ: Nắt sạch nước cà chua. (토마토 주스를 완전히 짜내세요.)'
   },
   {
     id: 'ck-v-23',
@@ -1123,7 +1123,7 @@ const cookingVerbsSession1: VocabItem[] = [
     type: 'verb',
     vi: 'xé',
     ko: '찢다',
-    usage: 'Xé thịt gà thành từng sợi. (Tear chicken into shreds.)'
+    usage: 'Ví dụ: Xé thịt gà thành từng sợi. (닭고기를 가닥으로 찢으세요.)'
   },
   {
     id: 'ck-v-24',
@@ -1132,7 +1132,7 @@ const cookingVerbsSession1: VocabItem[] = [
     type: 'verb',
     vi: 'cắt lát',
     ko: '얇게 자르다',
-    usage: 'Cắt lát thịt bò rất mỏng. (Slice beef very thin.)'
+    usage: 'Ví dụ: Cắt lát thịt bò rất mỏng. (소고기를 매우 얇게 자르세요.)'
   },
   {
     id: 'ck-v-25',
@@ -1141,7 +1141,7 @@ const cookingVerbsSession1: VocabItem[] = [
     type: 'verb',
     vi: 'bào',
     ko: '깎다',
-    usage: 'Bào cà rốt để trang trí. (Peel carrots for decoration.)'
+    usage: 'Ví dụ: Bào cà rốt để trang trí. (장식용으로 당근을 깎으세요.)'
   }
 ]
 
@@ -1154,7 +1154,7 @@ const cookingVerbsSession2: VocabItem[] = [
     type: 'verb',
     vi: 'quết',
     ko: '칠하다',
-    usage: 'Quết bơ lên bánh mì. (Spread butter on bread.)'
+    usage: 'Ví dụ: Quết bơ lên bánh mì. (빵에 버터를 칠하세요.)'
   },
   {
     id: 'ck-v-27',
@@ -1163,7 +1163,7 @@ const cookingVerbsSession2: VocabItem[] = [
     type: 'verb',
     vi: 'phết',
     ko: '바르다',
-    usage: 'Phết tương lên bánh mì sandwich. (Spread sauce on sandwich bread.)'
+    usage: 'Ví dụ: Phết tương lên bánh mì sandwich. (샌드위치 빵에 소스를 바르세요.)'
   },
   {
     id: 'ck-v-28',
@@ -1172,7 +1172,7 @@ const cookingVerbsSession2: VocabItem[] = [
     type: 'verb',
     vi: 'cuốn',
     ko: '감싸다',
-    usage: 'Cuốn thịt trong lá dâu. (Wrap meat in lettuce leaves.)'
+    usage: 'Ví dụ: Cuốn thịt trong lá dâu. (상추 잎에 고기를 감싸세요.)'
   },
   {
     id: 'ck-v-29',
@@ -1181,7 +1181,7 @@ const cookingVerbsSession2: VocabItem[] = [
     type: 'verb',
     vi: 'gói',
     ko: '싸다',
-    usage: 'Gói nem trong bánh tráng. (Wrap spring rolls in rice paper.)'
+    usage: 'Ví dụ: Gói nem trong bánh tráng. (쌀종이에 스프링롤을 싸세요.)'
   },
   {
     id: 'ck-v-30',
@@ -1190,7 +1190,7 @@ const cookingVerbsSession2: VocabItem[] = [
     type: 'verb',
     vi: 'lăn',
     ko: '굴리다',
-    usage: 'Lăn thịt viên trong bột breadcrumb. (Roll meatballs in breadcrumbs.)'
+    usage: 'Ví dụ: Lăn thịt viên trong bột breadcrumb. (미트볼을 빵가루에 굴리세요.)'
   },
   {
     id: 'ck-v-31',
@@ -1199,7 +1199,7 @@ const cookingVerbsSession2: VocabItem[] = [
     type: 'verb',
     vi: 'khàn',
     ko: '반죽하다',
-    usage: 'Khàn bột mì để làm bánh. (Knead flour to make bread.)'
+    usage: 'Ví dụ: Khàn bột mì để làm bánh. (빵을 만들기 위해 밀가루를 반죽하세요.)'
   },
   {
     id: 'ck-v-32',
@@ -1208,7 +1208,7 @@ const cookingVerbsSession2: VocabItem[] = [
     type: 'verb',
     vi: 'nhào',
     ko: '치대다',
-    usage: 'Nhào bột để mềm mại. (Knead dough until soft.)'
+    usage: 'Ví dụ: Nhào bột để mềm mại. (부드러워질 때까지 반죽을 치대세요.)'
   },
   {
     id: 'ck-v-33',
@@ -1217,7 +1217,7 @@ const cookingVerbsSession2: VocabItem[] = [
     type: 'verb',
     vi: 'chận',
     ko: '펴다',
-    usage: 'Chận bột mỏng để làm bánh. (Roll dough thin to make pancakes.)'
+    usage: 'Ví dụ: Chận bột mỏng để làm bánh. (팬케이크를 만들기 위해 반죽을 펴세요.)'
   },
   {
     id: 'ck-v-34',
@@ -1226,7 +1226,7 @@ const cookingVerbsSession2: VocabItem[] = [
     type: 'verb',
     vi: 'cạo',
     ko: '긁다',
-    usage: 'Cạo dừa để làm bánh. (Grate coconut for dessert.)'
+    usage: 'Ví dụ: Cạo dừa để làm bánh. (디저트를 위해 코코넛을 긁으세요.)'
   },
   {
     id: 'ck-v-35',
@@ -1235,7 +1235,7 @@ const cookingVerbsSession2: VocabItem[] = [
     type: 'verb',
     vi: 'chắc',
     ko: '진하다',
-    usage: 'Chắc nước ngoài trước khi dùng. (Make the broth thicker before using.)'
+    usage: 'Ví dụ: Chắc nước ngoài trước khi dùng. (사용하기 전에 육수를 진하게 하세요.)'
   },
   {
     id: 'ck-v-36',
@@ -1244,7 +1244,7 @@ const cookingVerbsSession2: VocabItem[] = [
     type: 'verb',
     vi: 'loại',
     ko: '거르다',
-    usage: 'Loại huyết ra khỏi nước dùng. (Strain blood out of broth.)'
+    usage: 'Ví dụ: Loại huyết ra khỏi nước dùng. (육수에서 혈액을 걸러내세요.)'
   },
   {
     id: 'ck-v-37',
@@ -1253,7 +1253,7 @@ const cookingVerbsSession2: VocabItem[] = [
     type: 'verb',
     vi: 'rắc',
     ko: '뿌리다',
-    usage: 'Rắc hành lá lên món ăn. (Sprinkle green onions on food.)'
+    usage: 'Ví dụ: Rắc hành lá lên món ăn. (음식 위에 파를 뿌리세요.)'
   },
   {
     id: 'ck-v-38',
@@ -1262,7 +1262,7 @@ const cookingVerbsSession2: VocabItem[] = [
     type: 'verb',
     vi: 'rơi',
     ko: '떨어지다',
-    usage: 'Rơi muối vào nồi. (Drop salt into the pot.)'
+    usage: 'Ví dụ: Rơi muối vào nồi. (냄비에 소금을 떨어뜨리세요.)'
   },
   {
     id: 'ck-v-39',
@@ -1271,7 +1271,7 @@ const cookingVerbsSession2: VocabItem[] = [
     type: 'verb',
     vi: 'tưới',
     ko: '붓다',
-    usage: 'Tưới nước ngoài lên cơm. (Pour broth over rice.)'
+    usage: 'Ví dụ: Tưới nước ngoài lên cơm. (밥 위에 육수를 붓으세요.)'
   },
   {
     id: 'ck-v-40',
@@ -1280,7 +1280,7 @@ const cookingVerbsSession2: VocabItem[] = [
     type: 'verb',
     vi: 'bọc',
     ko: '감싸다',
-    usage: 'Bọc bánh chưng trong lá dong. (Wrap sticky rice cake in bamboo leaves.)'
+    usage: 'Ví dụ: Bọc bánh chưng trong lá dong. (대나무 잎에 찹쌀떡을 싸세요.)'
   },
   {
     id: 'ck-v-41',
@@ -1289,7 +1289,7 @@ const cookingVerbsSession2: VocabItem[] = [
     type: 'verb',
     vi: 'sắp',
     ko: '배열하다',
-    usage: 'Sắp xếp món ăn trên đĩa. (Arrange food on a plate.)'
+    usage: 'Ví dụ: Sắp xếp món ăn trên đĩa. (접시에 음식을 배열하세요.)'
   },
   {
     id: 'ck-v-42',
@@ -1298,7 +1298,7 @@ const cookingVerbsSession2: VocabItem[] = [
     type: 'verb',
     vi: 'chích',
     ko: '끼우다',
-    usage: 'Chích thịt và rau ngoài xiên. (Skewer meat and vegetables on a stick.)'
+    usage: 'Ví dụ: Chích thịt và rau ngoài xiên. (꼬챙이에 고기와 야채를 꿰세요.)'
   },
   {
     id: 'ck-v-43',
@@ -1307,7 +1307,7 @@ const cookingVerbsSession2: VocabItem[] = [
     type: 'verb',
     vi: 'rã',
     ko: '분리하다',
-    usage: 'Rã xương khỏi thịt. (Separate bones from meat.)'
+    usage: 'Ví dụ: Rã xương khỏi thịt. (고기에서 뼈를 분리하세요.)'
   },
   {
     id: 'ck-v-44',
@@ -1316,7 +1316,7 @@ const cookingVerbsSession2: VocabItem[] = [
     type: 'verb',
     vi: 'tẩm',
     ko: '담가두다',
-    usage: 'Tẩm thịt trong tương trước nấu. (Marinate meat in sauce before cooking.)'
+    usage: 'Ví dụ: Tẩm thịt trong tương trước nấu. (요리하기 전에 소스에 고기를 절이세요.)'
   },
   {
     id: 'ck-v-45',
@@ -1325,7 +1325,7 @@ const cookingVerbsSession2: VocabItem[] = [
     type: 'verb',
     vi: 'ngâm',
     ko: '불리다',
-    usage: 'Ngâm nấm khô trước khi dùng. (Soak dried mushrooms before using.)'
+    usage: 'Ví dụ: Ngâm nấm khô trước khi dùng. (사용하기 전에 말린 버섯을 불리세요.)'
   },
   {
     id: 'ck-v-46',
@@ -1334,7 +1334,7 @@ const cookingVerbsSession2: VocabItem[] = [
     type: 'verb',
     vi: 'lọc',
     ko: '거르다',
-    usage: 'Lọc dầu để sạch. (Filter oil to make it clean.)'
+    usage: 'Ví dụ: Lọc dầu để sạch. (기름을 깨끗하게 걸러내세요.)'
   },
   {
     id: 'ck-v-47',
@@ -1343,7 +1343,7 @@ const cookingVerbsSession2: VocabItem[] = [
     type: 'verb',
     vi: 'để',
     ko: '두다',
-    usage: 'Để cơm nguội trước khi cơm chiên. (Let rice cool before frying.)'
+    usage: 'Ví dụ: Để cơm nguội trước khi cơm chiên. (볶음밥 하기 전에 밥을 식히세요.)'
   },
   {
     id: 'ck-v-48',
@@ -1352,7 +1352,7 @@ const cookingVerbsSession2: VocabItem[] = [
     type: 'verb',
     vi: 'dấp',
     ko: '누르다',
-    usage: 'Dấp bánh để bánh mỏng. (Press dough to make it thin.)'
+    usage: 'Ví dụ: Dấp bánh để bánh mỏng. (팬케이크를 얇게 하려면 누르세요.)'
   },
   {
     id: 'ck-v-49',
@@ -1361,7 +1361,7 @@ const cookingVerbsSession2: VocabItem[] = [
     type: 'verb',
     vi: 'tách',
     ko: '분리하다',
-    usage: 'Tách lòng trắng và lòng đỏ trứng. (Separate egg whites and yolks.)'
+    usage: 'Ví dụ: Tách lòng trắng và lòng đỏ trứng. (계란의 흰자와 노른자를 분리하세요.)'
   },
   {
     id: 'ck-v-50',
@@ -1370,7 +1370,7 @@ const cookingVerbsSession2: VocabItem[] = [
     type: 'verb',
     vi: 'vón',
     ko: '둥글게 빚다',
-    usage: 'Vón thịt thành những viên tròn. (Form meat into round balls.)'
+    usage: 'Ví dụ: Vón thịt thành những viên tròn. (고기를 둥근 공 모양으로 빚으세요.)'
   }
 ]
 

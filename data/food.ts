@@ -19,7 +19,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'phở',
     ko: '쌀국수',
-    usage: 'Phở là món ăn truyền thống của Việt Nam. (쌀국수는 베트남의 전통 음식입니다.)'
+    usage: 'Ví dụ: Tôi ăn phở mỗi sáng. (저는 매일 아침 쌀국수를 먹습니다.)'
   },
   {
     id: 'fd-w-02',
@@ -28,7 +28,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bún bò',
     ko: '소고기 국수',
-    usage: 'Bún bò Huế rất ngon. (후에 소고기 국수는 매우 맛있습니다.)'
+    usage: 'Ví dụ: Tôi yêu thích bún bò Huế. (나는 후에 소고기 국수를 좋아합니다.)'
   },
   {
     id: 'fd-w-03',
@@ -37,7 +37,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cơm',
     ko: '쌀, 밥',
-    usage: 'Ăn cơm buổi trưa. (점심에 밥을 먹습니다.)'
+    usage: 'Ví dụ: Tôi ăn cơm buổi trưa. (나는 점심에 밥을 먹습니다.)'
   },
   {
     id: 'fd-w-04',
@@ -46,7 +46,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bánh mì',
     ko: '베트남 바게트 샌드위치',
-    usage: 'Bánh mì là sự kết hợp của nền văn hóa Pháp và Việt. (바게트는 프랑스와 베트남 문화의 결합입니다.)'
+    usage: 'Ví dụ: Tôi mua bánh mì ở quán cổ. (나는 구석의 가게에서 바게트를 사요.)'
   },
   {
     id: 'fd-w-05',
@@ -55,7 +55,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'chả giò',
     ko: '춘권',
-    usage: 'Chả giò chiên bên ngoài, mềm bên trong. (춘권은 바깥쪽은 바삭하고 안쪽은 부드럽습니다.)'
+    usage: 'Ví dụ: Chả giò nóng giòn rất ngon. (따뜻한 바삭한 춘권은 매우 맛있습니다.)'
   },
   {
     id: 'fd-w-06',
@@ -64,7 +64,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'gỏi cuốn',
     ko: '여름 국수',
-    usage: 'Gỏi cuốn là món ăn nhẹ. (여름 국수는 가벼운 음식입니다.)'
+    usage: 'Ví dụ: Mua gỏi cuốn tại quán ăn. (음식점에서 여름 국수를 삽니다.)'
   },
   {
     id: 'fd-w-07',
@@ -73,7 +73,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'canh',
     ko: '수프',
-    usage: 'Canh chua có vị chua. (신맛 수프는 신맛이 있습니다.)'
+    usage: 'Ví dụ: Mẹ nấu canh chua mỗi tuần. (엄마는 매주 신맛 수프를 요리합니다.)'
   },
   {
     id: 'fd-w-08',
@@ -82,7 +82,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'mì',
     ko: '면',
-    usage: 'Ăn mì chiều nay. (오늘 오후에 면을 먹습니다.)'
+    usage: 'Ví dụ: Ăn mì lần đầu tiên ở Hà Nội. (나는 하노이에서 면을 처음 먹었습니다.)'
   },
   {
     id: 'fd-w-09',
@@ -91,7 +91,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'tô',
     ko: '사발, 그릇',
-    usage: 'Bát phở lớn trong tô. (그릇에 큰 쌀국수 한 그릇이 있습니다.)'
+    usage: 'Ví dụ: Đổ nước vào tô to. (냄비에 물을 붓습니다.)'
   },
   {
     id: 'fd-w-10',
@@ -100,7 +100,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'đũa',
     ko: '젓가락',
-    usage: 'Dùng đũa để ăn. (젓가락을 사용하여 먹습니다.)'
+    usage: 'Ví dụ: Cách dùng đũa ở Việt Nam. (베트남에서 젓가락을 사용하는 방법입니다.)'
   },
   {
     id: 'fd-w-11',
@@ -109,7 +109,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'thìa',
     ko: '숟가락',
-    usage: 'Thìa dùng để múc cơm. (숟가락은 밥을 떠 먹는 데 사용됩니다.)'
+    usage: 'Ví dụ: Lấy thìa để múc cơm. (숟가락으로 밥을 떠 먹습니다.)'
   },
   {
     id: 'fd-w-12',
@@ -118,7 +118,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'dĩa',
     ko: '접시',
-    usage: 'Thức ăn nằm trên dĩa. (음식은 접시 위에 있습니다.)'
+    usage: 'Ví dụ: Đặt rau lên dĩa. (접시 위에 채소를 놓습니다.)'
   },
   {
     id: 'fd-w-13',
@@ -127,7 +127,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cốc',
     ko: '잔, 컵',
-    usage: 'Uống nước trong cốc. (컵에서 물을 마십니다.)'
+    usage: 'Ví dụ: Cốc nước lạnh vào hè. (여름에는 차가운 물 잔을 마십니다.)'
   },
   {
     id: 'fd-w-14',
@@ -136,7 +136,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bát',
     ko: '그릇, 사발',
-    usage: 'Bát cơm trên bàn. (그릇에 밥이 테이블 위에 있습니다.)'
+    usage: 'Ví dụ: Bát cơm nóng trên bàn. (테이블 위에 따뜻한 밥 그릇이 있습니다.)'
   },
   {
     id: 'fd-w-15',
@@ -145,7 +145,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'nước',
     ko: '물',
-    usage: 'Uống nước lạnh. (차가운 물을 마십니다.)'
+    usage: 'Ví dụ: Nước sạch mỗi ngày. (매일 깨끗한 물을 마십니다.)'
   },
   {
     id: 'fd-w-16',
@@ -154,7 +154,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'trà',
     ko: '차',
-    usage: 'Trà xanh rất tốt cho sức khỏe. (녹차는 건강에 매우 좋습니다.)'
+    usage: 'Ví dụ: Uống trà xanh vào buổi sáng. (아침에 녹차를 마십니다.)'
   },
   {
     id: 'fd-w-17',
@@ -163,7 +163,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cà phê',
     ko: '커피',
-    usage: 'Uống cà phê vào sáng. (아침에 커피를 마십니다.)'
+    usage: 'Ví dụ: Cà phê đen có mùi thơm. (검은색 커피는 향기로운 냄새입니다.)'
   },
   {
     id: 'fd-w-18',
@@ -172,7 +172,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bia',
     ko: '맥주',
-    usage: 'Uống bia lạnh ở nhà hàng. (레스토랑에서 차가운 맥주를 마십니다.)'
+    usage: 'Ví dụ: Uống bia lạnh hôm nay. (오늘 차가운 맥주를 마십니다.)'
   },
   {
     id: 'fd-w-19',
@@ -181,7 +181,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'rượu',
     ko: '술',
-    usage: 'Rượu vang đỏ rất thơm. (적포도주는 매우 향기로웠습니다.)'
+    usage: 'Ví dụ: Rượu vang đỏ ngon lắm. (적포도주는 정말 맛있습니다.)'
   },
   {
     id: 'fd-w-20',
@@ -190,7 +190,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'nước cam',
     ko: '오렌지 주스',
-    usage: 'Nước cam tươi mỗi sáng. (매일 아침 신선한 오렌지 주스를 마십니다.)'
+    usage: 'Ví dụ: Nước cam tươi vào buổi sáng. (아침에 신선한 오렌지 주스를 마십니다.)'
   },
   {
     id: 'fd-w-21',
@@ -199,7 +199,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'sữa',
     ko: '우유',
-    usage: 'Uống sữa đậu nành. (두유를 마십니다.)'
+    usage: 'Ví dụ: Uống sữa ấm trước ngủ. (잠들기 전에 따뜻한 우유를 마십니다.)'
   },
   {
     id: 'fd-w-22',
@@ -208,7 +208,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cơm tấm',
     ko: '쌀 조각밥',
-    usage: 'Cơm tấm với sườn nướng. (쌀 조각밥에 구운 갈비를 얹습니다.)'
+    usage: 'Ví dụ: Cơm tấm Sài Gòn nổi tiếng. (호치민 시의 쌀 조각밥은 유명합니다.)'
   },
   {
     id: 'fd-w-23',
@@ -217,7 +217,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bánh bao',
     ko: '찐 만두',
-    usage: 'Bánh bao nhân thịt ngon. (고기가 든 찐 만두는 맛있습니다.)'
+    usage: 'Ví dụ: Bánh bao tươi hàng sáng. (매일 아침 신선한 찐 만두가 있습니다.)'
   },
   {
     id: 'fd-w-24',
@@ -226,7 +226,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cơm chiên',
     ko: '볶음밥',
-    usage: 'Cơm chiên tôm rất ngon. (새우 볶음밥은 매우 맛있습니다.)'
+    usage: 'Ví dụ: Cơm chiên tôm được yêu thích. (새우 볶음밥은 매우 인기가 있습니다.)'
   },
   {
     id: 'fd-w-25',
@@ -235,7 +235,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'mì xào',
     ko: '스타일 국수 볶음',
-    usage: 'Mì xào dân dã ở Sài Gòn. (호치민시에서 스타일 국수 볶음을 먹었습니다.)'
+    usage: 'Ví dụ: Mì xào cua thơm ngon. (게 볶은 국수는 향기롭고 맛있습니다.)'
   },
 
   // Session 2: Ingredients (25 items)
@@ -246,7 +246,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'thịt',
     ko: '고기',
-    usage: 'Thịt lợn rất ngon. (돼지고기는 매우 맛있습니다.)'
+    usage: 'Ví dụ: Thịt nướng mềm ngon. (구운 고기는 부드럽고 맛있습니다.)'
   },
   {
     id: 'fd-w-27',
@@ -255,7 +255,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'thịt gà',
     ko: '닭고기',
-    usage: 'Thịt gà nướng để tối. (저녁 때 구운 닭고기를 먹습니다.)'
+    usage: 'Ví dụ: Thịt gà chiên vàng. (황금색 튀긴 닭고기입니다.)'
   },
   {
     id: 'fd-w-28',
@@ -264,7 +264,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'thịt bò',
     ko: '소고기',
-    usage: 'Thịt bò để làm phở. (쌀국수를 만들 때 소고기를 사용합니다.)'
+    usage: 'Ví dụ: Thịt bò nướng nên mềm. (구운 소고기는 부드러워야 합니다.)'
   },
   {
     id: 'fd-w-29',
@@ -273,7 +273,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cá',
     ko: '물고기',
-    usage: 'Cá nướng với muối. (소금을 곁들인 구운 생선입니다.)'
+    usage: 'Ví dụ: Cá tươi sáng hôm nay. (오늘 아침 신선한 생선입니다.)'
   },
   {
     id: 'fd-w-30',
@@ -282,7 +282,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'tôm',
     ko: '새우',
-    usage: 'Tôm tươi từ biển. (바다에서 신선한 새우를 얻습니다.)'
+    usage: 'Ví dụ: Tôm tươi vừa đánh bắt. (방금 잡아낸 신선한 새우입니다.)'
   },
   {
     id: 'fd-w-31',
@@ -291,7 +291,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cua',
     ko: '게',
-    usage: 'Cua tươi xào với tỏi. (신선한 게를 마늘과 함께 볶습니다.)'
+    usage: 'Ví dụ: Cua rang me rất ngon. (매우 맛있는 게 맛동료입니다.)'
   },
   {
     id: 'fd-w-32',
@@ -300,7 +300,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'trứng',
     ko: '계란',
-    usage: 'Trứng chiên để sáng. (아침에 계란을 계란 프라이로 만듭니다.)'
+    usage: 'Ví dụ: Trứng luộc chín tốt. (계란을 완전히 익혀서 삶습니다.)'
   },
   {
     id: 'fd-w-33',
@@ -309,7 +309,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'rau',
     ko: '채소',
-    usage: 'Rau sạch tốt cho sức khỏe. (신선한 채소는 건강에 좋습니다.)'
+    usage: 'Ví dụ: Rau xanh từ nông trại. (농장에서 신선한 채소가 옵니다.)'
   },
   {
     id: 'fd-w-34',
@@ -318,7 +318,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cà chua',
     ko: '토마토',
-    usage: 'Cà chua đỏ chín. (빨간 익은 토마토입니다.)'
+    usage: 'Ví dụ: Cà chua chín sẵn để ăn. (토마토는 먹을 준비가 되어 있습니다.)'
   },
   {
     id: 'fd-w-35',
@@ -327,7 +327,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'dưa chuột',
     ko: '오이',
-    usage: 'Dưa chuột mát lạnh. (오이는 시원합니다.)'
+    usage: 'Ví dụ: Dưa chuột giòn sạch. (오이는 아삭하고 깨끗합니다.)'
   },
   {
     id: 'fd-w-36',
@@ -336,7 +336,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'hành tây',
     ko: '양파',
-    usage: 'Hành tây làm cay mắt. (양파는 눈을 자극합니다.)'
+    usage: 'Ví dụ: Hành tây cắt nhỏ. (양파를 잘게 자릅니다.)'
   },
   {
     id: 'fd-w-37',
@@ -345,7 +345,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'tỏi',
     ko: '마늘',
-    usage: 'Tỏi thơm và bổ dưỡng. (마늘은 향기롭고 영양가 있습니다.)'
+    usage: 'Ví dụ: Tỏi giã nhuyễn thơm. (으깬 마늘은 향기롭습니다.)'
   },
   {
     id: 'fd-w-38',
@@ -354,7 +354,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'gừng',
     ko: '생강',
-    usage: 'Gừng ấm và tốt cho dạ dày. (생강은 따뜻하고 위에 좋습니다.)'
+    usage: 'Ví dụ: Gừng tươi thái mỏng. (신선한 생강을 얇게 자릅니다.)'
   },
   {
     id: 'fd-w-39',
@@ -363,7 +363,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'ớt',
     ko: '고추',
-    usage: 'Ớt cay làm nước lã. (매운 고추는 입을 화끈거리게 합니다.)'
+    usage: 'Ví dụ: Ớt đỏ cay nồn. (빨간 고추는 매우 맵습니다.)'
   },
   {
     id: 'fd-w-40',
@@ -372,7 +372,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'quả cam',
     ko: '오렌지',
-    usage: 'Quả cam tươi ngon. (신선한 오렌지는 맛있습니다.)'
+    usage: 'Ví dụ: Quả cam chín đã ăn. (익은 오렌지를 먹을 수 있습니다.)'
   },
   {
     id: 'fd-w-41',
@@ -381,7 +381,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'quả chuối',
     ko: '바나나',
-    usage: 'Quả chuối vàng chín. (노란 익은 바나나입니다.)'
+    usage: 'Ví dụ: Quả chuối ngọt tự nhiên. (바나나는 자연스럽게 달콤합니다.)'
   },
   {
     id: 'fd-w-42',
@@ -390,7 +390,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'quả táo',
     ko: '사과',
-    usage: 'Quả táo đỏ giòn. (빨간 아삭아삭한 사과입니다.)'
+    usage: 'Ví dụ: Quả táo xanh tươi. (신선한 녹색 사과입니다.)'
   },
   {
     id: 'fd-w-43',
@@ -399,7 +399,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'dứa',
     ko: '파인애플',
-    usage: 'Dứa ngọt ở Đông Nam Á. (동남아시아의 파인애플은 달콤합니다.)'
+    usage: 'Ví dụ: Dứa vàng ngọt. (노란 파인애플은 달콤합니다.)'
   },
   {
     id: 'fd-w-44',
@@ -408,7 +408,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'dưỡng',
     ko: '배',
-    usage: 'Dưỡng mọng nước tươi. (배는 맛있고 신선합니다.)'
+    usage: 'Ví dụ: Dưỡng tươi sáng. (신선한 배를 아침에 먹습니다.)'
   },
   {
     id: 'fd-w-45',
@@ -417,7 +417,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'xà phòng',
     ko: '비누 (여기서는 콩)',
-    usage: 'Xà phòng là loại đậu. (큰 콩의 일종입니다.)'
+    usage: 'Ví dụ: Xà phòng sống lâu năm. (이 종류의 콩은 오래 살 수 있습니다.)'
   },
   {
     id: 'fd-w-46',
@@ -426,7 +426,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'nước mắm',
     ko: '생선 소스',
-    usage: 'Nước mắm là linh hồn ẩm thực Việt. (생선 소스는 베트남 요리의 영혼입니다.)'
+    usage: 'Ví dụ: Nước mắm cân bằng vị. (생선 소스는 맛의 균형을 이룹니다.)'
   },
   {
     id: 'fd-w-47',
@@ -435,7 +435,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'muối',
     ko: '소금',
-    usage: 'Muối để nêm nước canh. (수프를 간하는 데 소금을 사용합니다.)'
+    usage: 'Ví dụ: Muối vừa đủ lượng. (소금을 적절한 양으로 사용합니다.)'
   },
   {
     id: 'fd-w-48',
@@ -444,7 +444,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'đường',
     ko: '설탕',
-    usage: 'Đường để nấu nước mứt. (설탕으로 시럽을 만듭니다.)'
+    usage: 'Ví dụ: Đường trắng tinh khiết. (설탕은 순백색입니다.)'
   },
   {
     id: 'fd-w-49',
@@ -453,7 +453,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'dầu ăn',
     ko: '식용유',
-    usage: 'Dầu ăn để chiên. (식용유로 튀깁니다.)'
+    usage: 'Ví dụ: Dầu ăn nóng sẵn. (식용유가 이미 데워져 있습니다.)'
   },
   {
     id: 'fd-w-50',
@@ -462,7 +462,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bột',
     ko: '가루, 밀가루',
-    usage: 'Bột để làm bánh. (밀가루로 빵을 만듭니다.)'
+    usage: 'Ví dụ: Bột mì mịn nhẵn. (밀가루는 부드럽고 곱습니다.)'
   },
 
   // Session 3: Restaurant vocabulary (25 items)
@@ -473,7 +473,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'nhà hàng',
     ko: '레스토랑',
-    usage: 'Nhà hàng này nổi tiếng. (이 레스토랑은 유명합니다.)'
+    usage: 'Ví dụ: Nhà hàng sang trọng. (고급 레스토랑입니다.)'
   },
   {
     id: 'fd-w-52',
@@ -482,7 +482,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'quán ăn',
     ko: '식당, 음식점',
-    usage: 'Quán ăn bên đường tốt lắm. (길가의 식당이 정말 좋습니다.)'
+    usage: 'Ví dụ: Quán ăn hàng xóm sạch. (이웃 식당은 깨끗합니다.)'
   },
   {
     id: 'fd-w-53',
@@ -491,7 +491,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bàn',
     ko: '테이블',
-    usage: 'Bàn ở góc nhà hàng. (레스토랑 구석의 테이블입니다.)'
+    usage: 'Ví dụ: Bàn ăn tròn gắn. (둥근 식탁이 있습니다.)'
   },
   {
     id: 'fd-w-54',
@@ -500,7 +500,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'ghế',
     ko: '의자',
-    usage: 'Ghế thoải mái tại nhà hàng. (레스토랑의 의자는 편합니다.)'
+    usage: 'Ví dụ: Ghế bành thoải mái. (안락한 의자가 있습니다.)'
   },
   {
     id: 'fd-w-55',
@@ -509,7 +509,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'thực đơn',
     ko: '메뉴',
-    usage: 'Xem thực đơn để đặt hàng. (주문하기 위해 메뉴를 봅니다.)'
+    usage: 'Ví dụ: Thực đơn có hình ảnh. (메뉴에는 사진이 있습니다.)'
   },
   {
     id: 'fd-w-56',
@@ -518,7 +518,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'gọi món',
     ko: '주문하다',
-    usage: 'Gọi món gì? (무엇을 주문하시겠습니까?)'
+    usage: 'Ví dụ: Gọi món phở nóng. (뜨거운 쌀국수를 주문합니다.)'
   },
   {
     id: 'fd-w-57',
@@ -527,7 +527,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'đặt hàng',
     ko: '주문하다',
-    usage: 'Đặt hàng một phần phở. (쌀국수 한 그릇을 주문합니다.)'
+    usage: 'Ví dụ: Đặt hàng ba bát phở. (쌀국수 3그릇을 주문합니다.)'
   },
   {
     id: 'fd-w-58',
@@ -536,7 +536,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'chỉnh sửa',
     ko: '요청하다, 수정하다',
-    usage: 'Chỉnh sửa thêm gia vị. (양념을 더 추가해 달라고 요청합니다.)'
+    usage: 'Ví dụ: Chỉnh sửa ít cay. (덜 맵게 해달라고 요청합니다.)'
   },
   {
     id: 'fd-w-59',
@@ -545,7 +545,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'hóa đơn',
     ko: '계산서, 청구서',
-    usage: 'Hóa đơn vui lòng. (계산서 부탁합니다.)'
+    usage: 'Ví dụ: Hóa đơn rõ ràng. (계산서가 명확합니다.)'
   },
   {
     id: 'fd-w-60',
@@ -554,7 +554,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'tính tiền',
     ko: '돈을 계산하다',
-    usage: 'Tính tiền bao nhiêu? (총 가격은 얼마입니까?)'
+    usage: 'Ví dụ: Tính tiền chính xác. (정확하게 계산합니다.)'
   },
   {
     id: 'fd-w-61',
@@ -563,7 +563,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'giá cả',
     ko: '가격',
-    usage: 'Giá cả ở đây rẻ. (여기 가격은 저렴합니다.)'
+    usage: 'Ví dụ: Giá cả công bằng. (가격은 공정합니다.)'
   },
   {
     id: 'fd-w-62',
@@ -572,7 +572,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'tiền tip',
     ko: '팁, 팁돈',
-    usage: 'Tiền tip 10% là bình thường. (10% 팁은 일반적입니다.)'
+    usage: 'Ví dụ: Tiền tip tươi tươi. (팁은 기꺼이 줍니다.)'
   },
   {
     id: 'fd-w-63',
@@ -581,7 +581,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'khách hàng',
     ko: '고객',
-    usage: 'Khách hàng nằm dưới áp lực. (고객은 서비스 부족을 느낍니다.)'
+    usage: 'Ví dụ: Khách hàng hài lòng. (고객이 만족합니다.)'
   },
   {
     id: 'fd-w-64',
@@ -590,7 +590,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'người phục vụ',
     ko: '웨이터, 종업원',
-    usage: 'Người phục vụ giúp đỡ khách hàng. (종업원이 손님을 도와줍니다.)'
+    usage: 'Ví dụ: Người phục vụ lịch sự. (웨이터가 정중합니다.)'
   },
   {
     id: 'fd-w-65',
@@ -599,7 +599,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'đầu bếp',
     ko: '요리사',
-    usage: 'Đầu bếp nấu rất ngon. (요리사는 매우 맛있게 요리합니다.)'
+    usage: 'Ví dụ: Đầu bếp nổi tiếng. (요리사가 유명합니다.)'
   },
   {
     id: 'fd-w-66',
@@ -608,7 +608,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'công thức',
     ko: '레시피, 요리법',
-    usage: 'Công thức phở bí mật. (쌀국수의 비결 있는 레시피입니다.)'
+    usage: 'Ví dụ: Công thức truyền thống. (전통적인 레시피입니다.)'
   },
   {
     id: 'fd-w-67',
@@ -617,7 +617,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'khoảng trời',
     ko: '분위기',
-    usage: 'Khoảng trời nhà hàng lãng mạn. (레스토랑의 분위기는 낭만적입니다.)'
+    usage: 'Ví dụ: Khoảng trời ấm cúng. (분위기가 따뜻하고 포근합니다.)'
   },
   {
     id: 'fd-w-68',
@@ -626,7 +626,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'tiệc',
     ko: '파티, 연회',
-    usage: 'Tiệc ở nhà hàng sang trọng. (고급 레스토랑에서 파티를 열었습니다.)'
+    usage: 'Ví dụ: Tiệc sinh nhật vui. (생일 파티가 즐겁습니다.)'
   },
   {
     id: 'fd-w-69',
@@ -635,7 +635,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'chỗ ngồi',
     ko: '좌석',
-    usage: 'Chỗ ngồi gần cửa sổ. (창가 좌석입니다.)'
+    usage: 'Ví dụ: Chỗ ngồi rộng rãi. (좌석이 넓고 편합니다.)'
   },
   {
     id: 'fd-w-70',
@@ -644,7 +644,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'làm đặt bàn',
     ko: '예약하다',
-    usage: 'Làm đặt bàn cho bốn người. (4명 예약을 하겠습니다.)'
+    usage: 'Ví dụ: Làm đặt bàn trước. (미리 예약을 합니다.)'
   },
   {
     id: 'fd-w-71',
@@ -653,7 +653,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'khai vị',
     ko: '에피타이저, 전채',
-    usage: 'Khai vị là gỏi cuốn. (에피타이저는 여름 국수입니다.)'
+    usage: 'Ví dụ: Khai vị tươi ngon. (전채가 신선하고 맛있습니다.)'
   },
   {
     id: 'fd-w-72',
@@ -662,7 +662,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'món chính',
     ko: '메인 요리, 주요 음식',
-    usage: 'Món chính là phở bò. (메인 요리는 소고기 쌀국수입니다.)'
+    usage: 'Ví dụ: Món chính thơm ngon. (메인 요리가 향기롭고 맛있습니다.)'
   },
   {
     id: 'fd-w-73',
@@ -671,7 +671,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'tráng miệng',
     ko: '디저트',
-    usage: 'Tráng miệng là kem. (디저트는 아이스크림입니다.)'
+    usage: 'Ví dụ: Tráng miệng ngọt mát. (디저트는 달콤하고 시원합니다.)'
   },
   {
     id: 'fd-w-74',
@@ -680,7 +680,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'thời gian phục vụ',
     ko: '서빙 시간, 식사 시간',
-    usage: 'Thời gian phục vụ từ 11 giờ. (식사 시간은 11시부터입니다.)'
+    usage: 'Ví dụ: Thời gian phục vụ dài. (서빙 시간이 깁니다.)'
   },
   {
     id: 'fd-w-75',
@@ -689,7 +689,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'đóng cửa',
     ko: '문을 닫다',
-    usage: 'Nhà hàng đóng cửa vào lúc 10 tối. (레스토랑은 밤 10시에 문을 닫습니다.)'
+    usage: 'Ví dụ: Đóng cửa sớm hôm nay. (오늘 일찍 문을 닫습니다.)'
   },
 
   // Session 4: Tastes, cooking methods, food adjectives (25 items)
@@ -700,7 +700,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'ngon',
     ko: '맛있는',
-    usage: 'Thực phẩm này rất ngon. (이 음식은 매우 맛있습니다.)'
+    usage: 'Ví dụ: Ăn ngon lành. (맛있게 먹습니다.)'
   },
   {
     id: 'fd-w-77',
@@ -709,7 +709,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cay',
     ko: '매운',
-    usage: 'Ớt cay làm lưỡi nóng. (매운 고추는 혀를 화끈거리게 합니다.)'
+    usage: 'Ví dụ: Cay nồn làm da toát mồ hôi. (매운맛이 심해서 땀이 납니다.)'
   },
   {
     id: 'fd-w-78',
@@ -718,7 +718,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'mặn',
     ko: '짠',
-    usage: 'Nước mắm hơi mặn. (생선 소스는 조금 짤 수 있습니다.)'
+    usage: 'Ví dụ: Mặn quá khó ăn. (너무 짜면 먹기 어렵습니다.)'
   },
   {
     id: 'fd-w-79',
@@ -727,7 +727,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'chua',
     ko: '신',
-    usage: 'Quả chanh chua và tươi. (레몬은 신맛이 나고 신선합니다.)'
+    usage: 'Ví dụ: Chua quá cãi chuốc. (너무 신맛이 나서 질려 버립니다.)'
   },
   {
     id: 'fd-w-80',
@@ -736,7 +736,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'ngọt',
     ko: '달콤한',
-    usage: 'Bánh ngọt với chocolate. (초콜릿 달콤한 케이크입니다.)'
+    usage: 'Ví dụ: Ngọt dịu ngon miệng. (달콤한 맛이 입에 맞습니다.)'
   },
   {
     id: 'fd-w-81',
@@ -745,7 +745,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'đắng',
     ko: '쓴',
-    usage: 'Cà phê đắng nhưng thơm. (커피는 쓰지만 향기롭습니다.)'
+    usage: 'Ví dụ: Đắng chút mà sảng khoái. (약간 쓰지만 상큼합니다.)'
   },
   {
     id: 'fd-w-82',
@@ -754,7 +754,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'tươi',
     ko: '신선한',
-    usage: 'Rau tươi từ chợ sáng. (신선한 채소를 아침 시장에서 구매합니다.)'
+    usage: 'Ví dụ: Tươi mát ngon. (신선하고 상큼합니다.)'
   },
   {
     id: 'fd-w-83',
@@ -763,7 +763,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cũ',
     ko: '낡은, 오래된',
-    usage: 'Rau cũ không tốt. (낡은 채소는 좋지 않습니다.)'
+    usage: 'Ví dụ: Cũ không nên mua. (오래된 것은 사면 안 됩니다.)'
   },
   {
     id: 'fd-w-84',
@@ -772,7 +772,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'nóng',
     ko: '뜨거운',
-    usage: 'Cơm nóng vừa nấu. (방금 지은 뜨거운 밥입니다.)'
+    usage: 'Ví dụ: Nóng ngay từ lửa. (불에서 바로 나온 뜨거운 음식입니다.)'
   },
   {
     id: 'fd-w-85',
@@ -781,7 +781,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'lạnh',
     ko: '차가운',
-    usage: 'Nước lạnh trong lúc hè. (여름에는 차가운 물을 마십니다.)'
+    usage: 'Ví dụ: Lạnh sảng khoái. (차갑고 상큼합니다.)'
   },
   {
     id: 'fd-w-86',
@@ -790,7 +790,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'mềm',
     ko: '부드러운',
-    usage: 'Thịt mềm trong cơm bao. (밥에 싸인 부드러운 고기입니다.)'
+    usage: 'Ví dụ: Mềm dễ nuốt. (부드러워서 쉽게 삼킬 수 있습니다.)'
   },
   {
     id: 'fd-w-87',
@@ -799,7 +799,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cứng',
     ko: '딱딱한, 단단한',
-    usage: 'Bánh mì cứng không tốt. (딱딱한 빵은 좋지 않습니다.)'
+    usage: 'Ví dụ: Cứng nhích cơm. (딱딱해서 밥을 먹기 어렵습니다.)'
   },
   {
     id: 'fd-w-88',
@@ -808,7 +808,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'giòn',
     ko: '아삭아삭한',
-    usage: 'Cà chua giòn tươi. (아삭아삭한 신선한 토마토입니다.)'
+    usage: 'Ví dụ: Giòn tép tép ngon. (아삭아삭하고 맛있습니다.)'
   },
   {
     id: 'fd-w-89',
@@ -817,7 +817,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'dẻo',
     ko: '쫀득한',
-    usage: 'Bánh dẻo như bánh dâu. (딸기 떡 같이 쫀득합니다.)'
+    usage: 'Ví dụ: Dẻo ngon ngọt ngào. (쫀득하고 맛있습니다.)'
   },
   {
     id: 'fd-w-90',
@@ -826,7 +826,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'béo',
     ko: '기름진',
-    usage: 'Thịt mỡ béo. (기름진 돼지고기입니다.)'
+    usage: 'Ví dụ: Béo quá khó tiêu. (너무 기름져서 소화하기 어렵습니다.)'
   },
   {
     id: 'fd-w-91',
@@ -835,7 +835,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'gầy',
     ko: '기름기 없는',
-    usage: 'Thịt gầy tốt cho sức khỏe. (기름기 없는 고기는 건강에 좋습니다.)'
+    usage: 'Ví dụ: Gầy lành mạnh. (기름기 없어서 건강합니다.)'
   },
   {
     id: 'fd-w-92',
@@ -844,7 +844,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'chiên',
     ko: '튀기다',
-    usage: 'Chiên cà chua vàng. (토마토를 튀겨 노랗게 합니다.)'
+    usage: 'Ví dụ: Chiên nóng mồ hôi. (튀기면 뜨거워집니다.)'
   },
   {
     id: 'fd-w-93',
@@ -853,7 +853,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'luộc',
     ko: '끓이다, 삶다',
-    usage: 'Luộc trứng để sáng. (아침에 계란을 끓입니다.)'
+    usage: 'Ví dụ: Luộc chín tới. (완전히 익도록 삶습니다.)'
   },
   {
     id: 'fd-w-94',
@@ -862,7 +862,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'nướng',
     ko: '구우다, 굽다',
-    usage: 'Nướng cá với vị mặn. (소금 맛으로 생선을 굽습니다.)'
+    usage: 'Ví dụ: Nướng vàng ươm. (노릇하게 구워집니다.)'
   },
   {
     id: 'fd-w-95',
@@ -871,7 +871,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'hấp',
     ko: '찌다, 쪄내다',
-    usage: 'Hấp bánh bao trong 15 phút. (찐 만두를 15분 동안 찉니다.)'
+    usage: 'Ví dụ: Hấp mềm ngon. (찌면 부드럽고 맛있습니다.)'
   },
   {
     id: 'fd-w-96',
@@ -880,7 +880,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'xào',
     ko: '볶다',
-    usage: 'Xào cà chua với tỏi. (토마토를 마늘과 함께 볶습니다.)'
+    usage: 'Ví dụ: Xào nhanh lửa lớn. (큰 불에서 빠르게 볶습니다.)'
   },
   {
     id: 'fd-w-97',
@@ -889,7 +889,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'nấu',
     ko: '요리하다, 끓이다',
-    usage: 'Nấu canh rau trong 20 phút. (야채 수프를 20분 동안 요리합니다.)'
+    usage: 'Ví dụ: Nấu lâu mềm. (오래 요리하면 부드러워집니다.)'
   },
   {
     id: 'fd-w-98',
@@ -898,7 +898,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'thái',
     ko: '자르다, 썬다',
-    usage: 'Thái bánh mì thành miếng. (빵을 조각으로 자릅니다.)'
+    usage: 'Ví dụ: Thái mỏng nhẹ. (얇게 자릅니다.)'
   },
   {
     id: 'fd-w-99',
@@ -907,7 +907,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'giã',
     ko: '으깨다, 짓이기다',
-    usage: 'Giã tỏi để làm nước mắm. (생선 소스를 만들기 위해 마늘을 으깬다.)'
+    usage: 'Ví dụ: Giã nhuyễn thơm. (으께서 향기롭게 합니다.)'
   },
   {
     id: 'fd-w-100',
@@ -916,7 +916,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'ướp',
     ko: '절이다, 절임하다',
-    usage: 'Ướp thịt trong nước mắm. (고기를 생선 소스에 절입니다.)'
+    usage: 'Ví dụ: Ướp qua đêm ngon. (하루 밤 절이면 맛있습니다.)'
   }
 ]
 
@@ -929,7 +929,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'ăn',
     ko: '먹다',
-    usage: 'Ăn cơm buổi trưa. (점심에 밥을 먹습니다.)'
+    usage: 'Ví dụ: Ăn cơm nóng ngon. (뜨거운 밥을 맛있게 먹습니다.)'
   },
   {
     id: 'fd-v-02',
@@ -938,7 +938,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'uống',
     ko: '마시다',
-    usage: 'Uống nước lạnh sau ăn. (먹은 후 찬물을 마십니다.)'
+    usage: 'Ví dụ: Uống nước mỗi ngày. (매일 물을 마십니다.)'
   },
   {
     id: 'fd-v-03',
@@ -947,7 +947,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'nấu',
     ko: '요리하다, 끓이다',
-    usage: 'Nấu phở vào sáng. (아침에 쌀국수를 요리합니다.)'
+    usage: 'Ví dụ: Nấu ăn tốn thời gian. (요리하려면 시간이 걸립니다.)'
   },
   {
     id: 'fd-v-04',
@@ -956,7 +956,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'gọi',
     ko: '주문하다, 부르다',
-    usage: 'Gọi món tại nhà hàng. (레스토랑에서 음식을 주문합니다.)'
+    usage: 'Ví dụ: Gọi phục vụ cho thêm nước. (더 많은 물을 가져다 달라고 부릅니다.)'
   },
   {
     id: 'fd-v-05',
@@ -965,7 +965,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'đặt',
     ko: '주문하다, 예약하다',
-    usage: 'Đặt bàn cho bốn người. (4명 테이블을 예약합니다.)'
+    usage: 'Ví dụ: Đặt sớm hôm trước. (전날 미리 예약합니다.)'
   },
   {
     id: 'fd-v-06',
@@ -974,7 +974,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'chuẩn bị',
     ko: '준비하다',
-    usage: 'Chuẩn bị nguyên liệu để nấu. (요리할 재료를 준비합니다.)'
+    usage: 'Ví dụ: Chuẩn bị bữa ăn tối. (저녁 식사를 준비합니다.)'
   },
   {
     id: 'fd-v-07',
@@ -983,7 +983,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'rửa',
     ko: '씻다',
-    usage: 'Rửa rau sạch trước nấu. (요리 전에 채소를 깨끗이 씻습니다.)'
+    usage: 'Ví dụ: Rửa tay trước ăn. (먹기 전에 손을 씻습니다.)'
   },
   {
     id: 'fd-v-08',
@@ -992,7 +992,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'thái',
     ko: '자르다, 썬다',
-    usage: 'Thái cà chua thành miếng mỏng. (토마토를 얇은 조각으로 자릅니다.)'
+    usage: 'Ví dụ: Thái cẩn thận không bị thương. (신중하게 잘라서 다치지 않습니다.)'
   },
   {
     id: 'fd-v-09',
@@ -1001,7 +1001,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'cho',
     ko: '넣다, 주다',
-    usage: 'Cho gia vị vào nồi. (냄비에 양념을 넣습니다.)'
+    usage: 'Ví dụ: Cho đầy bát cơm. (밥 그릇을 가득 채웁니다.)'
   },
   {
     id: 'fd-v-10',
@@ -1010,7 +1010,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'nêm',
     ko: '양념하다, 간을 맞추다',
-    usage: 'Nêm nước canh với muối. (수프를 소금으로 간을 맞춥니다.)'
+    usage: 'Ví dụ: Nêm vừa miệng. (입맛대로 양념을 조절합니다.)'
   },
   {
     id: 'fd-v-11',
@@ -1019,7 +1019,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'trộn',
     ko: '섞다',
-    usage: 'Trộn salad với nước sốt. (샐러드를 드레싱과 섞습니다.)'
+    usage: 'Ví dụ: Trộn đều tất cả. (모두 골고루 섞습니다.)'
   },
   {
     id: 'fd-v-12',
@@ -1028,7 +1028,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'nướng',
     ko: '구우다, 굽다',
-    usage: 'Nướng cá trên lửa. (불에서 생선을 굽습니다.)'
+    usage: 'Ví dụ: Nướng đủ chín ăn. (충분히 구워서 먹습니다.)'
   },
   {
     id: 'fd-v-13',
@@ -1037,7 +1037,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'chiên',
     ko: '튀기다',
-    usage: 'Chiên cá vàng giòn. (생선을 노랗고 바삭하게 튀깁니다.)'
+    usage: 'Ví dụ: Chiên lâu quá nóng. (너무 오래 튀우면 뜨거워집니다.)'
   },
   {
     id: 'fd-v-14',
@@ -1046,7 +1046,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'luộc',
     ko: '끓이다, 삶다',
-    usage: 'Luộc trứng trong nước sôi. (물이 끓을 때 계란을 삶습니다.)'
+    usage: 'Ví dụ: Luộc kỹ cho chín. (완전히 익을 때까지 끓입니다.)'
   },
   {
     id: 'fd-v-15',
@@ -1055,7 +1055,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'hấp',
     ko: '찌다, 쪄내다',
-    usage: 'Hấp bánh bao trong 20 phút. (20분 동안 찐 만두를 찉니다.)'
+    usage: 'Ví dụ: Hấp nước sôi. (끓는 물에 찙니다.)'
   },
   {
     id: 'fd-v-16',
@@ -1064,7 +1064,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'xào',
     ko: '볶다',
-    usage: 'Xào rau với tỏi. (채소를 마늘과 함께 볶습니다.)'
+    usage: 'Ví dụ: Xào nhanh để tươi. (신선하게 하려면 빨리 볶습니다.)'
   },
   {
     id: 'fd-v-17',
@@ -1073,7 +1073,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'nước',
     ko: '국물에 끓이다',
-    usage: 'Nước cà phê trong cốc. (컵에 커피 물을 붓습니다.)'
+    usage: 'Ví dụ: Nước lã cơm. (밥 국물이 맛있습니다.)'
   },
   {
     id: 'fd-v-18',
@@ -1082,7 +1082,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'múc',
     ko: '떠 담다',
-    usage: 'Múc cơm vào tô. (그릇에 밥을 담습니다.)'
+    usage: 'Ví dụ: Múc canh đầy. (수프를 가득 담습니다.)'
   },
   {
     id: 'fd-v-19',
@@ -1091,7 +1091,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'chia',
     ko: '나누다, 나눠 먹다',
-    usage: 'Chia bánh cho mọi người. (모두에게 빵을 나눠줍니다.)'
+    usage: 'Ví dụ: Chia sẻ thức ăn. (음식을 나눠 먹습니다.)'
   },
   {
     id: 'fd-v-20',
@@ -1100,7 +1100,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'nếm',
     ko: '맛보다, 시식하다',
-    usage: 'Nếm thử canh trước phục vụ. (제공하기 전에 수프를 맛봅니다.)'
+    usage: 'Ví dụ: Nếm thử cà phê. (커피를 맛봅니다.)'
   },
   {
     id: 'fd-v-21',
@@ -1109,7 +1109,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'nhai',
     ko: '씹다',
-    usage: 'Nhai cơm chậm để tiêu hóa tốt. (소화를 잘하기 위해 밥을 천천히 씹습니다.)'
+    usage: 'Ví dụ: Nhai kỹ từng miếng. (한 입 한 입 잘 씹습니다.)'
   },
   {
     id: 'fd-v-22',
@@ -1118,7 +1118,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'nuốt',
     ko: '삼키다',
-    usage: 'Nuốt cơm dễ dàng. (밥을 쉽게 삼킵니다.)'
+    usage: 'Ví dụ: Nuốt ngấm. (천천히 삼킵니다.)'
   },
   {
     id: 'fd-v-23',
@@ -1127,7 +1127,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'dùng',
     ko: '사용하다, 먹다, 마시다',
-    usage: 'Dùng đũa để ăn. (젓가락으로 먹습니다.)'
+    usage: 'Ví dụ: Dùng từ từ. (천천히 사용합니다.)'
   },
   {
     id: 'fd-v-24',
@@ -1136,7 +1136,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'tính',
     ko: '계산하다',
-    usage: 'Tính tiền bao nhiêu? (총 가격은 얼마입니까?)'
+    usage: 'Ví dụ: Tính lại giúp. (다시 계산해주세요.)'
   },
   {
     id: 'fd-v-25',
@@ -1145,7 +1145,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'trả',
     ko: '지불하다, 갚다',
-    usage: 'Trả tiền cho nhân viên. (종업원에게 돈을 지불합니다.)'
+    usage: 'Ví dụ: Trả bằng thẻ. (카드로 지불합니다.)'
   },
 
   // Session 2: Cooking methods and actions (25 items)
@@ -1156,7 +1156,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'nấu lâu',
     ko: '오래 요리하다',
-    usage: 'Nấu lâu để thịt mềm. (고기가 부드러워지려면 오래 요리해야 합니다.)'
+    usage: 'Ví dụ: Nấu lâu sâu. (오래 깊이 있게 요리합니다.)'
   },
   {
     id: 'fd-v-27',
@@ -1165,7 +1165,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'nấu chín',
     ko: '완전히 익히다',
-    usage: 'Nấu chín cơm 15 phút. (밥을 15분 동안 완전히 익힙니다.)'
+    usage: 'Ví dụ: Nấu chín tới lửa nhỏ. (작은 불에서 완전히 익힙니다.)'
   },
   {
     id: 'fd-v-28',
@@ -1174,7 +1174,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'nấu tái',
     ko: '덜 익히다 (고기 등)',
-    usage: 'Nấu tái thịt bò. (소고기를 덜 익힙니다.)'
+    usage: 'Ví dụ: Nấu tái vừa miệng. (입맛에 맞게 덜 익힙니다.)'
   },
   {
     id: 'fd-v-29',
@@ -1183,7 +1183,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'sôi',
     ko: '끓다',
-    usage: 'Nước sôi để nấu mì. (면을 요리할 때 물이 끓습니다.)'
+    usage: 'Ví dụ: Sôi sùng sục. (보글보글 끓습니다.)'
   },
   {
     id: 'fd-v-30',
@@ -1192,7 +1192,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'giảm lửa',
     ko: '불을 줄이다',
-    usage: 'Giảm lửa để nước yên tĩnh. (물이 잔잔하게 하려면 불을 줄입니다.)'
+    usage: 'Ví dụ: Giảm lửa nhỏ. (불을 작게 줄입니다.)'
   },
   {
     id: 'fd-v-31',
@@ -1201,7 +1201,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'tăng lửa',
     ko: '불을 높이다',
-    usage: 'Tăng lửa để chiên vàng. (황금색으로 튀기려면 불을 높입니다.)'
+    usage: 'Ví dụ: Tăng lửa lớn. (불을 크게 높입니다.)'
   },
   {
     id: 'fd-v-32',
@@ -1210,7 +1210,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'khuấy',
     ko: '저으머, 젓다',
-    usage: 'Khuấy nước sốt để thơm đều. (드레싱을 고르게 섞으려면 젓습니다.)'
+    usage: 'Ví dụ: Khuấy đều đặn. (골고루 젓습니다.)'
   },
   {
     id: 'fd-v-33',
@@ -1219,7 +1219,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'rút',
     ko: '꺼내다',
-    usage: 'Rút nồi khỏi lửa. (불에서 냄비를 꺼냅니다.)'
+    usage: 'Ví dụ: Rút nhanh cẩn thận. (조심해서 빨리 꺼냅니다.)'
   },
   {
     id: 'fd-v-34',
@@ -1228,7 +1228,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'lắc',
     ko: '흔들다, 떨어서 섞다',
-    usage: 'Lắc chảo để thức ăn không cắn. (음식이 타지 않도록 팬을 흔듭니다.)'
+    usage: 'Ví dụ: Lắc liên tục. (계속 흔듭니다.)'
   },
   {
     id: 'fd-v-35',
@@ -1237,7 +1237,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'rây',
     ko: '체 치다, 체로 거르다',
-    usage: 'Rây bột trước làm bánh. (케이크를 만들기 전에 밀가루를 체칩니다.)'
+    usage: 'Ví dụ: Rây mịn bột. (밀가루를 곱게 체칩니다.)'
   },
   {
     id: 'fd-v-36',
@@ -1246,7 +1246,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'ép',
     ko: '짜내다, 압착하다',
-    usage: 'Ép chanh vào nước mắm. (생선 소스에 레몬을 짜냅니다.)'
+    usage: 'Ví dụ: Ép hết nước. (모든 즙을 짜냅니다.)'
   },
   {
     id: 'fd-v-37',
@@ -1255,7 +1255,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'giã',
     ko: '으깨다, 짓이기다',
-    usage: 'Giã tỏi làm dấu. (마늘을 으께 마늘 페이스트로 만듭니다.)'
+    usage: 'Ví dụ: Giã thành bột. (가루처럼 으깹니다.)'
   },
   {
     id: 'fd-v-38',
@@ -1264,7 +1264,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'xát',
     ko: '비비다, 비틀다',
-    usage: 'Xát dừa để lấy nước. (코코넛 우유를 얻기 위해 코코넛을 비빕니다.)'
+    usage: 'Ví dụ: Xát khô dừa. (코코넛을 마를 때까지 비빕니다.)'
   },
   {
     id: 'fd-v-39',
@@ -1273,7 +1273,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'ướp',
     ko: '절이다, 절임하다',
-    usage: 'Ướp thịt với gia vị một đêm. (고기를 양념과 함께 하루 밤 절입니다.)'
+    usage: 'Ví dụ: Ướp thơm ngon. (향기롭게 절입니다.)'
   },
   {
     id: 'fd-v-40',
@@ -1282,7 +1282,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'nêm nước mắm',
     ko: '생선 소스로 간을 맞추다',
-    usage: 'Nêm nước mắm vào canh. (수프에 생선 소스로 간을 맞춥니다.)'
+    usage: 'Ví dụ: Nêm nước mắm từ từ. (천천히 생선 소스로 간을 맞춥니다.)'
   },
   {
     id: 'fd-v-41',
@@ -1291,7 +1291,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'kết nối',
     ko: '연결하다, 합치다',
-    usage: 'Kết nối hương vị chua cay. (신맛과 매운맛의 맛을 연결합니다.)'
+    usage: 'Ví dụ: Kết nối mọi vị. (모든 맛을 조화시킵니다.)'
   },
   {
     id: 'fd-v-42',
@@ -1300,7 +1300,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'chạm',
     ko: '접촉하다, 건드리다',
-    usage: 'Chạm thực phẩm nóng cẩn thận. (뜨거운 음식을 조심해서 접촉합니다.)'
+    usage: 'Ví dụ: Chạm nhẹ thôi. (살짝 건드립니다.)'
   },
   {
     id: 'fd-v-43',
@@ -1309,7 +1309,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'cắn',
     ko: '물어뜯다',
-    usage: 'Cắn bánh mì mềm. (부드러운 빵을 물어뜯습니다.)'
+    usage: 'Ví dụ: Cắn một miếng nhỏ. (작은 한 입을 깨물습니다.)'
   },
   {
     id: 'fd-v-44',
@@ -1318,7 +1318,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'cuốn',
     ko: '말다, 감싸다',
-    usage: 'Cuốn bánh tráng với thịt. (고기를 종이에 감싼다.)'
+    usage: 'Ví dụ: Cuốn chặt an toàn. (단단히 감싸서 안전합니다.)'
   },
   {
     id: 'fd-v-45',
@@ -1327,7 +1327,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'chọc',
     ko: '찌르다, 관통시키다',
-    usage: 'Chọc đũa vào bánh. (젓가락으로 케이크를 찔러서 확인합니다.)'
+    usage: 'Ví dụ: Chọc vào giữa. (중앙에 찌릅니다.)'
   },
   {
     id: 'fd-v-46',
@@ -1336,7 +1336,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'nấn',
     ko: '묻힐려고 하다, 지체하다',
-    usage: 'Nấn lại không ăn nữa. (더 이상 먹지 않으려고 물러선다.)'
+    usage: 'Ví dụ: Nấn ăn thêm. (더 먹기를 망설입니다.)'
   },
   {
     id: 'fd-v-47',
@@ -1345,7 +1345,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'đặt xuống',
     ko: '내려놓다',
-    usage: 'Đặt xuống đũa sau ăn. (먹은 후 젓가락을 내려놓습니다.)'
+    usage: 'Ví dụ: Đặt xuống nhẹ nhàng. (조심스럽게 내려놓습니다.)'
   },
   {
     id: 'fd-v-48',
@@ -1354,7 +1354,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'lau',
     ko: '닦다',
-    usage: 'Lau miệng sau ăn. (먹은 후 입을 닦습니다.)'
+    usage: 'Ví dụ: Lau sạch khô. (깨끗하고 건조하게 닦습니다.)'
   },
   {
     id: 'fd-v-49',
@@ -1363,7 +1363,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'rửa chén',
     ko: '그릇을 씻다',
-    usage: 'Rửa chén sau bữa ăn. (식사 후 그릇을 씻습니다.)'
+    usage: 'Ví dụ: Rửa chén sạch. (그릇을 깨끗이 씻습니다.)'
   },
   {
     id: 'fd-v-50',
@@ -1372,6 +1372,6 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'dọn dẹp',
     ko: '정리하다, 치우다',
-    usage: 'Dọn dẹp bàn ăn. (식탁을 정리합니다.)'
+    usage: 'Ví dụ: Dọn dẹp sạch sẽ. (깨끗하고 정결하게 정리합니다.)'
   }
 ]

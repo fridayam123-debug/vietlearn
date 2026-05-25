@@ -12,7 +12,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bò',
     ko: '소',
-    usage: 'Bò ăn cỏ. (The cow eats grass.)',
+    usage: 'Ví dụ: Bò ăn cỏ tươi mỗi ngày. (소는 매일 신선한 풀을 먹습니다.)',
   },
   {
     id: 'an-w-02',
@@ -21,7 +21,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'lợn',
     ko: '돼지',
-    usage: 'Lợn là động vật nông trại. (Pig is a farm animal.)',
+    usage: 'Ví dụ: Lợn thích lăn trong bùn. (돼지는 진흙속에서 뒹구는 것을 좋아합니다.)',
   },
   {
     id: 'an-w-03',
@@ -30,7 +30,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'gà',
     ko: '닭',
-    usage: 'Gà gáy vào buổi sáng. (The chicken crows in the morning.)',
+    usage: 'Ví dụ: Gà gáy vào buổi sáng sớm. (닭은 아침 일찍 울어요.)',
   },
   {
     id: 'an-w-04',
@@ -39,7 +39,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'vịt',
     ko: '오리',
-    usage: 'Vịt bơi trong hồ. (The duck swims in the pond.)',
+    usage: 'Ví dụ: Vịt bơi trong hồ nước xanh. (오리는 파란 호수에서 헤엄칩니다.)',
   },
   {
     id: 'an-w-05',
@@ -48,7 +48,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'ngựa',
     ko: '말',
-    usage: 'Ngựa chạy rất nhanh. (The horse runs very fast.)',
+    usage: 'Ví dụ: Ngựa chạy rất nhanh trên cỏ. (말은 풀밭에서 매우 빨리 달립니다.)',
   },
   {
     id: 'an-w-06',
@@ -57,7 +57,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'dê',
     ko: '염소',
-    usage: 'Dê leo lên đồi. (The goat climbs the hill.)',
+    usage: 'Ví dụ: Dê leo lên đồi cao. (염소는 높은 언덕으로 올라갑니다.)',
   },
   {
     id: 'an-w-07',
@@ -66,7 +66,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cừu',
     ko: '양',
-    usage: 'Cừu có lông dày. (The sheep has thick wool.)',
+    usage: 'Ví dụ: Cừu có lông dày và ấm. (양은 두껍고 따뜻한 털을 가지고 있습니다.)',
   },
   {
     id: 'an-w-08',
@@ -75,7 +75,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'trâu',
     ko: '물소',
-    usage: 'Trâu là động vật mạnh. (The buffalo is a strong animal.)',
+    usage: 'Ví dụ: Trâu kéo cái cày trên ruộng. (물소는 논에서 쟁기를 끕니다.)',
   },
   {
     id: 'an-w-09',
@@ -84,7 +84,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'chó',
     ko: '개',
-    usage: 'Chó là bạn tốt của con người. (Dog is a good friend of humans.)',
+    usage: 'Ví dụ: Chó của tôi rất trung thành với gia đình. (제 개는 가족에게 매우 충성합니다.)',
   },
   {
     id: 'an-w-10',
@@ -93,7 +93,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'mèo',
     ko: '고양이',
-    usage: 'Mèo thích uống sữa. (Cats like to drink milk.)',
+    usage: 'Ví dụ: Mèo thích uống sữa tươi. (고양이는 신선한 우유를 좋아합니다.)',
   },
   {
     id: 'an-w-11',
@@ -102,7 +102,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'lừa',
     ko: '당나귀',
-    usage: 'Lừa kéo xe hàng. (The donkey pulls the cart.)',
+    usage: 'Ví dụ: Lừa kéo xe hàng nặng. (당나귀는 무거운 짐 수레를 끕니다.)',
   },
   {
     id: 'an-w-12',
@@ -111,7 +111,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'gà tây',
     ko: '칠면조',
-    usage: 'Gà tây là loại gia cầm. (Turkey is a type of poultry.)',
+    usage: 'Ví dụ: Gà tây là gia cầm phổ biến ở nông trại. (칠면조는 농장에서 흔한 가금류입니다.)',
   },
   {
     id: 'an-w-13',
@@ -120,7 +120,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'ngan',
     ko: '거위',
-    usage: 'Ngan bơi và bay. (Geese swim and fly.)',
+    usage: 'Ví dụ: Ngan bay cao trên bầu trời. (거위는 하늘 높이 날아갑니다.)',
   },
   {
     id: 'an-w-14',
@@ -129,7 +129,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'thỏ',
     ko: '토끼',
-    usage: 'Thỏ chạy rất nhanh. (Rabbits run very fast.)',
+    usage: 'Ví dụ: Thỏ chạy rất nhanh qua cỏ dại. (토끼는 야생 풀 속을 매우 빨리 달립니다.)',
   },
   {
     id: 'an-w-15',
@@ -138,7 +138,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'chuột',
     ko: '쥐',
-    usage: 'Chuột ăn hạt ngô. (Mice eat corn kernels.)',
+    usage: 'Ví dụ: Chuột ăn hạt ngô trong kho. (쥐는 창고에서 옥수수 알갱이를 먹습니다.)',
   },
   {
     id: 'an-w-16',
@@ -147,7 +147,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'chim câu',
     ko: '비둘기',
-    usage: 'Chim câu bay trên trời. (Pigeons fly in the sky.)',
+    usage: 'Ví dụ: Chim câu bay trên trời xanh. (비둘기는 파란 하늘에서 날아갑니다.)',
   },
   {
     id: 'an-w-17',
@@ -156,7 +156,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'gà lôi',
     ko: '칠면조',
-    usage: 'Gà lôi có lông đen bóng. (Guinea fowl has shiny black feathers.)',
+    usage: 'Ví dụ: Gà lôi có lông đen bóng mượt. (기니아 파우는 반짝이는 검은 깃털을 가지고 있습니다.)',
   },
   {
     id: 'an-w-18',
@@ -165,7 +165,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bê',
     ko: '송아지',
-    usage: 'Bê là con bò non. (A calf is a young cow.)',
+    usage: 'Ví dụ: Bê con uống sữa từ mẹ. (송아지는 어미의 젖을 마십니다.)',
   },
   {
     id: 'an-w-19',
@@ -174,7 +174,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'lợn con',
     ko: '새끼돼지',
-    usage: 'Lợn con rất dễ thương. (Piglets are very cute.)',
+    usage: 'Ví dụ: Lợn con rất dễ thương và vui tính. (새끼돼지는 매우 귀엽고 장난기가 많습니다.)',
   },
   {
     id: 'an-w-20',
@@ -183,7 +183,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'gà trống',
     ko: '수탉',
-    usage: 'Gà trống gáy vào sáng sớm. (Roosters crow early in the morning.)',
+    usage: 'Ví dụ: Gà trống gáy báo thức lúc bình minh. (수탉은 새벽에 울어서 모두를 깨웁니다.)',
   },
   {
     id: 'an-w-21',
@@ -192,7 +192,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'vịt cái',
     ko: '암오리',
-    usage: 'Vịt cái đẻ trứng. (Hens lay eggs.)',
+    usage: 'Ví dụ: Vịt cái đẻ trứng mỗi ngày. (암오리는 매일 계란을 낳습니다.)',
   },
   {
     id: 'an-w-22',
@@ -201,7 +201,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'chó săn',
     ko: '사냥개',
-    usage: 'Chó săn rất thông minh. (Hunting dogs are very intelligent.)',
+    usage: 'Ví dụ: Chó săn rất thông minh và nhanh nhạy. (사냥개는 매우 지능적이고 민첩합니다.)',
   },
   {
     id: 'an-w-23',
@@ -210,7 +210,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'mèo hoang',
     ko: '야생고양이',
-    usage: 'Mèo hoang sống trong rừng. (Wild cats live in forests.)',
+    usage: 'Ví dụ: Mèo hoang sống trong rừng sâu. (야생고양이는 깊은 숲 속에서 삽니다.)',
   },
   {
     id: 'an-w-24',
@@ -219,7 +219,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'trâu cái',
     ko: '암물소',
-    usage: 'Trâu cái cho sữa. (Female buffaloes give milk.)',
+    usage: 'Ví dụ: Trâu cái cho sữa rất dinh dưỡng. (암물소의 우유는 매우 영양이 풍부합니다.)',
   },
   {
     id: 'an-w-25',
@@ -228,7 +228,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'ngựa chứng',
     ko: '장애 말',
-    usage: 'Ngựa chứng rất mạnh. (Draught horses are very strong.)',
+    usage: 'Ví dụ: Ngựa chứng kéo xe nặng trên đường. (수레 끄는 말은 길에서 무거운 짐을 끕니다.)',
   },
 
   // Session 2: Wild Animals (25 items)
@@ -239,7 +239,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'hổ',
     ko: '호랑이',
-    usage: 'Hổ là con vật hung dữ. (Tigers are fierce animals.)',
+    usage: 'Ví dụ: Hổ sống trong rừng nhiệt đới. (호랑이는 열대림에서 삽니다.)',
   },
   {
     id: 'an-w-27',
@@ -248,7 +248,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'sư tử',
     ko: '사자',
-    usage: 'Sư tử là vua của rừng. (Lions are the kings of the jungle.)',
+    usage: 'Ví dụ: Sư tử là vua của động vật hoang dã. (사자는 야생동물의 왕입니다.)',
   },
   {
     id: 'an-w-28',
@@ -257,7 +257,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'voi',
     ko: '코끼리',
-    usage: 'Voi là động vật lớn nhất. (Elephants are the largest animals.)',
+    usage: 'Ví dụ: Voi là động vật lớn nhất trên đất liền. (코끼리는 육지에서 가장 큰 동물입니다.)',
   },
   {
     id: 'an-w-29',
@@ -266,7 +266,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'gấu',
     ko: '곰',
-    usage: 'Gấu sống trong rừng sâu. (Bears live in deep forests.)',
+    usage: 'Ví dụ: Gấu sống trong rừng sâu và núi cao. (곰은 깊은 숲과 높은 산에서 삽니다.)',
   },
   {
     id: 'an-w-30',
@@ -275,7 +275,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'khỉ',
     ko: '원숭이',
-    usage: 'Khỉ rất thông minh và vui tính. (Monkeys are intelligent and playful.)',
+    usage: 'Ví dụ: Khỉ rất thông minh và vui tính. (원숭이는 매우 지능적이고 장난기가 많습니다.)',
   },
   {
     id: 'an-w-31',
@@ -284,7 +284,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'hươu cao cổ',
     ko: '기린',
-    usage: 'Hươu cao cổ có cổ rất dài. (Giraffes have very long necks.)',
+    usage: 'Ví dụ: Hươu cao cổ có cổ dài để ăn lá cây cao. (기린은 높은 나뭇잎을 먹기 위해 긴 목을 가지고 있습니다.)',
   },
   {
     id: 'an-w-32',
@@ -293,7 +293,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'hươu',
     ko: '사슴',
-    usage: 'Hươu chạy rất nhanh. (Deer run very fast.)',
+    usage: 'Ví dụ: Hươu chạy rất nhanh qua rừng. (사슴은 숲을 통해 매우 빨리 달립니다.)',
   },
   {
     id: 'an-w-33',
@@ -302,7 +302,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'báo',
     ko: '표범',
-    usage: 'Báo là con vật ăn thịt. (Leopards are carnivorous animals.)',
+    usage: 'Ví dụ: Báo là con vật ăn thịt rất nguy hiểm. (표범은 매우 위험한 육식동물입니다.)',
   },
   {
     id: 'an-w-34',
@@ -311,7 +311,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cái sư tử',
     ko: '암사자',
-    usage: 'Cái sư tử săn mồi cho đàn. (Lionesses hunt for the pride.)',
+    usage: 'Ví dụ: Cái sư tử săn mồi cho cả bầy. (암사자는 무리 전체를 위해 먹이를 사냥합니다.)',
   },
   {
     id: 'an-w-35',
@@ -320,7 +320,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'chiến mã',
     ko: '전쟁말',
-    usage: 'Chiến mã được sử dụng trong chiến đấu. (War horses were used in battle.)',
+    usage: 'Ví dụ: Chiến mã được huấn luyện cho chiến đấu. (전쟁말은 전투를 위해 훈련받습니다.)',
   },
   {
     id: 'an-w-36',
@@ -329,7 +329,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'chó sói',
     ko: '늑대',
-    usage: 'Chó sói sống theo bầy. (Wolves live in packs.)',
+    usage: 'Ví dụ: Chó sói sống theo bầy để sinh tồn. (늑대는 생존을 위해 무리지어 삽니다.)',
   },
   {
     id: 'an-w-37',
@@ -338,7 +338,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cáo',
     ko: '여우',
-    usage: 'Cáo rất xảo quyệt. (Foxes are very cunning.)',
+    usage: 'Ví dụ: Cáo rất xảo quyệt trong việc tìm thức ăn. (여우는 음식을 찾는 데 매우 영리합니다.)',
   },
   {
     id: 'an-w-38',
@@ -347,7 +347,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'gấu trúc',
     ko: '판다',
-    usage: 'Gấu trúc ăn tre. (Pandas eat bamboo.)',
+    usage: 'Ví dụ: Gấu trúc ăn tre mỗi ngày. (판다는 매일 대나무를 먹습니다.)',
   },
   {
     id: 'an-w-39',
@@ -356,7 +356,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'gấu nâu',
     ko: '갈색곰',
-    usage: 'Gấu nâu rất mạnh. (Brown bears are very strong.)',
+    usage: 'Ví dụ: Gấu nâu rất mạnh và hung dữ. (갈색 곰은 매우 강하고 흉악합니다.)',
   },
   {
     id: 'an-w-40',
@@ -365,7 +365,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'hươu tuysin',
     ko: '순록',
-    usage: 'Hươu tuysin có sừng rất đẹp. (Reindeer have beautiful antlers.)',
+    usage: 'Ví dụ: Hươu tuysin có sừng rất đẹp và to. (순록은 아름답고 큰 뿔을 가지고 있습니다.)',
   },
   {
     id: 'an-w-41',
@@ -374,7 +374,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'trâu rừng',
     ko: '야생소',
-    usage: 'Trâu rừng rất nguy hiểm. (Wild buffalo are very dangerous.)',
+    usage: 'Ví dụ: Trâu rừng rất nguy hiểm và khó quản lý. (야생소는 매우 위험하고 다루기 어렵습니다.)',
   },
   {
     id: 'an-w-42',
@@ -383,7 +383,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'lạc đà',
     ko: '낙타',
-    usage: 'Lạc đà có thể sống trong sa mạc. (Camels can live in deserts.)',
+    usage: 'Ví dụ: Lạc đà có thể sống lâu trong sa mạc. (낙타는 사막에서 오래 생존할 수 있습니다.)',
   },
   {
     id: 'an-w-43',
@@ -392,7 +392,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'ngựa vằn',
     ko: '얼룩말',
-    usage: 'Ngựa vằn có sọc đen trắng. (Zebras have black and white stripes.)',
+    usage: 'Ví dụ: Ngựa vằn có sọc đen trắng đặc trưng. (얼룩말은 특징적인 검은색과 흰색 줄무늬를 가지고 있습니다.)',
   },
   {
     id: 'an-w-44',
@@ -401,7 +401,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'tê tê',
     ko: '판곤',
-    usage: 'Tê tê được bảo vệ. (Pangolins are protected.)',
+    usage: 'Ví dụ: Tê tê được bảo vệ vì sự quý hiếm. (판공린은 희귀하기 때문에 보호를 받습니다.)',
   },
   {
     id: 'an-w-45',
@@ -410,7 +410,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'gấu lười',
     ko: '나무늘보곰',
-    usage: 'Gấu lười chuyển động rất chậm. (Sloth bears move very slowly.)',
+    usage: 'Ví dụ: Gấu lười chuyển động rất chậm trong cây. (나무늘보곰은 나무에서 매우 천천히 움직입니다.)',
   },
   {
     id: 'an-w-46',
@@ -419,7 +419,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'khỉ đột',
     ko: '고릴라',
-    usage: 'Khỉ đột rất mạnh và thông minh. (Gorillas are strong and intelligent.)',
+    usage: 'Ví dụ: Khỉ đột rất mạnh và có khả năng suy nghĩ. (고릴라는 매우 강하고 생각할 수 있는 능력이 있습니다.)',
   },
   {
     id: 'an-w-47',
@@ -428,7 +428,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'linh dương',
     ko: '영양',
-    usage: 'Linh dương chạy rất nhanh. (Antelopes run very fast.)',
+    usage: 'Ví dụ: Linh dương chạy rất nhanh để thoát khỏi kẻ thù. (영양은 포식자로부터 도망치기 위해 매우 빨리 달립니다.)',
   },
   {
     id: 'an-w-48',
@@ -437,7 +437,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'tê giác',
     ko: '코뿔소',
-    usage: 'Tê giác có sừng trên mũi. (Rhinoceroses have horns on their nose.)',
+    usage: 'Ví dụ: Tê giác có sừng trên mũi rất cứng. (코뿔소의 코뿔은 매우 견고합니다.)',
   },
   {
     id: 'an-w-49',
@@ -446,7 +446,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'hà mã',
     ko: '하마',
-    usage: 'Hà mã sống ở sông. (Hippopotamuses live in rivers.)',
+    usage: 'Ví dụ: Hà mã sống ở sông và hồ nước. (하마는 강과 호수에서 삽니다.)',
   },
   {
     id: 'an-w-50',
@@ -455,7 +455,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cá sấu',
     ko: '악어',
-    usage: 'Cá sấu là con vật nguy hiểm. (Crocodiles are dangerous animals.)',
+    usage: 'Ví dụ: Cá sấu là con vật nguy hiểm nhất ở nước. (악어는 물에서 가장 위험한 동물입니다.)',
   },
 
   // Session 3: Birds, Sea Animals, Insects (25 items)
@@ -466,7 +466,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'chim',
     ko: '새',
-    usage: 'Chim bay trên trời. (Birds fly in the sky.)',
+    usage: 'Ví dụ: Chim bay trên trời xanh mỗi sáng. (새는 매일 아침 파란 하늘에서 날아갑니다.)',
   },
   {
     id: 'an-w-52',
@@ -475,7 +475,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cá',
     ko: '물고기',
-    usage: 'Cá bơi trong nước. (Fish swim in water.)',
+    usage: 'Ví dụ: Cá bơi trong nước xanh biếc. (물고기는 맑은 물 속에서 헤엄칩니다.)',
   },
   {
     id: 'an-w-53',
@@ -484,7 +484,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'tôm',
     ko: '새우',
-    usage: 'Tôm sống dưới đáy biển. (Shrimp live on the sea floor.)',
+    usage: 'Ví dụ: Tôm sống dưới đáy biển sâu. (새우는 깊은 바다 바닥에서 삽니다.)',
   },
   {
     id: 'an-w-54',
@@ -493,7 +493,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cua',
     ko: '게',
-    usage: 'Cua bò trên cát. (Crabs crawl on sand.)',
+    usage: 'Ví dụ: Cua bò từ từ trên cát biển. (게는 모래 위에서 천천히 옆으로 기어갑니다.)',
   },
   {
     id: 'an-w-55',
@@ -502,7 +502,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'ong',
     ko: '벌',
-    usage: 'Ong sản xuất mật ong. (Bees produce honey.)',
+    usage: 'Ví dụ: Ong sản xuất mật ong từ hoa. (벌은 꽃에서 꿀을 만듭니다.)',
   },
   {
     id: 'an-w-56',
@@ -511,7 +511,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bướm',
     ko: '나비',
-    usage: 'Bướm rất đẹp. (Butterflies are very beautiful.)',
+    usage: 'Ví dụ: Bướm rất đẹp với các cánh sặc sỡ. (나비는 화려한 날개로 매우 아름답습니다.)',
   },
   {
     id: 'an-w-57',
@@ -520,7 +520,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cà cuống',
     ko: '잠자리',
-    usage: 'Cà cuống bay rất nhanh. (Dragonflies fly very fast.)',
+    usage: 'Ví dụ: Cà cuống bay rất nhanh trên mặt nước. (잠자리는 물 위에서 매우 빨리 날아갑니다.)',
   },
   {
     id: 'an-w-58',
@@ -529,7 +529,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'châu chấu',
     ko: '메뚜기',
-    usage: 'Châu chấu nhảy rất cao. (Grasshoppers jump very high.)',
+    usage: 'Ví dụ: Châu chấu nhảy rất cao trên cỏ. (메뚜기는 풀 위에서 매우 높이 뜁니다.)',
   },
   {
     id: 'an-w-59',
@@ -538,7 +538,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'kiến',
     ko: '개미',
-    usage: 'Kiến làm việc theo nhóm. (Ants work in groups.)',
+    usage: 'Ví dụ: Kiến làm việc theo nhóm để xây tổ. (개미는 군체를 지어 집을 짓습니다.)',
   },
   {
     id: 'an-w-60',
@@ -547,7 +547,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'nhện',
     ko: '거미',
-    usage: 'Nhện bắt sâu bằng lưới. (Spiders catch insects with webs.)',
+    usage: 'Ví dụ: Nhện bắt sâu bằng lưới tinh xảo. (거미는 정교한 거미줄로 벌레를 잡습니다.)',
   },
   {
     id: 'an-w-61',
@@ -556,7 +556,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'sâu',
     ko: '벌레',
-    usage: 'Sâu ăn lá cây. (Worms eat plant leaves.)',
+    usage: 'Ví dụ: Sâu ăn lá cây gây hại cho mùa vụ. (벌레는 나뭇잎을 먹어서 수확을 망칩니다.)',
   },
   {
     id: 'an-w-62',
@@ -565,7 +565,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'rắn',
     ko: '뱀',
-    usage: 'Rắn là loài bò sát. (Snakes are reptiles.)',
+    usage: 'Ví dụ: Rắn là loài bò sát nguy hiểm. (뱀은 위험한 파충류입니다.)',
   },
   {
     id: 'an-w-63',
@@ -574,7 +574,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'qua',
     ko: '개구리',
-    usage: 'Qua kêu vào buổi tối. (Frogs croak in the evening.)',
+    usage: 'Ví dụ: Qua kêu vào buổi tối ở bên hồ. (개구리는 저녁에 호수 근처에서 웁니다.)',
   },
   {
     id: 'an-w-64',
@@ -583,7 +583,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'ếch',
     ko: '두꺼비',
-    usage: 'Ếch là động vật lưỡng cư. (Toads are amphibians.)',
+    usage: 'Ví dụ: Ếch là động vật lưỡng cư sống cả trên đất và nước. (두꺼비는 육지와 물에서 모두 사는 양서류입니다.)',
   },
   {
     id: 'an-w-65',
@@ -592,7 +592,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'rùa',
     ko: '거북이',
-    usage: 'Rùa chuyển động chậm. (Turtles move slowly.)',
+    usage: 'Ví dụ: Rùa chuyển động chậm nhưng sống rất lâu. (거북이는 천천히 움직이지만 매우 오래 삽니다.)',
   },
   {
     id: 'an-w-66',
@@ -601,7 +601,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cá chép',
     ko: '잉어',
-    usage: 'Cá chép sống trong ao. (Carp live in ponds.)',
+    usage: 'Ví dụ: Cá chép sống trong ao nước ngọt. (잉어는 담수 연못에서 삽니다.)',
   },
   {
     id: 'an-w-67',
@@ -610,7 +610,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cá trê',
     ko: '메기',
-    usage: 'Cá trê sống dưới nước sâu. (Catfish live in deep water.)',
+    usage: 'Ví dụ: Cá trê sống dưới nước sâu và tối. (메기는 깊고 어두운 물 속에서 삽니다.)',
   },
   {
     id: 'an-w-68',
@@ -619,7 +619,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'mực',
     ko: '오징어',
-    usage: 'Mực có tám cánh tay. (Squids have eight arms.)',
+    usage: 'Ví dụ: Mực có tám cánh tay dễ uốn. (오징어는 구부러지기 쉬운 여덟 개의 팔을 가지고 있습니다.)',
   },
   {
     id: 'an-w-69',
@@ -628,7 +628,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'sò',
     ko: '조개',
-    usage: 'Sò là loài động vật biển. (Clams are sea animals.)',
+    usage: 'Ví dụ: Sò là loài động vật biển sống trên đáy. (조개는 바닥에 사는 해양동물입니다.)',
   },
   {
     id: 'an-w-70',
@@ -637,7 +637,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'hàu',
     ko: '굴',
-    usage: 'Hàu sống trên đá biển. (Oysters live on sea rocks.)',
+    usage: 'Ví dụ: Hàu sống trên đá biển tạo thành khối. (굴은 바위에 붙어 무리를 이루어 삽니다.)',
   },
   {
     id: 'an-w-71',
@@ -646,7 +646,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cá mập',
     ko: '상어',
-    usage: 'Cá mập là con vật nguy hiểm. (Sharks are dangerous animals.)',
+    usage: 'Ví dụ: Cá mập là con vật nguy hiểm nhất biển. (상어는 바다에서 가장 위험한 동물입니다.)',
   },
   {
     id: 'an-w-72',
@@ -655,7 +655,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cá heo',
     ko: '돌고래',
-    usage: 'Cá heo rất thông minh. (Dolphins are very intelligent.)',
+    usage: 'Ví dụ: Cá heo rất thông minh và vui vẻ. (돌고래는 매우 지능적이고 즐거워 보입니다.)',
   },
   {
     id: 'an-w-73',
@@ -664,7 +664,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cá voi',
     ko: '고래',
-    usage: 'Cá voi là động vật lớn nhất. (Whales are the largest animals.)',
+    usage: 'Ví dụ: Cá voi là động vật lớn nhất từng tồn tại. (고래는 지금까지 존재했던 가장 큰 동물입니다.)',
   },
   {
     id: 'an-w-74',
@@ -673,7 +673,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'chim chích',
     ko: '까마귀',
-    usage: 'Chim chích thông minh và vui tính. (Crows are intelligent and playful.)',
+    usage: 'Ví dụ: Chim chích thông minh và có thể bắt chước tiếng. (까마귀는 지능적이고 소리를 흉내 낼 수 있습니다.)',
   },
   {
     id: 'an-w-75',
@@ -682,7 +682,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'chim ưng',
     ko: '매',
-    usage: 'Chim ưng săn chuột. (Hawks hunt mice.)',
+    usage: 'Ví dụ: Chim ưng săn chuột và chim nhỏ. (매는 쥐와 작은 새를 사냥합니다.)',
   },
 
   // Session 4: Animal Body Parts, Habitat, Behaviors (25 items)
@@ -693,7 +693,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cánh',
     ko: '날개',
-    usage: 'Chim có hai cánh. (Birds have two wings.)',
+    usage: 'Ví dụ: Cánh giúp chim bay cao. (날개는 새가 높이 날 수 있게 해줍니다.)',
   },
   {
     id: 'an-w-77',
@@ -702,7 +702,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'đuôi',
     ko: '꼬리',
-    usage: 'Cái đuôi giúp cân bằng. (The tail helps with balance.)',
+    usage: 'Ví dụ: Đuôi giúp động vật cân bằng. (꼬리는 동물이 균형을 유지하도록 도와줍니다.)',
   },
   {
     id: 'an-w-78',
@@ -711,7 +711,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'móng',
     ko: '발톱',
-    usage: 'Móng giúp bắt mồi. (Claws help catch prey.)',
+    usage: 'Ví dụ: Móng giúp con vật bắt và cầm vật. (발톱은 동물이 물건을 잡을 수 있게 해줍니다.)',
   },
   {
     id: 'an-w-79',
@@ -720,7 +720,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'vây',
     ko: '지느러미',
-    usage: 'Cá dùng vây để bơi. (Fish use fins to swim.)',
+    usage: 'Ví dụ: Vây giúp cá điều hướng trong nước. (지느러미는 물고기가 물 속에서 방향을 조절하도록 돕습니다.)',
   },
   {
     id: 'an-w-80',
@@ -729,7 +729,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'rơm',
     ko: '털',
-    usage: 'Rơm giúp giữ ấm. (Fur helps keep warm.)',
+    usage: 'Ví dụ: Rơm dày giúp động vật giữ ấm. (두꺼운 털은 동물이 따뜻하게 유지되도록 도와줍니다.)',
   },
   {
     id: 'an-w-81',
@@ -738,7 +738,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'lông',
     ko: '머리',
-    usage: 'Lông mềm và ấm. (Hair is soft and warm.)',
+    usage: 'Ví dụ: Lông mềm mại bảo vệ da. (부드러운 모발은 피부를 보호합니다.)',
   },
   {
     id: 'an-w-82',
@@ -747,7 +747,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'sừng',
     ko: '뿔',
-    usage: 'Sừng dùng để phòng vệ. (Horns are used for defense.)',
+    usage: 'Ví dụ: Sừng dùng để phòng vệ và đua đòi. (뿔은 방어와 경쟁에 사용됩니다.)',
   },
   {
     id: 'an-w-83',
@@ -756,7 +756,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'chân',
     ko: '다리',
-    usage: 'Chân giúp chuyển động. (Legs help with movement.)',
+    usage: 'Ví dụ: Chân giúp động vật di chuyển nhanh. (다리는 동물이 빠르게 움직이도록 도와줍니다.)',
   },
   {
     id: 'an-w-84',
@@ -765,7 +765,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'đầu',
     ko: '머리',
-    usage: 'Đầu là bộ phận quan trọng. (Head is an important part.)',
+    usage: 'Ví dụ: Đầu chứa bộ não và giác quan. (머리는 뇌와 감각기관을 포함합니다.)',
   },
   {
     id: 'an-w-85',
@@ -774,7 +774,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'mũi',
     ko: '코',
-    usage: 'Mũi giúp phát hiện mùi. (Nose helps detect smell.)',
+    usage: 'Ví dụ: Mũi giúp động vật phát hiện mùi hương. (코는 동물이 냄새를 감지하도록 도와줍니다.)',
   },
   {
     id: 'an-w-86',
@@ -783,7 +783,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'tai',
     ko: '귀',
-    usage: 'Tai giúp nghe âm thanh. (Ears help hear sounds.)',
+    usage: 'Ví dụ: Tai giúp động vật nghe các âm thanh. (귀는 동물이 소리를 듣도록 도와줍니다.)',
   },
   {
     id: 'an-w-87',
@@ -792,7 +792,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'mắt',
     ko: '눈',
-    usage: 'Mắt giúp nhìn thế giới. (Eyes help see the world.)',
+    usage: 'Ví dụ: Mắt giúp động vật nhìn thế giới xung quanh. (눈은 동물이 주변을 볼 수 있게 해줍니다.)',
   },
   {
     id: 'an-w-88',
@@ -801,7 +801,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'miệng',
     ko: '입',
-    usage: 'Miệng dùng để ăn. (Mouth is used for eating.)',
+    usage: 'Ví dụ: Miệng dùng để ăn và nuốt. (입은 음식을 먹고 삼키는 데 사용됩니다.)',
   },
   {
     id: 'an-w-89',
@@ -810,7 +810,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'khoang miệng',
     ko: '입',
-    usage: 'Khoang miệng rộng ở cá mập. (Mouth opening is wide in sharks.)',
+    usage: 'Ví dụ: Khoang miệng rộng ở cá mập để bắt mồi. (상어의 입은 먹이를 잡기 위해 넓습니다.)',
   },
   {
     id: 'an-w-90',
@@ -819,7 +819,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'rừng',
     ko: '숲',
-    usage: 'Rừng là nhà của động vật hoang dã. (Forests are homes of wild animals.)',
+    usage: 'Ví dụ: Rừng là nhà của hàng ngàn loài động vật. (숲은 수천 종의 동물의 집입니다.)',
   },
   {
     id: 'an-w-91',
@@ -828,7 +828,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'biển',
     ko: '바다',
-    usage: 'Biển là nơi cá sống. (Sea is where fish live.)',
+    usage: 'Ví dụ: Biển là nơi sinh sống của cá và thủy sản. (바다는 물고기와 해산물이 사는 곳입니다.)',
   },
   {
     id: 'an-w-92',
@@ -837,7 +837,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'sông',
     ko: '강',
-    usage: 'Sông là nhà của cá nước ngọt. (Rivers are homes of freshwater fish.)',
+    usage: 'Ví dụ: Sông là nhà của cá nước ngọt. (강은 담수 물고기의 집입니다.)',
   },
   {
     id: 'an-w-93',
@@ -846,7 +846,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'ao',
     ko: '연못',
-    usage: 'Ao là nơi vịt bơi. (Ponds are where ducks swim.)',
+    usage: 'Ví dụ: Ao là nơi vịt bơi lội. (연못은 오리가 헤엄치는 곳입니다.)',
   },
   {
     id: 'an-w-94',
@@ -855,7 +855,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'nôi',
     ko: '둥지',
-    usage: 'Nôi là nơi chim cư trú. (Nests are where birds live.)',
+    usage: 'Ví dụ: Nôi là nơi chim cư trú và nuôi con. (둥지는 새가 사는 곳이자 새끼를 기르는 곳입니다.)',
   },
   {
     id: 'an-w-95',
@@ -864,7 +864,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'hang',
     ko: '동굴',
-    usage: 'Hang là nhà của gấu. (Caves are homes of bears.)',
+    usage: 'Ví dụ: Hang là nhà của gấu và nhiều loài khác. (동굴은 곰과 많은 다른 종의 집입니다.)',
   },
   {
     id: 'an-w-96',
@@ -873,7 +873,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'tổ',
     ko: '집',
-    usage: 'Tổ của kiến rất phức tạp. (Ant colonies are very complex.)',
+    usage: 'Ví dụ: Tổ của kiến rất phức tạp và có hệ thống. (개미 집단은 매우 복잡하고 체계적입니다.)',
   },
   {
     id: 'an-w-97',
@@ -882,7 +882,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'lỗ',
     ko: '굴',
-    usage: 'Lỗ là nơi gọi là lỗ của chuột. (Holes are called mouse holes.)',
+    usage: 'Ví dụ: Lỗ của chuột nhỏ nhưng rất sâu. (쥐 굴은 작지만 매우 깊습니다.)',
   },
   {
     id: 'an-w-98',
@@ -891,7 +891,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'thức ăn',
     ko: '음식',
-    usage: 'Thức ăn của chim là hạt. (Birds food is seeds.)',
+    usage: 'Ví dụ: Thức ăn của chim là hạt ngô và lúa. (새의 음식은 옥수수 알갱이와 쌀입니다.)',
   },
   {
     id: 'an-w-99',
@@ -900,7 +900,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'nước',
     ko: '물',
-    usage: 'Nước rất quan trọng với động vật. (Water is very important for animals.)',
+    usage: 'Ví dụ: Nước rất quan trọng với tất cả động vật. (물은 모든 동물에게 매우 중요합니다.)',
   },
   {
     id: 'an-w-100',
@@ -909,7 +909,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cuộc sống',
     ko: '삶',
-    usage: 'Cuộc sống của động vật phụ thuộc vào thiên nhiên. (Animal life depends on nature.)',
+    usage: 'Ví dụ: Cuộc sống của động vật phụ thuộc vào thiên nhiên. (동물의 삶은 자연에 의존합니다.)',
   },
 ]
 
@@ -922,7 +922,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'nuôi',
     ko: '기르다',
-    usage: 'Nuôi động vật là trách nhiệm. (Raising animals is a responsibility.)',
+    usage: 'Ví dụ: Nuôi động vật là trách nhiệm lớn. (동물을 기르는 것은 큰 책임입니다.)',
   },
   {
     id: 'an-v-02',
@@ -931,7 +931,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'chăn',
     ko: '방목하다',
-    usage: 'Chăn gia súc trên đồng cỏ. (Herding livestock on pasture.)',
+    usage: 'Ví dụ: Chăn gia súc trên đồng cỏ xanh. (목초지에서 가축을 방목합니다.)',
   },
   {
     id: 'an-v-03',
@@ -940,7 +940,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'cưỡi',
     ko: '타다',
-    usage: 'Cưỡi ngựa rất vui. (Riding horses is fun.)',
+    usage: 'Ví dụ: Cưỡi ngựa rất vui và thú vị. (말을 타는 것은 매우 즐겁고 재미있습니다.)',
   },
   {
     id: 'an-v-04',
@@ -949,7 +949,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'săn',
     ko: '사냥하다',
-    usage: 'Săn thú rất nguy hiểm. (Hunting is very dangerous.)',
+    usage: 'Ví dụ: Săn thú là công việc nguy hiểm. (사냥은 위험한 일입니다.)',
   },
   {
     id: 'an-v-05',
@@ -958,7 +958,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'bơi',
     ko: '헤엄치다',
-    usage: 'Bơi trong nước mát. (Swimming in cool water.)',
+    usage: 'Ví dụ: Bơi trong nước mát rất khỏe. (시원한 물에서 헤엄치는 것은 매우 건강합니다.)',
   },
   {
     id: 'an-v-06',
@@ -967,7 +967,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'bay',
     ko: '날다',
-    usage: 'Bay cao trên trời. (Flying high in the sky.)',
+    usage: 'Ví dụ: Bay cao trên trời tự do. (자유롭게 하늘 높이 날아갑니다.)',
   },
   {
     id: 'an-v-07',
@@ -976,7 +976,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'chạy',
     ko: '뛰다',
-    usage: 'Chạy rất nhanh như gió. (Running very fast like wind.)',
+    usage: 'Ví dụ: Chạy rất nhanh như gió. (바람처럼 매우 빨리 뜁니다.)',
   },
   {
     id: 'an-v-08',
@@ -985,7 +985,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'leo',
     ko: '올라가다',
-    usage: 'Leo cây tìm trái cây. (Climbing trees to find fruit.)',
+    usage: 'Ví dụ: Leo cây tìm trái cây ngon. (맛있는 열매를 찾기 위해 나무를 탑니다.)',
   },
   {
     id: 'an-v-09',
@@ -994,7 +994,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'ăn',
     ko: '먹다',
-    usage: 'Ăn thức ăn yêu thích. (Eating favorite food.)',
+    usage: 'Ví dụ: Ăn thức ăn yêu thích mỗi ngày. (매일 가장 좋아하는 음식을 먹습니다.)',
   },
   {
     id: 'an-v-10',
@@ -1003,7 +1003,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'uống',
     ko: '마시다',
-    usage: 'Uống nước từ sông. (Drinking water from the river.)',
+    usage: 'Ví dụ: Uống nước từ sông để sống. (살기 위해 강의 물을 마십니다.)',
   },
   {
     id: 'an-v-11',
@@ -1012,7 +1012,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'ngủ',
     ko: '자다',
-    usage: 'Ngủ trong hang sâu. (Sleeping in deep caves.)',
+    usage: 'Ví dụ: Ngủ trong hang sâu vào mùa đông. (겨울에 깊은 동굴에서 잡니다.)',
   },
   {
     id: 'an-v-12',
@@ -1021,7 +1021,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'thức',
     ko: '깨어나다',
-    usage: 'Thức dậy vào buổi sáng. (Waking up in the morning.)',
+    usage: 'Ví dụ: Thức dậy vào buổi sáng sớm. (이른 아침에 깨어납니다.)',
   },
   {
     id: 'an-v-13',
@@ -1030,7 +1030,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'gáy',
     ko: '울다',
-    usage: 'Gáy báo hiệu sáng sớm. (Crowing signals early morning.)',
+    usage: 'Ví dụ: Gáy báo hiệu sáng sớm đến. (이른 아침의 도래를 알립니다.)',
   },
   {
     id: 'an-v-14',
@@ -1039,7 +1039,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'kêu',
     ko: '울다',
-    usage: 'Kêu gọi bạn bè. (Calling out to friends.)',
+    usage: 'Ví dụ: Kêu gọi bạn bè trong rừng. (숲에서 친구들을 부릅니다.)',
   },
   {
     id: 'an-v-15',
@@ -1048,7 +1048,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'nhảy',
     ko: '뛰다',
-    usage: 'Nhảy cao trên đất. (Jumping high on the ground.)',
+    usage: 'Ví dụ: Nhảy cao trên đất cỏ. (풀밭에서 높게 뜁니다.)',
   },
   {
     id: 'an-v-16',
@@ -1057,7 +1057,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'bò',
     ko: '기어가다',
-    usage: 'Bò trên cát biển. (Crawling on beach sand.)',
+    usage: 'Ví dụ: Bò trên cát biển tìm thức ăn. (모래 위에서 음식을 찾기 위해 기어갑니다.)',
   },
   {
     id: 'an-v-17',
@@ -1066,7 +1066,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'bắt',
     ko: '잡다',
-    usage: 'Bắt chuột trong bẫy. (Catching mice in traps.)',
+    usage: 'Ví dụ: Bắt chuột trong bẫy để bảo vệ. (보호하기 위해 함정으로 쥐를 잡습니다.)',
   },
   {
     id: 'an-v-18',
@@ -1075,7 +1075,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'giết',
     ko: '죽이다',
-    usage: 'Giết để bảo vệ. (Killing for protection.)',
+    usage: 'Ví dụ: Giết để bảo vệ gia đình. (가족을 보호하기 위해 죽입니다.)',
   },
   {
     id: 'an-v-19',
@@ -1084,7 +1084,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'chơi',
     ko: '놀다',
-    usage: 'Chơi với bạn trong vườn. (Playing with friends in the garden.)',
+    usage: 'Ví dụ: Chơi với bạn trong vườn rộng. (넓은 정원에서 친구들과 놀아요.)',
   },
   {
     id: 'an-v-20',
@@ -1093,7 +1093,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'đẻ',
     ko: '낳다',
-    usage: 'Đẻ con để tiếp nối dòng. (Giving birth to continue the line.)',
+    usage: 'Ví dụ: Đẻ con để tiếp nối dòng dõi. (종족을 계속하기 위해 새끼를 낳습니다.)',
   },
   {
     id: 'an-v-21',
@@ -1102,7 +1102,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'sinh sản',
     ko: '번식하다',
-    usage: 'Sinh sản là b본능của động vật. (Reproduction is animal instinct.)',
+    usage: 'Ví dụ: Sinh sản là본능của tất cả động vật. (번식은 모든 동물의 본능입니다.)',
   },
   {
     id: 'an-v-22',
@@ -1111,7 +1111,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'chết',
     ko: '죽다',
-    usage: 'Chết là phần tất yếu. (Dying is inevitable.)',
+    usage: 'Ví dụ: Chết là phần tất yếu của cuộc sống. (죽음은 삶의 필연적인 부분입니다.)',
   },
   {
     id: 'an-v-23',
@@ -1120,7 +1120,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'trốn',
     ko: '숨다',
-    usage: 'Trốn tránh kẻ thù. (Hiding from enemies.)',
+    usage: 'Ví dụ: Trốn tránh kẻ thù để sinh tồn. (생존하기 위해 적을 피합니다.)',
   },
   {
     id: 'an-v-24',
@@ -1129,7 +1129,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'lẩn',
     ko: '숨다',
-    usage: 'Lẩn trong cỏ dài. (Lurking in tall grass.)',
+    usage: 'Ví dụ: Lẩn trong cỏ dài để kiếm thức ăn. (음식을 찾기 위해 긴 풀 속에 숨습니다.)',
   },
   {
     id: 'an-v-25',
@@ -1138,7 +1138,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'di cư',
     ko: '이동하다',
-    usage: 'Di cư tìm thức ăn. (Migrating to find food.)',
+    usage: 'Ví dụ: Di cư tìm thức ăn ở những nơi mới. (새로운 곳에서 음식을 찾기 위해 이동합니다.)',
   },
 
   // Session 2: More Animal Actions (25 items)
@@ -1149,7 +1149,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'quay',
     ko: '돌다',
-    usage: 'Quay tìm mồi. (Turning to find prey.)',
+    usage: 'Ví dụ: Quay tìm mồi từng hướng. (모든 방향에서 먹이를 찾습니다.)',
   },
   {
     id: 'an-v-27',
@@ -1158,7 +1158,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'lướt',
     ko: '미끄러지다',
-    usage: 'Lướt trên nước với tốc độ. (Gliding on water at speed.)',
+    usage: 'Ví dụ: Lướt trên nước với tốc độ cao. (높은 속도로 물 위에서 미끄러집니다.)',
   },
   {
     id: 'an-v-28',
@@ -1167,7 +1167,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'nhảy',
     ko: '뛰어오르다',
-    usage: 'Nhảy từ cành cây. (Jumping from tree branch.)',
+    usage: 'Ví dụ: Nhảy từ cành cây xuống đất. (나뭇가지에서 땅으로 뛰어내립니다.)',
   },
   {
     id: 'an-v-29',
@@ -1176,7 +1176,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'lao',
     ko: '달려가다',
-    usage: 'Lao tới để bắt mồi. (Rushing towards prey.)',
+    usage: 'Ví dụ: Lao tới để bắt mồi nhanh. (빠르게 먹이를 잡기 위해 달려갑니다.)',
   },
   {
     id: 'an-v-30',
@@ -1185,7 +1185,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'dù',
     ko: '글라이딩하다',
-    usage: 'Dù từ cây này sang cây kia. (Gliding from tree to tree.)',
+    usage: 'Ví dụ: Dù từ cây này sang cây khác. (한 나무에서 다른 나무로 글라이딩합니다.)',
   },
   {
     id: 'an-v-31',
@@ -1194,7 +1194,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'thở',
     ko: '숨쉬다',
-    usage: 'Thở không khí lạnh. (Breathing cold air.)',
+    usage: 'Ví dụ: Thở không khí sạch vào phổi. (깨끗한 공기를 폐로 마십니다.)',
   },
   {
     id: 'an-v-32',
@@ -1203,7 +1203,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'hít',
     ko: '마시다',
-    usage: 'Hít mùi của mồi. (Smelling prey.)',
+    usage: 'Ví dụ: Hít mùi của mồi từ xa. (멀리서 먹이의 냄새를 맡습니다.)',
   },
   {
     id: 'an-v-33',
@@ -1212,7 +1212,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'nhìn',
     ko: '보다',
-    usage: 'Nhìn thế giới xung quanh. (Looking at the surrounding world.)',
+    usage: 'Ví dụ: Nhìn thế giới xung quanh cẩn thận. (주변 세상을 조심스럽게 봅니다.)',
   },
   {
     id: 'an-v-34',
@@ -1221,7 +1221,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'nghe',
     ko: '듣다',
-    usage: 'Nghe tiếng động. (Hearing sounds.)',
+    usage: 'Ví dụ: Nghe tiếng động từ xa. (멀리서 나는 소리를 듣습니다.)',
   },
   {
     id: 'an-v-35',
@@ -1230,7 +1230,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'cảm nhận',
     ko: '느끼다',
-    usage: 'Cảm nhận sự thay đổi. (Sensing changes.)',
+    usage: 'Ví dụ: Cảm nhận sự thay đổi thời tiết. (날씨의 변화를 느낍니다.)',
   },
   {
     id: 'an-v-36',
@@ -1239,7 +1239,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'tìm',
     ko: '찾다',
-    usage: 'Tìm kiếm thức ăn. (Searching for food.)',
+    usage: 'Ví dụ: Tìm kiếm thức ăn suốt ngày. (하루 종일 음식을 찾습니다.)',
   },
   {
     id: 'an-v-37',
@@ -1248,7 +1248,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'chuẩn bị',
     ko: '준비하다',
-    usage: 'Chuẩn bị cho mùa đông. (Preparing for winter.)',
+    usage: 'Ví dụ: Chuẩn bị cho mùa đông khắc nghiệt. (혹독한 겨울을 준비합니다.)',
   },
   {
     id: 'an-v-38',
@@ -1257,7 +1257,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'lưu trữ',
     ko: '저장하다',
-    usage: 'Lưu trữ thức ăn. (Storing food.)',
+    usage: 'Ví dụ: Lưu trữ thức ăn cho mùa đông. (겨울을 위해 음식을 저장합니다.)',
   },
   {
     id: 'an-v-39',
@@ -1266,7 +1266,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'xây',
     ko: '짓다',
-    usage: 'Xây tổ cho gia đình. (Building a nest for family.)',
+    usage: 'Ví dụ: Xây tổ cho gia đình sắp tới. (곧 올 가족을 위해 집을 짓습니다.)',
   },
   {
     id: 'an-v-40',
@@ -1275,7 +1275,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'bảo vệ',
     ko: '보호하다',
-    usage: 'Bảo vệ lãnh thổ của mình. (Protecting their territory.)',
+    usage: 'Ví dụ: Bảo vệ lãnh thổ của mình mạnh mẽ. (자신의 영역을 강력하게 보호합니다.)',
   },
   {
     id: 'an-v-41',
@@ -1284,7 +1284,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'chiến đấu',
     ko: '싸우다',
-    usage: 'Chiến đấu để giành quyền lực. (Fighting for dominance.)',
+    usage: 'Ví dụ: Chiến đấu để giành quyền lực. (권력을 차지하기 위해 싸웁니다.)',
   },
   {
     id: 'an-v-42',
@@ -1293,7 +1293,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'cạnh tranh',
     ko: '경쟁하다',
-    usage: 'Cạnh tranh để sinh tồn. (Competing to survive.)',
+    usage: 'Ví dụ: Cạnh tranh để sinh tồn. (생존하기 위해 경쟁합니다.)',
   },
   {
     id: 'an-v-43',
@@ -1302,7 +1302,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'hợp tác',
     ko: '협력하다',
-    usage: 'Hợp tác trong bầy đàn. (Cooperating in herds.)',
+    usage: 'Ví dụ: Hợp tác trong bầy đàn lớn. (큰 무리에서 협력합니다.)',
   },
   {
     id: 'an-v-44',
@@ -1311,7 +1311,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'giao tiếp',
     ko: '의사소통하다',
-    usage: 'Giao tiếp qua âm thanh. (Communicating through sounds.)',
+    usage: 'Ví dụ: Giao tiếp qua âm thanh đặc biệt. (특별한 소리를 통해 의사소통합니다.)',
   },
   {
     id: 'an-v-45',
@@ -1320,7 +1320,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'theo dõi',
     ko: '추적하다',
-    usage: 'Theo dõi con mồi. (Tracking prey.)',
+    usage: 'Ví dụ: Theo dõi con mồi cẩn thận. (먹이를 조심스럽게 추적합니다.)',
   },
   {
     id: 'an-v-46',
@@ -1329,7 +1329,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'tấn công',
     ko: '공격하다',
-    usage: 'Tấn công để lấy mồi. (Attacking to get food.)',
+    usage: 'Ví dụ: Tấn công để lấy mồi. (먹이를 얻기 위해 공격합니다.)',
   },
   {
     id: 'an-v-47',
@@ -1338,7 +1338,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'phòng vệ',
     ko: '방어하다',
-    usage: 'Phòng vệ bằng móng nanh. (Defending with claws and teeth.)',
+    usage: 'Ví dụ: Phòng vệ bằng móng nanh sắc. (날카로운 발톱과 이빨로 방어합니다.)',
   },
   {
     id: 'an-v-48',
@@ -1347,7 +1347,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'chạy trốn',
     ko: '도망치다',
-    usage: 'Chạy trốn khỏi nguy hiểm. (Fleeing from danger.)',
+    usage: 'Ví dụ: Chạy trốn khỏi nguy hiểm nhanh. (위험을 빠르게 피해서 도망칩니다.)',
   },
   {
     id: 'an-v-49',
@@ -1356,7 +1356,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'lặn',
     ko: '잠수하다',
-    usage: 'Lặn tìm thức ăn dưới nước. (Diving for food underwater.)',
+    usage: 'Ví dụ: Lặn tìm thức ăn dưới nước sâu. (깊은 물 속에서 음식을 찾기 위해 잠수합니다.)',
   },
   {
     id: 'an-v-50',
@@ -1365,6 +1365,6 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'tiến hóa',
     ko: '진화하다',
-    usage: 'Tiến hóa để thích nghi. (Evolving to adapt.)',
+    usage: 'Ví dụ: Tiến hóa để thích nghi với môi trường. (환경에 적응하기 위해 진화합니다.)',
   },
 ]

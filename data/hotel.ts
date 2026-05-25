@@ -9,7 +9,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'phòng đơn',
     ko: '싱글룸',
-    usage: 'Tôi muốn đặt một phòng đơn.',
+    usage: 'Ví dụ: Tôi muốn đặt một phòng đơn. (싱글룸을 하나 예약하고 싶습니다.)',
   },
   {
     id: 'ht-w-02',
@@ -18,7 +18,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'phòng đôi',
     ko: '더블룸',
-    usage: 'Phòng đôi này rất thoải mái.',
+    usage: 'Ví dụ: Phòng đôi này rất thoải mái. (이 더블룸은 매우 편합니다.)',
   },
   {
     id: 'ht-w-03',
@@ -27,7 +27,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'phòng suite',
     ko: '스위트룸',
-    usage: 'Phòng suite có tầm nhìn đẹp.',
+    usage: 'Ví dụ: Phòng suite có tầm nhìn đẹp. (스위트룸은 좋은 전망을 가지고 있습니다.)',
   },
   {
     id: 'ht-w-04',
@@ -36,7 +36,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'phòng vip',
     ko: 'VIP룸',
-    usage: 'Phòng VIP có dịch vụ riêng.',
+    usage: 'Ví dụ: Phòng VIP có dịch vụ riêng. (VIP룸은 개인 서비스가 있습니다.)',
   },
   {
     id: 'ht-w-05',
@@ -45,7 +45,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'giường',
     ko: '침대',
-    usage: 'Giường trong phòng rất mềm.',
+    usage: 'Ví dụ: Giường trong phòng rất mềm. (방의 침대는 매우 부드럽습니다.)',
   },
   {
     id: 'ht-w-06',
@@ -54,7 +54,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'gối',
     ko: '베개',
-    usage: 'Tôi cần thêm một cái gối.',
+    usage: 'Ví dụ: Tôi cần thêm một cái gối. (나는 베개가 하나 더 필요합니다.)',
   },
   {
     id: 'ht-w-07',
@@ -63,7 +63,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'chăn',
     ko: '담요',
-    usage: 'Chăn này rất ấm.',
+    usage: 'Ví dụ: Chăn này rất ấm. (이 담요는 매우 따뜻합니다.)',
   },
   {
     id: 'ht-w-08',
@@ -72,7 +72,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'điều hòa',
     ko: '에어컨',
-    usage: 'Điều hòa không hoạt động.',
+    usage: 'Ví dụ: Điều hòa không hoạt động. (에어컨이 작동하지 않습니다.)',
   },
   {
     id: 'ht-w-09',
@@ -81,7 +81,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'wifi',
     ko: 'WiFi',
-    usage: 'WiFi rất nhanh trong phòng này.',
+    usage: 'Ví dụ: WiFi rất nhanh trong phòng này. (이 방의 WiFi는 매우 빠릅니다.)',
   },
   {
     id: 'ht-w-10',
@@ -90,7 +90,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'tivi',
     ko: '텔레비전',
-    usage: 'Tivi có thể xem được nhiều kênh.',
+    usage: 'Ví dụ: Tivi có thể xem được nhiều kênh. (텔레비전은 많은 채널을 볼 수 있습니다.)',
   },
   {
     id: 'ht-w-11',
@@ -99,7 +99,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'tủ lạnh',
     ko: '냉장고',
-    usage: 'Tủ lạnh trong phòng có nước lạnh.',
+    usage: 'Ví dụ: Tủ lạnh trong phòng có nước lạnh. (방의 냉장고에는 찬 물이 있습니다.)',
   },
   {
     id: 'ht-w-12',
@@ -108,7 +108,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'máy sấy',
     ko: '헤어드라이어',
-    usage: 'Máy sấy tóc ở trong phòng tắm.',
+    usage: 'Ví dụ: Máy sấy tóc ở trong phòng tắm. (헤어드라이어는 욕실에 있습니다.)',
   },
   {
     id: 'ht-w-13',
@@ -117,7 +117,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bàn',
     ko: '테이블',
-    usage: 'Bàn làm việc rất rộng.',
+    usage: 'Ví dụ: Bàn làm việc rất rộng. (업무용 테이블은 매우 넓습니다.)',
   },
   {
     id: 'ht-w-14',
@@ -126,7 +126,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'ghế',
     ko: '의자',
-    usage: 'Ghế này rất thoải mái để ngồi.',
+    usage: 'Ví dụ: Ghế này rất thoải mái để ngồi. (이 의자는 앉기에 매우 편합니다.)',
   },
   {
     id: 'ht-w-15',
@@ -135,7 +135,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cửa sổ',
     ko: '창문',
-    usage: 'Cửa sổ phòng nhìn ra biển.',
+    usage: 'Ví dụ: Cửa sổ phòng nhìn ra biển. (방의 창문은 바다를 내려다봅니다.)',
   },
   {
     id: 'ht-w-16',
@@ -144,7 +144,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'rèm',
     ko: '커튼',
-    usage: 'Rèm che nắng rất dày.',
+    usage: 'Ví dụ: Rèm che nắng rất dày. (햇빛을 차단하는 커튼은 매우 두껍습니다.)',
   },
   {
     id: 'ht-w-17',
@@ -153,7 +153,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'gương',
     ko: '거울',
-    usage: 'Gương trong phòng tắm rất to.',
+    usage: 'Ví dụ: Gương trong phòng tắm rất to. (욕실의 거울은 매우 큽니다.)',
   },
   {
     id: 'ht-w-18',
@@ -162,7 +162,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bồn tắm',
     ko: '욕조',
-    usage: 'Bồn tắm này rất sâu và rộng.',
+    usage: 'Ví dụ: Bồn tắm này rất sâu và rộng. (이 욕조는 매우 깊고 넓습니다.)',
   },
   {
     id: 'ht-w-19',
@@ -171,7 +171,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'vòi sen',
     ko: '샤워',
-    usage: 'Vòi sen có áp lực nước mạnh.',
+    usage: 'Ví dụ: Vòi sen có áp lực nước mạnh. (샤워는 강한 수압을 가지고 있습니다.)',
   },
   {
     id: 'ht-w-20',
@@ -180,7 +180,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'khăn tắm',
     ko: '수건',
-    usage: 'Khăn tắm ở đây rất mềm.',
+    usage: 'Ví dụ: Khăn tắm ở đây rất mềm. (여기의 수건은 매우 부드럽습니다.)',
   },
   {
     id: 'ht-w-21',
@@ -189,7 +189,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'xà phòng',
     ko: '비누',
-    usage: 'Xà phòng được cung cấp miễn phí.',
+    usage: 'Ví dụ: Xà phòng được cung cấp miễn phí. (비누는 무료로 제공됩니다.)',
   },
   {
     id: 'ht-w-22',
@@ -198,7 +198,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'dầu gội',
     ko: '샴푸',
-    usage: 'Dầu gội này rất thơm.',
+    usage: 'Ví dụ: Dầu gội này rất thơm. (이 샴푸는 매우 향긋합니다.)',
   },
   {
     id: 'ht-w-23',
@@ -207,7 +207,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bàn chải đánh răng',
     ko: '칫솔',
-    usage: 'Bàn chải đánh răng trong phòng tắm.',
+    usage: 'Ví dụ: Bàn chải đánh răng trong phòng tắm. (욕실에 칫솔이 있습니다.)',
   },
   {
     id: 'ht-w-24',
@@ -216,7 +216,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'ống nước',
     ko: '수도',
-    usage: 'Nước nóng từ ống nước rất tốt.',
+    usage: 'Ví dụ: Nước nóng từ ống nước rất tốt. (수도의 따뜻한 물이 매우 좋습니다.)',
   },
   {
     id: 'ht-w-25',
@@ -225,7 +225,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'toilet',
     ko: '화장실',
-    usage: 'Toilet ở phòng này sạch sẽ.',
+    usage: 'Ví dụ: Toilet ở phòng này sạch sẽ. (이 방의 화장실은 깨끗합니다.)',
   },
 
   // Session 2: Hotel facilities (ht-w-26 to ht-w-50)
@@ -236,7 +236,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'lễ tân',
     ko: '프론트 데스크',
-    usage: 'Lễ tân có thể giúp bạn đặt tour.',
+    usage: 'Ví dụ: Lễ tân có thể giúp bạn đặt tour. (프론트 데스크는 당신이 투어를 예약하도록 도울 수 있습니다.)',
   },
   {
     id: 'ht-w-27',
@@ -245,7 +245,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'thang máy',
     ko: '엘리베이터',
-    usage: 'Thang máy ở đây rất nhanh.',
+    usage: 'Ví dụ: Thang máy ở đây rất nhanh. (여기의 엘리베이터는 매우 빠릅니다.)',
   },
   {
     id: 'ht-w-28',
@@ -254,7 +254,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cầu thang',
     ko: '계단',
-    usage: 'Cầu thang bên cạnh thang máy.',
+    usage: 'Ví dụ: Cầu thang bên cạnh thang máy. (엘리베이터 옆에 계단이 있습니다.)',
   },
   {
     id: 'ht-w-29',
@@ -263,7 +263,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'hành lang',
     ko: '복도',
-    usage: 'Hành lang hotel rất sạch.',
+    usage: 'Ví dụ: Hành lang hotel rất sạch. (호텔의 복도는 매우 깨끗합니다.)',
   },
   {
     id: 'ht-w-30',
@@ -272,7 +272,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'nhà hàng',
     ko: '레스토랑',
-    usage: 'Nhà hàng mở từ 6 giờ sáng.',
+    usage: 'Ví dụ: Nhà hàng mở từ 6 giờ sáng. (레스토랑은 오전 6시부터 문을 엽니다.)',
   },
   {
     id: 'ht-w-31',
@@ -281,7 +281,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'quán bar',
     ko: '바',
-    usage: 'Quán bar này phục vụ đến nửa đêm.',
+    usage: 'Ví dụ: Quán bar này phục vụ đến nửa đêm. (이 바는 자정까지 영업합니다.)',
   },
   {
     id: 'ht-w-32',
@@ -290,7 +290,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'quán cà phê',
     ko: '카페',
-    usage: 'Quán cà phê ở lobby rất tốt.',
+    usage: 'Ví dụ: Quán cà phê ở lobby rất tốt. (로비의 카페는 매우 좋습니다.)',
   },
   {
     id: 'ht-w-33',
@@ -299,7 +299,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'hồ bơi',
     ko: '수영장',
-    usage: 'Hồ bơi mở từ 8 giờ sáng.',
+    usage: 'Ví dụ: Hồ bơi mở từ 8 giờ sáng. (수영장은 오전 8시부터 문을 엽니다.)',
   },
   {
     id: 'ht-w-34',
@@ -308,7 +308,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'phòng gym',
     ko: '체육관',
-    usage: 'Phòng gym có đầy đủ máy tập.',
+    usage: 'Ví dụ: Phòng gym có đầy đủ máy tập. (체육관에는 모든 운동 기계가 있습니다.)',
   },
   {
     id: 'ht-w-35',
@@ -317,7 +317,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'phòng sauna',
     ko: '사우나',
-    usage: 'Phòng sauna rất thoải mái.',
+    usage: 'Ví dụ: Phòng sauna rất thoải mái. (사우나는 매우 편합니다.)',
   },
   {
     id: 'ht-w-36',
@@ -326,7 +326,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'phòng spa',
     ko: '스파',
-    usage: 'Phòng spa cung cấp dịch vụ massage.',
+    usage: 'Ví dụ: Phòng spa cung cấp dịch vụ massage. (스파는 마사지 서비스를 제공합니다.)',
   },
   {
     id: 'ht-w-37',
@@ -335,7 +335,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'phòng hội họp',
     ko: '회의실',
-    usage: 'Phòng hội họp có máy chiếu.',
+    usage: 'Ví dụ: Phòng hội họp có máy chiếu. (회의실에는 프로젝터가 있습니다.)',
   },
   {
     id: 'ht-w-38',
@@ -344,7 +344,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'sân',
     ko: '야외',
-    usage: 'Sân của khách sạn có ghế ngồi.',
+    usage: 'Ví dụ: Sân của khách sạn có ghế ngồi. (호텔의 야외에는 앉을 의자가 있습니다.)',
   },
   {
     id: 'ht-w-39',
@@ -353,7 +353,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'hành lang sư',
     ko: '로비',
-    usage: 'Hành lang sư rất rộng và sáng.',
+    usage: 'Ví dụ: Hành lang sư rất rộng và sáng. (로비는 매우 넓고 밝습니다.)',
   },
   {
     id: 'ht-w-40',
@@ -362,7 +362,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'sảnh chính',
     ko: '메인홀',
-    usage: 'Sảnh chính có lễ tân 24 giờ.',
+    usage: 'Ví dụ: Sảnh chính có lễ tân 24 giờ. (메인홀에는 24시간 프론트 데스크가 있습니다.)',
   },
   {
     id: 'ht-w-41',
@@ -371,7 +371,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'phòng chờ',
     ko: '라운지',
-    usage: 'Phòng chờ có đồ uống miễn phí.',
+    usage: 'Ví dụ: Phòng chờ có đồ uống miễn phí. (라운지에는 무료 음료가 있습니다.)',
   },
   {
     id: 'ht-w-42',
@@ -380,7 +380,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bãi xe',
     ko: '주차장',
-    usage: 'Bãi xe ở tầng hầm.',
+    usage: 'Ví dụ: Bãi xe ở tầng hầm. (주차장은 지하층에 있습니다.)',
   },
   {
     id: 'ht-w-43',
@@ -389,7 +389,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'thẻ từ',
     ko: '카드키',
-    usage: 'Thẻ từ để mở cửa phòng.',
+    usage: 'Ví dụ: Thẻ từ để mở cửa phòng. (카드키는 방문을 여는 데 사용됩니다.)',
   },
   {
     id: 'ht-w-44',
@@ -398,7 +398,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'dịch vụ troom',
     ko: '룸서비스',
-    usage: 'Dịch vụ room có thể gọi 24/24.',
+    usage: 'Ví dụ: Dịch vụ room có thể gọi 24/24. (룸서비스는 24시간 부를 수 있습니다.)',
   },
   {
     id: 'ht-w-45',
@@ -407,7 +407,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'dịch vụ giặt ủi',
     ko: '세탁 서비스',
-    usage: 'Dịch vụ giặt ủi hoàn thành trong 24 giờ.',
+    usage: 'Ví dụ: Dịch vụ giặt ủi hoàn thành trong 24 giờ. (세탁 서비스는 24시간 내에 완료됩니다.)',
   },
   {
     id: 'ht-w-46',
@@ -416,7 +416,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'dịch vụ vệ sinh',
     ko: '청소 서비스',
-    usage: 'Dịch vụ vệ sinh mỗi ngày.',
+    usage: 'Ví dụ: Dịch vụ vệ sinh mỗi ngày. (청소 서비스는 매일 제공됩니다.)',
   },
   {
     id: 'ht-w-47',
@@ -425,7 +425,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'máy ATM',
     ko: 'ATM',
-    usage: 'Máy ATM ở sảnh chính.',
+    usage: 'Ví dụ: Máy ATM ở sảnh chính. (ATM은 메인홀에 있습니다.)',
   },
   {
     id: 'ht-w-48',
@@ -434,7 +434,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cửa hàng lưu niệm',
     ko: '기념품 가게',
-    usage: 'Cửa hàng lưu niệm bán đồ lưu niệm.',
+    usage: 'Ví dụ: Cửa hàng lưu niệm bán đồ lưu niệm. (기념품 가게는 기념품을 판매합니다.)',
   },
   {
     id: 'ht-w-49',
@@ -443,7 +443,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bảo vệ',
     ko: '보안',
-    usage: 'Bảo vệ hotel làm việc 24 giờ.',
+    usage: 'Ví dụ: Bảo vệ hotel làm việc 24 giờ. (호텔 보안은 24시간 근무합니다.)',
   },
   {
     id: 'ht-w-50',
@@ -452,7 +452,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'nhân viên',
     ko: '직원',
-    usage: 'Nhân viên hotel rất thân thiện.',
+    usage: 'Ví dụ: Nhân viên hotel rất thân thiện. (호텔 직원은 매우 친절합니다.)',
   },
 
   // Session 3: Check-in/check-out (ht-w-51 to ht-w-75)
@@ -463,7 +463,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'đặt phòng',
     ko: '예약',
-    usage: 'Tôi muốn đặt phòng cho ba đêm.',
+    usage: 'Ví dụ: Tôi muốn đặt phòng cho ba đêm. (나는 3박을 위해 방을 예약하고 싶습니다.)',
   },
   {
     id: 'ht-w-52',
@@ -472,7 +472,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'hộ chiếu',
     ko: '여권',
-    usage: 'Lễ tân cần xem hộ chiếu của bạn.',
+    usage: 'Ví dụ: Lễ tân cần xem hộ chiếu của bạn. (프론트 데스크는 당신의 여권을 봐야 합니다.)',
   },
   {
     id: 'ht-w-53',
@@ -481,7 +481,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'chứng minh thư',
     ko: '신분증',
-    usage: 'Chứng minh thư để xác minh thông tin.',
+    usage: 'Ví dụ: Chứng minh thư để xác minh thông tin. (신분증은 정보를 확인하기 위한 것입니다.)',
   },
   {
     id: 'ht-w-54',
@@ -490,7 +490,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'chìa khóa',
     ko: '열쇠',
-    usage: 'Đây là chìa khóa của phòng bạn.',
+    usage: 'Ví dụ: Đây là chìa khóa của phòng bạn. (이것은 당신의 방의 열쇠입니다.)',
   },
   {
     id: 'ht-w-55',
@@ -499,7 +499,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'phòng số',
     ko: '방 번호',
-    usage: 'Phòng của bạn là phòng số 305.',
+    usage: 'Ví dụ: Phòng của bạn là phòng số 305. (당신의 방은 305호입니다.)',
   },
   {
     id: 'ht-w-56',
@@ -508,7 +508,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'tầng',
     ko: '층',
-    usage: 'Phòng ở tầng thứ ba.',
+    usage: 'Ví dụ: Phòng ở tầng thứ ba. (방은 3층에 있습니다.)',
   },
   {
     id: 'ht-w-57',
@@ -517,7 +517,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'đăng ký nhập',
     ko: '체크인',
-    usage: 'Đăng ký nhập lúc 2 giờ chiều.',
+    usage: 'Ví dụ: Đăng ký nhập lúc 2 giờ chiều. (체크인은 오후 2시입니다.)',
   },
   {
     id: 'ht-w-58',
@@ -526,7 +526,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'đăng ký xuất',
     ko: '체크아웃',
-    usage: 'Đăng ký xuất lúc 11 giờ sáng.',
+    usage: 'Ví dụ: Đăng ký xuất lúc 11 giờ sáng. (체크아웃은 오전 11시입니다.)',
   },
   {
     id: 'ht-w-59',
@@ -535,7 +535,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'hóa đơn',
     ko: '청구서',
-    usage: 'Hóa đơn của bạn là 2 triệu đồng.',
+    usage: 'Ví dụ: Hóa đơn của bạn là 2 triệu đồng. (당신의 청구서는 200만 동입니다.)',
   },
   {
     id: 'ht-w-60',
@@ -544,7 +544,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'thanh toán',
     ko: '결제',
-    usage: 'Thanh toán bằng thẻ tín dụng.',
+    usage: 'Ví dụ: Thanh toán bằng thẻ tín dụng. (신용카드로 결제합니다.)',
   },
   {
     id: 'ht-w-61',
@@ -553,7 +553,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'tiền cọc',
     ko: '보증금',
-    usage: 'Tiền cọc sẽ được hoàn lại.',
+    usage: 'Ví dụ: Tiền cọc sẽ được hoàn lại. (보증금은 반환될 것입니다.)',
   },
   {
     id: 'ht-w-62',
@@ -562,7 +562,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'thẻ tín dụng',
     ko: '신용카드',
-    usage: 'Bạn có thẻ tín dụng không?',
+    usage: 'Ví dụ: Bạn có thẻ tín dụng không? (신용카드가 있으신가요?)',
   },
   {
     id: 'ht-w-63',
@@ -571,7 +571,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'tiền mặt',
     ko: '현금',
-    usage: 'Thanh toán bằng tiền mặt được không?',
+    usage: 'Ví dụ: Thanh toán bằng tiền mặt được không? (현금으로 결제할 수 있나요?)',
   },
   {
     id: 'ht-w-64',
@@ -580,7 +580,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'giá phòng',
     ko: '객실요금',
-    usage: 'Giá phòng mỗi đêm là bao nhiêu?',
+    usage: 'Ví dụ: Giá phòng mỗi đêm là bao nhiêu? (1박에 방 가격은 얼마인가요?)',
   },
   {
     id: 'ht-w-65',
@@ -589,7 +589,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'tổng tiền',
     ko: '합계',
-    usage: 'Tổng tiền bao gồm các khoản phí.',
+    usage: 'Ví dụ: Tổng tiền bao gồm các khoản phí. (합계에는 모든 요금이 포함됩니다.)',
   },
   {
     id: 'ht-w-66',
@@ -598,7 +598,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'phí dịch vụ',
     ko: '서비스료',
-    usage: 'Phí dịch vụ là 10% tổng giá.',
+    usage: 'Ví dụ: Phí dịch vụ là 10% tổng giá. (서비스료는 총 가격의 10%입니다.)',
   },
   {
     id: 'ht-w-67',
@@ -607,7 +607,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'thuế',
     ko: '세금',
-    usage: 'Thuế được thêm vào giá phòng.',
+    usage: 'Ví dụ: Thuế được thêm vào giá phòng. (세금은 방 가격에 추가됩니다.)',
   },
   {
     id: 'ht-w-68',
@@ -616,7 +616,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'ưu đãi',
     ko: '할인',
-    usage: 'Có ưu đãi cho khách hàng thường xuyên.',
+    usage: 'Ví dụ: Có ưu đãi cho khách hàng thường xuyên. (정기 고객을 위한 할인이 있습니다.)',
   },
   {
     id: 'ht-w-69',
@@ -625,7 +625,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'hủy đặt phòng',
     ko: '취소',
-    usage: 'Hủy đặt phòng không tính phí.',
+    usage: 'Ví dụ: Hủy đặt phòng không tính phí. (예약 취소는 수수료가 없습니다.)',
   },
   {
     id: 'ht-w-70',
@@ -634,7 +634,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'đặt phòng lại',
     ko: '다시 예약',
-    usage: 'Bạn muốn đặt phòng lại không?',
+    usage: 'Ví dụ: Bạn muốn đặt phòng lại không? (다시 예약하시겠어요?)',
   },
   {
     id: 'ht-w-71',
@@ -643,7 +643,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'điều khoản',
     ko: '약관',
-    usage: 'Vui lòng đọc điều khoản.',
+    usage: 'Ví dụ: Vui lòng đọc điều khoản. (약관을 읽어주세요.)',
   },
   {
     id: 'ht-w-72',
@@ -652,7 +652,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'chính sách',
     ko: '정책',
-    usage: 'Chính sách hoàn trả là gì?',
+    usage: 'Ví dụ: Chính sách hoàn trả là gì? (반환 정책은 무엇인가요?)',
   },
   {
     id: 'ht-w-73',
@@ -661,7 +661,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'ngày nhập',
     ko: '체크인 날',
-    usage: 'Ngày nhập của bạn là ngày 25 tháng 5.',
+    usage: 'Ví dụ: Ngày nhập của bạn là ngày 25 tháng 5. (당신의 체크인 날은 5월 25일입니다.)',
   },
   {
     id: 'ht-w-74',
@@ -670,7 +670,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'ngày xuất',
     ko: '체크아웃 날',
-    usage: 'Ngày xuất của bạn là ngày 28 tháng 5.',
+    usage: 'Ví dụ: Ngày xuất của bạn là ngày 28 tháng 5. (당신의 체크아웃 날은 5월 28일입니다.)',
   },
   {
     id: 'ht-w-75',
@@ -679,7 +679,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'số đêm',
     ko: '밤 수',
-    usage: 'Bạn ở lại bao nhiêu đêm?',
+    usage: 'Ví dụ: Bạn ở lại bao nhiêu đêm? (몇 박을 묵으실 예정인가요?)',
   },
 
   // Session 4: Room services & problems (ht-w-76 to ht-w-100)
@@ -690,7 +690,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'dịch vụ phòng',
     ko: '룸 서비스',
-    usage: 'Dịch vụ phòng phục vụ 24 giờ.',
+    usage: 'Ví dụ: Dịch vụ phòng phục vụ 24 giờ. (룸 서비스는 24시간 운영합니다.)',
   },
   {
     id: 'ht-w-77',
@@ -699,7 +699,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'thực đơn',
     ko: '메뉴',
-    usage: 'Thực đơn dịch vụ phòng ở bàn.',
+    usage: 'Ví dụ: Thực đơn dịch vụ phòng ở bàn. (룸 서비스 메뉴는 책상에 있습니다.)',
   },
   {
     id: 'ht-w-78',
@@ -708,7 +708,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'đồ ăn',
     ko: '음식',
-    usage: 'Đồ ăn được giao trong 30 phút.',
+    usage: 'Ví dụ: Đồ ăn được giao trong 30 phút. (음식은 30분 내에 배달됩니다.)',
   },
   {
     id: 'ht-w-79',
@@ -717,7 +717,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'đồ uống',
     ko: '음료',
-    usage: 'Đồ uống có thêm phí không?',
+    usage: 'Ví dụ: Đồ uống có thêm phí không? (음료에 추가 요금이 있나요?)',
   },
   {
     id: 'ht-w-80',
@@ -726,7 +726,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'nước nóng',
     ko: '뜨거운 물',
-    usage: 'Nước nóng không có.',
+    usage: 'Ví dụ: Nước nóng không có. (따뜻한 물이 없습니다.)',
   },
   {
     id: 'ht-w-81',
@@ -735,7 +735,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'nước lạnh',
     ko: '찬물',
-    usage: 'Nước lạnh không hoạt động.',
+    usage: 'Ví dụ: Nước lạnh không hoạt động. (찬 물이 작동하지 않습니다.)',
   },
   {
     id: 'ht-w-82',
@@ -744,7 +744,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'hỏng',
     ko: '고장',
-    usage: 'Cửa sổ bị hỏng.',
+    usage: 'Ví dụ: Cửa sổ bị hỏng. (창문이 고장났습니다.)',
   },
   {
     id: 'ht-w-83',
@@ -753,7 +753,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'sửa chữa',
     ko: '수리',
-    usage: 'Sửa chữa sẽ hoàn thành ngày mai.',
+    usage: 'Ví dụ: Sửa chữa sẽ hoàn thành ngày mai. (수리는 내일 완료될 것입니다.)',
   },
   {
     id: 'ht-w-84',
@@ -762,7 +762,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'sạch sẽ',
     ko: '깨끗',
-    usage: 'Phòng không sạch sẽ.',
+    usage: 'Ví dụ: Phòng không sạch sẽ. (방이 깨끗하지 않습니다.)',
   },
   {
     id: 'ht-w-85',
@@ -771,7 +771,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bruddy',
     ko: '더러운',
-    usage: 'Cửa sổ bruddy.',
+    usage: 'Ví dụ: Cửa sổ bruddy. (창문이 더럽습니다.)',
   },
   {
     id: 'ht-w-86',
@@ -780,7 +780,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'vệ sinh',
     ko: '청소',
-    usage: 'Vệ sinh phòng cần cải thiện.',
+    usage: 'Ví dụ: Vệ sinh phòng cần cải thiện. (방의 청소를 개선해야 합니다.)',
   },
   {
     id: 'ht-w-87',
@@ -789,7 +789,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'khiếu nại',
     ko: '불만',
-    usage: 'Tôi có khiếu nại về phòng.',
+    usage: 'Ví dụ: Tôi có khiếu nại về phòng. (방에 대한 불만이 있습니다.)',
   },
   {
     id: 'ht-w-88',
@@ -798,7 +798,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'giải quyết',
     ko: '해결',
-    usage: 'Chúng tôi sẽ giải quyết ngay.',
+    usage: 'Ví dụ: Chúng tôi sẽ giải quyết ngay. (우리는 즉시 이것을 해결할 것입니다.)',
   },
   {
     id: 'ht-w-89',
@@ -807,7 +807,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'xin lỗi',
     ko: '죄송합니다',
-    usage: 'Xin lỗi vì sự bất tiện.',
+    usage: 'Ví dụ: Xin lỗi vì sự bất tiện. (불편을 끼쳐 죄송합니다.)',
   },
   {
     id: 'ht-w-90',
@@ -816,7 +816,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'tương lai',
     ko: '미래',
-    usage: 'Tương lai chúng tôi sẽ cải thiện.',
+    usage: 'Ví dụ: Tương lai chúng tôi sẽ cải thiện. (앞으로 우리는 개선할 것입니다.)',
   },
   {
     id: 'ht-w-91',
@@ -825,7 +825,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'đổi phòng',
     ko: '방 변경',
-    usage: 'Bạn muốn đổi phòng không?',
+    usage: 'Ví dụ: Bạn muốn đổi phòng không? (방을 바꾸고 싶으신가요?)',
   },
   {
     id: 'ht-w-92',
@@ -834,7 +834,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'phòng khác',
     ko: '다른 방',
-    usage: 'Có phòng khác trống không?',
+    usage: 'Ví dụ: Có phòng khác trống không? (다른 방이 있나요?)',
   },
   {
     id: 'ht-w-93',
@@ -843,7 +843,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'tiếng ồn',
     ko: '소음',
-    usage: 'Có tiếng ồn từ phòng bên.',
+    usage: 'Ví dụ: Có tiếng ồn từ phòng bên. (옆 방에서 소음이 납니다.)',
   },
   {
     id: 'ht-w-94',
@@ -852,7 +852,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'yên tĩnh',
     ko: '조용',
-    usage: 'Phòng này yên tĩnh hơn.',
+    usage: 'Ví dụ: Phòng này yên tĩnh hơn. (이 방이 더 조용합니다.)',
   },
   {
     id: 'ht-w-95',
@@ -861,7 +861,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'ánh sáng',
     ko: '빛',
-    usage: 'Ánh sáng quá sáng.',
+    usage: 'Ví dụ: Ánh sáng quá sáng. (빛이 너무 밝습니다.)',
   },
   {
     id: 'ht-w-96',
@@ -870,7 +870,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'tối',
     ko: '어두움',
-    usage: 'Phòng quá tối.',
+    usage: 'Ví dụ: Phòng quá tối. (방이 너무 어둡습니다.)',
   },
   {
     id: 'ht-w-97',
@@ -879,7 +879,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'lạnh',
     ko: '추운',
-    usage: 'Phòng quá lạnh.',
+    usage: 'Ví dụ: Phòng quá lạnh. (방이 너무 춥습니다.)',
   },
   {
     id: 'ht-w-98',
@@ -888,7 +888,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'nóng',
     ko: '따뜻함',
-    usage: 'Phòng quá nóng.',
+    usage: 'Ví dụ: Phòng quá nóng. (방이 너무 덥습니다.)',
   },
   {
     id: 'ht-w-99',
@@ -897,7 +897,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'mùi',
     ko: '냄새',
-    usage: 'Có mùi lạ trong phòng.',
+    usage: 'Ví dụ: Có mùi lạ trong phòng. (방에 이상한 냄새가 납니다.)',
   },
   {
     id: 'ht-w-100',
@@ -906,7 +906,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'lực hút',
     ko: '통풍',
-    usage: 'Lực hút không tốt.',
+    usage: 'Ví dụ: Lực hút không tốt. (통풍이 좋지 않습니다.)',
   },
 ]
 
@@ -919,7 +919,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'đặt phòng',
     ko: '예약하다',
-    usage: 'Tôi muốn đặt phòng cho ba đêm.',
+    usage: 'Ví dụ: Tôi muốn đặt phòng cho ba đêm. (나는 3박을 위해 방을 예약하고 싶습니다.)',
   },
   {
     id: 'ht-v-02',
@@ -928,7 +928,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'check-in',
     ko: '체크인하다',
-    usage: 'Bạn có thể check-in lúc 2 giờ chiều.',
+    usage: 'Ví dụ: Bạn có thể check-in lúc 2 giờ chiều. (오후 2시에 체크인할 수 있습니다.)',
   },
   {
     id: 'ht-v-03',
@@ -937,7 +937,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'check-out',
     ko: '체크아웃하다',
-    usage: 'Bạn phải check-out lúc 11 giờ sáng.',
+    usage: 'Ví dụ: Bạn phải check-out lúc 11 giờ sáng. (오전 11시에 체크아웃해야 합니다.)',
   },
   {
     id: 'ht-v-04',
@@ -946,7 +946,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'ở',
     ko: '머물다',
-    usage: 'Bạn muốn ở bao lâu?',
+    usage: 'Ví dụ: Bạn muốn ở bao lâu? (얼마나 오래 머물고 싶으신가요?)',
   },
   {
     id: 'ht-v-05',
@@ -955,7 +955,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'trả phòng',
     ko: '객실 반납',
-    usage: 'Trả phòng lúc 11 giờ sáng.',
+    usage: 'Ví dụ: Trả phòng lúc 11 giờ sáng. (오전 11시에 방을 반납합니다.)',
   },
   {
     id: 'ht-v-06',
@@ -964,7 +964,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'yêu cầu',
     ko: '요청하다',
-    usage: 'Tôi muốn yêu cầu dịch vụ phòng.',
+    usage: 'Ví dụ: Tôi muốn yêu cầu dịch vụ phòng. (나는 룸 서비스를 요청하고 싶습니다.)',
   },
   {
     id: 'ht-v-07',
@@ -973,7 +973,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'phàn nàn',
     ko: '불평하다',
-    usage: 'Tôi muốn phàn nàn về phòng.',
+    usage: 'Ví dụ: Tôi muốn phàn nàn về phòng. (나는 방에 대해 불평하고 싶습니다.)',
   },
   {
     id: 'ht-v-08',
@@ -982,7 +982,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'giúp',
     ko: '도와주다',
-    usage: 'Bạn có thể giúp tôi không?',
+    usage: 'Ví dụ: Bạn có thể giúp tôi không? (저를 도와주실 수 있나요?)',
   },
   {
     id: 'ht-v-09',
@@ -991,7 +991,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'hỏi',
     ko: '물어보다',
-    usage: 'Tôi muốn hỏi về dịch vụ.',
+    usage: 'Ví dụ: Tôi muốn hỏi về dịch vụ. (나는 서비스에 대해 물어보고 싶습니다.)',
   },
   {
     id: 'ht-v-10',
@@ -1000,7 +1000,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'trả lời',
     ko: '대답하다',
-    usage: 'Lễ tân sẽ trả lời câu hỏi của bạn.',
+    usage: 'Ví dụ: Lễ tân sẽ trả lời câu hỏi của bạn. (프론트 데스크가 당신의 질문에 답할 것입니다.)',
   },
   {
     id: 'ht-v-11',
@@ -1009,7 +1009,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'thanh toán',
     ko: '결제하다',
-    usage: 'Bạn muốn thanh toán bằng cách nào?',
+    usage: 'Ví dụ: Bạn muốn thanh toán bằng cách nào? (어떤 방식으로 결제하시겠어요?)',
   },
   {
     id: 'ht-v-12',
@@ -1018,7 +1018,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'trả tiền',
     ko: '돈을 내다',
-    usage: 'Trả tiền trước khi check-out.',
+    usage: 'Ví dụ: Trả tiền trước khi check-out. (체크아웃하기 전에 결제합니다.)',
   },
   {
     id: 'ht-v-13',
@@ -1027,7 +1027,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'lấy',
     ko: '받다',
-    usage: 'Tôi muốn lấy chìa khóa.',
+    usage: 'Ví dụ: Tôi muốn lấy chìa khóa. (나는 열쇠를 받고 싶습니다.)',
   },
   {
     id: 'ht-v-14',
@@ -1036,7 +1036,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'gửi',
     ko: '보내다',
-    usage: 'Gửi hóa đơn cho tôi.',
+    usage: 'Ví dụ: Gửi hóa đơn cho tôi. (청구서를 나에게 보내주세요.)',
   },
   {
     id: 'ht-v-15',
@@ -1045,7 +1045,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'nhận',
     ko: '받다',
-    usage: 'Tôi nhận được chìa khóa.',
+    usage: 'Ví dụ: Tôi nhận được chìa khóa. (나는 열쇠를 받았습니다.)',
   },
   {
     id: 'ht-v-16',
@@ -1054,7 +1054,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'mở',
     ko: '열다',
-    usage: 'Mở cửa phòng với thẻ từ.',
+    usage: 'Ví dụ: Mở cửa phòng với thẻ từ. (카드키로 방문을 엽니다.)',
   },
   {
     id: 'ht-v-17',
@@ -1063,7 +1063,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'đóng',
     ko: '닫다',
-    usage: 'Đóng cửa khi rời phòng.',
+    usage: 'Ví dụ: Đóng cửa khi rời phòng. (방을 나올 때 문을 닫습니다.)',
   },
   {
     id: 'ht-v-18',
@@ -1072,7 +1072,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'bật',
     ko: '켜다',
-    usage: 'Bật điều hòa đi.',
+    usage: 'Ví dụ: Bật điều hòa đi. (에어컨을 켜세요.)',
   },
   {
     id: 'ht-v-19',
@@ -1081,7 +1081,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'tắt',
     ko: '끄다',
-    usage: 'Tắt đèn trước khi đi.',
+    usage: 'Ví dụ: Tắt đèn trước khi đi. (가기 전에 불을 끕니다.)',
   },
   {
     id: 'ht-v-20',
@@ -1090,7 +1090,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'tắm',
     ko: '목욕하다',
-    usage: 'Tôi muốn tắm ngay.',
+    usage: 'Ví dụ: Tôi muốn tắm ngay. (나는 지금 목욕하고 싶습니다.)',
   },
   {
     id: 'ht-v-21',
@@ -1099,7 +1099,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'đi',
     ko: '가다',
-    usage: 'Tôi muốn đi ra ngoài.',
+    usage: 'Ví dụ: Tôi muốn đi ra ngoài. (나는 밖으로 가고 싶습니다.)',
   },
   {
     id: 'ht-v-22',
@@ -1108,7 +1108,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'về',
     ko: '돌아오다',
-    usage: 'Tôi sẽ về lúc 10 giờ tối.',
+    usage: 'Ví dụ: Tôi sẽ về lúc 10 giờ tối. (나는 밤 10시에 돌아올 것입니다.)',
   },
   {
     id: 'ht-v-23',
@@ -1117,7 +1117,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'ngủ',
     ko: '자다',
-    usage: 'Tôi muốn ngủ sớm.',
+    usage: 'Ví dụ: Tôi muốn ngủ sớm. (나는 일찍 자고 싶습니다.)',
   },
   {
     id: 'ht-v-24',
@@ -1126,7 +1126,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'thức dậy',
     ko: '깨어나다',
-    usage: 'Thức dậy lúc 7 giờ sáng.',
+    usage: 'Ví dụ: Thức dậy lúc 7 giờ sáng. (오전 7시에 깹니다.)',
   },
   {
     id: 'ht-v-25',
@@ -1135,7 +1135,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'ăn',
     ko: '먹다',
-    usage: 'Ăn sáng ở nhà hàng.',
+    usage: 'Ví dụ: Ăn sáng ở nhà hàng. (레스토랑에서 아침을 먹습니다.)',
   },
 
   // Session 2: Hotel verbs (ht-v-26 to ht-v-50)
@@ -1146,7 +1146,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'gọi dịch vụ phòng',
     ko: '룸서비스를 부르다',
-    usage: 'Gọi dịch vụ phòng để order cơm.',
+    usage: 'Ví dụ: Gọi dịch vụ phòng để order cơm. (음식을 주문하기 위해 룸 서비스를 부릅니다.)',
   },
   {
     id: 'ht-v-27',
@@ -1155,7 +1155,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'order',
     ko: '주문하다',
-    usage: 'Order đồ ăn từ menu.',
+    usage: 'Ví dụ: Order đồ ăn từ menu. (메뉴에서 음식을 주문합니다.)',
   },
   {
     id: 'ht-v-28',
@@ -1164,7 +1164,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'giao',
     ko: '배달하다',
-    usage: 'Giao đồ ăn trong 30 phút.',
+    usage: 'Ví dụ: Giao đồ ăn trong 30 phút. (음식을 30분 내에 배달합니다.)',
   },
   {
     id: 'ht-v-29',
@@ -1173,7 +1173,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'sửa',
     ko: '수리하다',
-    usage: 'Sửa điều hòa ngay.',
+    usage: 'Ví dụ: Sửa điều hòa ngay. (에어컨을 즉시 수리합니다.)',
   },
   {
     id: 'ht-v-30',
@@ -1182,7 +1182,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'vệ sinh',
     ko: '청소하다',
-    usage: 'Vệ sinh phòng mỗi ngày.',
+    usage: 'Ví dụ: Vệ sinh phòng mỗi ngày. (매일 방을 청소합니다.)',
   },
   {
     id: 'ht-v-31',
@@ -1191,7 +1191,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'giặt',
     ko: '세탁하다',
-    usage: 'Giặt quần áo ở khách sạn.',
+    usage: 'Ví dụ: Giặt quần áo ở khách sạn. (호텔에서 옷을 세탁합니다.)',
   },
   {
     id: 'ht-v-32',
@@ -1200,7 +1200,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'ủi',
     ko: '다리미질하다',
-    usage: 'Ủi áo khoác của tôi.',
+    usage: 'Ví dụ: Ủi áo khoác của tôi. (내 재킷을 다려주세요.)',
   },
   {
     id: 'ht-v-33',
@@ -1209,7 +1209,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'gây ra',
     ko: '야기하다',
-    usage: 'Gây ra vấn đề gì không?',
+    usage: 'Ví dụ: Gây ra vấn đề gì không? (문제가 생겼나요?)',
   },
   {
     id: 'ht-v-34',
@@ -1218,7 +1218,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'hoạt động',
     ko: '작동하다',
-    usage: 'Điều hòa không hoạt động.',
+    usage: 'Ví dụ: Điều hòa không hoạt động. (에어컨이 작동하지 않습니다.)',
   },
   {
     id: 'ht-v-35',
@@ -1227,7 +1227,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'bị hỏng',
     ko: '고장나다',
-    usage: 'TV bị hỏng.',
+    usage: 'Ví dụ: TV bị hỏng. (TV가 고장났습니다.)',
   },
   {
     id: 'ht-v-36',
@@ -1236,7 +1236,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'kiểm tra',
     ko: '확인하다',
-    usage: 'Kiểm tra hóa đơn của bạn.',
+    usage: 'Ví dụ: Kiểm tra hóa đơn của bạn. (당신의 청구서를 확인하세요.)',
   },
   {
     id: 'ht-v-37',
@@ -1245,7 +1245,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'xác nhận',
     ko: '확인하다',
-    usage: 'Xác nhận booking của bạn.',
+    usage: 'Ví dụ: Xác nhận booking của bạn. (당신의 예약을 확인하세요.)',
   },
   {
     id: 'ht-v-38',
@@ -1254,7 +1254,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'hủy',
     ko: '취소하다',
-    usage: 'Hủy đặt phòng không tính phí.',
+    usage: 'Ví dụ: Hủy đặt phòng không tính phí. (예약을 취소해도 수수료가 없습니다.)',
   },
   {
     id: 'ht-v-39',
@@ -1263,7 +1263,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'thay đổi',
     ko: '변경하다',
-    usage: 'Thay đổi ngày đặt phòng.',
+    usage: 'Ví dụ: Thay đổi ngày đặt phòng. (예약 날짜를 변경하세요.)',
   },
   {
     id: 'ht-v-40',
@@ -1272,7 +1272,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'cập nhật',
     ko: '업데이트하다',
-    usage: 'Cập nhật thông tin khách hàng.',
+    usage: 'Ví dụ: Cập nhật thông tin khách hàng. (고객 정보를 업데이트하세요.)',
   },
   {
     id: 'ht-v-41',
@@ -1281,7 +1281,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'đồng ý',
     ko: '동의하다',
-    usage: 'Bạn đồng ý với điều khoản không?',
+    usage: 'Ví dụ: Bạn đồng ý với điều khoản không? (약관에 동의하시나요?)',
   },
   {
     id: 'ht-v-42',
@@ -1290,7 +1290,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'từ chối',
     ko: '거부하다',
-    usage: 'Từ chối dịch vụ thêm.',
+    usage: 'Ví dụ: Từ chối dịch vụ thêm. (추가 서비스를 거부합니다.)',
   },
   {
     id: 'ht-v-43',
@@ -1299,7 +1299,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'mời',
     ko: '초대하다',
-    usage: 'Mời bạn đến quán cà phê.',
+    usage: 'Ví dụ: Mời bạn đến quán cà phê. (카페에 초대합니다.)',
   },
   {
     id: 'ht-v-44',
@@ -1308,7 +1308,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'chọn',
     ko: '선택하다',
-    usage: 'Chọn phòng nào bạn?',
+    usage: 'Ví dụ: Chọn phòng nào bạn? (어느 방을 선택하시나요?)',
   },
   {
     id: 'ht-v-45',
@@ -1317,7 +1317,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'thích',
     ko: '좋아하다',
-    usage: 'Tôi thích phòng này.',
+    usage: 'Ví dụ: Tôi thích phòng này. (나는 이 방을 좋아합니다.)',
   },
   {
     id: 'ht-v-46',
@@ -1326,7 +1326,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'không thích',
     ko: '싫어하다',
-    usage: 'Tôi không thích phòng đó.',
+    usage: 'Ví dụ: Tôi không thích phòng đó. (나는 저 방을 싫어합니다.)',
   },
   {
     id: 'ht-v-47',
@@ -1335,7 +1335,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'cần',
     ko: '필요하다',
-    usage: 'Tôi cần thêm một cái gối.',
+    usage: 'Ví dụ: Tôi cần thêm một cái gối. (나는 베개가 하나 더 필요합니다.)',
   },
   {
     id: 'ht-v-48',
@@ -1344,7 +1344,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'muốn',
     ko: '원하다',
-    usage: 'Tôi muốn đổi phòng.',
+    usage: 'Ví dụ: Tôi muốn đổi phòng. (나는 방을 바꾸고 싶습니다.)',
   },
   {
     id: 'ht-v-49',
@@ -1353,7 +1353,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'có thể',
     ko: '할 수 있다',
-    usage: 'Bạn có thể giúp tôi không?',
+    usage: 'Ví dụ: Bạn có thể giúp tôi không? (저를 도와주실 수 있나요?)',
   },
   {
     id: 'ht-v-50',
@@ -1362,6 +1362,6 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'cảm ơn',
     ko: '감사하다',
-    usage: 'Cảm ơn bạn đã giúp tôi.',
+    usage: 'Ví dụ: Cảm ơn bạn đã giúp tôi. (나를 도와주셔서 감사합니다.)',
   },
 ]

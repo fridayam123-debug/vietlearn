@@ -9,7 +9,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'khu thực phẩm',
     ko: '식품 코너',
-    usage: 'Khu thực phẩm nằm ở tầng 1.',
+    usage: 'Ví dụ: Tôi tìm sữa ở khu thực phẩm. (나는 식품 코너에서 우유를 찾습니다.)',
   },
   {
     id: 'mt-w-02',
@@ -18,7 +18,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'khu rau củ',
     ko: '채소/과일 코너',
-    usage: 'Tôi mua rau tươi ở khu rau củ.',
+    usage: 'Ví dụ: Tôi mua rau tươi ở khu rau củ. (나는 채소/과일 코너에서 신선한 채소를 압니다.)',
   },
   {
     id: 'mt-w-03',
@@ -27,7 +27,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'khu thịt cá',
     ko: '육류/생선 코너',
-    usage: 'Thịt bò tươi ở khu thịt cá.',
+    usage: 'Ví dụ: Thịt bò tươi ở khu thịt cá. (신선한 소고기는 육류/생선 코너에 있습니다.)',
   },
   {
     id: 'mt-w-04',
@@ -36,7 +36,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'khu sữa',
     ko: '유제품 코너',
-    usage: 'Khu sữa có nhiều loại sữa khác nhau.',
+    usage: 'Ví dụ: Khu sữa có nhiều loại sữa khác nhau. (유제품 코너에는 다양한 종류의 우유가 있습니다.)',
   },
   {
     id: 'mt-w-05',
@@ -45,7 +45,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'khu bánh mì',
     ko: '빵/베이커리 코너',
-    usage: 'Bánh mì tươi ở khu bánh mì.',
+    usage: 'Ví dụ: Bánh mì tươi nướng ở khu bánh mì. (빵/베이커리 코너에는 신선하게 구운 빵이 있습니다.)',
   },
   {
     id: 'mt-w-06',
@@ -54,7 +54,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'khu đồ chua',
     ko: '청과/신선식품 코너',
-    usage: 'Khu đồ chua bán các loại kimchi.',
+    usage: 'Ví dụ: Khu đồ chua bán các loại kimchi Hàn Quốc. (청과/신선식품 코너에서는 다양한 종류의 김치를 팝니다.)',
   },
   {
     id: 'mt-w-07',
@@ -63,7 +63,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'quầy thu ngân',
     ko: '계산대',
-    usage: 'Vui lòng xếp hàng ở quầy thu ngân.',
+    usage: 'Ví dụ: Vui lòng xếp hàng ở quầy thu ngân. (계산대에서 줄을 서 주세요.)',
   },
   {
     id: 'mt-w-08',
@@ -72,7 +72,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'xe đẩy',
     ko: '쇼핑 카트',
-    usage: 'Tôi cần một xe đẩy để mua sắm.',
+    usage: 'Ví dụ: Tôi cần một xe đẩy để mua sắm. (쇼핑을 하기 위해 쇼핑 카트가 필요합니다.)',
   },
   {
     id: 'mt-w-09',
@@ -81,7 +81,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'giỏ mua sắm',
     ko: '쇼핑 바구니',
-    usage: 'Lấy một giỏ mua sắm ở cửa vào.',
+    usage: 'Ví dụ: Lấy một giỏ mua sắm ở cửa vào. (입구에서 쇼핑 바구니를 가져가세요.)',
   },
   {
     id: 'mt-w-10',
@@ -90,7 +90,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cái túi',
     ko: '봉지/가방',
-    usage: 'Tôi cần một cái túi để đựng hàng.',
+    usage: 'Ví dụ: Tôi cần một cái túi để đựng hàng. (물품을 담기 위해 가방이 필요합니다.)',
   },
   {
     id: 'mt-w-11',
@@ -99,7 +99,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'kho',
     ko: '창고/저장실',
-    usage: 'Hàng mới từ kho được bày ra.',
+    usage: 'Ví dụ: Hàng mới từ kho được bày ra hôm nay. (창고에서 새 상품을 오늘 진열합니다.)',
   },
   {
     id: 'mt-w-12',
@@ -108,7 +108,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'tầng',
     ko: '층',
-    usage: 'Khu rau củ ở tầng 1.',
+    usage: 'Ví dụ: Khu rau củ ở tầng 1 của siêu thị. (채소 코너는 슈퍼마켓의 1층에 있습니다.)',
   },
   {
     id: 'mt-w-13',
@@ -117,7 +117,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cửa vào',
     ko: '입구',
-    usage: 'Giỏ mua sắm nằm ở cửa vào.',
+    usage: 'Ví dụ: Giỏ mua sắm nằm ở cửa vào. (쇼핑 바구니는 입구에 있습니다.)',
   },
   {
     id: 'mt-w-14',
@@ -126,7 +126,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cửa ra',
     ko: '출구',
-    usage: 'Cửa ra ở bên phải của siêu thị.',
+    usage: 'Ví dụ: Cửa ra ở bên phải của siêu thị. (출구는 슈퍼마켓의 오른쪽에 있습니다.)',
   },
   {
     id: 'mt-w-15',
@@ -135,7 +135,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'thang máy',
     ko: '엘리베이터',
-    usage: 'Thang máy nằm ở phía sau.',
+    usage: 'Ví dụ: Thang máy nằm ở phía sau cửa hàng. (엘리베이터는 상점 뒤쪽에 있습니다.)',
   },
   {
     id: 'mt-w-16',
@@ -144,7 +144,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'kệ hàng',
     ko: '진열대',
-    usage: 'Sữa chua để trên kệ hàng tầm mắt.',
+    usage: 'Ví dụ: Sữa chua để trên kệ hàng tầm mắt. (요구르트는 눈높이의 진열대에 놓여있습니다.)',
   },
   {
     id: 'mt-w-17',
@@ -153,7 +153,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'siêu thị',
     ko: '슈퍼마켓',
-    usage: 'Siêu thị này rất lớn và sạch sẽ.',
+    usage: 'Ví dụ: Siêu thị này rất lớn và sạch sẽ. (이 슈퍼마켓은 매우 크고 깨끗합니다.)',
   },
   {
     id: 'mt-w-18',
@@ -162,7 +162,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'chợ',
     ko: '시장',
-    usage: 'Chợ truyền thống bán rau tươi.',
+    usage: 'Ví dụ: Chợ truyền thống bán rau tươi mỗi ngày. (전통 시장에서는 매일 신선한 채소를 팝니다.)',
   },
   {
     id: 'mt-w-19',
@@ -171,7 +171,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'khu vực ưu đãi',
     ko: '세일 코너',
-    usage: 'Khu vực ưu đãi có nhiều hàng khuyến mại.',
+    usage: 'Ví dụ: Khu vực ưu đãi có nhiều hàng khuyến mại. (세일 코너에는 많은 할인 상품이 있습니다.)',
   },
   {
     id: 'mt-w-20',
@@ -180,7 +180,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'máy cân',
     ko: '저울',
-    usage: 'Dùng máy cân để cân trọng lượng.',
+    usage: 'Ví dụ: Dùng máy cân để cân trọng lượng sản phẩm. (저울을 사용하여 상품의 무게를 재습니다.)',
   },
   {
     id: 'mt-w-21',
@@ -189,7 +189,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bảng giá',
     ko: '가격표',
-    usage: 'Bảng giá trên kệ hàng rõ ràng.',
+    usage: 'Ví dụ: Bảng giá trên kệ hàng rõ ràng và dễ nhìn. (진열대의 가격표는 명확하고 보기 쉽습니다.)',
   },
   {
     id: 'mt-w-22',
@@ -198,7 +198,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'biển hiệu',
     ko: '간판',
-    usage: 'Biển hiệu siêu thị rất sáng.',
+    usage: 'Ví dụ: Biển hiệu siêu thị rất sáng vào buổi tối. (슈퍼마켓의 간판은 저녁에 매우 밝습니다.)',
   },
   {
     id: 'mt-w-23',
@@ -207,7 +207,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'quốc phòng',
     ko: '서빙 카운터',
-    usage: 'Quầy dịch vụ ở giữa siêu thị.',
+    usage: 'Ví dụ: Quầy dịch vụ ở giữa siêu thị để hỗ trợ khách. (서빙 카운터는 고객을 지원하기 위해 슈퍼마켓 중앙에 있습니다.)',
   },
   {
     id: 'mt-w-24',
@@ -216,7 +216,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'lối đi',
     ko: '통로',
-    usage: 'Lối đi rộng và thoáng mát.',
+    usage: 'Ví dụ: Lối đi rộng và thoáng mát trong siêu thị. (슈퍼마켓의 통로는 넓고 통풍이 잘됩니다.)',
   },
   {
     id: 'mt-w-25',
@@ -225,7 +225,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'tủ lạnh',
     ko: '냉장고',
-    usage: 'Sữa được cất trong tủ lạnh.',
+    usage: 'Ví dụ: Sữa được cất trong tủ lạnh để giữ độ lạnh. (우유는 냉장고에 보관하여 차갑게 유지됩니다.)',
   },
 
   // Session 2: Products (25 words)
@@ -236,7 +236,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'sữa',
     ko: '우유',
-    usage: 'Tôi uống sữa mỗi sáng.',
+    usage: 'Ví dụ: Tôi uống sữa mỗi sáng để khỏe mạnh. (나는 건강을 위해 매일 아침 우유를 마십니다.)',
   },
   {
     id: 'mt-w-27',
@@ -245,7 +245,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'trứng',
     ko: '계란',
-    usage: 'Một hộp trứng có 10 quả.',
+    usage: 'Ví dụ: Một hộp trứng có 10 quả. (한 상자의 계란에는 10개가 있습니다.)',
   },
   {
     id: 'mt-w-28',
@@ -254,7 +254,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bánh mì',
     ko: '빵',
-    usage: 'Bánh mì mới nướng ngon lắm.',
+    usage: 'Ví dụ: Bánh mì mới nướng ngon lắm. (새로 구운 빵은 정말 맛있습니다.)',
   },
   {
     id: 'mt-w-29',
@@ -263,7 +263,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'mì gói',
     ko: '라면',
-    usage: 'Mì gói là thức ăn nhanh.',
+    usage: 'Ví dụ: Mì gói là thức ăn nhanh tiện lợi. (라면은 편리한 간편식입니다.)',
   },
   {
     id: 'mt-w-30',
@@ -272,7 +272,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'nước ngọt',
     ko: '청량음료',
-    usage: 'Nước ngọt lạnh rất tốt.',
+    usage: 'Ví dụ: Nước ngọt lạnh rất tốt vào mùa hè. (차가운 청량음료는 여름에 정말 좋습니다.)',
   },
   {
     id: 'mt-w-31',
@@ -281,7 +281,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bia',
     ko: '맥주',
-    usage: 'Bia lạnh phù hợp với hè.',
+    usage: 'Ví dụ: Bia lạnh phù hợp với bữa tiệc hè. (차가운 맥주는 여름 파티에 어울립니다.)',
   },
   {
     id: 'mt-w-32',
@@ -290,7 +290,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'rượu',
     ko: '술',
-    usage: 'Rượu vang nhập khẩu ở đây.',
+    usage: 'Ví dụ: Rượu vang nhập khẩu từ Pháp ở đây. (프랑스에서 수입한 포도주가 여기 있습니다.)',
   },
   {
     id: 'mt-w-33',
@@ -299,7 +299,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cà phê',
     ko: '커피',
-    usage: 'Cà phê hòa tan rất tiện.',
+    usage: 'Ví dụ: Cà phê hòa tan rất tiện dùng buổi sáng. (인스턴트 커피는 아침에 매우 편리합니다.)',
   },
   {
     id: 'mt-w-34',
@@ -308,7 +308,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'trà',
     ko: '차',
-    usage: 'Trà xanh tốt cho sức khỏe.',
+    usage: 'Ví dụ: Trà xanh tốt cho sức khỏe của cơ thể. (녹차는 신체 건강에 좋습니다.)',
   },
   {
     id: 'mt-w-35',
@@ -317,7 +317,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'nước ép',
     ko: '주스',
-    usage: 'Nước ép cam tươi ngon.',
+    usage: 'Ví dụ: Nước ép cam tươi ngon và tốt. (신선한 오렌지 주스는 맛있고 건강합니다.)',
   },
   {
     id: 'mt-w-36',
@@ -326,7 +326,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'sữa chua',
     ko: '요구르트',
-    usage: 'Sữa chua chứa lợi khuẩn.',
+    usage: 'Ví dụ: Sữa chua chứa lợi khuẩn tốt. (요구르트는 좋은 유산균을 함유하고 있습니다.)',
   },
   {
     id: 'mt-w-37',
@@ -335,7 +335,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'pho mát',
     ko: '치즈',
-    usage: 'Pho mát nhập khẩu từ Hà Lan.',
+    usage: 'Ví dụ: Pho mát nhập khẩu từ Hà Lan rất ngon. (네덜란드에서 수입한 치즈는 정말 맛있습니다.)',
   },
   {
     id: 'mt-w-38',
@@ -344,7 +344,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bơ',
     ko: '버터',
-    usage: 'Bơ dùng để nấu ăn.',
+    usage: 'Ví dụ: Bơ dùng để nấu ăn và làm bánh. (버터는 요리와 베이킹에 사용됩니다.)',
   },
   {
     id: 'mt-w-39',
@@ -353,7 +353,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'mật ong',
     ko: '꿀',
-    usage: 'Mật ong tự nhiên rất đắt.',
+    usage: 'Ví dụ: Mật ong tự nhiên rất đắt tiền. (천연 꿀은 매우 비쌉니다.)',
   },
   {
     id: 'mt-w-40',
@@ -362,7 +362,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'dầu ăn',
     ko: '식용유',
-    usage: 'Dầu ăn chất lượng tốt.',
+    usage: 'Ví dụ: Dầu ăn chất lượng tốt từ hạt. (양질의 식용유는 종자에서 나옵니다.)',
   },
   {
     id: 'mt-w-41',
@@ -371,7 +371,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'muối',
     ko: '소금',
-    usage: 'Muối iốt tốt cho sức khỏe.',
+    usage: 'Ví dụ: Muối iốt tốt cho sức khỏe. (요오드염은 건강에 좋습니다.)',
   },
   {
     id: 'mt-w-42',
@@ -380,7 +380,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'đường',
     ko: '설탕',
-    usage: 'Đường trắng được bán theo kg.',
+    usage: 'Ví dụ: Đường trắng được bán theo kg. (백설탕은 킬로그램으로 판매됩니다.)',
   },
   {
     id: 'mt-w-43',
@@ -389,7 +389,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'nước mắm',
     ko: '생선 소스',
-    usage: 'Nước mắm là gia vị cơ bản.',
+    usage: 'Ví dụ: Nước mắm là gia vị cơ bản của ẩm thực Việt. (생선 소스는 베트남 요리의 기본 양념입니다.)',
   },
   {
     id: 'mt-w-44',
@@ -398,7 +398,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'tương',
     ko: '된장',
-    usage: 'Tương đậu ngoại nhập.',
+    usage: 'Ví dụ: Tương đậu ngoại nhập chất lượng cao. (수입 두부 된장은 고품질입니다.)',
   },
   {
     id: 'mt-w-45',
@@ -407,7 +407,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'mứt',
     ko: '잼',
-    usage: 'Mứt dâu tây rất thơm.',
+    usage: 'Ví dụ: Mứt dâu tây rất thơm và ngon. (딸기 잼은 매우 향기롭고 맛있습니다.)',
   },
   {
     id: 'mt-w-46',
@@ -416,7 +416,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'socola',
     ko: '초콜릿',
-    usage: 'Socola nhập khẩu từ Bỉ.',
+    usage: 'Ví dụ: Socola nhập khẩu từ Bỉ rất nổi tiếng. (벨기에에서 수입한 초콜릿은 매우 유명합니다.)',
   },
   {
     id: 'mt-w-47',
@@ -425,7 +425,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'kẹo',
     ko: '사탕',
-    usage: 'Kẹo bán nhiều loại khác nhau.',
+    usage: 'Ví dụ: Kẹo bán nhiều loại khác nhau. (사탕은 다양한 종류로 판매됩니다.)',
   },
   {
     id: 'mt-w-48',
@@ -434,7 +434,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bánh quy',
     ko: '쿠키',
-    usage: 'Bánh quy bơ ngon lắm.',
+    usage: 'Ví dụ: Bánh quy bơ ngon lắm. (버터 쿠키는 정말 맛있습니다.)',
   },
   {
     id: 'mt-w-49',
@@ -443,7 +443,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'snack',
     ko: '스낵',
-    usage: 'Snack sn tập cho bé.',
+    usage: 'Ví dụ: Snack này rất phù hợp cho bé. (이 스낵은 아이에게 매우 적합합니다.)',
   },
   {
     id: 'mt-w-50',
@@ -452,7 +452,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'hạt',
     ko: '견과류',
-    usage: 'Hạt điều bán theo hộp.',
+    usage: 'Ví dụ: Hạt điều bán theo hộp nhỏ. (캐슈넛은 작은 상자로 판매됩니다.)',
   },
 
   // Session 3: Shopping/payment terms (25 words)
@@ -463,7 +463,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'giá',
     ko: '가격',
-    usage: 'Giá sản phẩm này bao nhiêu?',
+    usage: 'Ví dụ: Giá sản phẩm này bao nhiêu? (이 상품의 가격은 얼마입니까?)',
   },
   {
     id: 'mt-w-52',
@@ -472,7 +472,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'giảm giá',
     ko: '할인',
-    usage: 'Có giảm giá cho sản phẩm này không?',
+    usage: 'Ví dụ: Có giảm giá cho sản phẩm này không? (이 상품에 할인이 있습니까?)',
   },
   {
     id: 'mt-w-53',
@@ -481,7 +481,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'khuyến mại',
     ko: '프로모션',
-    usage: 'Khuyến mại tuần này rất tốt.',
+    usage: 'Ví dụ: Khuyến mại tuần này rất tốt. (이번 주의 프로모션은 정말 좋습니다.)',
   },
   {
     id: 'mt-w-54',
@@ -490,7 +490,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'hóa đơn',
     ko: '영수증',
-    usage: 'Vui lòng lấy hóa đơn ở quầy.',
+    usage: 'Ví dụ: Vui lòng lấy hóa đơn ở quầy. (계산대에서 영수증을 가져가세요.)',
   },
   {
     id: 'mt-w-55',
@@ -499,7 +499,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'tiền',
     ko: '돈',
-    usage: 'Tiền bao nhiêu tôi nợ?',
+    usage: 'Ví dụ: Tiền bao nhiêu tôi nợ? (제가 얼마를 빚지고 있습니까?)',
   },
   {
     id: 'mt-w-56',
@@ -508,7 +508,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'tiền mặt',
     ko: '현금',
-    usage: 'Bạn có nhận tiền mặt không?',
+    usage: 'Ví dụ: Bạn có nhận tiền mặt không? (현금을 받으십니까?)',
   },
   {
     id: 'mt-w-57',
@@ -517,7 +517,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'thẻ',
     ko: '카드',
-    usage: 'Tôi trả bằng thẻ.',
+    usage: 'Ví dụ: Tôi trả bằng thẻ thanh toán. (카드로 결제합니다.)',
   },
   {
     id: 'mt-w-58',
@@ -526,7 +526,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'thẻ tín dụng',
     ko: '신용카드',
-    usage: 'Thẻ tín dụng nào bạn chấp nhận?',
+    usage: 'Ví dụ: Thẻ tín dụng nào bạn chấp nhận? (어떤 신용카드를 받으십니까?)',
   },
   {
     id: 'mt-w-59',
@@ -535,7 +535,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'thẻ ghi nợ',
     ko: '체크카드',
-    usage: 'Tôi thanh toán bằng thẻ ghi nợ.',
+    usage: 'Ví dụ: Tôi thanh toán bằng thẻ ghi nợ. (체크카드로 결제합니다.)',
   },
   {
     id: 'mt-w-60',
@@ -544,7 +544,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'ví điện tử',
     ko: '전자 지갑',
-    usage: 'Ví điện tử rất tiện lợi.',
+    usage: 'Ví dụ: Ví điện tử rất tiện lợi và an toàn. (전자 지갑은 매우 편리하고 안전합니다.)',
   },
   {
     id: 'mt-w-61',
@@ -553,7 +553,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'QR code',
     ko: 'QR 코드',
-    usage: 'Quét QR code để thanh toán.',
+    usage: 'Ví dụ: Quét QR code để thanh toán nhanh. (빠른 결제를 위해 QR 코드를 스캔합니다.)',
   },
   {
     id: 'mt-w-62',
@@ -562,7 +562,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'tiền lẻ',
     ko: '잔돈',
-    usage: 'Cho tôi tiền lẻ vui lòng.',
+    usage: 'Ví dụ: Cho tôi tiền lẻ vui lòng. (잔돈을 주세요.)',
   },
   {
     id: 'mt-w-63',
@@ -571,7 +571,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'thối',
     ko: '거스름돈',
-    usage: 'Thối bao nhiêu tiền?',
+    usage: 'Ví dụ: Thối bao nhiêu tiền? (거스름돈이 얼마입니까?)',
   },
   {
     id: 'mt-w-64',
@@ -580,7 +580,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cộng',
     ko: '더하기/합계',
-    usage: 'Cộng hết bao nhiêu tiền?',
+    usage: 'Ví dụ: Cộng hết bao nhiêu tiền? (합계가 얼마입니까?)',
   },
   {
     id: 'mt-w-65',
@@ -589,7 +589,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'tổng cộng',
     ko: '총합',
-    usage: 'Tổng cộng là 500 nghìn đồng.',
+    usage: 'Ví dụ: Tổng cộng là 500 nghìn đồng. (총합은 50만 동입니다.)',
   },
   {
     id: 'mt-w-66',
@@ -598,7 +598,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'hết hàng',
     ko: '품절',
-    usage: 'Sản phẩm này đã hết hàng.',
+    usage: 'Ví dụ: Sản phẩm này đã hết hàng. (이 상품은 품절되었습니다.)',
   },
   {
     id: 'mt-w-67',
@@ -607,7 +607,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'đặt hàng',
     ko: '주문',
-    usage: 'Tôi muốn đặt hàng cái sản phẩm này.',
+    usage: 'Ví dụ: Tôi muốn đặt hàng sản phẩm này. (이 상품을 주문하고 싶습니다.)',
   },
   {
     id: 'mt-w-68',
@@ -616,7 +616,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'mã số',
     ko: '품번/번호',
-    usage: 'Mã số sản phẩm ở trên bao bì.',
+    usage: 'Ví dụ: Mã số sản phẩm ở trên bao bì. (상품 번호는 포장에 있습니다.)',
   },
   {
     id: 'mt-w-69',
@@ -625,7 +625,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'mã vạch',
     ko: '바코드',
-    usage: 'Quét mã vạch để biết giá.',
+    usage: 'Ví dụ: Quét mã vạch để biết giá. (바코드를 스캔하여 가격을 확인합니다.)',
   },
   {
     id: 'mt-w-70',
@@ -634,7 +634,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bao bì',
     ko: '포장',
-    usage: 'Bao bì sản phẩm dễ bị rách.',
+    usage: 'Ví dụ: Bao bì sản phẩm dễ bị rách. (상품 포장이 쉽게 찢어집니다.)',
   },
   {
     id: 'mt-w-71',
@@ -643,7 +643,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'nhãn',
     ko: '라벨',
-    usage: 'Nhãn thông tin được dán trên bao bì.',
+    usage: 'Ví dụ: Nhãn thông tin được dán trên bao bì. (정보 라벨이 포장에 붙어 있습니다.)',
   },
   {
     id: 'mt-w-72',
@@ -652,7 +652,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'hạn sử dụng',
     ko: '유효기간',
-    usage: 'Kiểm tra hạn sử dụng trước khi mua.',
+    usage: 'Ví dụ: Kiểm tra hạn sử dụng trước khi mua. (구매하기 전에 유효기간을 확인합니다.)',
   },
   {
     id: 'mt-w-73',
@@ -661,7 +661,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'ngày sản xuất',
     ko: '제조일자',
-    usage: 'Ngày sản xuất ghi trên bao bì.',
+    usage: 'Ví dụ: Ngày sản xuất ghi rõ trên bao bì. (제조일자는 포장에 명확히 기록되어 있습니다.)',
   },
   {
     id: 'mt-w-74',
@@ -670,7 +670,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'giảm giá sâu',
     ko: '대폭 할인',
-    usage: 'Sản phẩm này được giảm giá sâu.',
+    usage: 'Ví dụ: Sản phẩm này được giảm giá sâu. (이 상품은 대폭 할인되고 있습니다.)',
   },
   {
     id: 'mt-w-75',
@@ -679,7 +679,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'mua 1 tặng 1',
     ko: '1+1 이벤트',
-    usage: 'Hôm nay có khuyến mại mua 1 tặng 1.',
+    usage: 'Ví dụ: Hôm nay có khuyến mại mua 1 tặng 1. (오늘은 1+1 이벤트가 있습니다.)',
   },
 
   // Session 4: Quantities, packaging (25 words)
@@ -690,7 +690,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'kg',
     ko: '킬로그램',
-    usage: 'Tôi muốn 2 kg khoai tây.',
+    usage: 'Ví dụ: Tôi muốn 2 kg khoai tây. (감자 2킬로그램을 원합니다.)',
   },
   {
     id: 'mt-w-77',
@@ -699,7 +699,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'gam',
     ko: '그램',
-    usage: '100 gam xạ hương xanh.',
+    usage: 'Ví dụ: 100 gam hạt mắc ca. (마카다미아 100그램입니다.)',
   },
   {
     id: 'mt-w-78',
@@ -708,7 +708,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'lít',
     ko: '리터',
-    usage: 'Một lít sữa bao nhiêu tiền?',
+    usage: 'Ví dụ: Một lít sữa bao nhiêu tiền? (우유 1리터가 얼마입니까?)',
   },
   {
     id: 'mt-w-79',
@@ -717,7 +717,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'ml',
     ko: '밀리리터',
-    usage: '250 ml nước cam tươi.',
+    usage: 'Ví dụ: 250 ml nước cam tươi ép. (신선한 오렌지 주스 250밀리리터입니다.)',
   },
   {
     id: 'mt-w-80',
@@ -726,7 +726,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'quả',
     ko: '개',
-    usage: 'Tôi muốn 3 quả quýt.',
+    usage: 'Ví dụ: Tôi muốn 3 quả quýt. (귤 3개를 원합니다.)',
   },
   {
     id: 'mt-w-81',
@@ -735,7 +735,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'trái',
     ko: '개/송이',
-    usage: 'Một trái chuối bao nhiêu?',
+    usage: 'Ví dụ: Một trái chuối bao nhiêu? (바나나 한 개가 얼마입니까?)',
   },
   {
     id: 'mt-w-82',
@@ -744,7 +744,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'chục',
     ko: '십 개',
-    usage: 'Một chục trứng gà.',
+    usage: 'Ví dụ: Một chục trứng gà ở đây. (닭 계란 10개가 있습니다.)',
   },
   {
     id: 'mt-w-83',
@@ -753,7 +753,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'hộp',
     ko: '상자/박스',
-    usage: 'Một hộp sữa tươi.',
+    usage: 'Ví dụ: Một hộp sữa tươi 1 lít. (신선한 우유 1리터 한 상자입니다.)',
   },
   {
     id: 'mt-w-84',
@@ -762,7 +762,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'túi',
     ko: '봉지',
-    usage: 'Một túi bánh quy.',
+    usage: 'Ví dụ: Một túi bánh quy bao bì đẹp. (예쁜 포장의 쿠키 한 봉지입니다.)',
   },
   {
     id: 'mt-w-85',
@@ -771,7 +771,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'gói',
     ko: '팩/묶음',
-    usage: 'Một gói mì gói 5 cái.',
+    usage: 'Ví dụ: Một gói mì gói có 5 cái. (라면 한 팩에 5개가 있습니다.)',
   },
   {
     id: 'mt-w-86',
@@ -780,7 +780,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'chai',
     ko: '병',
-    usage: 'Một chai rượu vang.',
+    usage: 'Ví dụ: Một chai rượu vang đỏ Pháp. (프랑스 레드 와인 한 병입니다.)',
   },
   {
     id: 'mt-w-87',
@@ -789,7 +789,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'lon',
     ko: '캔',
-    usage: 'Một lon bia lạnh.',
+    usage: 'Ví dụ: Một lon bia lạnh mát. (차가운 맥주 한 캔입니다.)',
   },
   {
     id: 'mt-w-88',
@@ -798,7 +798,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bình',
     ko: '병/용기',
-    usage: 'Một bình nước cam.',
+    usage: 'Ví dụ: Một bình nước cam ép tươi. (신선한 오렌지 주스 한 병입니다.)',
   },
   {
     id: 'mt-w-89',
@@ -807,7 +807,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'ống',
     ko: '튜브',
-    usage: 'Ống mayonnaise nhỏ.',
+    usage: 'Ví dụ: Ống mayonnaise nhỏ tiện dùng. (작은 마요네즈 튜브는 편리합니다.)',
   },
   {
     id: 'mt-w-90',
@@ -816,7 +816,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'hủ',
     ko: '항아리/단지',
-    usage: 'Một hủ mứt dâu.',
+    usage: 'Ví dụ: Một hủ mứt dâu tây ngon. (맛있는 딸기 잼 한 항아리입니다.)',
   },
   {
     id: 'mt-w-91',
@@ -825,7 +825,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cốc',
     ko: '컵/잔',
-    usage: 'Một cốc sữa chua.',
+    usage: 'Ví dụ: Một cốc sữa chua có lợi khuẩn. (유산균이 있는 요구르트 한 컵입니다.)',
   },
   {
     id: 'mt-w-92',
@@ -834,7 +834,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'hộp thạch',
     ko: '플라스틱 용기',
-    usage: 'Sữa chua trong hộp thạch.',
+    usage: 'Ví dụ: Sữa chua trong hộp thạch nhỏ. (작은 플라스틱 용기의 요구르트입니다.)',
   },
   {
     id: 'mt-w-93',
@@ -843,7 +843,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'giấy',
     ko: '종이',
-    usage: 'Túi giấy để đựng hàng.',
+    usage: 'Ví dụ: Túi giấy để đựng hàng thân thiện. (환경친화적인 종이 봉지입니다.)',
   },
   {
     id: 'mt-w-94',
@@ -852,7 +852,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'nilon',
     ko: '비닐',
-    usage: 'Túi nilon để đựng hàng tươi.',
+    usage: 'Ví dụ: Túi nilon để đựng hàng tươi lạnh. (신선한 물품을 담을 비닐 봉지입니다.)',
   },
   {
     id: 'mt-w-95',
@@ -861,7 +861,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cây',
     ko: '대/개',
-    usage: 'Hai cây dưa chuột.',
+    usage: 'Ví dụ: Hai cây dưa chuột tươi. (신선한 오이 두 개입니다.)',
   },
   {
     id: 'mt-w-96',
@@ -870,7 +870,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'ổ',
     ko: '덩어리',
-    usage: 'Một ổ bánh mì.',
+    usage: 'Ví dụ: Một ổ bánh mì nướng nóng. (따뜻하게 구운 빵 한 덩어리입니다.)',
   },
   {
     id: 'mt-w-97',
@@ -879,7 +879,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'miếng',
     ko: '조각',
-    usage: 'Một miếng bánh.',
+    usage: 'Ví dụ: Một miếng bánh chocolate ngon. (맛있는 초콜릿 케이크 한 조각입니다.)',
   },
   {
     id: 'mt-w-98',
@@ -888,7 +888,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bó',
     ko: '다발',
-    usage: 'Một bó rau cần.',
+    usage: 'Ví dụ: Một bó rau cần tươi. (신선한 셀러리 한 다발입니다.)',
   },
   {
     id: 'mt-w-99',
@@ -897,7 +897,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bầu',
     ko: '계란 한판',
-    usage: 'Một bầu trứng vịt.',
+    usage: 'Ví dụ: Một bầu trứng vịt tươi. (신선한 오리 계란 한 판입니다.)',
   },
   {
     id: 'mt-w-100',
@@ -906,7 +906,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'xấp',
     ko: '묶음',
-    usage: 'Một xấp tiền tờ 20 nghìn.',
+    usage: 'Ví dụ: Một xấp tiền tờ 20 nghìn đồng. (2만 동권 지폐 한 묶음입니다.)',
   },
 ]
 
@@ -919,7 +919,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'mua',
     ko: '사다',
-    usage: 'Tôi muốn mua sữa.',
+    usage: 'Ví dụ: Tôi muốn mua sữa tươi. (나는 신선한 우유를 사고 싶습니다.)',
   },
   {
     id: 'mt-v-02',
@@ -928,7 +928,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'bán',
     ko: '팔다',
-    usage: 'Siêu thị bán nhiều sản phẩm.',
+    usage: 'Ví dụ: Siêu thị bán nhiều sản phẩm. (슈퍼마켓은 많은 상품을 팝니다.)',
   },
   {
     id: 'mt-v-03',
@@ -937,7 +937,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'chọn',
     ko: '선택하다',
-    usage: 'Tôi chọn sản phẩm này.',
+    usage: 'Ví dụ: Tôi chọn sản phẩm chất lượng tốt. (나는 품질이 좋은 상품을 선택합니다.)',
   },
   {
     id: 'mt-v-04',
@@ -946,7 +946,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'cân',
     ko: '달다/재다',
-    usage: 'Tôi cần cân trọng lượng.',
+    usage: 'Ví dụ: Tôi cần cân trọng lượng rau. (채소의 무게를 재야 합니다.)',
   },
   {
     id: 'mt-v-05',
@@ -955,7 +955,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'trả',
     ko: '지불하다/내다',
-    usage: 'Tôi trả bằng thẻ.',
+    usage: 'Ví dụ: Tôi trả bằng thẻ tín dụng. (나는 신용카드로 결제합니다.)',
   },
   {
     id: 'mt-v-06',
@@ -964,7 +964,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'thanh toán',
     ko: '계산하다',
-    usage: 'Tôi thanh toán ở quầy.',
+    usage: 'Ví dụ: Tôi thanh toán ở quầy tính tiền. (나는 계산대에서 결제합니다.)',
   },
   {
     id: 'mt-v-07',
@@ -973,7 +973,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'chi tiêu',
     ko: '지출하다/쓰다',
-    usage: 'Tôi chi tiêu nhiều tiền hôm nay.',
+    usage: 'Ví dụ: Tôi chi tiêu nhiều tiền hôm nay. (나는 오늘 많은 돈을 썼습니다.)',
   },
   {
     id: 'mt-v-08',
@@ -982,7 +982,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'đặt',
     ko: '놓다/두다',
-    usage: 'Tôi đặt hàng vào xe đẩy.',
+    usage: 'Ví dụ: Tôi đặt hàng vào xe đẩy. (나는 상품을 쇼핑 카트에 놓습니다.)',
   },
   {
     id: 'mt-v-09',
@@ -991,7 +991,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'lấy',
     ko: '집다/가지다',
-    usage: 'Tôi lấy một cái giỏ.',
+    usage: 'Ví dụ: Tôi lấy một cái giỏ mua sắm. (나는 쇼핑 바구니 하나를 집습니다.)',
   },
   {
     id: 'mt-v-10',
@@ -1000,7 +1000,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'để',
     ko: '놓다',
-    usage: 'Để hàng trên kệ.',
+    usage: 'Ví dụ: Để hàng trên kệ đúng vị trí. (상품을 올바른 위치에 진열대에 놓습니다.)',
   },
   {
     id: 'mt-v-11',
@@ -1009,7 +1009,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'đưa',
     ko: '주다',
-    usage: 'Đưa cho tôi cái túi.',
+    usage: 'Ví dụ: Đưa cho tôi cái túi vui lòng. (가방을 주세요.)',
   },
   {
     id: 'mt-v-12',
@@ -1018,7 +1018,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'nhận',
     ko: '받다',
-    usage: 'Tôi nhận hóa đơn.',
+    usage: 'Ví dụ: Tôi nhận hóa đơn từ nhân viên. (나는 직원으로부터 영수증을 받습니다.)',
   },
   {
     id: 'mt-v-13',
@@ -1027,7 +1027,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'xếp hàng',
     ko: '줄을 서다',
-    usage: 'Xếp hàng ở quầy thu ngân.',
+    usage: 'Ví dụ: Xếp hàng ở quầy thu ngân. (계산대에서 줄을 섭니다.)',
   },
   {
     id: 'mt-v-14',
@@ -1036,7 +1036,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'vào',
     ko: '들어가다',
-    usage: 'Tôi vào siêu thị.',
+    usage: 'Ví dụ: Tôi vào siêu thị buổi sáng. (나는 아침에 슈퍼마켓에 들어갑니다.)',
   },
   {
     id: 'mt-v-15',
@@ -1045,7 +1045,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'ra',
     ko: '나가다',
-    usage: 'Tôi ra khỏi siêu thị.',
+    usage: 'Ví dụ: Tôi ra khỏi siêu thị lúc 10 giờ. (나는 10시에 슈퍼마켓을 나갑니다.)',
   },
   {
     id: 'mt-v-16',
@@ -1054,7 +1054,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'tìm',
     ko: '찾다',
-    usage: 'Tôi tìm sữa.',
+    usage: 'Ví dụ: Tôi tìm sữa ở khu thực phẩm. (나는 우유를 식품 코너에서 찾습니다.)',
   },
   {
     id: 'mt-v-17',
@@ -1063,7 +1063,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'đi',
     ko: '가다',
-    usage: 'Tôi đi đến siêu thị.',
+    usage: 'Ví dụ: Tôi đi đến siêu thị mỗi tuần. (나는 매주 슈퍼마켓에 갑니다.)',
   },
   {
     id: 'mt-v-18',
@@ -1072,7 +1072,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'quay lại',
     ko: '돌아오다',
-    usage: 'Tôi quay lại siêu thị.',
+    usage: 'Ví dụ: Tôi quay lại siêu thị để mua đồ. (나는 물건을 사기 위해 슈퍼마켓으로 돌아옵니다.)',
   },
   {
     id: 'mt-v-19',
@@ -1081,7 +1081,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'giữ',
     ko: '보관하다',
-    usage: 'Giữ hàng lạnh trong tủ lạnh.',
+    usage: 'Ví dụ: Giữ hàng lạnh trong tủ lạnh. (냉장 제품을 냉장고에 보관합니다.)',
   },
   {
     id: 'mt-v-20',
@@ -1090,7 +1090,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'bỏ',
     ko: '버리다/던지다',
-    usage: 'Bỏ bao bì không cần thiết.',
+    usage: 'Ví dụ: Bỏ bao bì không cần thiết. (불필요한 포장을 버립니다.)',
   },
   {
     id: 'mt-v-21',
@@ -1099,7 +1099,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'cuốn',
     ko: '감싸다',
-    usage: 'Cuốn thịt cá bằng giấy.',
+    usage: 'Ví dụ: Cuốn thịt cá bằng giấy sạch. (고기를 깨끗한 종이로 싼다.)',
   },
   {
     id: 'mt-v-22',
@@ -1108,7 +1108,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'gói',
     ko: '싸다',
-    usage: 'Gói hàng thành bộ.',
+    usage: 'Ví dụ: Gói hàng thành bộ để dễ mang. (쉽게 나르기 위해 물건을 쌌습니다.)',
   },
   {
     id: 'mt-v-23',
@@ -1117,7 +1117,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'mở',
     ko: '열다',
-    usage: 'Mở cái tủ lạnh.',
+    usage: 'Ví dụ: Mở cái tủ lạnh để lấy sữa. (우유를 꺼내기 위해 냉장고를 엽니다.)',
   },
   {
     id: 'mt-v-24',
@@ -1126,7 +1126,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'đóng',
     ko: '닫다',
-    usage: 'Đóng cái tủ lạnh.',
+    usage: 'Ví dụ: Đóng cái tủ lạnh sau khi lấy hàng. (물건을 꺼낸 후 냉장고를 닫습니다.)',
   },
   {
     id: 'mt-v-25',
@@ -1135,7 +1135,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'tính tiền',
     ko: '계산하다',
-    usage: 'Tính tiền giúp tôi.',
+    usage: 'Ví dụ: Tính tiền giúp tôi vui lòng. (나를 위해 계산해 주세요.)',
   },
 
   // Session 2: Advanced shopping verbs (25 verbs)
@@ -1146,7 +1146,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'đổi',
     ko: '바꾸다',
-    usage: 'Tôi muốn đổi sản phẩm này.',
+    usage: 'Ví dụ: Tôi muốn đổi sản phẩm hỏng. (나는 손상된 상품을 바꾸고 싶습니다.)',
   },
   {
     id: 'mt-v-27',
@@ -1155,7 +1155,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'trả lại',
     ko: '반품하다',
-    usage: 'Trả lại sản phẩm không vừa.',
+    usage: 'Ví dụ: Trả lại sản phẩm không vừa. (맞지 않는 상품을 반품합니다.)',
   },
   {
     id: 'mt-v-28',
@@ -1164,7 +1164,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'hoàn lại',
     ko: '환불하다',
-    usage: 'Hoàn lại tiền cho khách.',
+    usage: 'Ví dụ: Hoàn lại tiền cho khách hàng. (고객에게 환불해줍니다.)',
   },
   {
     id: 'mt-v-29',
@@ -1173,7 +1173,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'so sánh',
     ko: '비교하다',
-    usage: 'So sánh giá cả.',
+    usage: 'Ví dụ: So sánh giá cả các sản phẩm. (여러 상품의 가격을 비교합니다.)',
   },
   {
     id: 'mt-v-30',
@@ -1182,7 +1182,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'kiểm tra',
     ko: '확인하다',
-    usage: 'Kiểm tra hạn sử dụng.',
+    usage: 'Ví dụ: Kiểm tra hạn sử dụng sản phẩm. (상품의 유효기간을 확인합니다.)',
   },
   {
     id: 'mt-v-31',
@@ -1191,7 +1191,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'xem',
     ko: '보다',
-    usage: 'Xem giá trên bảng hiệu.',
+    usage: 'Ví dụ: Xem giá trên bảng hiệu. (간판의 가격을 봅니다.)',
   },
   {
     id: 'mt-v-32',
@@ -1200,7 +1200,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'hỏi',
     ko: '묻다/질문하다',
-    usage: 'Hỏi nhân viên về sản phẩm.',
+    usage: 'Ví dụ: Hỏi nhân viên về sản phẩm. (직원에게 상품에 대해 물어봅니다.)',
   },
   {
     id: 'mt-v-33',
@@ -1209,7 +1209,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'trả lời',
     ko: '대답하다',
-    usage: 'Trả lời câu hỏi của khách.',
+    usage: 'Ví dụ: Trả lời câu hỏi của khách. (고객의 질문에 답변합니다.)',
   },
   {
     id: 'mt-v-34',
@@ -1218,7 +1218,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'giới thiệu',
     ko: '소개하다',
-    usage: 'Giới thiệu sản phẩm mới.',
+    usage: 'Ví dụ: Giới thiệu sản phẩm mới. (새 상품을 소개합니다.)',
   },
   {
     id: 'mt-v-35',
@@ -1227,7 +1227,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'đề nghị',
     ko: '제안하다',
-    usage: 'Đề nghị sản phẩm tốt.',
+    usage: 'Ví dụ: Đề nghị sản phẩm tốt cho bạn. (당신을 위해 좋은 상품을 제안합니다.)',
   },
   {
     id: 'mt-v-36',
@@ -1236,7 +1236,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'ghé',
     ko: '들르다',
-    usage: 'Ghé qua siêu thị.',
+    usage: 'Ví dụ: Ghé qua siêu thị lúc về nhà. (집에 돌아오면서 슈퍼마켓에 들립니다.)',
   },
   {
     id: 'mt-v-37',
@@ -1245,7 +1245,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'mua sắm',
     ko: '쇼핑하다',
-    usage: 'Tôi thích mua sắm.',
+    usage: 'Ví dụ: Tôi thích mua sắm vào cuối tuần. (나는 주말에 쇼핑하는 것을 좋아합니다.)',
   },
   {
     id: 'mt-v-38',
@@ -1254,7 +1254,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'tích tiêu',
     ko: '낭비하다',
-    usage: 'Tích tiêu tiền quá nhiều.',
+    usage: 'Ví dụ: Tích tiêu tiền quá nhiều không tốt. (너무 많은 돈을 낭비하는 것은 좋지 않습니다.)',
   },
   {
     id: 'mt-v-39',
@@ -1263,7 +1263,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'tiết kiệm',
     ko: '절약하다',
-    usage: 'Tiết kiệm tiền khi mua sắm.',
+    usage: 'Ví dụ: Tiết kiệm tiền khi mua sắm. (쇼핑할 때 돈을 절약합니다.)',
   },
   {
     id: 'mt-v-40',
@@ -1272,7 +1272,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'chuẩn bị',
     ko: '준비하다',
-    usage: 'Chuẩn bị sách để mua sắm.',
+    usage: 'Ví dụ: Chuẩn bị sách để mua sắm. (쇼핑을 위해 물건을 준비합니다.)',
   },
   {
     id: 'mt-v-41',
@@ -1281,7 +1281,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'quét',
     ko: '스캔하다',
-    usage: 'Quét mã vạch.',
+    usage: 'Ví dụ: Quét mã vạch để tính giá. (가격을 계산하기 위해 바코드를 스캔합니다.)',
   },
   {
     id: 'mt-v-42',
@@ -1290,7 +1290,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'nhập',
     ko: '입력하다',
-    usage: 'Nhập mã PIN.',
+    usage: 'Ví dụ: Nhập mã PIN để thanh toán. (결제하기 위해 PIN을 입력합니다.)',
   },
   {
     id: 'mt-v-43',
@@ -1299,7 +1299,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'ký',
     ko: '서명하다',
-    usage: 'Ký vào biên lai.',
+    usage: 'Ví dụ: Ký vào biên lai thanh toán. (결제 영수증에 서명합니다.)',
   },
   {
     id: 'mt-v-44',
@@ -1308,7 +1308,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'đếm',
     ko: '세다',
-    usage: 'Đếm tiền thối.',
+    usage: 'Ví dụ: Đếm tiền thối cẩn thận. (거스름돈을 신중하게 셉니다.)',
   },
   {
     id: 'mt-v-45',
@@ -1317,7 +1317,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'cộng',
     ko: '더하다',
-    usage: 'Cộng giá tất cả.',
+    usage: 'Ví dụ: Cộng giá tất cả sản phẩm. (모든 상품의 가격을 더합니다.)',
   },
   {
     id: 'mt-v-46',
@@ -1326,7 +1326,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'trừ',
     ko: '빼다',
-    usage: 'Trừ tiền giảm giá.',
+    usage: 'Ví dụ: Trừ tiền giảm giá từ tổng. (합계에서 할인 금액을 뺍니다.)',
   },
   {
     id: 'mt-v-47',
@@ -1335,7 +1335,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'nhân',
     ko: '곱하다',
-    usage: 'Nhân số lượng và giá.',
+    usage: 'Ví dụ: Nhân số lượng và giá đơn vị. (수량과 단가를 곱합니다.)',
   },
   {
     id: 'mt-v-48',
@@ -1344,7 +1344,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'chia',
     ko: '나누다',
-    usage: 'Chia đều tiền.',
+    usage: 'Ví dụ: Chia đều tiền chi trả. (결제 금액을 균등하게 나눕니다.)',
   },
   {
     id: 'mt-v-49',
@@ -1353,7 +1353,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'giao hàng',
     ko: '배송하다',
-    usage: 'Giao hàng tại nhà.',
+    usage: 'Ví dụ: Giao hàng tại nhà khách. (고객의 집으로 배송합니다.)',
   },
   {
     id: 'mt-v-50',
@@ -1362,6 +1362,6 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'nhận hàng',
     ko: '배송물을 받다',
-    usage: 'Nhận hàng từ siêu thị.',
+    usage: 'Ví dụ: Nhận hàng từ siêu thị. (슈퍼마켓에서 물품을 받습니다.)',
   },
 ]

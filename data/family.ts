@@ -13,7 +13,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bố',
     ko: '아버지',
-    usage: 'Bố của tôi rất yêu thương. (My father is very affectionate.)',
+    usage: 'Ví dụ: Bố tôi là người rất hiền lành. (제 아버지는 매우 착한 사람입니다.)',
   },
   {
     id: 'fm-w-02',
@@ -22,7 +22,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'ba',
     ko: '아버지',
-    usage: 'Ba tôi là kỹ sư. (My dad is an engineer.)',
+    usage: 'Ví dụ: Ba tôi làm việc tại một công ty lớn. (아버지가 큰 회사에서 일하십니다.)',
   },
   {
     id: 'fm-w-03',
@@ -31,7 +31,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'mẹ',
     ko: '어머니',
-    usage: 'Mẹ tôi nấu ăn rất ngon. (My mother cooks very well.)',
+    usage: 'Ví dụ: Mẹ tôi nấu ăn rất ngon mỗi ngày. (제 어머니는 매일 아주 잘 요리합니다.)',
   },
   {
     id: 'fm-w-04',
@@ -40,7 +40,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'anh',
     ko: '형',
-    usage: 'Anh tôi làm việc ở Sài Gòn. (My older brother works in Ho Chi Minh City.)',
+    usage: 'Ví dụ: Anh tôi làm việc ở Sài Gòn và rất bận rộn. (제 형은 사이공에서 일하고 매우 바쁩니다.)',
   },
   {
     id: 'fm-w-05',
@@ -49,7 +49,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'chị',
     ko: '누나',
-    usage: 'Chị tôi là bác sĩ. (My older sister is a doctor.)',
+    usage: 'Ví dụ: Chị tôi là một bác sĩ giỏi tại bệnh viện. (제 언니는 병원의 훌륭한 의사입니다.)',
   },
   {
     id: 'fm-w-06',
@@ -58,7 +58,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'em',
     ko: '동생',
-    usage: 'Em tôi còn đi học. (My younger sibling is still in school.)',
+    usage: 'Ví dụ: Em tôi còn đang học lớp năm ở trường. (제 동생은 여전히 5학년을 다니고 있습니다.)',
   },
   {
     id: 'fm-w-07',
@@ -67,7 +67,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'em gái',
     ko: '여동생',
-    usage: 'Em gái tôi rất thích đọc sách. (My younger sister loves reading.)',
+    usage: 'Ví dụ: Em gái tôi rất thích đọc sách trong thư viện. (제 여동생은 도서관에서 책 읽는 것을 매우 좋아합니다.)',
   },
   {
     id: 'fm-w-08',
@@ -76,7 +76,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'em trai',
     ko: '남동생',
-    usage: 'Em trai tôi thích chơi bóng đá. (My younger brother likes playing football.)',
+    usage: 'Ví dụ: Em trai tôi thích chơi bóng đá với các bạn. (제 남동생은 친구들과 축구하기를 좋아합니다.)',
   },
   {
     id: 'fm-w-09',
@@ -85,7 +85,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'con',
     ko: '자식',
-    usage: 'Bà tôi có ba con. (My grandmother has three children.)',
+    usage: 'Ví dụ: Bà tôi có ba con đều thành đạt trong cuộc sống. (할머니는 모두 성공한 3명의 자식이 있습니다.)',
   },
   {
     id: 'fm-w-10',
@@ -94,7 +94,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'con trai',
     ko: '아들',
-    usage: 'Con trai của anh ấy rất thông minh. (His son is very smart.)',
+    usage: 'Ví dụ: Con trai của anh ấy rất thông minh và chăm chỉ. (그의 아들은 매우 똑똑하고 부지런합니다.)',
   },
   {
     id: 'fm-w-11',
@@ -103,7 +103,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'con gái',
     ko: '딸',
-    usage: 'Con gái tôi vừa lên chín tuổi. (My daughter just turned nine.)',
+    usage: 'Ví dụ: Con gái tôi vừa lên chín tuổi hôm qua. (제 딸이 어제 9살이 되었습니다.)',
   },
   {
     id: 'fm-w-12',
@@ -112,7 +112,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'ông',
     ko: '할아버지',
-    usage: 'Ông tôi đã sáu mươi lăm tuổi. (My grandfather is sixty-five years old.)',
+    usage: 'Ví dụ: Ông tôi đã sáu mươi lăm tuổi nhưng vẫn rất khỏe mạnh. (할아버지는 65살이지만 여전히 매우 건강합니다.)',
   },
   {
     id: 'fm-w-13',
@@ -121,7 +121,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bà',
     ko: '할머니',
-    usage: 'Bà tôi sống ở quê. (My grandmother lives in the countryside.)',
+    usage: 'Ví dụ: Bà tôi sống ở quê và yêu thương tôi rất nhiều. (할머니는 시골에 살고 저를 매우 사랑합니다.)',
   },
   {
     id: 'fm-w-14',
@@ -130,7 +130,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'chồng',
     ko: '남편',
-    usage: 'Chồng tôi làm việc tại công ty lớn. (My husband works at a large company.)',
+    usage: 'Ví dụ: Chồng tôi làm việc tại công ty lớn và rất chuyên nghiệp. (제 남편은 큰 회사에서 일하고 매우 전문적입니다.)',
   },
   {
     id: 'fm-w-15',
@@ -139,7 +139,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'vợ',
     ko: '아내',
-    usage: 'Vợ anh ấy rất tốt bụng. (His wife is very kind.)',
+    usage: 'Ví dụ: Vợ anh ấy rất tốt bụng và chu đáo cho gia đình. (그의 아내는 매우 친절하고 가족을 잘 챙깁니다.)',
   },
   {
     id: 'fm-w-16',
@@ -148,7 +148,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cha',
     ko: '아버지 (존칭)',
-    usage: 'Cha tôi đã mất. (My father has passed away.)',
+    usage: 'Ví dụ: Cha tôi đã mất năm năm trước và tôi rất nhớ ông. (제 아버지는 5년 전에 돌아가셨고 저는 아버지를 매우 그립니다.)',
   },
   {
     id: 'fm-w-17',
@@ -157,7 +157,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'mẹ kế',
     ko: '계모',
-    usage: 'Mẹ kế anh ấy rất tử tế. (His stepmother is very nice.)',
+    usage: 'Ví dụ: Mẹ kế anh ấy rất tử tế và chăm sóc anh như con ruột. (그의 계모는 매우 친절하고 자신의 아들처럼 돌봅니다.)',
   },
   {
     id: 'fm-w-18',
@@ -166,7 +166,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bố kế',
     ko: '계부',
-    usage: 'Bố kế của cô ấy là giáo viên. (Her stepfather is a teacher.)',
+    usage: 'Ví dụ: Bố kế của cô ấy là một người giáo viên tốt bụng. (그녀의 계부는 착한 선생님입니다.)',
   },
   {
     id: 'fm-w-19',
@@ -175,7 +175,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'con nuôi',
     ko: '입양아',
-    usage: 'Họ có một con nuôi. (They have an adopted child.)',
+    usage: 'Ví dụ: Họ có một con nuôi và yêu con rất nhiều. (그들은 입양한 아이가 있고 아이를 매우 사랑합니다.)',
   },
   {
     id: 'fm-w-20',
@@ -184,7 +184,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'em dâu',
     ko: '제부 또는 올케',
-    usage: 'Em dâu tôi rất tình cảm. (My sister-in-law is very affectionate.)',
+    usage: 'Ví dụ: Em dâu tôi rất tình cảm và hay chỉ dạy tôi. (제 올케는 매우 정이 많고 자주 저를 가르칩니다.)',
   },
   {
     id: 'fm-w-21',
@@ -193,7 +193,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'anh rể',
     ko: '사위',
-    usage: 'Anh rể của bà tôi rất tâm lý. (My grandmother\'s son-in-law is very caring.)',
+    usage: 'Ví dụ: Anh rể của bà tôi rất tâm lý và quan tâm đến gia đình. (할머니의 사위는 매우 이해심 많고 가족을 관심 갖습니다.)',
   },
   {
     id: 'fm-w-22',
@@ -202,7 +202,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'mẹ vợ',
     ko: '처모 또는 시어머니',
-    usage: 'Mẹ vợ tôi thích nấu ăn. (My mother-in-law likes cooking.)',
+    usage: 'Ví dụ: Mẹ vợ tôi thích nấu ăn và thường mời tôi ăn cơm. (제 장모는 요리를 좋아하고 자주 저를 초대합니다.)',
   },
   {
     id: 'fm-w-23',
@@ -211,7 +211,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bố chồng',
     ko: '시아버지',
-    usage: 'Bố chồng tôi rất khỏe. (My father-in-law is very healthy.)',
+    usage: 'Ví dụ: Bố chồng tôi rất khỏe và năng động dù đã lớn tuổi. (제 시아버지는 나이가 많지만 건강하고 활발합니다.)',
   },
   {
     id: 'fm-w-24',
@@ -220,7 +220,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cụ',
     ko: '어른 (존칭)',
-    usage: 'Cụ tôi đã chín mươi tuổi. (My ancestor is ninety years old.)',
+    usage: 'Ví dụ: Cụ tôi đã chín mươi tuổi nhưng vẫn rất sáng suốt. (제 할아버지께서는 90살이지만 여전히 매우 똑똑하십니다.)',
   },
   {
     id: 'fm-w-25',
@@ -229,7 +229,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'dòng họ',
     ko: '성씨 또는 가문',
-    usage: 'Dòng họ Nguyễn là dòng họ lớn nhất Việt Nam. (The Nguyen family is the largest family in Vietnam.)',
+    usage: 'Ví dụ: Dòng họ Nguyễn là dòng họ lớn nhất và có nhiều người nổi tiếng. (응우옌 성은 가장 큰 성씨이고 유명한 사람이 많습니다.)',
   },
 
   // SESSION 2: Extended Family (25 items)
@@ -240,7 +240,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cô',
     ko: '아주머니 (아버지의 여동생)',
-    usage: 'Cô tôi là giáo viên. (My paternal aunt is a teacher.)',
+    usage: 'Ví dụ: Cô tôi là một giáo viên dạy tiếng Anh rất tâm huyết. (제 고모는 영어를 매우 헌신적으로 가르치는 선생님입니다.)',
   },
   {
     id: 'fm-w-27',
@@ -249,7 +249,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'chú',
     ko: '삼촌 (아버지의 남동생)',
-    usage: 'Chú tôi sống ở Hà Nội. (My paternal uncle lives in Hanoi.)',
+    usage: 'Ví dụ: Chú tôi sống ở Hà Nội và thường về thăm gia đình. (제 삼촌은 하노이에 살고 자주 가족을 방문합니다.)',
   },
   {
     id: 'fm-w-28',
@@ -258,7 +258,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'dì',
     ko: '아주머니 (어머니의 여동생)',
-    usage: 'Dì tôi có hai con gái. (My maternal aunt has two daughters.)',
+    usage: 'Ví dụ: Dì tôi có hai con gái đều xinh đẹp và thành công. (제 이모는 예쁘고 성공한 딸 2명이 있습니다.)',
   },
   {
     id: 'fm-w-29',
@@ -267,7 +267,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cậu',
     ko: '삼촌 (어머니의 남동생)',
-    usage: 'Cậu tôi là bác sĩ. (My maternal uncle is a doctor.)',
+    usage: 'Ví dụ: Cậu tôi là một bác sĩ tại bệnh viện trung ương. (제 삼촌은 중앙병원의 의사입니다.)',
   },
   {
     id: 'fm-w-30',
@@ -276,7 +276,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bác',
     ko: '아저씨/아주머니 (부모보다 나이 많은)',
-    usage: 'Bác tôi đã từng là quân nhân. (My uncle used to be a soldier.)',
+    usage: 'Ví dụ: Bác tôi đã từng là quân nhân anh dũng trong quân đội. (제 삼촌은 군대에서 용감한 군인이었습니다.)',
   },
   {
     id: 'fm-w-31',
@@ -285,7 +285,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cháu',
     ko: '조카 또는 손자',
-    usage: 'Cháu của tôi rất ngoan. (My niece/nephew is very obedient.)',
+    usage: 'Ví dụ: Cháu của tôi rất ngoan và thương yêu ông bà. (제 조카는 매우 착하고 할아버지 할머니를 사랑합니다.)',
   },
   {
     id: 'fm-w-32',
@@ -294,7 +294,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cháu trai',
     ko: '조카이자 남자',
-    usage: 'Cháu trai tôi thích chơi bóng. (My nephew likes playing ball.)',
+    usage: 'Ví dụ: Cháu trai tôi thích chơi bóng và rất hoạt bát. (제 조카는 축구하기를 좋아하고 매우 활발합니다.)',
   },
   {
     id: 'fm-w-33',
@@ -303,7 +303,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cháu gái',
     ko: '조카이자 여자',
-    usage: 'Cháu gái tôi là học sinh giỏi. (My niece is a good student.)',
+    usage: 'Ví dụ: Cháu gái tôi là một học sinh giỏi và yêu thích học tập. (제 조카딸은 우등생이고 학습을 좋아합니다.)',
   },
   {
     id: 'fm-w-34',
@@ -312,7 +312,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'họ hàng',
     ko: '친척',
-    usage: 'Họ hàng tôi sống khắp nước. (My relatives live all over the country.)',
+    usage: 'Ví dụ: Họ hàng tôi sống khắp nước từ miền bắc tới miền nam. (제 친척들은 남부에서 북부까지 전국에 살고 있습니다.)',
   },
   {
     id: 'fm-w-35',
@@ -321,7 +321,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'anh chị em',
     ko: '형제자매',
-    usage: 'Anh chị em tôi rất thân thiết. (My siblings are very close.)',
+    usage: 'Ví dụ: Anh chị em tôi rất thân thiết và thường gặp nhau. (형제자매는 매우 가깝고 자주 만납니다.)',
   },
   {
     id: 'fm-w-36',
@@ -330,7 +330,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'vợ chồng',
     ko: '부부',
-    usage: 'Vợ chồng họ sống hạnh phúc. (The couple lives happily.)',
+    usage: 'Ví dụ: Vợ chồng họ sống hạnh phúc và đắm đuối yêu thương nhau. (부부는 행복하게 살고 서로를 사랑합니다.)',
   },
   {
     id: 'fm-w-37',
@@ -339,7 +339,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'ông nội',
     ko: '외할아버지',
-    usage: 'Ông nội tôi đã tám mươi tuổi. (My paternal grandfather is eighty years old.)',
+    usage: 'Ví dụ: Ông nội tôi đã tám mươi tuổi và sống ở thành phố. (할아버지는 80살이고 도시에 살고 있습니다.)',
   },
   {
     id: 'fm-w-38',
@@ -348,7 +348,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bà nội',
     ko: '외할머니',
-    usage: 'Bà nội tôi còn sống. (My paternal grandmother is still alive.)',
+    usage: 'Ví dụ: Bà nội tôi còn sống và thường nấu ăn cho tôi. (할머니는 여전히 살아계시고 제를 위해 요리하십니다.)',
   },
   {
     id: 'fm-w-39',
@@ -357,7 +357,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'ông ngoại',
     ko: '할아버지 (어머니의)',
-    usage: 'Ông ngoại tôi dạy tôi nhiều điều. (My maternal grandfather taught me a lot.)',
+    usage: 'Ví dụ: Ông ngoại tôi dạy tôi nhiều điều quý báu trong cuộc sống. (할아버지는 저에게 인생의 귀중한 것들을 많이 가르쳤습니다.)',
   },
   {
     id: 'fm-w-40',
@@ -366,7 +366,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bà ngoại',
     ko: '할머니 (어머니의)',
-    usage: 'Bà ngoại tôi yêu tôi rất nhiều. (My maternal grandmother loves me very much.)',
+    usage: 'Ví dụ: Bà ngoại tôi yêu tôi rất nhiều và luôn quan tâm. (할머니는 저를 매우 사랑하고 항상 신경을 써주십니다.)',
   },
   {
     id: 'fm-w-41',
@@ -375,7 +375,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'chàng rể',
     ko: '사위',
-    usage: 'Chàng rể của bà rất tốt bụng. (The son-in-law of grandmother is very kind.)',
+    usage: 'Ví dụ: Chàng rể của bà rất tốt bụng và hiền lành. (할머니의 사위는 매우 친절하고 착합니다.)',
   },
   {
     id: 'fm-w-42',
@@ -384,7 +384,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'nàng dâu',
     ko: '며느리',
-    usage: 'Nàng dâu của bà rất hiền. (The daughter-in-law of grandmother is very gentle.)',
+    usage: 'Ví dụ: Nàng dâu của bà rất hiền hòa và tôn trọng người lớn. (할머니의 며느리는 매우 착하고 어른을 존중합니다.)',
   },
   {
     id: 'fm-w-43',
@@ -393,7 +393,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'anh chị dâu rể',
     ko: '형제자매의 배우자',
-    usage: 'Anh chị dâu rể của tôi rất tốt. (My siblings\' spouses are very good.)',
+    usage: 'Ví dụ: Anh chị dâu rể của tôi rất vui vẻ và dễ gần gũi. (형제자매의 배우자들은 밝고 친근합니다.)',
   },
   {
     id: 'fm-w-44',
@@ -402,7 +402,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'con rể',
     ko: '사위',
-    usage: 'Con rể của bà ấy là kỹ sư. (Her son-in-law is an engineer.)',
+    usage: 'Ví dụ: Con rể của bà ấy là một kỹ sư giỏi tại công ty lớn. (그녀의 사위는 큰 회사의 훌륭한 엔지니어입니다.)',
   },
   {
     id: 'fm-w-45',
@@ -411,7 +411,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'con dâu',
     ko: '며느리',
-    usage: 'Con dâu của ông tôi rất yêu thương. (My grandfather\'s daughter-in-law is very affectionate.)',
+    usage: 'Ví dụ: Con dâu của ông tôi rất yêu thương ông bà. (할아버지의 며느리는 할아버지 할머니를 매우 사랑합니다.)',
   },
   {
     id: 'fm-w-46',
@@ -420,7 +420,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'em chồng',
     ko: '형제자매 (남편의)',
-    usage: 'Em chồng tôi đang học đại học. (My brother-in-law is studying at university.)',
+    usage: 'Ví dụ: Em chồng tôi đang học đại học ngành kinh tế. (제 시동생은 경제학을 전공하며 대학에 다니고 있습니다.)',
   },
   {
     id: 'fm-w-47',
@@ -429,7 +429,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'chị chồng',
     ko: '시누이',
-    usage: 'Chị chồng tôi sống gần nhà tôi. (My sister-in-law lives near my house.)',
+    usage: 'Ví dụ: Chị chồng tôi sống gần nhà tôi nên thường gặp gỡ. (저의 시누이는 제 집 근처에 살아서 자주 만납니다.)',
   },
   {
     id: 'fm-w-48',
@@ -438,7 +438,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'em vợ',
     ko: '처남',
-    usage: 'Em vợ tôi là bạn tôi. (My brother-in-law is my friend.)',
+    usage: 'Ví dụ: Em vợ tôi là bạn tôi và chúng tôi sắp đi du lịch. (제 처남은 제 친구이고 곧 여행을 갈 예정입니다.)',
   },
   {
     id: 'fm-w-49',
@@ -447,7 +447,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'chị vợ',
     ko: '처형',
-    usage: 'Chị vợ tôi thích đi du lịch. (My sister-in-law likes traveling.)',
+    usage: 'Ví dụ: Chị vợ tôi thích đi du lịch khắp các đất nước. (제 처형은 여러 나라를 여행 다니는 것을 좋아합니다.)',
   },
   {
     id: 'fm-w-50',
@@ -456,7 +456,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'người thân',
     ko: '가족 또는 친척',
-    usage: 'Người thân là quan trọng nhất. (Family is the most important.)',
+    usage: 'Ví dụ: Người thân là điều quan trọng nhất trong cuộc sống của tôi. (가족은 제 인생에서 가장 중요한 것입니다.)',
   },
 
   // SESSION 3: Family Relations & Milestones (25 items)
@@ -467,7 +467,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'kết hôn',
     ko: '결혼',
-    usage: 'Anh tôi sắp kết hôn. (My brother is about to get married.)',
+    usage: 'Ví dụ: Anh tôi sắp kết hôn với bạn gái của mình vào hè. (제 형은 여름에 여자친구와 결혼할 예정입니다.)',
   },
   {
     id: 'fm-w-52',
@@ -476,7 +476,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'đám cưới',
     ko: '결혼식',
-    usage: 'Đám cưới của chị tôi rất trang trọng. (My sister\'s wedding was very grand.)',
+    usage: 'Ví dụ: Đám cưới của chị tôi rất trang trọng và được chuẩn bị kỹ. (제 언니의 결혼식은 매우 성대하고 정성껏 준비되었습니다.)',
   },
   {
     id: 'fm-w-53',
@@ -485,7 +485,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'hôn nhân',
     ko: '결혼 또는 결혼 상태',
-    usage: 'Hôn nhân là linh hồn của gia đình. (Marriage is the soul of the family.)',
+    usage: 'Ví dụ: Hôn nhân là linh hồn của một gia đình hạnh phúc. (결혼은 행복한 가정의 영혼입니다.)',
   },
   {
     id: 'fm-w-54',
@@ -494,7 +494,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'ly hôn',
     ko: '이혼',
-    usage: 'Họ quyết định ly hôn. (They decided to get divorced.)',
+    usage: 'Ví dụ: Họ quyết định ly hôn sau mười năm sống chung. (그들은 10년 함께 산 후 이혼하기로 결정했습니다.)',
   },
   {
     id: 'fm-w-55',
@@ -503,7 +503,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'sinh',
     ko: '낳다 또는 태어나다',
-    usage: 'Mẹ tôi sinh con tôi năm 1990. (My mother gave birth to me in 1990.)',
+    usage: 'Ví dụ: Mẹ tôi sinh con tôi năm 1990 tại bệnh viện. (제 어머니는 1990년 병원에서 저를 낳으셨습니다.)',
   },
   {
     id: 'fm-w-56',
@@ -512,7 +512,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'sinh con',
     ko: '아이를 낳다',
-    usage: 'Chị tôi sắp sinh con. (My sister is about to have a baby.)',
+    usage: 'Ví dụ: Chị tôi sắp sinh con và gia đình rất vui sướng. (제 언니가 곧 아이를 낳을 예정이고 가족이 매우 기쁩니다.)',
   },
   {
     id: 'fm-w-57',
@@ -521,7 +521,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bầu',
     ko: '임신했다',
-    usage: 'Chị ấy đang bầu. (She is pregnant.)',
+    usage: 'Ví dụ: Chị ấy đang bầu và cần được chăm sóc kỹ lưỡng. (그녀가 임신 중이고 세심한 관리가 필요합니다.)',
   },
   {
     id: 'fm-w-58',
@@ -530,7 +530,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bé sơ sinh',
     ko: '신생아',
-    usage: 'Bé sơ sinh của chị tôi rất đáng yêu. (My sister\'s newborn is very cute.)',
+    usage: 'Ví dụ: Bé sơ sinh của chị tôi rất đáng yêu và khỏe mạnh. (제 언니의 신생아는 매우 사랑스럽고 건강합니다.)',
   },
   {
     id: 'fm-w-59',
@@ -539,7 +539,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'tuổi',
     ko: '나이',
-    usage: 'Tôi bao nhiêu tuổi? (How old am I?)',
+    usage: 'Ví dụ: Tôi bao nhiêu tuổi và có nhiều kế hoạch trong tương lai. (저는 몇 살이고 미래에 많은 계획이 있습니다.)',
   },
   {
     id: 'fm-w-60',
@@ -548,7 +548,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'sinh nhật',
     ko: '생일',
-    usage: 'Hôm nay là sinh nhật tôi. (Today is my birthday.)',
+    usage: 'Ví dụ: Hôm nay là sinh nhật tôi và gia đình quây quần bên nhau. (오늘은 제 생일이고 가족이 함께 모여 있습니다.)',
   },
   {
     id: 'fm-w-61',
@@ -557,7 +557,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'ngày kỷ niệm',
     ko: '기념일',
-    usage: 'Hôm nay là ngày kỷ niệm cưới của bà. (Today is grandmother\'s wedding anniversary.)',
+    usage: 'Ví dụ: Hôm nay là ngày kỷ niệm cưới của bà và ông. (오늘은 할머니 할아버지의 결혼기념일입니다.)',
   },
   {
     id: 'fm-w-62',
@@ -566,7 +566,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'mất',
     ko: '돌아가시다 또는 사망하다',
-    usage: 'Ông tôi đã mất năm ngoái. (My grandfather passed away last year.)',
+    usage: 'Ví dụ: Ông tôi đã mất năm ngoái và tôi vẫn rất nhớ. (할아버지는 작년에 돌아가셨고 저는 여전히 그를 그립니다.)',
   },
   {
     id: 'fm-w-63',
@@ -575,7 +575,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'tang lễ',
     ko: '장례식',
-    usage: 'Tang lễ của ông tôi rất buồn. (My grandfather\'s funeral was very sad.)',
+    usage: 'Ví dụ: Tang lễ của ông tôi được tổ chức rất trang trọng. (할아버지의 장례식은 매우 성대하게 거행되었습니다.)',
   },
   {
     id: 'fm-w-64',
@@ -584,7 +584,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'giỗ',
     ko: '제사',
-    usage: 'Hôm nay là giỗ ông tôi. (Today is my grandfather\'s death anniversary.)',
+    usage: 'Ví dụ: Hôm nay là giỗ ông tôi và gia đình chuẩn bị lễ vật. (오늘은 할아버지의 제사날이고 가족이 제물을 준비합니다.)',
   },
   {
     id: 'fm-w-65',
@@ -593,7 +593,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'lễ hội',
     ko: '축제',
-    usage: 'Gia đình tôi mừng các lễ hội cùng nhau. (My family celebrates festivals together.)',
+    usage: 'Ví dụ: Gia đình tôi mừng các lễ hội cùng nhau rất vui vẻ. (제 가족은 함께 축제를 기념하며 매우 즐거워합니다.)',
   },
   {
     id: 'fm-w-66',
@@ -602,7 +602,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'tết',
     ko: '구정 또는 설날',
-    usage: 'Tết là ngày quan trọng nhất của gia đình. (Tet is the most important day for the family.)',
+    usage: 'Ví dụ: Tết là ngày quan trọng nhất và gia đình quây quần. (설날은 가장 중요한 날이고 가족이 함께 모입니다.)',
   },
   {
     id: 'fm-w-67',
@@ -611,7 +611,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'trung thu',
     ko: '추석',
-    usage: 'Trung thu là lễ hội của trẻ em. (Mid-Autumn Festival is a festival for children.)',
+    usage: 'Ví dụ: Trung thu là lễ hội của trẻ em và rất vui vẻ. (추석은 어린이 축제이고 매우 즐겁습니다.)',
   },
   {
     id: 'fm-w-68',
@@ -620,7 +620,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'họp mặt',
     ko: '만남 또는 모임',
-    usage: 'Chúng tôi họp mặt gia đình mỗi tháng. (We have a family gathering every month.)',
+    usage: 'Ví dụ: Chúng tôi họp mặt gia đình mỗi tháng tại nhà bà. (우리는 매달 할머니 집에서 가족 모임을 합니다.)',
   },
   {
     id: 'fm-w-69',
@@ -629,7 +629,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'họp thân',
     ko: '친척 모임',
-    usage: 'Họp thân gia đình rất vui vẻ. (The family gathering was very joyful.)',
+    usage: 'Ví dụ: Họp thân gia đình rất vui vẻ với các trò chơi. (친척 모임은 게임으로 매우 즐겁습니다.)',
   },
   {
     id: 'fm-w-70',
@@ -638,7 +638,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'quê quán',
     ko: '고향',
-    usage: 'Quê quán của tôi ở Huế. (My hometown is Hue.)',
+    usage: 'Ví dụ: Quê quán của tôi ở Huế và rất đẹp với cảnh sông. (제 고향은 후에이고 강 경치가 매우 아름답습니다.)',
   },
   {
     id: 'fm-w-71',
@@ -647,7 +647,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'nhà ngoại',
     ko: '외할머니의 집',
-    usage: 'Tôi thường về nhà ngoại vào mùa hè. (I usually go to grandmother\'s house in summer.)',
+    usage: 'Ví dụ: Tôi thường về nhà ngoại vào mùa hè để chơi. (저는 여름에 이모네 집에 자주 가서 놉니다.)',
   },
   {
     id: 'fm-w-72',
@@ -656,7 +656,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'nhà nội',
     ko: '시어머니의 집',
-    usage: 'Nhà nội của tôi ở gần công ty. (My mother-in-law\'s house is near the company.)',
+    usage: 'Ví dụ: Nhà nội của tôi ở gần công ty nên dễ thăm. (제 시어머니 집은 회사 근처에 있어서 방문하기 쉽습니다.)',
   },
   {
     id: 'fm-w-73',
@@ -665,7 +665,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'thừa kế',
     ko: '유산 또는 상속',
-    usage: 'Anh tôi thừa kế nhà từ cha. (My brother inherited the house from father.)',
+    usage: 'Ví dụ: Anh tôi thừa kế nhà từ cha để xây dựng tương lai. (제 형은 아버지로부터 집을 상속받아 미래를 구축합니다.)',
   },
   {
     id: 'fm-w-74',
@@ -674,7 +674,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'di chúc',
     ko: '유언',
-    usage: 'Ông tôi viết di chúc rất cẩn thận. (My grandfather wrote his will very carefully.)',
+    usage: 'Ví dụ: Ông tôi viết di chúc rất cẩn thận trước khi mất. (할아버지는 돌아가시기 전에 유언을 매우 신중하게 작성하셨습니다.)',
   },
   {
     id: 'fm-w-75',
@@ -683,7 +683,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'gia sản',
     ko: '재산 또는 유산',
-    usage: 'Gia sản của gia đình rất lớn. (The family\'s assets are very large.)',
+    usage: 'Ví dụ: Gia sản của gia đình rất lớn và được quản lý cẩn thận. (가족의 재산은 매우 크고 세심하게 관리됩니다.)',
   },
 
   // SESSION 4: Home & Family Activities, Chores (25 items)
@@ -694,7 +694,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'nhà',
     ko: '집',
-    usage: 'Nhà tôi có bốn phòng. (My house has four rooms.)',
+    usage: 'Ví dụ: Nhà tôi có bốn phòng và một vườn nhỏ rất yên tĩnh. (제 집은 4개의 방과 조용한 작은 정원이 있습니다.)',
   },
   {
     id: 'fm-w-77',
@@ -703,7 +703,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'nấu ăn',
     ko: '요리하다',
-    usage: 'Mẹ tôi nấu ăn mỗi ngày. (My mother cooks every day.)',
+    usage: 'Ví dụ: Mẹ tôi nấu ăn mỗi ngày với những món ăn ngon miệng. (엄마는 매일 맛있는 음식을 요리합니다.)',
   },
   {
     id: 'fm-w-78',
@@ -712,7 +712,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'rửa bát',
     ko: '설거지하다',
-    usage: 'Em tôi rửa bát mỗi tối. (My younger sibling washes dishes every evening.)',
+    usage: 'Ví dụ: Em tôi rửa bát mỗi tối và làm rất gọn gàng. (제 동생은 매일 밤 설거지를 하고 매우 깔끔하게 합니다.)',
   },
   {
     id: 'fm-w-79',
@@ -721,7 +721,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'dọn nhà',
     ko: '집안일 또는 청소하기',
-    usage: 'Chúng tôi dọn nhà vào cuối tuần. (We clean the house on weekends.)',
+    usage: 'Ví dụ: Chúng tôi dọn nhà vào cuối tuần để giữ sạch sẽ. (우리는 주말에 청소해서 집을 깔끔하게 유지합니다.)',
   },
   {
     id: 'fm-w-80',
@@ -730,7 +730,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'lau nhà',
     ko: '집을 닦다',
-    usage: 'Chị tôi lau nhà rất sạch. (My sister sweeps the house very clean.)',
+    usage: 'Ví dụ: Chị tôi lau nhà rất sạch với những động tác khéo léo. (제 언니는 능숙한 손놀림으로 집을 매우 깨끗이 닦습니다.)',
   },
   {
     id: 'fm-w-81',
@@ -739,7 +739,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'quét nhà',
     ko: '청소하다',
-    usage: 'Tôi quét nhà mỗi sáng. (I sweep the house every morning.)',
+    usage: 'Ví dụ: Tôi quét nhà mỗi sáng sớm để bắt đầu ngày mới. (저는 매일 아침 일찍 청소해서 새 하루를 시작합니다.)',
   },
   {
     id: 'fm-w-82',
@@ -748,7 +748,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'giặt quần áo',
     ko: '옷을 빨다',
-    usage: 'Mẹ tôi giặt quần áo hàng ngày. (My mother does laundry every day.)',
+    usage: 'Ví dụ: Mẹ tôi giặt quần áo hàng ngày bằng máy giặt. (엄마는 매일 세탁기로 옷을 빨아줍니다.)',
   },
   {
     id: 'fm-w-83',
@@ -757,7 +757,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'ủi quần áo',
     ko: '옷을 다리미질하다',
-    usage: 'Chị tôi ủi quần áo rất gọn. (My sister irons clothes very neatly.)',
+    usage: 'Ví dụ: Chị tôi ủi quần áo rất gọn và chuyên nghiệp. (제 언니는 옷에 다리미질을 하기를 매우 잘 합니다.)',
   },
   {
     id: 'fm-w-84',
@@ -766,7 +766,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'trông trẻ',
     ko: '아이를 돌보다',
-    usage: 'Bà tôi thích trông trẻ của anh tôi. (My grandmother likes babysitting my brother\'s children.)',
+    usage: 'Ví dụ: Bà tôi thích trông trẻ của anh tôi rất tâm huyết. (할머니는 형의 아이를 매우 헌신적으로 돌봅니다.)',
   },
   {
     id: 'fm-w-85',
@@ -775,7 +775,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'chăm sóc',
     ko: '돌보다 또는 보살피다',
-    usage: 'Con phải chăm sóc bố mẹ. (Children must take care of their parents.)',
+    usage: 'Ví dụ: Con phải chăm sóc bố mẹ khi họ già yếu. (자식은 부모가 나이 들었을 때 돌봐야 합니다.)',
   },
   {
     id: 'fm-w-86',
@@ -784,7 +784,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'giúp đỡ',
     ko: '돕다',
-    usage: 'Anh tôi giúp đỡ bố mẹ rất nhiều. (My brother helps his parents a lot.)',
+    usage: 'Ví dụ: Anh tôi giúp đỡ bố mẹ rất nhiều trong công việc. (형은 직장 일에서 부모를 매우 많이 도와줍니다.)',
   },
   {
     id: 'fm-w-87',
@@ -793,7 +793,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'chia sẻ',
     ko: '나누다 또는 공유하다',
-    usage: 'Gia đình tôi chia sẻ hạnh phúc và nỗi buồn. (My family shares joy and sorrow.)',
+    usage: 'Ví dụ: Gia đình tôi chia sẻ hạnh phúc và nỗi buồn cùng nhau. (가족은 행복과 슬픔을 함께 나눕니다.)',
   },
   {
     id: 'fm-w-88',
@@ -802,7 +802,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'ngồi bàn ăn',
     ko: '밥을 먹다',
-    usage: 'Gia đình tôi ngồi bàn ăn cùng nhau mỗi tối. (My family eats dinner together every evening.)',
+    usage: 'Ví dụ: Gia đình tôi ngồi bàn ăn cùng nhau mỗi tối rất ấm cúng. (우리 가족은 매일 밤 함께 식사하며 매우 따뜻합니다.)',
   },
   {
     id: 'fm-w-89',
@@ -811,7 +811,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bàn cơm',
     ko: '식탁',
-    usage: 'Bàn cơm của chúng tôi rất to. (Our dining table is very large.)',
+    usage: 'Ví dụ: Bàn cơm của chúng tôi rất to và có chỗ cho mười người. (우리 식탁은 매우 크고 10명을 수용할 수 있습니다.)',
   },
   {
     id: 'fm-w-90',
@@ -820,7 +820,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cơm nhà',
     ko: '집밥',
-    usage: 'Tôi thích cơm nhà hơn cơm ngoài. (I like home-cooked rice more than restaurant food.)',
+    usage: 'Ví dụ: Tôi thích cơm nhà hơn cơm ngoài vì được nấu bằng tình yêu. (저는 집밥이 더 좋습니다. 사랑으로 만들어지기 때문입니다.)',
   },
   {
     id: 'fm-w-91',
@@ -829,7 +829,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'mâm cơm',
     ko: '밥상',
-    usage: 'Mâm cơm của gia đình chúng tôi rất phong phú. (Our family\'s table of food is very abundant.)',
+    usage: 'Ví dụ: Mâm cơm của gia đình chúng tôi rất phong phú mỗi bữa. (우리 가족의 밥상은 매 끼니마다 매우 풍성합니다.)',
   },
   {
     id: 'fm-w-92',
@@ -838,7 +838,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bếp',
     ko: '부엌',
-    usage: 'Bếp của nhà tôi rất hiện đại. (My house\'s kitchen is very modern.)',
+    usage: 'Ví dụ: Bếp của nhà tôi rất hiện đại với những thiết bị mới. (제 집 부엌은 새로운 장비로 매우 현대적입니다.)',
   },
   {
     id: 'fm-w-93',
@@ -847,7 +847,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'phòng khách',
     ko: '거실',
-    usage: 'Phòng khách của gia đình tôi rất rộng. (My family\'s living room is very spacious.)',
+    usage: 'Ví dụ: Phòng khách của gia đình tôi rất rộng và thoáng mát. (우리 거실은 매우 넓고 환기가 잘 됩니다.)',
   },
   {
     id: 'fm-w-94',
@@ -856,7 +856,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'phòng ngủ',
     ko: '침실',
-    usage: 'Phòng ngủ của tôi rất yên tĩnh. (My bedroom is very quiet.)',
+    usage: 'Ví dụ: Phòng ngủ của tôi rất yên tĩnh và thoải mái. (제 침실은 매우 조용하고 편합니다.)',
   },
   {
     id: 'fm-w-95',
@@ -865,7 +865,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'phòng học',
     ko: '공부방',
-    usage: 'Em tôi học bài trong phòng học. (My younger sibling studies in the study room.)',
+    usage: 'Ví dụ: Em tôi học bài trong phòng học với máy điều hòa. (제 동생은 에어컨이 있는 공부방에서 공부합니다.)',
   },
   {
     id: 'fm-w-96',
@@ -874,7 +874,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'đi chơi',
     ko: '노는 것 또는 즐기는 것',
-    usage: 'Vào cuối tuần, gia đình tôi hay đi chơi cùng nhau. (On weekends, my family often goes out to have fun together.)',
+    usage: 'Ví dụ: Vào cuối tuần, gia đình tôi hay đi chơi công viên cùng nhau. (주말에 우리 가족은 공원에 함께 놀러 가곤 합니다.)',
   },
   {
     id: 'fm-w-97',
@@ -883,7 +883,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'du lịch',
     ko: '여행',
-    usage: 'Hàng năm, gia đình tôi du lịch một lần. (Every year, my family goes on a trip once.)',
+    usage: 'Ví dụ: Hàng năm, gia đình tôi du lịch một lần tại biển. (매년 우리 가족은 바다로 한 번 여행을 갑니다.)',
   },
   {
     id: 'fm-w-98',
@@ -892,7 +892,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'chuyến đi',
     ko: '여행 또는 여정',
-    usage: 'Chuyến đi của gia đình tôi rất thú vị. (My family\'s trip was very interesting.)',
+    usage: 'Ví dụ: Chuyến đi của gia đình tôi rất thú vị và đáng nhớ. (우리 가족 여행은 매우 재미있고 기억에 남습니다.)',
   },
   {
     id: 'fm-w-99',
@@ -901,7 +901,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'tình cảm',
     ko: '감정 또는 사랑',
-    usage: 'Tình cảm gia đình là rất quý báu. (Family love is very precious.)',
+    usage: 'Ví dụ: Tình cảm gia đình là rất quý báu và không bao giờ thay đổi. (가족애는 매우 소중하고 절대 변하지 않습니다.)',
   },
   {
     id: 'fm-w-100',
@@ -910,7 +910,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'thân thiết',
     ko: '친한',
-    usage: 'Gia đình tôi rất thân thiết. (My family is very close.)',
+    usage: 'Ví dụ: Gia đình tôi rất thân thiết và luôn sẵn sàng giúp nhau. (우리 가족은 매우 가깝고 항상 서로 도울 준비가 되어있습니다.)',
   },
 ]
 
@@ -923,7 +923,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'yêu',
     ko: '사랑하다',
-    usage: 'Tôi yêu gia đình tôi. (I love my family.)',
+    usage: 'Ví dụ: Tôi yêu gia đình tôi hơn bất cứ điều gì trên thế giới. (저는 세상의 무엇보다 가족을 사랑합니다.)',
   },
   {
     id: 'fm-v-02',
@@ -932,7 +932,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'chăm sóc',
     ko: '돌보다',
-    usage: 'Bố mẹ chăm sóc con cái. (Parents take care of their children.)',
+    usage: 'Ví dụ: Bố mẹ chăm sóc con cái hết lòng và không tiếc công sức. (부모는 자식을 온 마음으로 돌보고 노력을 아끼지 않습니다.)',
   },
   {
     id: 'fm-v-03',
@@ -941,7 +941,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'nuôi dưỡng',
     ko: '기르다 또는 양육하다',
-    usage: 'Bố mẹ nuôi dưỡng con em tôi. (My parents raise my younger sibling.)',
+    usage: 'Ví dụ: Bố mẹ nuôi dưỡng con em tôi với những giá trị tốt lành. (부모는 좋은 가치를 가지고 동생을 양육합니다.)',
   },
   {
     id: 'fm-v-04',
@@ -950,7 +950,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'giúp đỡ',
     ko: '돕다',
-    usage: 'Con phải giúp đỡ bố mẹ. (Children must help their parents.)',
+    usage: 'Ví dụ: Con phải giúp đỡ bố mẹ khi họ cần hỗ trợ. (부모가 도움이 필요할 때 자식은 도와야 합니다.)',
   },
   {
     id: 'fm-v-05',
@@ -959,7 +959,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'chia sẻ',
     ko: '나누다',
-    usage: 'Gia đình tôi chia sẻ mọi thứ. (My family shares everything.)',
+    usage: 'Ví dụ: Gia đình tôi chia sẻ mọi thứ từ niềm vui đến nỗi buồn. (우리 가족은 기쁨부터 슬픔까지 모든 것을 나눕니다.)',
   },
   {
     id: 'fm-v-06',
@@ -968,7 +968,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'kết hôn',
     ko: '결혼하다',
-    usage: 'Anh tôi kết hôn năm ngoái. (My brother got married last year.)',
+    usage: 'Ví dụ: Anh tôi kết hôn năm ngoái với một cô gái tốt. (제 형은 작년에 좋은 여자와 결혼했습니다.)',
   },
   {
     id: 'fm-v-07',
@@ -977,7 +977,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'sinh',
     ko: '낳다 또는 태어나다',
-    usage: 'Mẹ tôi sinh tôi năm 1995. (My mother gave birth to me in 1995.)',
+    usage: 'Ví dụ: Mẹ tôi sinh tôi năm 1995 tại bệnh viện trung ương. (제 어머니는 1995년 중앙병원에서 저를 낳으셨습니다.)',
   },
   {
     id: 'fm-v-08',
@@ -986,7 +986,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'ly hôn',
     ko: '이혼하다',
-    usage: 'Họ quyết định ly hôn. (They decided to divorce.)',
+    usage: 'Ví dụ: Họ quyết định ly hôn sau nhiều năm sống cùng. (그들은 함께 산 많은 해 후 이혼하기로 결정했습니다.)',
   },
   {
     id: 'fm-v-09',
@@ -995,7 +995,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'sống',
     ko: '살다',
-    usage: 'Gia đình tôi sống ở Thành phố Hồ Chí Minh. (My family lives in Ho Chi Minh City.)',
+    usage: 'Ví dụ: Gia đình tôi sống ở Thành phố Hồ Chí Minh rất lâu. (우리 가족은 호찌민시에서 오래 살고 있습니다.)',
   },
   {
     id: 'fm-v-10',
@@ -1004,7 +1004,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'ở',
     ko: '살다 또는 묵다',
-    usage: 'Tôi ở nhà với bố mẹ. (I live at home with my parents.)',
+    usage: 'Ví dụ: Tôi ở nhà với bố mẹ và rất hạnh phúc. (저는 부모와 함께 살고 매우 행복합니다.)',
   },
   {
     id: 'fm-v-11',
@@ -1013,7 +1013,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'nấu ăn',
     ko: '요리하다',
-    usage: 'Mẹ tôi nấu ăn ngon lắm. (My mother cooks very well.)',
+    usage: 'Ví dụ: Mẹ tôi nấu ăn ngon lắm mỗi ngày cho gia đình. (엄마는 매일 가족을 위해 맛있게 요리합니다.)',
   },
   {
     id: 'fm-v-12',
@@ -1022,7 +1022,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'ăn cơm',
     ko: '밥을 먹다',
-    usage: 'Gia đình tôi ăn cơm cùng nhau mỗi tối. (My family eats rice together every evening.)',
+    usage: 'Ví dụ: Gia đình tôi ăn cơm cùng nhau mỗi tối rất vui. (우리 가족은 매일 밤 함께 식사하며 매우 즐겁습니다.)',
   },
   {
     id: 'fm-v-13',
@@ -1031,7 +1031,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'dọn nhà',
     ko: '집을 청소하다',
-    usage: 'Chúng tôi dọn nhà mỗi tuần. (We clean the house every week.)',
+    usage: 'Ví dụ: Chúng tôi dọn nhà mỗi tuần để giữ sạch sẽ. (우리는 매주 청소해서 집을 깨끗하게 유지합니다.)',
   },
   {
     id: 'fm-v-14',
@@ -1040,7 +1040,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'giặt quần áo',
     ko: '옷을 빨다',
-    usage: 'Em gái tôi giặt quần áo. (My sister washes clothes.)',
+    usage: 'Ví dụ: Em gái tôi giặt quần áo mỗi tuần rất cẩn thận. (제 여동생은 매주 옷을 매우 조심스럽게 빕니다.)',
   },
   {
     id: 'fm-v-15',
@@ -1049,7 +1049,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'trông trẻ',
     ko: '아이를 돌보다',
-    usage: 'Bà tôi trông trẻ của anh tôi. (My grandmother babysits my brother\'s children.)',
+    usage: 'Ví dụ: Bà tôi trông trẻ của anh tôi mỗi ngày rất yêu thương. (할머니는 형의 아이를 매일 매우 사랑으로 봅니다.)',
   },
   {
     id: 'fm-v-16',
@@ -1058,7 +1058,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'học hành',
     ko: '공부하다',
-    usage: 'Học hành để có tương lai tốt. (Study to have a better future.)',
+    usage: 'Ví dụ: Học hành để có tương lai tốt hơn là lời dạy của mẹ. (좋은 미래를 위해 공부하는 것이 엄마의 가르침입니다.)',
   },
   {
     id: 'fm-v-17',
@@ -1067,7 +1067,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'làm việc',
     ko: '일하다',
-    usage: 'Bố tôi làm việc tại công ty lớn. (My father works at a large company.)',
+    usage: 'Ví dụ: Bố tôi làm việc tại công ty lớn mỗi ngày rất chăm chỉ. (아버지는 매일 큰 회사에서 매우 부지런하게 일합니다.)',
   },
   {
     id: 'fm-v-18',
@@ -1076,7 +1076,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'kiếm sống',
     ko: '생계를 꾸리다',
-    usage: 'Anh tôi kiếm sống cho gia đình. (My brother supports the family.)',
+    usage: 'Ví dụ: Anh tôi kiếm sống cho gia đình bằng công việc chủ yếu. (형은 주된 직업으로 가족을 부양합니다.)',
   },
   {
     id: 'fm-v-19',
@@ -1085,7 +1085,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'quản lý',
     ko: '관리하다 또는 다루다',
-    usage: 'Mẹ tôi quản lý tài chính gia đình. (My mother manages the family finances.)',
+    usage: 'Ví dụ: Mẹ tôi quản lý tài chính gia đình rất khéo léo. (엄마는 가족의 재정을 매우 능숙하게 관리합니다.)',
   },
   {
     id: 'fm-v-20',
@@ -1094,7 +1094,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'thương',
     ko: '사랑하다 (방언)',
-    usage: 'Bà thương cháu rất nhiều. (Grandmother loves her grandchildren very much.)',
+    usage: 'Ví dụ: Bà thương cháu rất nhiều dù cháu có làm sai. (할머니는 손자가 잘못해도 많이 사랑합니다.)',
   },
   {
     id: 'fm-v-21',
@@ -1103,7 +1103,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'trông chờ',
     ko: '기대하다',
-    usage: 'Gia đình tôi trông chờ ngày tôi về. (My family is looking forward to my return.)',
+    usage: 'Ví dụ: Gia đình tôi trông chờ ngày tôi về rất sốt sắn. (가족은 제가 돌아올 날을 매우 애타게 기다립니다.)',
   },
   {
     id: 'fm-v-22',
@@ -1112,7 +1112,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'nhớ',
     ko: '생각하다 또는 그리워하다',
-    usage: 'Tôi nhớ gia đình khi ở xa. (I miss my family when I\'m away.)',
+    usage: 'Ví dụ: Tôi nhớ gia đình khi ở xa và muốn trở về. (멀리 있을 때 저는 가족을 그리고 돌아가고 싶습니다.)',
   },
   {
     id: 'fm-v-23',
@@ -1121,7 +1121,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'thăm',
     ko: '방문하다',
-    usage: 'Tôi thăm bà tôi mỗi tháng. (I visit my grandmother every month.)',
+    usage: 'Ví dụ: Tôi thăm bà tôi mỗi tháng một lần rất đều đặn. (저는 할머니를 매달 한 번 규칙적으로 방문합니다.)',
   },
   {
     id: 'fm-v-24',
@@ -1130,7 +1130,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'gọi điện',
     ko: '전화하다',
-    usage: 'Anh tôi gọi điện cho bố mẹ mỗi tuần. (My brother calls his parents every week.)',
+    usage: 'Ví dụ: Anh tôi gọi điện cho bố mẹ mỗi tuần một lần. (형은 매주 한 번 부모에게 전화합니다.)',
   },
   {
     id: 'fm-v-25',
@@ -1139,7 +1139,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'gặp gỡ',
     ko: '만나다',
-    usage: 'Gia đình tôi gặp gỡ nhau mỗi lễ. (My family meets each other on holidays.)',
+    usage: 'Ví dụ: Gia đình tôi gặp gỡ nhau mỗi lễ hội rất lively. (우리 가족은 매 축제마다 만나 매우 즐겁습니다.)',
   },
 
   // SESSION 2: Extended Family & Relationship Verbs (25 items)
@@ -1150,7 +1150,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'mất',
     ko: '잃다 또는 사망하다',
-    usage: 'Ông tôi mất năm ngoái. (My grandfather passed away last year.)',
+    usage: 'Ví dụ: Ông tôi mất năm ngoái và để lại kỷ niệm đẹp. (할아버지는 작년에 돌아가셨고 좋은 추억을 남기셨습니다.)',
   },
   {
     id: 'fm-v-27',
@@ -1159,7 +1159,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'tang tóc',
     ko: '애도하다',
-    usage: 'Gia đình tôi đang tang tóc. (My family is in mourning.)',
+    usage: 'Ví dụ: Gia đình tôi đang tang tóc cho ông bà. (우리 가족은 할아버지 할머니를 위해 애도하고 있습니다.)',
   },
   {
     id: 'fm-v-28',
@@ -1168,7 +1168,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'cầu nguyện',
     ko: '기도하다',
-    usage: 'Gia đình tôi cầu nguyện cho ông bà. (My family prays for my grandparents.)',
+    usage: 'Ví dụ: Gia đình tôi cầu nguyện cho ông bà mỗi ngày. (우리 가족은 할아버지 할머니를 위해 매일 기도합니다.)',
   },
   {
     id: 'fm-v-28',
@@ -1177,7 +1177,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'lấy chồng',
     ko: '결혼하다 (여자 입장)',
-    usage: 'Chị tôi sắp lấy chồng. (My sister is about to get married.)',
+    usage: 'Ví dụ: Chị tôi sắp lấy chồng với chàng trai tốt bụng. (제 언니는 착한 청년과 곧 결혼할 예정입니다.)',
   },
   {
     id: 'fm-v-29',
@@ -1186,7 +1186,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'lấy vợ',
     ko: '결혼하다 (남자 입장)',
-    usage: 'Anh tôi lấy vợ năm nay. (My brother got married this year.)',
+    usage: 'Ví dụ: Anh tôi lấy vợ năm nay với một cô gái xinh. (형은 올해 예쁜 여자와 결혼합니다.)',
   },
   {
     id: 'fm-v-30',
@@ -1195,7 +1195,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'sinh đẻ',
     ko: '아이를 낳다',
-    usage: 'Chị tôi sinh đẻ ba đứa con. (My sister has three children.)',
+    usage: 'Ví dụ: Chị tôi sinh đẻ ba đứa con rất khỏe mạnh. (제 언니는 3명의 건강한 아이를 낳았습니다.)',
   },
   {
     id: 'fm-v-31',
@@ -1204,7 +1204,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'bầu',
     ko: '임신하다',
-    usage: 'Chị dâu tôi đang bầu. (My sister-in-law is pregnant.)',
+    usage: 'Ví dụ: Chị dâu tôi đang bầu và rất hạnh phúc. (제 올케가 임신 중이고 매우 행복합니다.)',
   },
   {
     id: 'fm-v-32',
@@ -1213,7 +1213,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'nuôi con',
     ko: '아이를 기르다',
-    usage: 'Bố mẹ tôi nuôi con rất vất vả. (My parents raised children with great difficulty.)',
+    usage: 'Ví dụ: Bố mẹ tôi nuôi con rất vất vả nhưng tán thành. (부모는 아이를 어렵게 길렀지만 자랑스러워하십니다.)',
   },
   {
     id: 'fm-v-33',
@@ -1222,7 +1222,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'dạy dỗ',
     ko: '가르치다',
-    usage: 'Bố tôi dạy dỗ con em tôi. (My father teaches my younger sibling.)',
+    usage: 'Ví dụ: Bố tôi dạy dỗ con em tôi rất kỹ lưỡng. (아버지는 동생을 매우 세심하게 가르칩니다.)',
   },
   {
     id: 'fm-v-34',
@@ -1231,7 +1231,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'kỷ luật',
     ko: '훈련하다 또는 징계하다',
-    usage: 'Bố mẹ phải kỷ luật con em khi cần thiết. (Parents must discipline children when necessary.)',
+    usage: 'Ví dụ: Bố mẹ phải kỷ luật con em khi cần thiết. (부모는 필요할 때 자식을 훈련해야 합니다.)',
   },
   {
     id: 'fm-v-35',
@@ -1240,7 +1240,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'khuyên bảo',
     ko: '조언하다',
-    usage: 'Ông bà luôn khuyên bảo con cháu. (Grandparents always advise their grandchildren.)',
+    usage: 'Ví dụ: Ông bà luôn khuyên bảo con cháu về cuộc sống. (할아버지 할머니는 항상 손자를 인생에 대해 조언합니다.)',
   },
   {
     id: 'fm-v-36',
@@ -1249,7 +1249,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'thận trọng',
     ko: '조심하다 또는 신중하게 하다',
-    usage: 'Bố mẹ phải thận trọng với con cái. (Parents must be careful with their children.)',
+    usage: 'Ví dụ: Bố mẹ phải thận trọng với con cái mỗi ngày. (부모는 매일 자식과 함께 주의해야 합니다.)',
   },
   {
     id: 'fm-v-37',
@@ -1258,7 +1258,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'tin tưởng',
     ko: '신뢰하다',
-    usage: 'Tôi tin tưởng gia đình tôi. (I trust my family.)',
+    usage: 'Ví dụ: Tôi tin tưởng gia đình tôi hơn ai hết. (저는 가족을 다른 누구보다 믿습니다.)',
   },
   {
     id: 'fm-v-38',
@@ -1267,7 +1267,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'tôn trọng',
     ko: '존중하다',
-    usage: 'Con phải tôn trọng cha mẹ. (Children must respect their parents.)',
+    usage: 'Ví dụ: Con phải tôn trọng cha mẹ và ông bà. (자식은 부모와 할아버지 할머니를 존중해야 합니다.)',
   },
   {
     id: 'fm-v-39',
@@ -1276,7 +1276,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'quý mến',
     ko: '소중히 여기다',
-    usage: 'Tôi quý mến gia đình tôi. (I cherish my family.)',
+    usage: 'Ví dụ: Tôi quý mến gia đình tôi hơn bất cứ thứ gì. (저는 무엇보다 가족을 소중히 여깁니다.)',
   },
   {
     id: 'fm-v-40',
@@ -1285,7 +1285,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'thấu hiểu',
     ko: '이해하다',
-    usage: 'Anh chị em của tôi thấu hiểu tôi. (My siblings understand me.)',
+    usage: 'Ví dụ: Anh chị em của tôi thấu hiểu tôi rất tốt. (형제자매는 저를 매우 잘 이해합니다.)',
   },
   {
     id: 'fm-v-41',
@@ -1294,7 +1294,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'gắn bó',
     ko: '가깝다 또는 결합하다',
-    usage: 'Gia đình tôi gắn bó với nhau. (My family is closely bonded.)',
+    usage: 'Ví dụ: Gia đình tôi gắn bó với nhau rất mật thiết. (우리 가족은 매우 가깝게 결합되어 있습니다.)',
   },
   {
     id: 'fm-v-42',
@@ -1303,7 +1303,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'cộng hưởng',
     ko: '공명하다 또는 공감하다',
-    usage: 'Chúng tôi cộng hưởng với nhau. (We resonate with each other.)',
+    usage: 'Ví dụ: Chúng tôi cộng hưởng với nhau về giá trị sống. (우리는 인생의 가치에 대해 공감합니다.)',
   },
   {
     id: 'fm-v-43',
@@ -1312,7 +1312,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'hòa thuận',
     ko: '화목하다',
-    usage: 'Gia đình tôi sống hòa thuận. (My family lives in harmony.)',
+    usage: 'Ví dụ: Gia đình tôi sống hòa thuận và không tranh cãi. (우리 가족은 화목하게 살고 싸우지 않습니다.)',
   },
   {
     id: 'fm-v-44',
@@ -1321,7 +1321,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'cãi vã',
     ko: '싸우다 또는 다투다',
-    usage: 'Anh em của tôi đôi khi cãi vã. (My siblings sometimes argue.)',
+    usage: 'Ví dụ: Anh em của tôi đôi khi cãi vã nhưng lại gian lận. (형제자매는 가끔 싸우지만 곧 화해합니다.)',
   },
   {
     id: 'fm-v-45',
@@ -1330,7 +1330,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'giảng hòa',
     ko: '화해하다 또는 조정하다',
-    usage: 'Bố mẹ giảng hòa cho con em. (Parents mediate for their children.)',
+    usage: 'Ví dụ: Bố mẹ giảng hòa cho con em khi họ cãi nhau. (부모는 자식이 싸울 때 중재합니다.)',
   },
   {
     id: 'fm-v-46',
@@ -1339,7 +1339,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'bỏ ngoài',
     ko: '소외시키다',
-    usage: 'Không được bỏ ngoài người thân. (Don\'t neglect your relatives.)',
+    usage: 'Ví dụ: Không được bỏ ngoài người thân trong cuộc sống. (인생에서 친족을 외면하면 안 됩니다.)',
   },
   {
     id: 'fm-v-47',
@@ -1348,7 +1348,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'hỗ trợ',
     ko: '지원하다 또는 돕다',
-    usage: 'Anh tôi hỗ trợ tôi qua khóa học. (My brother supported me through my course.)',
+    usage: 'Ví dụ: Anh tôi hỗ trợ tôi qua khóa học rất tâm huyết. (형은 과정을 통해 저를 매우 헌신적으로 지원합니다.)',
   },
   {
     id: 'fm-v-48',
@@ -1357,7 +1357,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'thừa kế',
     ko: '상속받다',
-    usage: 'Anh tôi thừa kế nhà từ bố. (My brother inherited the house from father.)',
+    usage: 'Ví dụ: Anh tôi thừa kế nhà từ bố để xây dựng gia đình. (형은 아버지로부터 집을 상속받아 가정을 꾸립니다.)',
   },
   {
     id: 'fm-v-49',
@@ -1366,7 +1366,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'tặng cho',
     ko: '선물하다 또는 주다',
-    usage: 'Ông bà tặng quà cho cháu. (Grandparents give gifts to grandchildren.)',
+    usage: 'Ví dụ: Ông bà tặng quà cho cháu mỗi dịp lễ. (할아버지 할머니는 매 명절마다 손자에게 선물합니다.)',
   },
   {
     id: 'fm-v-50',
@@ -1375,6 +1375,6 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'hưởng thụ',
     ko: '향유하다 또는 누리다',
-    usage: 'Tôi hưởng thụ tình yêu của gia đình. (I enjoy my family\'s love.)',
+    usage: 'Ví dụ: Tôi hưởng thụ tình yêu của gia đình mỗi ngày. (저는 매일 가족의 사랑을 누립니다.)',
   },
 ]

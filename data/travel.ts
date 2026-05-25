@@ -9,7 +9,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'máy bay',
     ko: '비행기',
-    usage: '하늘을 통해 먼 거리를 빠르게 이동할 때 사용합니다.'
+    usage: 'Ví dụ: Tôi đi máy bay đến Hà Nội. (나는 비행기를 타고 하노이에 갑니다.)'
   },
   {
     id: 'tv-w-02',
@@ -18,7 +18,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'xe buýt',
     ko: '버스',
-    usage: '도시 내에서 많은 승객을 태우고 이동하는 대중교통입니다.'
+    usage: 'Ví dụ: Chúng tôi đi học bằng xe buýt. (우리는 버스를 타고 학교에 갑니다.)'
   },
   {
     id: 'tv-w-03',
@@ -27,7 +27,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'taxi',
     ko: '택시',
-    usage: '개인이 원하는 목적지로 이동할 때 고용하는 교통수단입니다.'
+    usage: 'Ví dụ: Tôi gọi một chiếc taxi để đi đến nhà ga. (나는 기차역에 가기 위해 택시를 불렀습니다.)'
   },
   {
     id: 'tv-w-04',
@@ -36,7 +36,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'tàu hỏa',
     ko: '기차',
-    usage: '선로 위를 따라 이동하는 대중교통 수단입니다.'
+    usage: 'Ví dụ: Tàu hỏa chạy rất nhanh trên đường ray. (기차는 철로 위에서 매우 빠르게 달립니다.)'
   },
   {
     id: 'tv-w-05',
@@ -45,7 +45,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'tàu điện ngầm',
     ko: '지하철',
-    usage: '도시 지하를 통과하는 빠른 대중교통입니다.'
+    usage: 'Ví dụ: Tôi thường lấy tàu điện ngầm để đi làm. (나는 보통 지하철을 타고 출근합니다.)'
   },
   {
     id: 'tv-w-06',
@@ -54,7 +54,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'xe máy',
     ko: '오토바이',
-    usage: '두 개의 바퀴를 가진 소형 이동수단입니다.'
+    usage: 'Ví dụ: Anh ấy lái xe máy rất thành thạo. (그는 오토바이를 능숙하게 운전합니다.)'
   },
   {
     id: 'tv-w-07',
@@ -63,7 +63,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'ô tô',
     ko: '자동차',
-    usage: '네 개의 바퀴를 가진 일반적인 개인용 이동수단입니다.'
+    usage: 'Ví dụ: Ô tô của tôi màu đen. (내 자동차는 검은색입니다.)'
   },
   {
     id: 'tv-w-08',
@@ -72,7 +72,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'tàu thuyền',
     ko: '배',
-    usage: '물 위를 통해 이동하는 운송수단입니다.'
+    usage: 'Ví dụ: Chúng tôi lên tàu thuyền để du lịch sông. (우리는 강 관광을 위해 배에 올랐습니다.)'
   },
   {
     id: 'tv-w-09',
@@ -81,7 +81,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'xe lăn',
     ko: '휠체어',
-    usage: '거동이 불편한 사람들의 이동을 도와주는 장치입니다.'
+    usage: 'Ví dụ: Ông ấy cần xe lăn để di chuyển. (그는 이동하기 위해 휠체어가 필요합니다.)'
   },
   {
     id: 'tv-w-10',
@@ -90,7 +90,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'xe đạp',
     ko: '자전거',
-    usage: '페달을 밟아 이동하는 두 바퀴짜리 탈것입니다.'
+    usage: 'Ví dụ: Tôi đạp xe đạp đến công viên. (나는 자전거를 타고 공원에 갔습니다.)'
   },
   {
     id: 'tv-w-11',
@@ -99,7 +99,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'trạm xe',
     ko: '버스 정류장',
-    usage: '버스가 승객을 태우고 내리는 장소입니다.'
+    usage: 'Ví dụ: Xe buýt dừng ở trạm xe. (버스는 정류장에서 멈춘다.)'
   },
   {
     id: 'tv-w-12',
@@ -108,7 +108,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'ga tàu',
     ko: '기차역',
-    usage: '기차가 출발하고 도착하는 장소입니다.'
+    usage: 'Ví dụ: Ga tàu này rất hiện đại. (이 기차역은 매우 현대적입니다.)'
   },
   {
     id: 'tv-w-13',
@@ -117,7 +117,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'sân bay',
     ko: '공항',
-    usage: '비행기가 이착륙하는 장소입니다.'
+    usage: 'Ví dụ: Tôi đợi ở sân bay hai giờ. (나는 공항에서 2시간 기다렸습니다.)'
   },
   {
     id: 'tv-w-14',
@@ -126,7 +126,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bến xe',
     ko: '버스 터미널',
-    usage: '여러 노선의 버스가 출발하는 중심지입니다.'
+    usage: 'Ví dụ: Bến xe này có nhiều chuyến đi. (이 버스 터미널은 많은 운행을 합니다.)'
   },
   {
     id: 'tv-w-15',
@@ -135,7 +135,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bến tàu',
     ko: '선착장',
-    usage: '배가 여객을 태우고 내리는 항구입니다.'
+    usage: 'Ví dụ: Bến tàu nằm bên cạnh sông. (선착장은 강 옆에 있습니다.)'
   },
   {
     id: 'tv-w-16',
@@ -144,7 +144,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bãi đỗ xe',
     ko: '주차장',
-    usage: '자동차를 주차하는 장소입니다.'
+    usage: 'Ví dụ: Tôi để xe ở bãi đỗ xe. (나는 주차장에 차를 세웠습니다.)'
   },
   {
     id: 'tv-w-17',
@@ -153,7 +153,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'đường sá',
     ko: '도로',
-    usage: '차량과 보행자가 이동하는 길입니다.'
+    usage: 'Ví dụ: Đường sá trong thành phố rất nhộn nhịp. (도시의 도로는 매우 붐빕니다.)'
   },
   {
     id: 'tv-w-18',
@@ -162,7 +162,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'con đường',
     ko: '길',
-    usage: '한 장소에서 다른 장소로 이동하는 경로입니다.'
+    usage: 'Ví dụ: Con đường này dẫn đến bãi biển. (이 길은 해변으로 통합니다.)'
   },
   {
     id: 'tv-w-19',
@@ -171,7 +171,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cầu',
     ko: '다리',
-    usage: '강이나 골짜기를 건너기 위해 만든 구조물입니다.'
+    usage: 'Ví dụ: Cầu này rất nổi tiếng ở Hà Nội. (이 다리는 하노이에서 매우 유명합니다.)'
   },
   {
     id: 'tv-w-20',
@@ -180,7 +180,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'hầm',
     ko: '터널',
-    usage: '산이나 지하를 통과하는 길입니다.'
+    usage: 'Ví dụ: Chiếc hầm qua núi giúp rút ngắn thời gian. (산을 통과하는 터널은 시간을 단축합니다.)'
   },
   {
     id: 'tv-w-21',
@@ -189,7 +189,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'đèn giao thông',
     ko: '신호등',
-    usage: '교차로에서 교통을 통제하는 신호등입니다.'
+    usage: 'Ví dụ: Đèn giao thông chuyển sang đỏ. (신호등이 빨간색으로 바뀝니다.)'
   },
   {
     id: 'tv-w-22',
@@ -198,7 +198,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'vé xe',
     ko: '버스표',
-    usage: '버스를 탈 때 필요한 승차권입니다.'
+    usage: 'Ví dụ: Tôi mua vé xe tại quầy bán vé. (나는 판매원 창구에서 버스표를 샀습니다.)'
   },
   {
     id: 'tv-w-23',
@@ -207,7 +207,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'ghế',
     ko: '의자',
-    usage: '탈것 안에서 앉는 장소입니다.'
+    usage: 'Ví dụ: Ghế này rất thoải mái để ngồi. (이 의자는 앉기가 매우 편합니다.)'
   },
   {
     id: 'tv-w-24',
@@ -216,7 +216,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'tài xế',
     ko: '운전사',
-    usage: '차량을 운전하는 사람입니다.'
+    usage: 'Ví dụ: Tài xế của xe buýt rất tuyệt. (버스 운전사는 훌륭합니다.)'
   },
   {
     id: 'tv-w-25',
@@ -225,7 +225,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'hành khách',
     ko: '승객',
-    usage: '탈것을 타고 이동하는 사람입니다.'
+    usage: 'Ví dụ: Các hành khách lên xuống từng lúc. (승객들이 계속 탑승하고 하차합니다.)'
   },
 
   // Session 2: Airport/Station Vocabulary (25 items)
@@ -236,7 +236,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'hộ chiếu',
     ko: '여권',
-    usage: '국제 여행 시 신분을 증명하는 서류입니다.'
+    usage: 'Ví dụ: Tôi cần hộ chiếu để đi quốc tế. (국제 여행을 위해 여권이 필요합니다.)'
   },
   {
     id: 'tv-w-27',
@@ -245,7 +245,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'vé máy bay',
     ko: '항공권',
-    usage: '비행기를 탈 때 필요한 승차권입니다.'
+    usage: 'Ví dụ: Vé máy bay của tôi đã được xác nhận. (내 항공권이 확인되었습니다.)'
   },
   {
     id: 'tv-w-28',
@@ -254,7 +254,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'hành lý',
     ko: '수하물',
-    usage: '여행할 때 가져가는 짐입니다.'
+    usage: 'Ví dụ: Hành lý của tôi được kiểm tra rất kỹ. (내 수하물을 매우 자세히 검사했습니다.)'
   },
   {
     id: 'tv-w-29',
@@ -263,7 +263,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'vali',
     ko: '여행가방',
-    usage: '여행할 때 옷과 물품을 담는 가방입니다.'
+    usage: 'Ví dụ: Vali này rất chắc chắn. (이 여행가방은 매우 견고합니다.)'
   },
   {
     id: 'tv-w-30',
@@ -272,7 +272,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'ba lô',
     ko: '배낭',
-    usage: '등에 메고 다니는 여행용 가방입니다.'
+    usage: 'Ví dụ: Ba lô của tôi đựng nhiều thứ. (내 배낭에 많은 것이 들어있습니다.)'
   },
   {
     id: 'tv-w-31',
@@ -281,7 +281,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cửa',
     ko: '출입구',
-    usage: '터미널이나 비행기의 진입/출입 장소입니다.'
+    usage: 'Ví dụ: Cửa ra vào ở góc phòng. (출입구는 방의 모서리에 있습니다.)'
   },
   {
     id: 'tv-w-32',
@@ -290,7 +290,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cửa lên máy bay',
     ko: '탑승구',
-    usage: '비행기에 탑승하는 출입구입니다.'
+    usage: 'Ví dụ: Cửa lên máy bay mở lúc 6 giờ. (탑승구는 6시에 엽니다.)'
   },
   {
     id: 'tv-w-33',
@@ -299,7 +299,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'chuyến bay',
     ko: '항공편',
-    usage: '비행기가 출발하여 도착하는 하나의 여행입니다.'
+    usage: 'Ví dụ: Chuyến bay của tôi đi vào buổi sáng. (내 항공편은 아침에 출발합니다.)'
   },
   {
     id: 'tv-w-34',
@@ -308,7 +308,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'đương tàu',
     ko: '선로',
-    usage: '기차가 달리는 길입니다.'
+    usage: 'Ví dụ: Đương tàu kéo dài rất xa. (선로가 매우 멀게 뻗어있습니다.)'
   },
   {
     id: 'tv-w-35',
@@ -317,7 +317,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'quầy vé',
     ko: '매표소',
-    usage: '표를 구매하는 창구입니다.'
+    usage: 'Ví dụ: Tôi mua vé ở quầy vé. (나는 매표소에서 표를 샀습니다.)'
   },
   {
     id: 'tv-w-36',
@@ -326,7 +326,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'thông tin',
     ko: '정보',
-    usage: '여행에 필요한 소식이나 안내입니다.'
+    usage: 'Ví dụ: Thông tin chuyến bay được cập nhật. (항공편 정보가 업데이트되었습니다.)'
   },
   {
     id: 'tv-w-37',
@@ -335,7 +335,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bảng chỉ dẫn',
     ko: '안내판',
-    usage: '방향이나 위치를 알려주는 표지입니다.'
+    usage: 'Ví dụ: Bảng chỉ dẫn chỉ đến nhà vệ sinh. (안내판은 화장실을 가리킵니다.)'
   },
   {
     id: 'tv-w-38',
@@ -344,7 +344,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'thẻ lên tàu',
     ko: '탑승권',
-    usage: '비행기나 기차에 탑승할 때 필요한 표입니다.'
+    usage: 'Ví dụ: Thẻ lên tàu của tôi ở chỗ an toàn. (내 탑승권은 안전한 곳에 있습니다.)'
   },
   {
     id: 'tv-w-39',
@@ -353,7 +353,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'hành động nhập cảnh',
     ko: '입국',
-    usage: '다른 나라로 들어가는 행위입니다.'
+    usage: 'Ví dụ: Nhập cảnh vào nước ngoài cần giấy tờ. (외국으로 입국하려면 서류가 필요합니다.)'
   },
   {
     id: 'tv-w-40',
@@ -362,7 +362,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'hành động xuất cảnh',
     ko: '출국',
-    usage: '자신의 나라를 떠나 다른 나라로 가는 행위입니다.'
+    usage: 'Ví dụ: Xuất cảnh vào sáng hôm nay. (오늘 아침 출국합니다.)'
   },
   {
     id: 'tv-w-41',
@@ -371,7 +371,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'hộc chứa',
     ko: '짐칸',
-    usage: '비행기 좌석 위의 짐을 보관하는 공간입니다.'
+    usage: 'Ví dụ: Ba lô tôi để trong hộc chứa. (내 배낭을 짐칸에 놓았습니다.)'
   },
   {
     id: 'tv-w-42',
@@ -380,7 +380,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'vành đai an toàn',
     ko: '안전벨트',
-    usage: '탈것 안에서 안전을 위해 착용하는 벨트입니다.'
+    usage: 'Ví dụ: Vành đai an toàn phải được thắt. (안전벨트를 반드시 매야 합니다.)'
   },
   {
     id: 'tv-w-43',
@@ -389,7 +389,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'toa tàu',
     ko: '차량',
-    usage: '기차를 이루는 각각의 칸입니다.'
+    usage: 'Ví dụ: Toa tàu này rất sạch sẽ. (이 기차 차량은 매우 깨끗합니다.)'
   },
   {
     id: 'tv-w-44',
@@ -398,7 +398,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cabin',
     ko: '객실',
-    usage: '비행기나 배의 승객이 있는 공간입니다.'
+    usage: 'Ví dụ: Cabin của tôi ở tầng 3. (내 객실은 3층에 있습니다.)'
     },
   {
     id: 'tv-w-45',
@@ -407,7 +407,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'rìm cửa sổ',
     ko: '창문틀',
-    usage: '비행기나 기차의 창문입니다.'
+    usage: 'Ví dụ: Rìm cửa sổ máy bay bằng kim loại. (비행기 창문틀은 금속입니다.)'
   },
   {
     id: 'tv-w-46',
@@ -416,7 +416,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'loa phát thanh',
     ko: '스피커',
-    usage: '공항이나 역에서 공지사항을 알리는 장비입니다.'
+    usage: 'Ví dụ: Loa phát thanh thông báo các chuyến bay. (스피커가 항공편을 알립니다.)'
   },
   {
     id: 'tv-w-47',
@@ -425,7 +425,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'thời gian khởi hành',
     ko: '출발시간',
-    usage: '탈것이 출발하는 시간입니다.'
+    usage: 'Ví dụ: Thời gian khởi hành là 7 giờ sáng. (출발시간은 아침 7시입니다.)'
   },
   {
     id: 'tv-w-48',
@@ -434,7 +434,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'thời gian đến',
     ko: '도착시간',
-    usage: '탈것이 목적지에 도착하는 시간입니다.'
+    usage: 'Ví dụ: Thời gian đến dự kiến là 3 giờ chiều. (도착시간 예상은 오후 3시입니다.)'
   },
   {
     id: 'tv-w-49',
@@ -443,7 +443,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'trẻ em',
     ko: '어린이',
-    usage: '어린 나이의 아이들입니다.'
+    usage: 'Ví dụ: Trẻ em được giảm giá vé. (어린이는 항공권 할인을 받습니다.)'
   },
   {
     id: 'tv-w-50',
@@ -452,7 +452,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'người lớn',
     ko: '어른',
-    usage: '성인 나이에 도달한 사람들입니다.'
+    usage: 'Ví dụ: Người lớn phải trả giá vé đầy đủ. (어른은 항공권 정가를 내야 합니다.)'
   },
 
   // Session 3: Tourist Spots & Directions (25 items)
@@ -463,7 +463,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bản đồ',
     ko: '지도',
-    usage: '장소들의 위치를 보여주는 그림입니다.'
+    usage: 'Ví dụ: Tôi cần xem bản đồ để tìm đường. (길을 찾기 위해 지도를 봐야 합니다.)'
   },
   {
     id: 'tv-w-52',
@@ -472,7 +472,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'đường',
     ko: '길',
-    usage: '한 곳에서 다른 곳으로 가는 경로입니다.'
+    usage: 'Ví dụ: Đường này dẫn đến thành phố. (이 길은 도시로 통합니다.)'
   },
   {
     id: 'tv-w-53',
@@ -481,7 +481,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'rẽ trái',
     ko: '좌회전',
-    usage: '왼쪽으로 방향을 바꾸는 것입니다.'
+    usage: 'Ví dụ: Rẽ trái ở góc đường. (거리 모서리에서 좌회전하세요.)'
   },
   {
     id: 'tv-w-54',
@@ -490,7 +490,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'rẽ phải',
     ko: '우회전',
-    usage: '오른쪽으로 방향을 바꾸는 것입니다.'
+    usage: 'Ví dụ: Rẽ phải sau cây cờ. (깃발 뒤에서 우회전하세요.)'
   },
   {
     id: 'tv-w-55',
@@ -499,7 +499,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'thẳng',
     ko: '직진',
-    usage: '같은 방향으로 계속 가는 것입니다.'
+    usage: 'Ví dụ: Đi thẳng không rẽ. (굽지 말고 직진하세요.)'
   },
   {
     id: 'tv-w-56',
@@ -508,7 +508,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'phía trước',
     ko: '앞',
-    usage: '앞쪽의 방향입니다.'
+    usage: 'Ví dụ: Nhà ở phía trước đó. (그 앞에 집이 있습니다.)'
   },
   {
     id: 'tv-w-57',
@@ -517,7 +517,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'phía sau',
     ko: '뒤',
-    usage: '뒤쪽의 방향입니다.'
+    usage: 'Ví dụ: Quán cà phê ở phía sau. (카페는 뒤쪽에 있습니다.)'
   },
   {
     id: 'tv-w-58',
@@ -526,7 +526,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bên trái',
     ko: '왼쪽',
-    usage: '왼쪽의 방향입니다.'
+    usage: 'Ví dụ: Cửa vào ở bên trái. (입구는 왼쪽에 있습니다.)'
   },
   {
     id: 'tv-w-59',
@@ -535,7 +535,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bên phải',
     ko: '오른쪽',
-    usage: '오른쪽의 방향입니다.'
+    usage: 'Ví dụ: Cửa sổ nằm bên phải. (창문은 오른쪽에 있습니다.)'
   },
   {
     id: 'tv-w-60',
@@ -544,7 +544,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bảo tàng',
     ko: '박물관',
-    usage: '역사적이고 문화적인 물품들을 전시하는 장소입니다.'
+    usage: 'Ví dụ: Bảo tàng này có nhiều tác phẩm quý. (이 박물관은 귀중한 작품이 많습니다.)'
   },
   {
     id: 'tv-w-61',
@@ -553,7 +553,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'chùa',
     ko: '사찰',
-    usage: '불교 종교의 신앙과 예배 장소입니다.'
+    usage: 'Ví dụ: Chùa này rất cổ xưa. (이 사찰은 매우 오래되었습니다.)'
   },
   {
     id: 'tv-w-62',
@@ -562,7 +562,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'lâu đài',
     ko: '성',
-    usage: '왕족이 살았던 역사적 건축물입니다.'
+    usage: 'Ví dụ: Lâu đài trên đồi rất đẹp. (언덕 위의 성은 아름답습니다.)'
   },
   {
     id: 'tv-w-63',
@@ -571,7 +571,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'công viên',
     ko: '공원',
-    usage: '자연과 여가를 즐길 수 있는 공간입니다.'
+    usage: 'Ví dụ: Công viên này tuyệt vời vào buổi tối. (이 공원은 저녁에 멋집니다.)'
   },
   {
     id: 'tv-w-64',
@@ -580,7 +580,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bãi biển',
     ko: '해변',
-    usage: '바다를 따라 모래로 된 해안입니다.'
+    usage: 'Ví dụ: Bãi biển này có cát trắng mịn. (이 해변은 부드러운 백사장을 가지고 있습니다.)'
   },
   {
     id: 'tv-w-65',
@@ -589,7 +589,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'núi',
     ko: '산',
-    usage: '지면에서 높이 솟아 오른 자연지형입니다.'
+    usage: 'Ví dụ: Núi này cao hơn 1000 mét. (이 산은 1000미터 이상 높습니다.)'
   },
   {
     id: 'tv-w-66',
@@ -598,7 +598,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'thác nước',
     ko: '폭포',
-    usage: '높은 곳에서 물이 떨어지는 경관입니다.'
+    usage: 'Ví dụ: Thác nước chảy rất mạnh. (폭포가 매우 강하게 흐릅니다.)'
   },
   {
     id: 'tv-w-67',
@@ -607,7 +607,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'hồ',
     ko: '호수',
-    usage: '물로 둘러싸인 자연 지형입니다.'
+    usage: 'Ví dụ: Hồ này rất sâu. (이 호수는 매우 깊습니다.)'
   },
   {
     id: 'tv-w-68',
@@ -616,7 +616,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'sông',
     ko: '강',
-    usage: '육지를 흐르는 큰 물줄기입니다.'
+    usage: 'Ví dụ: Sông này chảy qua các tỉnh. (이 강은 여러 지역을 흐릅니다.)'
   },
   {
     id: 'tv-w-69',
@@ -625,7 +625,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'quảng trường',
     ko: '광장',
-    usage: '건물에 둘러싸인 넓은 공공 장소입니다.'
+    usage: 'Ví dụ: Quảng trường này rất rộng. (이 광장은 매우 넓습니다.)'
   },
   {
     id: 'tv-w-70',
@@ -634,7 +634,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'thị trường',
     ko: '시장',
-    usage: '상품을 사고팔 수 있는 장소입니다.'
+    usage: 'Ví dụ: Thị trường này bán rau tươi. (이 시장은 신선한 채소를 판매합니다.)'
   },
   {
     id: 'tv-w-71',
@@ -643,7 +643,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'nhà thờ',
     ko: '교회',
-    usage: '기독교 신앙의 예배 장소입니다.'
+    usage: 'Ví dụ: Nhà thờ này xây từ năm 1800. (이 교회는 1800년에 지어졌습니다.)'
   },
   {
     id: 'tv-w-72',
@@ -652,7 +652,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'tháp',
     ko: '탑',
-    usage: '높이 솟은 원형의 건축물입니다.'
+    usage: 'Ví dụ: Tháp này nhìn thấy từ xa. (이 탑은 멀리서 볼 수 있습니다.)'
   },
   {
     id: 'tv-w-73',
@@ -661,7 +661,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cổng',
     ko: '문',
-    usage: '출입할 수 있는 장소의 입구입니다.'
+    usage: 'Ví dụ: Cổng chính rất cầu kỳ. (정문은 매우 정교합니다.)'
   },
   {
     id: 'tv-w-74',
@@ -670,7 +670,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cầu thang',
     ko: '계단',
-    usage: '위아래층을 연결하는 구조물입니다.'
+    usage: 'Ví dụ: Cầu thang có 20 bậc. (계단은 20계단입니다.)'
   },
   {
     id: 'tv-w-75',
@@ -679,7 +679,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'khoảng cách',
     ko: '거리',
-    usage: '두 지점 사이의 길이 또는 간격입니다.'
+    usage: 'Ví dụ: Khoảng cách từ đây tới trạm là 500m. (여기에서 정류장까지의 거리는 500m입니다.)'
   },
 
   // Session 4: Travel Problems & Accommodation (25 items)
@@ -690,7 +690,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'mất',
     ko: '잃어버리다',
-    usage: '무언가를 찾을 수 없게 되었을 때 사용합니다.'
+    usage: 'Ví dụ: Tôi mất chìa khóa ở khách sạn. (나는 호텔에서 열쇠를 잃어버렸습니다.)'
   },
   {
     id: 'tv-w-77',
@@ -699,7 +699,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'trễ',
     ko: '늦다',
-    usage: '정해진 시간이 지나서 도착하는 것입니다.'
+    usage: 'Ví dụ: Chuyến bay trễ hai giờ. (항공편이 2시간 늦었습니다.)'
   },
   {
     id: 'tv-w-78',
@@ -708,7 +708,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'hủy',
     ko: '취소',
-    usage: '예정된 일을 하지 않기로 결정하는 것입니다.'
+    usage: 'Ví dụ: Tôi hủy chuyến du lịch vì bệnh. (병 때문에 여행을 취소했습니다.)'
   },
   {
     id: 'tv-w-79',
@@ -717,7 +717,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'phòng',
     ko: '방',
-    usage: '호텔에서 묵는 공간입니다.'
+    usage: 'Ví dụ: Phòng này rất rộng rãi. (이 방은 매우 넓습니다.)'
   },
   {
     id: 'tv-w-80',
@@ -726,7 +726,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'đặt phòng',
     ko: '객실예약',
-    usage: '호텔 방을 미리 예약하는 것입니다.'
+    usage: 'Ví dụ: Tôi đặt phòng qua mạng. (나는 온라인으로 객실을 예약했습니다.)'
   },
   {
     id: 'tv-w-81',
@@ -735,7 +735,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'check-in',
     ko: '체크인',
-    usage: '호텔에 도착하여 등록하는 행위입니다.'
+    usage: 'Ví dụ: Check-in lúc 3 giờ chiều. (체크인은 오후 3시입니다.)'
   },
   {
     id: 'tv-w-82',
@@ -744,7 +744,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'check-out',
     ko: '체크아웃',
-    usage: '호텔을 나갈 때 퇴실하는 행위입니다.'
+    usage: 'Ví dụ: Check-out phải trước 11 giờ. (체크아웃은 11시 전에 해야 합니다.)'
   },
   {
     id: 'tv-w-83',
@@ -753,7 +753,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'khách sạn',
     ko: '호텔',
-    usage: '여행자가 묵을 수 있는 숙박시설입니다.'
+    usage: 'Ví dụ: Khách sạn này có 5 sao. (이 호텔은 5성입니다.)'
   },
   {
     id: 'tv-w-84',
@@ -762,7 +762,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'nhà trọ',
     ko: '게스트하우스',
-    usage: '저렴한 가격으로 묵을 수 있는 숙박시설입니다.'
+    usage: 'Ví dụ: Nhà trọ giá rẻ cho du khách. (게스트하우스는 관광객을 위해 저렴합니다.)'
   },
   {
     id: 'tv-w-85',
@@ -771,7 +771,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'giường',
     ko: '침대',
-    usage: '자는 곳입니다.'
+    usage: 'Ví dụ: Giường này rất thoải mái. (이 침대는 매우 편합니다.)'
   },
   {
     id: 'tv-w-86',
@@ -780,7 +780,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'gối',
     ko: '베개',
-    usage: '머리를 받치는 것입니다.'
+    usage: 'Ví dụ: Gối lụa rất mềm. (비단 베개는 매우 부드럽습니다.)'
   },
   {
     id: 'tv-w-87',
@@ -789,7 +789,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'chăn',
     ko: '담요',
-    usage: '따뜻함을 위해 덮는 것입니다.'
+    usage: 'Ví dụ: Chăn này rất ấm. (이 담요는 매우 따뜻합니다.)'
   },
   {
     id: 'tv-w-88',
@@ -798,7 +798,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'phòng tắm',
     ko: '욕실',
-    usage: '목욕하거나 화장실을 사용하는 곳입니다.'
+    usage: 'Ví dụ: Phòng tắm sạch sẽ rất quan trọng. (깨끗한 욕실은 매우 중요합니다.)'
   },
   {
     id: 'tv-w-89',
@@ -807,7 +807,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'vòi sen',
     ko: '샤워기',
-    usage: '물을 뿌려 몸을 씻는 장치입니다.'
+    usage: 'Ví dụ: Vòi sen này nóng lạnh linh hoạt. (이 샤워기는 온도 조절이 잘됩니다.)'
   },
   {
     id: 'tv-w-90',
@@ -816,7 +816,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bồn tắm',
     ko: '욕조',
-    usage: '물을 담아 목욕하는 용기입니다.'
+    usage: 'Ví dụ: Bồn tắm lớn rất thích hợp. (큰 욕조는 매우 좋습니다.)'
   },
   {
     id: 'tv-w-91',
@@ -825,7 +825,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'khăn',
     ko: '수건',
-    usage: '몸을 닦는 천입니다.'
+    usage: 'Ví dụ: Khăn thay thế hàng ngày. (수건을 매일 갈아줍니다.)'
   },
   {
     id: 'tv-w-92',
@@ -834,7 +834,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'bàn',
     ko: '테이블',
-    usage: '물건을 놓는 가구입니다.'
+    usage: 'Ví dụ: Bàn gỗ rất chắc. (나무 테이블은 매우 견고합니다.)'
   },
   {
     id: 'tv-w-93',
@@ -843,7 +843,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'ghế',
     ko: '의자',
-    usage: '앉는 가구입니다.'
+    usage: 'Ví dụ: Ghế này thoải mái lắm. (이 의자는 매우 편합니다.)'
   },
   {
     id: 'tv-w-94',
@@ -852,7 +852,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'cửa sổ',
     ko: '창문',
-    usage: '햇빛과 공기가 들어오는 곳입니다.'
+    usage: 'Ví dụ: Cửa sổ nhìn ra thành phố. (창문이 도시를 내려다봅니다.)'
   },
   {
     id: 'tv-w-95',
@@ -861,7 +861,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'đèn',
     ko: '불',
-    usage: '빛을 내는 장치입니다.'
+    usage: 'Ví dụ: Đèn phòng quá sáng. (방의 불이 너무 밝습니다.)'
   },
   {
     id: 'tv-w-96',
@@ -870,7 +870,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'điều hòa',
     ko: '에어컨',
-    usage: '실내 온도를 조절하는 기계입니다.'
+    usage: 'Ví dụ: Điều hòa trong phòng rất mát. (방의 에어컨은 매우 시원합니다.)'
   },
   {
     id: 'tv-w-97',
@@ -879,7 +879,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'wifi',
     ko: '와이파이',
-    usage: '무선 인터넷 서비스입니다.'
+    usage: 'Ví dụ: Wifi ở khách sạn này nhanh. (이 호텔의 와이파이는 빠릅니다.)'
   },
   {
     id: 'tv-w-98',
@@ -888,7 +888,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'giá phòng',
     ko: '방값',
-    usage: '숙박의 비용입니다.'
+    usage: 'Ví dụ: Giá phòng hợp lý. (방값이 합리적입니다.)'
   },
   {
     id: 'tv-w-99',
@@ -897,7 +897,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'hóa đơn',
     ko: '청구서',
-    usage: '비용을 기록한 문서입니다.'
+    usage: 'Ví dụ: Hóa đơn chi tiết. (청구서가 자세합니다.)'
   },
   {
     id: 'tv-w-100',
@@ -906,7 +906,7 @@ export const words: VocabItem[] = [
     type: 'word',
     vi: 'tiền tip',
     ko: '팁',
-    usage: '서비스에 대한 감사의 추가 돈입니다.'
+    usage: 'Ví dụ: Tiền tip cảm ơn dịch vụ. (팁은 서비스 감사입니다.)'
   }
 ]
 
@@ -919,7 +919,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'đi du lịch',
     ko: '여행가다',
-    usage: '휴가를 내어 다른 장소로 여행 목적으로 가는 것입니다.'
+    usage: 'Ví dụ: Tôi sắp đi du lịch tới Đà Lạt. (나는 곧 달랏으로 여행을 갈 것입니다.)'
   },
   {
     id: 'tv-v-02',
@@ -928,7 +928,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'lên máy bay',
     ko: '비행기 탓다',
-    usage: '비행기에 탑승하는 것입니다.'
+    usage: 'Ví dụ: Chúng tôi lên máy bay vào buổi sáng. (우리는 아침에 비행기를 탔습니다.)'
   },
   {
     id: 'tv-v-03',
@@ -937,7 +937,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'hạ cánh',
     ko: '착륙하다',
-    usage: '비행기가 지면에 내려오는 것입니다.'
+    usage: 'Ví dụ: Máy bay hạ cánh an toàn. (비행기가 안전하게 착륙했습니다.)'
   },
   {
     id: 'tv-v-04',
@@ -946,7 +946,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'cất cánh',
     ko: '이륙하다',
-    usage: '비행기가 지면을 떠나 하늘로 올라가는 것입니다.'
+    usage: 'Ví dụ: Máy bay cất cánh lúc 7 giờ. (비행기가 7시에 이륙했습니다.)'
   },
   {
     id: 'tv-v-05',
@@ -955,7 +955,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'lên xe buýt',
     ko: '버스 타다',
-    usage: '버스에 탑승하는 것입니다.'
+    usage: 'Ví dụ: Tôi lên xe buýt số 5. (나는 5번 버스를 탔습니다.)'
   },
   {
     id: 'tv-v-06',
@@ -964,7 +964,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'xuống xe',
     ko: '내리다',
-    usage: '탈것에서 내려가는 것입니다.'
+    usage: 'Ví dụ: Tôi xuống xe ở trạm chính. (나는 정류장에서 내렸습니다.)'
   },
   {
     id: 'tv-v-07',
@@ -973,7 +973,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'lái xe',
     ko: '운전하다',
-    usage: '차량을 조종하여 움직이는 것입니다.'
+    usage: 'Ví dụ: Anh ấy lái xe rất nhanh. (그는 매우 빨리 운전합니다.)'
   },
   {
     id: 'tv-v-08',
@@ -982,7 +982,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'đi bộ',
     ko: '걷다',
-    usage: '두 발로 이동하는 것입니다.'
+    usage: 'Ví dụ: Chúng tôi đi bộ quanh công viên. (우리는 공원 주변을 걸었습니다.)'
   },
   {
     id: 'tv-v-09',
@@ -991,7 +991,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'chạy',
     ko: '뛰다',
-    usage: '빠르게 이동하는 것입니다.'
+    usage: 'Ví dụ: Tôi chạy để bắt máy bay. (나는 비행기를 타기 위해 뛰었습니다.)'
   },
   {
     id: 'tv-v-10',
@@ -1000,7 +1000,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'đi xe đạp',
     ko: '자전거 타다',
-    usage: '자전거를 타고 이동하는 것입니다.'
+    usage: 'Ví dụ: Tôi đi xe đạp đến công viên. (나는 자전거를 타고 공원에 갔습니다.)'
   },
   {
     id: 'tv-v-11',
@@ -1009,7 +1009,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'gọi taxi',
     ko: '택시 부르다',
-    usage: '택시를 통해 이동을 요청하는 것입니다.'
+    usage: 'Ví dụ: Tôi gọi taxi từ điện thoại. (나는 전화로 택시를 불렀습니다.)'
   },
   {
     id: 'tv-v-12',
@@ -1018,7 +1018,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'đợi',
     ko: '기다리다',
-    usage: '어떤 일이나 사람이 올 때까지 기다리는 것입니다.'
+    usage: 'Ví dụ: Tôi đợi máy bay trong 2 giờ. (나는 비행기를 2시간 기다렸습니다.)'
   },
   {
     id: 'tv-v-13',
@@ -1027,7 +1027,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'chuyển xe',
     ko: '갈아타다',
-    usage: '한 탈것에서 다른 탈것으로 바꿔 타는 것입니다.'
+    usage: 'Ví dụ: Chúng tôi chuyển xe ở nhà ga. (우리는 기차역에서 갈아탔습니다.)'
   },
   {
     id: 'tv-v-14',
@@ -1036,7 +1036,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'mang hành lý',
     ko: '짐을 들다',
-    usage: '여행 짐을 운반하는 것입니다.'
+    usage: 'Ví dụ: Tôi mang hành lý lên máy bay. (나는 짐을 비행기에 올렸습니다.)'
   },
   {
     id: 'tv-v-15',
@@ -1045,7 +1045,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'xếp hành lý',
     ko: '짐을 싸다',
-    usage: '가져갈 물건을 가방에 정리하는 것입니다.'
+    usage: 'Ví dụ: Tôi xếp hành lý vào vali. (나는 짐을 가방에 싸뒀습니다.)'
   },
   {
     id: 'tv-v-16',
@@ -1054,7 +1054,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'kiểm tra',
     ko: '확인하다',
-    usage: '뭔가가 맞는지 검토하는 것입니다.'
+    usage: 'Ví dụ: Tôi kiểm tra vé trước lên máy bay. (나는 비행기 탑승 전에 표를 확인했습니다.)'
   },
   {
     id: 'tv-v-17',
@@ -1063,7 +1063,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'tìm kiếm',
     ko: '찾다',
-    usage: '잃어버린 것을 찾으려는 노력입니다.'
+    usage: 'Ví dụ: Tôi tìm kiếm khách sạn ở mạng. (나는 온라인에서 호텔을 찾았습니다.)'
   },
   {
     id: 'tv-v-18',
@@ -1072,7 +1072,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'hỏi đường',
     ko: '길을 묻다',
-    usage: '방향을 모를 때 다른 사람에게 물어보는 것입니다.'
+    usage: 'Ví dụ: Tôi hỏi đường tới bãi biển. (나는 해변으로 가는 길을 물었습니다.)'
   },
   {
     id: 'tv-v-19',
@@ -1081,7 +1081,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'chỉ đường',
     ko: '길을 가리키다',
-    usage: '다른 사람에게 가는 방법을 알려주는 것입니다.'
+    usage: 'Ví dụ: Anh ấy chỉ đường cho tôi. (그는 나에게 길을 가르쳐 주었습니다.)'
   },
   {
     id: 'tv-v-20',
@@ -1090,7 +1090,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'quay lại',
     ko: '돌아가다',
-    usage: '원점으로 돌아가는 것입니다.'
+    usage: 'Ví dụ: Chúng tôi quay lại khách sạn. (우리는 호텔로 돌아갔습니다.)'
   },
   {
     id: 'tv-v-21',
@@ -1099,7 +1099,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'tiến tới',
     ko: '앞으로 나아가다',
-    usage: '앞 방향으로 계속 움직이는 것입니다.'
+    usage: 'Ví dụ: Xe tiến tới từ từ. (자동차가 천천히 앞으로 나아갔습니다.)'
   },
   {
     id: 'tv-v-22',
@@ -1108,7 +1108,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'rẽ',
     ko: '꺾다',
-    usage: '방향을 왼쪽이나 오른쪽으로 바꾸는 것입니다.'
+    usage: 'Ví dụ: Xe rẽ trái ở góc đường. (차가 거리 모서리에서 좌회전했습니다.)'
   },
   {
     id: 'tv-v-23',
@@ -1117,7 +1117,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'vượt qua',
     ko: '지나가다',
-    usage: '어떤 지점을 넘어서 가는 것입니다.'
+    usage: 'Ví dụ: Chúng tôi vượt qua cây cầu. (우리는 다리를 지나갔습니다.)'
   },
   {
     id: 'tv-v-24',
@@ -1126,7 +1126,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'đứng',
     ko: '서다',
-    usage: '움직이지 않고 직립하는 것입니다.'
+    usage: 'Ví dụ: Tôi đứng chờ tàu điện ngầm. (나는 지하철을 기다리며 섰습니다.)'
   },
   {
     id: 'tv-v-25',
@@ -1135,7 +1135,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'ngồi',
     ko: '앉다',
-    usage: '의자 등에 앉는 것입니다.'
+    usage: 'Ví dụ: Tôi ngồi cạnh cửa sổ. (나는 창문 옆에 앉았습니다.)'
   },
 
   // Session 2: Travel action verbs (25 items)
@@ -1146,7 +1146,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'đặt vé',
     ko: '티켓을 예약하다',
-    usage: '여행 표를 미리 구매하거나 예약하는 것입니다.'
+    usage: 'Ví dụ: Tôi đặt vé máy bay online. (나는 온라인으로 항공권을 예약했습니다.)'
   },
   {
     id: 'tv-v-27',
@@ -1155,7 +1155,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'mua vé',
     ko: '표를 사다',
-    usage: '표의 비용을 지불하고 받는 것입니다.'
+    usage: 'Ví dụ: Tôi mua vé tại quầy. (나는 매표소에서 표를 샀습니다.)'
   },
   {
     id: 'tv-v-28',
@@ -1164,7 +1164,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'check-in',
     ko: '체크인하다',
-    usage: '호텔이나 비행기에 도착하여 등록하는 것입니다.'
+    usage: 'Ví dụ: Tôi check-in khách sạn lúc 3 giờ. (나는 오후 3시에 호텔에 체크인했습니다.)'
   },
   {
     id: 'tv-v-29',
@@ -1173,7 +1173,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'check-out',
     ko: '체크아웃하다',
-    usage: '호텔을 떠날 때 퇴실 절차를 거치는 것입니다.'
+    usage: 'Ví dụ: Tôi check-out lúc 11 giờ sáng. (나는 오전 11시에 체크아웃했습니다.)'
   },
   {
     id: 'tv-v-30',
@@ -1182,7 +1182,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'khám phá',
     ko: '탐험하다',
-    usage: '새로운 장소를 자세히 알아보는 것입니다.'
+    usage: 'Ví dụ: Chúng tôi khám phá thành phố cổ. (우리는 구도시를 탐험했습니다.)'
   },
   {
     id: 'tv-v-31',
@@ -1191,7 +1191,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'tham quan',
     ko: '관광하다',
-    usage: '관광지를 방문하여 구경하는 것입니다.'
+    usage: 'Ví dụ: Tôi tham quan bảo tàng lịch sử. (나는 역사박물관을 관광했습니다.)'
   },
   {
     id: 'tv-v-32',
@@ -1200,7 +1200,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'chụp ảnh',
     ko: '사진 찍다',
-    usage: '카메라로 사진을 기록하는 것입니다.'
+    usage: 'Ví dụ: Tôi chụp ảnh tại công viên. (나는 공원에서 사진을 찍었습니다.)'
   },
   {
     id: 'tv-v-33',
@@ -1209,7 +1209,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'lạc đường',
     ko: '길을 잃다',
-    usage: '가는 길을 모르게 되는 것입니다.'
+    usage: 'Ví dụ: Tôi lạc đường trong thành phố. (나는 도시에서 길을 잃었습니다.)'
   },
   {
     id: 'tv-v-34',
@@ -1218,7 +1218,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'mê hoặc',
     ko: '매혹되다',
-    usage: '어떤 것에 깊이 끌리는 것입니다.'
+    usage: 'Ví dụ: Tôi mê hoặc bởi cảnh đẹp. (나는 아름다운 경치에 매혹되었습니다.)'
   },
   {
     id: 'tv-v-35',
@@ -1227,7 +1227,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'thích',
     ko: '좋아하다',
-    usage: '무언가를 선호하는 것입니다.'
+    usage: 'Ví dụ: Tôi thích du lịch vào hè. (나는 여름 여행을 좋아합니다.)'
   },
   {
     id: 'tv-v-36',
@@ -1236,7 +1236,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'ghé thăm',
     ko: '들르다',
-    usage: '지나가면서 잠깐 방문하는 것입니다.'
+    usage: 'Ví dụ: Chúng tôi ghé thăm nhà bạn. (우리는 친구 집에 들렀습니다.)'
   },
   {
     id: 'tv-v-37',
@@ -1245,7 +1245,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'ở lại',
     ko: '머물다',
-    usage: '한 장소에 머물러 있는 것입니다.'
+    usage: 'Ví dụ: Tôi ở lại ở Hà Nội một tuần. (나는 하노이에 1주일 머물렀습니다.)'
   },
   {
     id: 'tv-v-38',
@@ -1254,7 +1254,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'rời đi',
     ko: '떠나다',
-    usage: '한 장소를 떠나가는 것입니다.'
+    usage: 'Ví dụ: Chúng tôi rời đi vào sáng sớm. (우리는 아주 이른 아침에 떠났습니다.)'
   },
   {
     id: 'tv-v-39',
@@ -1263,7 +1263,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'trở về',
     ko: '돌아오다',
-    usage: '원래 있던 곳으로 돌아가는 것입니다.'
+    usage: 'Ví dụ: Tôi trở về Việt Nam từ Pháp. (나는 프랑스에서 베트남으로 돌아왔습니다.)'
   },
   {
     id: 'tv-v-40',
@@ -1272,7 +1272,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'nhập cảnh',
     ko: '입국하다',
-    usage: '다른 나라로 들어가는 것입니다.'
+    usage: 'Ví dụ: Tôi nhập cảnh Thái Lan ngày hôm qua. (나는 어제 태국에 입국했습니다.)'
   },
   {
     id: 'tv-v-41',
@@ -1281,7 +1281,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'xuất cảnh',
     ko: '출국하다',
-    usage: '자신의 나라를 떠나 다른 나라로 가는 것입니다.'
+    usage: 'Ví dụ: Tôi xuất cảnh khỏi Việt Nam. (나는 베트남에서 출국합니다.)'
   },
   {
     id: 'tv-v-42',
@@ -1290,7 +1290,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'qua hải quan',
     ko: '세관을 통과하다',
-    usage: '여행 시 세관 검사를 받는 것입니다.'
+    usage: 'Ví dụ: Tôi qua hải quan rất nhanh. (나는 세관을 매우 빨리 통과했습니다.)'
   },
   {
     id: 'tv-v-43',
@@ -1299,7 +1299,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'tỏ ra',
     ko: '보이다',
-    usage: '특정한 모습이나 태도를 드러내는 것입니다.'
+    usage: 'Ví dụ: Anh ấy tỏ ra rất vui. (그는 매우 행복해 보였습니다.)'
   },
   {
     id: 'tv-v-44',
@@ -1308,7 +1308,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'trải nghiệm',
     ko: '경험하다',
-    usage: '직접 겪으며 배우는 것입니다.'
+    usage: 'Ví dụ: Tôi trải nghiệm cuộc sống địa phương. (나는 지역 생활을 경험했습니다.)'
   },
   {
     id: 'tv-v-45',
@@ -1317,7 +1317,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'gặp gỡ',
     ko: '만나다',
-    usage: '다른 사람을 만나는 것입니다.'
+    usage: 'Ví dụ: Tôi gặp gỡ bạn cũ ở đó. (나는 거기서 옛 친구를 만났습니다.)'
   },
   {
     id: 'tv-v-46',
@@ -1326,7 +1326,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'dạo bước',
     ko: '산책하다',
-    usage: '즐거움을 위해 천천히 걷는 것입니다.'
+    usage: 'Ví dụ: Chúng tôi dạo bước dọc bãi biển. (우리는 해변을 따라 산책했습니다.)'
   },
   {
     id: 'tv-v-47',
@@ -1335,7 +1335,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'ăn uống',
     ko: '먹고 마시다',
-    usage: '음식과 음료를 섭취하는 것입니다.'
+    usage: 'Ví dụ: Tôi ăn uống đặc sản địa phương. (나는 지역 특산물을 먹었습니다.)'
   },
   {
     id: 'tv-v-48',
@@ -1344,7 +1344,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'ngủ',
     ko: '자다',
-    usage: '휴식을 위해 눈을 감고 쉬는 것입니다.'
+    usage: 'Ví dụ: Tôi ngủ rất sâu trên máy bay. (나는 비행기에서 깊게 잤습니다.)'
   },
   {
     id: 'tv-v-49',
@@ -1353,7 +1353,7 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'thư giãn',
     ko: '휴식하다',
-    usage: '편하게 쉬며 스트레스를 풀기입니다.'
+    usage: 'Ví dụ: Tôi thư giãn ở bãi biển. (나는 해변에서 휴식했습니다.)'
   },
   {
     id: 'tv-v-50',
@@ -1362,6 +1362,6 @@ export const verbs: VocabItem[] = [
     type: 'verb',
     vi: 'hài lòng',
     ko: '만족하다',
-    usage: '어떤 것에 충분히 만족하는 것입니다.'
+    usage: 'Ví dụ: Tôi hài lòng với chuyến du lịch. (나는 여행에 만족합니다.)'
   }
 ]
