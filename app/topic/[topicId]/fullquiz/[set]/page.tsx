@@ -1,7 +1,7 @@
 'use client'
 import { useParams, useRouter } from 'next/navigation'
 import { useState, useEffect, useMemo } from 'react'
-import { generateFullQuiz, FQQuestion } from '@/lib/fullquiz'
+import { generateFullQuiz, FQQuestion, extractViSentence } from '@/lib/fullquiz'
 import { VocabItem } from '@/lib/types'
 import Link from 'next/link'
 
@@ -61,12 +61,27 @@ function QuizQuestion({ q, onAnswer }: { q: FQQuestion; onAnswer: (correct: bool
             </div>
           </div>
         ) : (
-          <span className="target" style={{
-            fontSize: q.type === 'vi-to-ko' ? '36px' : '24px',
-            fontWeight: q.type === 'vi-to-ko' ? 600 : 500,
-          }}>
-            {q.prompt}
-          </span>
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 10 }}>
+            <span className="target" style={{
+              fontSize: q.type === 'vi-to-ko' ? '36px' : '24px',
+              fontWeight: q.type === 'vi-to-ko' ? 600 : 500,
+            }}>
+              {q.prompt}
+            </span>
+            {/* Vietnamese example sentence */}
+            {q.item.usage && (
+              <div style={{
+                fontSize: '14px',
+                color: 'var(--muted)',
+                textAlign: 'center',
+                lineHeight: 1.6,
+                padding: '0 8px',
+                fontStyle: 'italic',
+              }}>
+                {extractViSentence(q.item.usage)}
+              </div>
+            )}
+          </div>
         )}
       </div>
 

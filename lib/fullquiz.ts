@@ -15,7 +15,7 @@ function shuffle<T>(arr: T[]): T[] {
   return [...arr].sort(() => Math.random() - 0.5)
 }
 
-function extractViSentence(usage: string): string {
+export function extractViSentence(usage: string): string {
   const prefix = 'Ví dụ: '
   const start = usage.startsWith(prefix) ? prefix.length : 0
   const parenIdx = usage.indexOf(' (', start)
