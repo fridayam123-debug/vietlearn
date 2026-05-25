@@ -9,18 +9,18 @@ import { TopicId, VocabItem } from '@/lib/types'
 import Link from 'next/link'
 
 const DATA_MAP: Record<string, () => Promise<{ words: VocabItem[]; verbs: VocabItem[] }>> = {
-  school:        () => import('@/data/school'),
-  food:          () => import('@/data/food'),
-  animals:       () => import('@/data/animals'),
-  family:        () => import('@/data/family'),
-  daily:         () => import('@/data/daily'),
-  'numbers-time':() => import('@/data/numbers-time'),
-  travel:        () => import('@/data/travel'),
-  cooking:       () => import('@/data/cooking'),
-  mart:          () => import('@/data/mart'),
-  electronics:   () => import('@/data/electronics'),
-  hotel:         () => import('@/data/hotel'),
-  'real-estate': () => import('@/data/real-estate'),
+  school:          () => import('@/data/school'),
+  food:            () => import('@/data/food'),
+  animals:         () => import('@/data/animals'),
+  family:          () => import('@/data/family'),
+  daily:           () => import('@/data/daily'),
+  'numbers-time':  () => import('@/data/numbers-time'),
+  travel:          () => import('@/data/travel'),
+  cooking:         () => import('@/data/cooking'),
+  mart:            () => import('@/data/mart'),
+  electronics:     () => import('@/data/electronics'),
+  hotel:           () => import('@/data/hotel'),
+  'real-estate':   () => import('@/data/real-estate'),
 }
 
 export default function QuizPage() {
@@ -31,10 +31,10 @@ export default function QuizPage() {
   const { passQuiz } = useProgress()
 
   const [questions, setQuestions] = useState<QuizQuestion[]>([])
-  const [current, setCurrent] = useState(0)
-  const [score, setScore] = useState(0)
-  const [done, setDone] = useState(false)
-  const [wrong, setWrong] = useState<QuizQuestion[]>([])
+  const [current, setCurrent]     = useState(0)
+  const [score, setScore]         = useState(0)
+  const [done, setDone]           = useState(false)
+  const [wrong, setWrong]         = useState<QuizQuestion[]>([])
 
   useEffect(() => {
     const loader = DATA_MAP[topicId]
@@ -58,75 +58,87 @@ export default function QuizPage() {
     }
   }
 
+  function retry() {
+    const loader = DATA_MAP[topicId]
+    if (!loader) return
+    loader().then(mod => {
+      const all: VocabItem[] = type === 'word' ? mod.words : mod.verbs
+      setQuestions(generateQuiz(all.filter(v => v.session === session)))
+      setCurrent(0); setScore(0); setDone(false); setWrong([])
+    })
+  }
+
   if (!questions.length) return (
-    <div className="flex items-center justify-center h-screen text-gray-500">로딩 중...</div>
+    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100vh', color: 'var(--muted)' }}>
+      로딩 중…
+    </div>
   )
 
   if (done) {
     const passed = score >= 20
     return (
-      <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-6 gap-6">
-        <div className="text-6xl">{passed ? '🎉' : '😅'}</div>
-        <h1 className="text-2xl font-bold">{passed ? '통과!' : '다시 도전!'}</h1>
-        <p className="text-xl font-bold">{score}/25 정답</p>
-        {!passed && (
-          <p className="text-gray-600 text-center">80% 이상 맞혀야 통과해요. (20/25 이상)</p>
-        )}
-        {wrong.length > 0 && (
-          <div className="w-full bg-white rounded-2xl p-4 border-2 border-red-200">
-            <p className="font-bold text-red-700 mb-3">틀린 단어 복습 ({wrong.length}개)</p>
-            {wrong.map(q => (
-              <div key={q.item.id} className="flex justify-between py-2 border-b border-gray-100 last:border-0">
-                <span className="text-gray-800">{q.item.vi}</span>
-                <span className="text-red-700 font-medium">{q.item.ko}</span>
-              </div>
-            ))}
-          </div>
-        )}
-        <div className="flex gap-3 w-full">
-          {!passed && (
-            <button
-              onClick={() => {
-                const loader = DATA_MAP[topicId]
-                if (!loader) return
-                loader().then(mod => {
-                  const all: VocabItem[] = type === 'word' ? mod.words : mod.verbs
-                  setQuestions(generateQuiz(all.filter(v => v.session === session)))
-                  setCurrent(0); setScore(0); setDone(false); setWrong([])
-                })
-              }}
-              className="flex-1 py-3 bg-red-600 text-white rounded-xl font-bold hover:bg-red-700"
-            >
-              다시 풀기
-            </button>
-          )}
-          <Link href={`/topic/${topicId}`} className="flex-1 py-3 bg-gray-200 rounded-xl font-bold text-center flex items-center justify-center hover:bg-gray-300">
-            돌아가기
-          </Link>
+      <>
+        <div className="page-header">
+          <Link href={`/topic/${topicId}`} className="back-link" style={{ margin: 0 }}>←</Link>
+          <h1>퀴즈 결과</h1>
         </div>
-      </div>
+        <div className="app" style={{ paddingTop: 20 }}>
+          <div className="quiz-result">
+            <div style={{ fontSize: '56px' }}>{passed ? '🎉' : '😅'}</div>
+            <div className="result-score" style={{ color: passed ? 'var(--success)' : 'var(--error)' }}>
+              {score}/25
+            </div>
+            <div className="result-label">{passed ? '통과! 다음 세션이 열렸어요.' : '다시 도전해 보세요 (80% 이상 필요)'}</div>
+
+            {wrong.length > 0 && (
+              <div className="wrong-list">
+                <h3>틀린 단어 복습 ({wrong.length}개)</h3>
+                {wrong.map(q => (
+                  <div key={q.item.id} className="wrong-row">
+                    <span className="w-vi">{q.item.vi}</span>
+                    <span className="w-ko">{q.item.ko}</span>
+                  </div>
+                ))}
+              </div>
+            )}
+
+            <div className="flashcard-nav" style={{ justifyContent: 'center' }}>
+              {!passed && (
+                <button className="btn btn-primary" onClick={retry} style={{ flex: 1 }}>
+                  다시 풀기
+                </button>
+              )}
+              <Link href={`/topic/${topicId}`} className="btn" style={{ flex: 1, textAlign: 'center', textDecoration: 'none' }}>
+                돌아가기
+              </Link>
+            </div>
+          </div>
+        </div>
+      </>
     )
   }
 
   const q = questions[current]
+  const pct = Math.round((current / questions.length) * 100)
+
   return (
-    <div className="min-h-screen bg-gray-50">
-      <div className="sticky top-0 bg-white border-b px-4 py-3 flex items-center gap-3 z-10">
-        <Link href={`/topic/${topicId}`} className="text-2xl">←</Link>
-        <div className="flex-1 bg-gray-200 rounded-full h-2">
-          <div
-            className="bg-red-500 h-2 rounded-full transition-all"
-            style={{ width: `${(current / questions.length) * 100}%` }}
-          />
+    <>
+      <div className="page-header">
+        <Link href={`/topic/${topicId}`} className="back-link" style={{ margin: 0 }}>←</Link>
+        <h1>{type === 'word' ? '단어' : '동사'} 퀴즈</h1>
+        <span className="ph-count">{current + 1}/{questions.length}</span>
+      </div>
+      <div className="app" style={{ paddingTop: 20 }}>
+        <div className="quiz-screen">
+          <div className="quiz-progress">
+            <div className="quiz-progress-fill" style={{ width: `${pct}%` }} />
+          </div>
+          {q.type === 'multipleChoice'
+            ? <QuizMultipleChoice question={q} onAnswer={handleAnswer} />
+            : <QuizTyping question={q} onAnswer={handleAnswer} />
+          }
         </div>
-        <span className="text-sm text-gray-500">{current + 1}/{questions.length}</span>
       </div>
-      <div className="p-4">
-        {q.type === 'multipleChoice'
-          ? <QuizMultipleChoice question={q} onAnswer={handleAnswer} />
-          : <QuizTyping question={q} onAnswer={handleAnswer} />
-        }
-      </div>
-    </div>
+    </>
   )
 }

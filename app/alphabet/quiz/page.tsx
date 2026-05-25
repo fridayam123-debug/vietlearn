@@ -34,11 +34,11 @@ function makeQuestions(): Question[] {
 export default function AlphabetQuizPage() {
   const [round, setRound] = useState(0)
   const questions = useMemo(() => makeQuestions(), [round])
-  const [current, setCurrent] = useState(0)
+  const [current, setCurrent]   = useState(0)
   const [selected, setSelected] = useState<string | null>(null)
-  const [score, setScore] = useState(0)
-  const [done, setDone] = useState(false)
-  const [wrong, setWrong] = useState<Question[]>([])
+  const [score, setScore]       = useState(0)
+  const [done, setDone]         = useState(false)
+  const [wrong, setWrong]       = useState<Question[]>([])
 
   const q = questions[current]
 
@@ -70,84 +70,94 @@ export default function AlphabetQuizPage() {
   if (done) {
     const passed = score >= Math.ceil(questions.length * 0.8)
     return (
-      <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-6 gap-6">
-        <div className="text-6xl">{passed ? '🎉' : '😅'}</div>
-        <h1 className="text-2xl font-bold">{passed ? '통과!' : '다시 도전!'}</h1>
-        <p className="text-xl font-bold">{score}/{questions.length} 정답</p>
-        {!passed && <p className="text-gray-600 text-center">80% 이상 맞혀야 통과해요.</p>}
-        {wrong.length > 0 && (
-          <div className="w-full bg-white rounded-2xl p-4 border-2 border-red-200">
-            <p className="font-bold text-red-700 mb-3">틀린 문자 ({wrong.length}개)</p>
-            {wrong.map((wq, i) => (
-              <div key={i} className="flex items-center justify-between py-2 border-b border-gray-100 last:border-0">
-                <span className="text-3xl font-bold text-gray-800">{wq.target.char}</span>
-                <span className="text-sm text-gray-600 text-right">{wq.target.pronunciationKo}</span>
-              </div>
-            ))}
-          </div>
-        )}
-        <div className="flex gap-3 w-full">
-          <Link href="/alphabet" className="flex-1 py-3 bg-gray-200 rounded-2xl font-bold text-center text-gray-700">
-            돌아가기
-          </Link>
-          <button onClick={restart} className="flex-1 py-3 bg-red-600 text-white rounded-2xl font-bold">
-            다시 풀기
-          </button>
+      <>
+        <div className="page-header">
+          <Link href="/alphabet" className="back-link" style={{ margin: 0 }}>←</Link>
+          <h1>알파벳 테스트</h1>
         </div>
-      </div>
+        <div className="app" style={{ paddingTop: 20 }}>
+          <div className="quiz-result">
+            <div style={{ fontSize: '56px' }}>{passed ? '🎉' : '😅'}</div>
+            <div className="result-score" style={{ color: passed ? 'var(--success)' : 'var(--error)' }}>
+              {score}/{questions.length}
+            </div>
+            <div className="result-label">{passed ? '통과!' : '80% 이상 맞혀야 통과해요.'}</div>
+
+            {wrong.length > 0 && (
+              <div className="wrong-list">
+                <h3>틀린 문자 ({wrong.length}개)</h3>
+                {wrong.map((wq, i) => (
+                  <div key={i} className="wrong-row">
+                    <span style={{ fontSize: '32px', fontWeight: 700 }}>{wq.target.char}</span>
+                    <span className="w-ko">{wq.target.pronunciationKo}</span>
+                  </div>
+                ))}
+              </div>
+            )}
+
+            <div className="flashcard-nav" style={{ justifyContent: 'center' }}>
+              <Link href="/alphabet" className="btn" style={{ flex: 1, textAlign: 'center', textDecoration: 'none' }}>
+                돌아가기
+              </Link>
+              <button className="btn btn-primary" onClick={restart} style={{ flex: 1 }}>
+                다시 풀기
+              </button>
+            </div>
+          </div>
+        </div>
+      </>
     )
   }
 
+  const pct = Math.round((current / questions.length) * 100)
+
   return (
-    <div className="min-h-screen bg-gray-50">
-      <div className="sticky top-0 bg-white border-b px-4 py-3 flex items-center gap-3 z-10">
-        <Link href="/alphabet" className="text-2xl">←</Link>
-        <div className="flex-1 bg-gray-200 rounded-full h-2">
-          <div
-            className="bg-red-500 h-2 rounded-full transition-all"
-            style={{ width: `${(current / questions.length) * 100}%` }}
-          />
-        </div>
-        <span className="text-sm text-gray-500">{current + 1}/{questions.length}</span>
+    <>
+      <div className="page-header">
+        <Link href="/alphabet" className="back-link" style={{ margin: 0 }}>←</Link>
+        <h1>알파벳 테스트</h1>
+        <span className="ph-count">{current + 1}/{questions.length}</span>
       </div>
 
-      <div className="p-6 flex flex-col gap-6">
-        <div className="bg-white rounded-3xl border-2 border-gray-200 p-8 flex flex-col items-center gap-3 min-h-44">
-          <p className="text-sm text-gray-400">
-            {q.type === 'to-pronunciation' ? '이 문자의 발음은?' : '이 발음의 문자는?'}
-          </p>
-          {q.type === 'to-pronunciation' ? (
-            <span className="text-8xl font-bold text-gray-900">{q.target.char}</span>
-          ) : (
-            <p className="text-xl font-bold text-red-700 text-center px-2">{q.target.pronunciationKo}</p>
-          )}
-        </div>
+      <div className="app" style={{ paddingTop: 20 }}>
+        <div className="quiz-screen">
+          <div className="quiz-progress">
+            <div className="quiz-progress-fill" style={{ width: `${pct}%` }} />
+          </div>
 
-        <div className="grid grid-cols-2 gap-3">
-          {q.choices.map(choice => {
-            const isSelected = selected === choice
-            const isCorrect = choice === q.answer
-            let cls = 'bg-white border-2 border-gray-200'
-            if (selected) {
-              if (isCorrect) cls = 'bg-green-100 border-2 border-green-500'
-              else if (isSelected) cls = 'bg-red-100 border-2 border-red-500'
-            }
-            return (
-              <button
-                key={choice}
-                onClick={() => handleSelect(choice)}
-                className={`${cls} rounded-2xl p-4 font-bold text-center transition-all active:scale-95 min-h-20`}
-              >
-                {q.type === 'to-pronunciation' ? (
-                  <span className="text-sm text-gray-800 leading-snug">{choice}</span>
-                ) : (
-                  <span className="text-5xl text-gray-900">{choice}</span>
-                )}
-              </button>
-            )
-          })}
+          <div className="quiz-question">
+            <div className="q-hint">
+              {q.type === 'to-pronunciation' ? '이 문자의 발음은?' : '이 발음의 문자는?'}
+            </div>
+            {q.type === 'to-pronunciation' ? (
+              <span className="target" style={{ fontSize: '72px', fontWeight: 700 }}>{q.target.char}</span>
+            ) : (
+              <span className="target" style={{ fontSize: '24px', fontWeight: 600, color: 'var(--accent-dark)' }}>
+                {q.target.pronunciationKo}
+              </span>
+            )}
+          </div>
+
+          <div className="quiz-choices">
+            {q.choices.map(choice => {
+              let cls = 'quiz-choice'
+              if (selected) {
+                if (choice === q.answer) cls += ' correct'
+                else if (selected === choice) cls += ' wrong'
+              }
+              return (
+                <button key={choice} className={cls} onClick={() => handleSelect(choice)}>
+                  {q.type === 'to-pronunciation' ? (
+                    <span style={{ fontSize: '14px', lineHeight: 1.4 }}>{choice}</span>
+                  ) : (
+                    <span style={{ fontSize: '40px', fontWeight: 700 }}>{choice}</span>
+                  )}
+                </button>
+              )
+            })}
+          </div>
         </div>
       </div>
-    </div>
+    </>
   )
 }

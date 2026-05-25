@@ -12,33 +12,29 @@ export function FlashCard({ item, onViewed }: { item: VocabItem; onViewed?: () =
   }
 
   return (
-    <div
-      onClick={handleFlip}
-      className="relative w-full cursor-pointer select-none"
-      style={{ perspective: '1000px', height: '360px' }}
-    >
-      <div
-        className="relative w-full h-full transition-transform duration-500"
-        style={{ transformStyle: 'preserve-3d', transform: flipped ? 'rotateY(180deg)' : 'rotateY(0)' }}
-      >
+    <div className="flip-wrapper" onClick={handleFlip}>
+      <div className={`flip-inner${flipped ? ' flipped' : ''}`}>
         {/* Front */}
-        <div
-          className="absolute inset-0 bg-white rounded-3xl flex flex-col items-center justify-center gap-5 p-8"
-          style={{ backfaceVisibility: 'hidden', border: '1.5px solid var(--border)', boxShadow: '0 2px 12px rgba(0,0,0,0.07)' }}
-        >
-          <p className="text-5xl font-bold text-[#1a1a1a] text-center leading-tight">{item.vi}</p>
-          <p className="text-2xl font-semibold text-[#dc2626] text-center">{item.ko}</p>
+        <div className="flip-front">
+          <span className="fc-vi">{item.vi}</span>
+          <span className="fc-ko">{item.ko}</span>
           <AudioButton text={item.vi} size="lg" />
-          <p className="text-sm text-[#888] mt-1">탭하여 예문 보기</p>
+          <span className="fc-hint">탭하여 예문 보기</span>
         </div>
         {/* Back */}
-        <div
-          className="absolute inset-0 bg-white rounded-3xl flex flex-col items-center justify-center gap-5 p-8"
-          style={{ backfaceVisibility: 'hidden', transform: 'rotateY(180deg)', border: '1.5px solid #dc2626', boxShadow: '0 2px 12px rgba(220,38,38,0.1)' }}
-        >
-          <p className="text-3xl font-bold text-[#dc2626] text-center">{item.ko}</p>
-          <div className="w-full bg-[#f7f9fb] rounded-2xl p-4">
-            <p className="text-sm text-[#1a1a1a] text-center leading-relaxed">{item.usage}</p>
+        <div className="flip-back">
+          <span className="fc-ko" style={{ fontSize: '32px' }}>{item.ko}</span>
+          <div style={{
+            width: '100%',
+            background: 'var(--soft)',
+            borderRadius: '12px',
+            padding: '16px 20px',
+            fontSize: '15px',
+            lineHeight: '1.6',
+            color: 'var(--fg)',
+            textAlign: 'center',
+          }}>
+            {item.usage}
           </div>
           <AudioButton text={item.vi} size="lg" />
         </div>

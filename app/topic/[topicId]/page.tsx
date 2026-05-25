@@ -10,59 +10,70 @@ export default function TopicPage() {
   const topic = topics.find(t => t.id === topicId)!
   const { unlocked, sessionProg } = useProgress()
 
+  if (!topic) return <div className="app">주제를 찾을 수 없어요.</div>
+
   const wordSessions = [1, 2, 3, 4]
   const verbSessions = [1, 2]
 
-  function SessionButton({ type, session }: { type: 'word' | 'verb'; session: number }) {
+  function SetCard({ type, session }: { type: 'word' | 'verb'; session: number }) {
     const locked = !unlocked(topicId as TopicId, type, session)
     const prog = sessionProg(topicId as TopicId, type, session)
     const label = type === 'word' ? `단어 세션 ${session}` : `동사 세션 ${session}`
+    const sub = locked ? '잠김' : prog.quizPassed ? '완료 ✓' : `${prog.viewed.length}/25 학습`
+
     return (
       <Link
         href={locked ? '#' : `/topic/${topicId}/session/${type}-${session}`}
-        className={`p-4 rounded-xl border-2 flex items-center justify-between transition-all ${
-          locked
-            ? 'border-gray-200 bg-gray-50 opacity-50 pointer-events-none'
-            : prog.quizPassed
-            ? 'border-green-400 bg-green-50'
-            : 'border-gray-200 bg-white hover:border-red-300'
-        }`}
+        className={`set-card${locked ? ' locked' : prog.quizPassed ? ' done' : ''}`}
       >
-        <span className="font-medium">{locked ? '🔒 ' : ''}{label}</span>
-        {prog.quizPassed
-          ? <span className="text-green-600 text-sm font-bold">✅ 완료</span>
-          : !locked
-          ? <span className="text-gray-400 text-sm">{prog.viewed.length}/25</span>
-          : null
-        }
+        <div className="sc-label">{locked ? '🔒 ' : ''}{label}</div>
+        <div className="sc-sub">{sub}</div>
       </Link>
     )
   }
 
-  if (!topic) return <div className="p-4">주제를 찾을 수 없어요.</div>
-
   return (
-    <div className="min-h-screen bg-gray-50">
-      <div className="sticky top-0 bg-white border-b px-4 py-3 flex items-center gap-3 z-10">
-        <Link href="/" className="text-2xl">←</Link>
-        <span className="text-2xl">{topic.icon}</span>
-        <h1 className="font-bold text-lg">{topic.nameKo}</h1>
-        <span className="ml-auto text-sm text-gray-500">{topic.nameVi}</span>
+    <>
+      {/* Sticky header */}
+      <div className="page-header">
+        <Link href="/" className="back-link" style={{ margin: 0 }}>←</Link>
+        <span style={{ fontSize: '22px' }}>{topic.icon}</span>
+        <h1>{topic.nameKo}</h1>
+        <span className="ph-count" style={{ color: 'var(--muted)' }}>{topic.nameVi}</span>
       </div>
-      <div className="p-4 flex flex-col gap-3">
-        <h2 className="font-bold text-gray-700 mt-2">📚 단어 (100개)</h2>
-        {wordSessions.map(s => <SessionButton key={s} type="word" session={s} />)}
-        <h2 className="font-bold text-gray-700 mt-4">🔤 동사 (50개)</h2>
-        {verbSessions.map(s => <SessionButton key={s} type="verb" session={s} />)}
-        <h2 className="font-bold text-gray-700 mt-4">💬 회화</h2>
-        <Link
-          href={`/topic/${topicId}/conversation`}
-          className="p-4 rounded-xl border-2 border-gray-200 bg-white hover:border-red-300 font-medium flex items-center justify-between"
-        >
-          <span>회화 5개 학습하기</span>
-          <span>→</span>
-        </Link>
+
+      <div className="app" style={{ paddingTop: 20 }}>
+        {/* Mode grid */}
+        <div className="mode-grid">
+          <div className="mode-card" style={{ cursor: 'default' }}>
+            <span className="mc-icon">📚</span>
+            <span className="mc-label">단어</span>
+            <span className="mc-desc">100개 핵심 단어</span>
+          </div>
+          <div className="mode-card" style={{ cursor: 'default' }}>
+            <span className="mc-icon">🔤</span>
+            <span className="mc-label">동사</span>
+            <span className="mc-desc">50개 주요 동사</span>
+          </div>
+          <Link href={`/topic/${topicId}/conversation`} className="mode-card">
+            <span className="mc-icon">💬</span>
+            <span className="mc-label">회화</span>
+            <span className="mc-desc">실용 대화 학습</span>
+          </Link>
+        </div>
+
+        {/* Word sessions */}
+        <div className="section-title">단어 세션</div>
+        <div className="set-grid">
+          {wordSessions.map(s => <SetCard key={s} type="word" session={s} />)}
+        </div>
+
+        {/* Verb sessions */}
+        <div className="section-title">동사 세션</div>
+        <div className="set-grid" style={{ gridTemplateColumns: '1fr 1fr', maxWidth: 280 }}>
+          {verbSessions.map(s => <SetCard key={s} type="verb" session={s} />)}
+        </div>
       </div>
-    </div>
+    </>
   )
 }
