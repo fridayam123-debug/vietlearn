@@ -3,6 +3,7 @@ import { useState } from 'react'
 import { alphabet, ALPHABET_CHARS } from '@/data/alphabet'
 import { useProgress } from '@/hooks/useProgress'
 import { AudioButton } from '@/components/AudioButton'
+import { PronunciationPractice } from '@/components/PronunciationPractice'
 import Link from 'next/link'
 
 export default function AlphabetPage() {
@@ -54,7 +55,7 @@ export default function AlphabetPage() {
 
         {/* Flip card */}
         <div className="flashcard-screen">
-          <div className="flip-wrapper" onClick={handleFlip} style={{ minHeight: 360 }}>
+          <div className="flip-wrapper" onClick={handleFlip} style={{ minHeight: flipped ? 'auto' : 360 }}>
             <div className={`flip-inner${flipped ? ' flipped' : ''}`}>
               {/* Front */}
               <div className="flip-front">
@@ -76,6 +77,12 @@ export default function AlphabetPage() {
                   <AudioButton text={letter.example} size="sm" />
                 </div>
                 <AudioButton text={letter.char} size="lg" />
+                {/* Pronunciation practice */}
+                <PronunciationPractice
+                  key={letter.char}
+                  expected={letter.example}
+                  hint={letter.exampleMeaning}
+                />
               </div>
             </div>
           </div>
