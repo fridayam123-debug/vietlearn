@@ -68,6 +68,10 @@ export default function AlphabetPage() {
               </div>
               {/* Back */}
               <div className="flip-back">
+                {/* Korean pronunciation above letter */}
+                <span style={{ fontSize: '22px', fontWeight: 700, color: 'var(--accent)', letterSpacing: 2 }}>
+                  {letter.pronunciationKo.split(' (')[0]}
+                </span>
                 <span style={{ fontSize: '52px', fontWeight: 700 }}>{letter.char}</span>
                 <span className="fc-ko">{letter.pronunciationKo}</span>
                 <span className="fc-desc">{letter.mouthShape}</span>
