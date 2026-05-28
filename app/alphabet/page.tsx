@@ -4,6 +4,7 @@ import { alphabet, ALPHABET_CHARS } from '@/data/alphabet'
 import { useProgress } from '@/hooks/useProgress'
 import { AudioButton } from '@/components/AudioButton'
 import { PronunciationPractice } from '@/components/PronunciationPractice'
+import { LetterCanvas } from '@/components/LetterCanvas'
 import Link from 'next/link'
 
 export default function AlphabetPage() {
@@ -68,6 +69,9 @@ export default function AlphabetPage() {
               </div>
               {/* Back */}
               <div className="flip-back">
+                {/* Handwriting practice */}
+                <LetterCanvas key={letter.char} char={letter.char} />
+
                 {/* Korean pronunciation above letter */}
                 <span style={{ fontSize: '22px', fontWeight: 700, color: 'var(--accent)', letterSpacing: 2 }}>
                   {letter.pronunciationKo.split(' (')[0]}
