@@ -5,180 +5,125 @@ interface Props {
   char: string
 }
 
+const W = 180
+const H = 180
+
 export function LetterCanvas({ char }: Props) {
-  const canvasRef = useRef<HTMLCanvasElement>(null)
-  const [isDrawing, setIsDrawing] = useState(false)
-  const [showFeedback, setShowFeedback] = useState(false)
+  const canvasRef  = useRef<HTMLCanvasElement>(null)
+  const isDrawing  = useRef(false)
+  const lastPos    = useRef<{ x: number; y: number } | null>(null)
+  const [feedback, setFeedback] = useState(false)
+
+  function drawGhost(ctx: CanvasRenderingContext2D) {
+    ctx.fillStyle = '#ffffff'
+    ctx.fillRect(0, 0, W, H)
+    ctx.fillStyle = '#e0e0e0'
+    ctx.font = `bold 150px Arial, sans-serif`
+    ctx.textAlign = 'center'
+    ctx.textBaseline = 'middle'
+    ctx.fillText(char, W / 2, H / 2 + 8)
+  }
 
   useEffect(() => {
     const canvas = canvasRef.current
     if (!canvas) return
-
-    const ctx = canvas.getContext('2d')
-    if (!ctx) return
-
-    // Set canvas size
-    canvas.width = 240
-    canvas.height = 240
-
-    // White background
-    ctx.fillStyle = '#ffffff'
-    ctx.fillRect(0, 0, canvas.width, canvas.height)
-
-    // Draw ghost letter
-    ctx.fillStyle = '#d3d3d3'
-    ctx.font = '200px Arial, sans-serif'
-    ctx.textAlign = 'center'
-    ctx.textBaseline = 'middle'
-    ctx.fillText(char, canvas.width / 2, canvas.height / 2)
+    canvas.width  = W
+    canvas.height = H
+    const ctx = canvas.getContext('2d')!
+    drawGhost(ctx)
   }, [char])
 
-  function clearCanvas() {
-    const canvas = canvasRef.current
-    if (!canvas) return
-    const ctx = canvas.getContext('2d')
-    if (!ctx) return
-
-    ctx.fillStyle = '#ffffff'
-    ctx.fillRect(0, 0, canvas.width, canvas.height)
-
-    // Redraw ghost letter
-    ctx.fillStyle = '#d3d3d3'
-    ctx.font = '200px Arial, sans-serif'
-    ctx.textAlign = 'center'
-    ctx.textBaseline = 'middle'
-    ctx.fillText(char, canvas.width / 2, canvas.height / 2)
+  function getPos(e: React.PointerEvent<HTMLCanvasElement>) {
+    const canvas = canvasRef.current!
+    const rect   = canvas.getBoundingClientRect()
+    // Scale from CSS pixels → canvas pixels
+    const scaleX = W / rect.width
+    const scaleY = H / rect.height
+    return {
+      x: (e.clientX - rect.left) * scaleX,
+      y: (e.clientY - rect.top)  * scaleY,
+    }
   }
 
-  function handleDone(e: React.MouseEvent) {
+  function onDown(e: React.PointerEvent<HTMLCanvasElement>) {
     e.stopPropagation()
-    clearCanvas()
-    setShowFeedback(true)
-    setTimeout(() => setShowFeedback(false), 1200)
+    e.currentTarget.setPointerCapture(e.pointerId)
+    isDrawing.current = true
+    const pos = getPos(e)
+    lastPos.current = pos
+    // Draw a starting dot so single taps are visible
+    const ctx = canvasRef.current!.getContext('2d')!
+    ctx.beginPath()
+    ctx.arc(pos.x, pos.y, 2, 0, Math.PI * 2)
+    ctx.fillStyle = '#1a1a1a'
+    ctx.fill()
   }
 
-  function handlePointerDown(e: React.PointerEvent<HTMLCanvasElement>) {
+  function onMove(e: React.PointerEvent<HTMLCanvasElement>) {
+    if (!isDrawing.current || !lastPos.current) return
     e.stopPropagation()
-    setIsDrawing(true)
-    draw(e)
-  }
-
-  function handlePointerMove(e: React.PointerEvent<HTMLCanvasElement>) {
-    if (!isDrawing) return
-    e.stopPropagation()
-    draw(e)
-  }
-
-  function handlePointerUp(e: React.PointerEvent<HTMLCanvasElement>) {
-    e.stopPropagation()
-    setIsDrawing(false)
-  }
-
-  function draw(e: React.PointerEvent<HTMLCanvasElement>) {
-    const canvas = canvasRef.current
-    if (!canvas) return
-
-    const rect = canvas.getBoundingClientRect()
-    const x = e.clientX - rect.left
-    const y = e.clientY - rect.top
-
-    const ctx = canvas.getContext('2d')
-    if (!ctx) return
-
-    ctx.lineWidth = 4
-    ctx.lineCap = 'round'
-    ctx.lineJoin = 'round'
+    const pos = getPos(e)
+    const ctx = canvasRef.current!.getContext('2d')!
+    ctx.beginPath()
+    ctx.moveTo(lastPos.current.x, lastPos.current.y)
+    ctx.lineTo(pos.x, pos.y)
+    ctx.lineWidth   = 4
+    ctx.lineCap     = 'round'
+    ctx.lineJoin    = 'round'
     ctx.strokeStyle = '#1a1a1a'
-
-    ctx.lineTo(x, y)
     ctx.stroke()
+    lastPos.current = pos
+  }
+
+  function onUp(e: React.PointerEvent<HTMLCanvasElement>) {
+    e.stopPropagation()
+    isDrawing.current = false
+    lastPos.current   = null
+  }
+
+  function clear(e: React.MouseEvent) {
+    e.stopPropagation()
+    const ctx = canvasRef.current!.getContext('2d')!
+    drawGhost(ctx)
+  }
+
+  function done(e: React.MouseEvent) {
+    e.stopPropagation()
+    const ctx = canvasRef.current!.getContext('2d')!
+    drawGhost(ctx)
+    setFeedback(true)
+    setTimeout(() => setFeedback(false), 1200)
   }
 
   return (
-    <div
-      onClick={e => e.stopPropagation()}
-      style={{
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-        gap: 16,
-        marginBottom: 20,
-      }}
-    >
-      <div style={{ fontSize: '13px', color: 'var(--muted)', fontWeight: 600 }}>
-        ✏️ 써보기
-      </div>
+    <div onClick={e => e.stopPropagation()}
+      style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 10 }}>
+      <div style={{ fontSize: '13px', color: 'var(--muted)', fontWeight: 600 }}>✏️ 써보기</div>
 
       <canvas
         ref={canvasRef}
-        onPointerDown={handlePointerDown}
-        onPointerMove={handlePointerMove}
-        onPointerUp={handlePointerUp}
-        onPointerLeave={handlePointerUp}
+        onPointerDown={onDown}
+        onPointerMove={onMove}
+        onPointerUp={onUp}
+        onPointerLeave={onUp}
         style={{
           border: '1.5px solid var(--border)',
           borderRadius: 12,
-          backgroundColor: '#ffffff',
           cursor: 'crosshair',
           touchAction: 'none',
+          width: W,
+          height: H,
         }}
       />
 
-      <div style={{ display: 'flex', gap: 8, width: '100%' }}>
-        <button
-          className="btn"
-          onClick={(e) => {
-            e.stopPropagation()
-            clearCanvas()
-          }}
-          style={{
-            flex: 1,
-            fontSize: '13px',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            gap: 6,
-          }}
-        >
-          🗑️ 지우기
-        </button>
-        <button
-          className="btn btn-primary"
-          onClick={handleDone}
-          style={{
-            flex: 1,
-            fontSize: '13px',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            gap: 6,
-          }}
-        >
-          ✅ 완성
-        </button>
+      <div style={{ display: 'flex', gap: 8, width: W }}>
+        <button className="btn" onClick={clear} style={{ flex: 1, fontSize: '13px' }}>🗑️ 지우기</button>
+        <button className="btn btn-primary" onClick={done} style={{ flex: 1, fontSize: '13px' }}>✅ 완성</button>
       </div>
 
-      {showFeedback && (
-        <div
-          style={{
-            fontSize: '18px',
-            fontWeight: 600,
-            color: '#2a8a2a',
-            animation: 'fadeInOut 1.2s ease-in-out',
-          }}
-        >
-          잘했어요!
-        </div>
+      {feedback && (
+        <div style={{ fontSize: '16px', fontWeight: 700, color: '#2a8a2a' }}>잘했어요! 👍</div>
       )}
-
-      <style>{`
-        @keyframes fadeInOut {
-          0% { opacity: 0; }
-          20% { opacity: 1; }
-          80% { opacity: 1; }
-          100% { opacity: 0; }
-        }
-      `}</style>
     </div>
   )
 }
