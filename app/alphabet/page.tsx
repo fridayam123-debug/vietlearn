@@ -3,8 +3,6 @@ import { useState } from 'react'
 import { alphabet, ALPHABET_CHARS } from '@/data/alphabet'
 import { useProgress } from '@/hooks/useProgress'
 import { AudioButton } from '@/components/AudioButton'
-import { PronunciationPractice } from '@/components/PronunciationPractice'
-import { LetterCanvas } from '@/components/LetterCanvas'
 import Link from 'next/link'
 
 export default function AlphabetPage() {
@@ -69,9 +67,6 @@ export default function AlphabetPage() {
               </div>
               {/* Back */}
               <div className="flip-back">
-                {/* Handwriting practice */}
-                <LetterCanvas key={letter.char} char={letter.char} />
-
                 {/* Korean pronunciation above letter */}
                 <span style={{ fontSize: '22px', fontWeight: 700, color: 'var(--accent)', letterSpacing: 2 }}>
                   {letter.pronunciationKo.split(' (')[0]}
@@ -85,12 +80,6 @@ export default function AlphabetPage() {
                   <AudioButton text={letter.example} size="sm" />
                 </div>
                 <AudioButton text={letter.char} size="lg" />
-                {/* Pronunciation practice */}
-                <PronunciationPractice
-                  key={letter.char}
-                  expected={letter.example}
-                  hint={letter.exampleMeaning}
-                />
               </div>
             </div>
           </div>
