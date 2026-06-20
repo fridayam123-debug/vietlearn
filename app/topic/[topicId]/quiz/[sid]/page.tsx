@@ -8,20 +8,34 @@ import { generateQuiz, QuizQuestion } from '@/lib/quiz'
 import { TopicId, VocabItem } from '@/lib/types'
 import Link from 'next/link'
 
-const DATA_MAP: Record<string, () => Promise<{ words: VocabItem[]; verbs: VocabItem[] }>> = {
-  school:          () => import('@/data/school'),
-  food:            () => import('@/data/food'),
-  animals:         () => import('@/data/animals'),
-  family:          () => import('@/data/family'),
-  daily:           () => import('@/data/daily'),
-  'numbers-time':  () => import('@/data/numbers-time'),
-  travel:          () => import('@/data/travel'),
-  cooking:         () => import('@/data/cooking'),
-  mart:            () => import('@/data/mart'),
-  electronics:     () => import('@/data/electronics'),
-  hotel:           () => import('@/data/hotel'),
-  'real-estate':   () => import('@/data/real-estate'),
-  'business':      () => import('@/data/business'),
+import * as _school       from '@/data/school'
+import * as _food         from '@/data/food'
+import * as _animals      from '@/data/animals'
+import * as _family       from '@/data/family'
+import * as _daily        from '@/data/daily'
+import * as _numbersTime  from '@/data/numbers-time'
+import * as _travel       from '@/data/travel'
+import * as _cooking      from '@/data/cooking'
+import * as _mart         from '@/data/mart'
+import * as _electronics  from '@/data/electronics'
+import * as _hotel        from '@/data/hotel'
+import * as _realEstate   from '@/data/real-estate'
+import * as _business     from '@/data/business'
+
+const DATA_MAP: Record<string, { words: VocabItem[]; verbs: VocabItem[] }> = {
+  school:         _school,
+  food:           _food,
+  animals:        _animals,
+  family:         _family,
+  daily:          _daily,
+  'numbers-time': _numbersTime,
+  travel:         _travel,
+  cooking:        _cooking,
+  mart:           _mart,
+  electronics:    _electronics,
+  hotel:          _hotel,
+  'real-estate':  _realEstate,
+  business:       _business,
 }
 
 export default function QuizPage() {
@@ -38,12 +52,10 @@ export default function QuizPage() {
   const [wrong, setWrong]         = useState<QuizQuestion[]>([])
 
   useEffect(() => {
-    const loader = DATA_MAP[topicId]
-    if (!loader) return
-    loader().then(mod => {
-      const all: VocabItem[] = type === 'word' ? mod.words : mod.verbs
-      setQuestions(generateQuiz(all.filter(v => v.session === session)))
-    })
+    const mod = DATA_MAP[topicId]
+    if (!mod) return
+    const all: VocabItem[] = type === 'word' ? mod.words : mod.verbs
+    setQuestions(generateQuiz(all.filter(v => v.session === session)))
   }, [topicId, type, session])
 
   function handleAnswer(correct: boolean) {
@@ -60,13 +72,11 @@ export default function QuizPage() {
   }
 
   function retry() {
-    const loader = DATA_MAP[topicId]
-    if (!loader) return
-    loader().then(mod => {
-      const all: VocabItem[] = type === 'word' ? mod.words : mod.verbs
-      setQuestions(generateQuiz(all.filter(v => v.session === session)))
-      setCurrent(0); setScore(0); setDone(false); setWrong([])
-    })
+    const mod = DATA_MAP[topicId]
+    if (!mod) return
+    const all: VocabItem[] = type === 'word' ? mod.words : mod.verbs
+    setQuestions(generateQuiz(all.filter(v => v.session === session)))
+    setCurrent(0); setScore(0); setDone(false); setWrong([])
   }
 
   if (!questions.length) return (
