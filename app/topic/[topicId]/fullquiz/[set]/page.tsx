@@ -119,6 +119,14 @@ function QuizQuestion({ q, onAnswer }: { q: FQQuestion; onAnswer: (correct: bool
   )
 }
 
+const TOPICS = ['school','food','animals','family','daily','numbers-time','travel','cooking','mart','electronics','hotel','real-estate','business']
+
+export function generateStaticParams() {
+  return TOPICS.flatMap(topicId =>
+    ['1','2','3','4','5','6'].map(set => ({ topicId, set }))
+  )
+}
+
 export default function FullQuizPage() {
   const { topicId, set } = useParams<{ topicId: string; set: string }>()
   const router = useRouter()

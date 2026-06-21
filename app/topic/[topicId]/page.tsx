@@ -5,6 +5,12 @@ import { topics } from '@/data/topics'
 import { useProgress } from '@/hooks/useProgress'
 import { TopicId } from '@/lib/types'
 
+const TOPICS = ['school','food','animals','family','daily','numbers-time','travel','cooking','mart','electronics','hotel','real-estate','business']
+
+export function generateStaticParams() {
+  return TOPICS.map(topicId => ({ topicId }))
+}
+
 export default function TopicPage() {
   const { topicId } = useParams<{ topicId: string }>()
   const topic = topics.find(t => t.id === topicId)!

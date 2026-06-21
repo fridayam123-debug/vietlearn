@@ -5,6 +5,12 @@ import { TopicId } from '@/lib/types'
 import Link from 'next/link'
 import { conversations } from '@/data/conversations'
 
+const TOPICS = ['school','food','animals','family','daily','numbers-time','travel','cooking','mart','electronics','hotel','real-estate','business']
+
+export function generateStaticParams() {
+  return TOPICS.map(topicId => ({ topicId }))
+}
+
 export default function ConversationPage() {
   const { topicId } = useParams<{ topicId: string }>()
   const topicConvs = conversations.filter(c => c.topic === topicId as TopicId)

@@ -38,6 +38,13 @@ const DATA_MAP: Record<string, { words: VocabItem[]; verbs: VocabItem[] }> = {
   business:       _business,
 }
 
+const TOPICS = ['school','food','animals','family','daily','numbers-time','travel','cooking','mart','electronics','hotel','real-estate','business']
+
+export function generateStaticParams() {
+  const sids = ['word-1','word-2','word-3','word-4','verb-1','verb-2','verb-3','verb-4']
+  return TOPICS.flatMap(topicId => sids.map(sid => ({ topicId, sid })))
+}
+
 export default function QuizPage() {
   const { topicId, sid } = useParams<{ topicId: string; sid: string }>()
   const router = useRouter()
