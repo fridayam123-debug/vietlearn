@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "node scripts/gen-audio.mjs && next build",
+    "gen-audio": "node scripts/gen-audio.mjs",
     "start": "next start",
     "lint": "eslint"
   },

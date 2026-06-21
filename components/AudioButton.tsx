@@ -1,4 +1,5 @@
 'use client'
+import { audioPath } from '@/lib/audio'
 import { useSpeech } from '@/hooks/useSpeech'
 
 const SIZE_PX: Record<string, number> = { sm: 40, md: 48, lg: 56 }
@@ -12,9 +13,12 @@ export function AudioButton({ text, size = 'md' }: { text: string; size?: 'sm' |
   return (
     <button
       onClick={(e) => {
-        // speak() must be called first — before stopPropagation —
-        // so it runs synchronously within the user gesture on Android Chrome
-        speak(text)
+        // audio.play() must be called synchronously within the user gesture
+        const audio = new Audio(audioPath(text))
+        audio.play().catch(() => {
+          // Pre-generated file not available — fall back to device TTS
+          speak(text)
+        })
         e.stopPropagation()
       }}
       className="speak-btn"

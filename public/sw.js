@@ -19,6 +19,20 @@ self.addEventListener('fetch', e => {
   if (e.request.method !== 'GET') return
   if (url.origin !== self.location.origin) return
 
+  // Pre-generated audio files - cache-first (content-addressed by hash)
+  if (url.pathname.startsWith('/audio/')) {
+    e.respondWith(
+      caches.match(e.request).then(cached => {
+        if (cached) return cached
+        return fetch(e.request).then(res => {
+          if (res.ok) caches.open(CACHE).then(c => c.put(e.request, res.clone()))
+          return res
+        })
+      })
+    )
+    return
+  }
+
   // Immutable hashed static assets - cache-first forever
   if (url.pathname.startsWith('/_next/static/')) {
     e.respondWith(

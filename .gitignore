@@ -43,3 +43,6 @@ next-env.d.ts
 # next-pwa generated files (created at build time by Workbox)
 /public/workbox-*.js
 /public/workbox-*.js.map
+
+# Audio files generated at build time
+/public/audio/
