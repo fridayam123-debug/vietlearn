@@ -15,8 +15,7 @@ function shuffle<T>(arr: T[]): T[] {
 }
 
 export function generateQuiz(items: VocabItem[]): QuizQuestion[] {
-  return shuffle(items).map((item, i) => {
-    const isTyping = i % 3 === 2
+  return shuffle(items).map((item) => {
     const viToKo = Math.random() > 0.5
     const prompt = viToKo ? item.vi : item.ko
     const correct = viToKo ? item.ko : item.vi
@@ -28,7 +27,7 @@ export function generateQuiz(items: VocabItem[]): QuizQuestion[] {
     ).slice(0, 3)
 
     return {
-      type: isTyping ? 'typing' : 'multipleChoice',
+      type: 'multipleChoice' as const,
       item,
       prompt,
       promptLang,
